@@ -1,0 +1,26 @@
+{
+    "package-id": "hl7.fhir.us.pacio-rat",
+    "title": "PACIO Re-Assessment Timepoints Implementation Guide",
+    "canonical": "http://hl7.org/fhir/us/pacio-adi",
+    "introduction": "This implementation guide describes a means to break up extended Post-Acute admissions into consumable blocks that can reflect the evolution of care over time of the encounter or episode of care.",
+    "list": [
+      {
+        "version": "current",
+        "desc": "PACIO Re-Assessment Timepoints Implementation Guide CI Build",
+        "path": "http://build.fhir.org/ig/HL7/pacio-rat",
+        "status": "ci-build",
+        "current": true
+      },
+      {
+        "version": "0.0.1",
+        "desc": "PACIO Re-Assessment Timepoints Implementation Guide Release 1 - US Realm Pre-ballot",
+        "path": "http://build.fhir.org/ig/HL7/pacio-adi/v0.0.1",
+        "date": "2021-06-15",
+        "status": "draft",
+        "sequence": "STU 1",
+        "fhirversion": "4.0.1",
+        "current": true
+      }
+    ],
+    "category": "Clinical Documents"
+  }

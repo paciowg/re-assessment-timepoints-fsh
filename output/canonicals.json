@@ -1,0 +1,16 @@
+[
+  {
+    "id": "hl7.fhir.us.pacio-rat",
+    "type": "ImplementationGuide",
+    "url": "http://hl7.org/fhir/us/pacio-rat/ImplementationGuide/hl7.fhir.us.pacio-rat",
+    "version": "0.1.0",
+    "name": "PACIOReAssessmentTimepoints"
+  },
+  {
+    "id": "PRAT-Encounter",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/PRAT-Encounter",
+    "version": "0.1.0",
+    "name": "PRATEncounter"
+  }
+]
