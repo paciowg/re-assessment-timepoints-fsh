@@ -61,7 +61,7 @@ Description: "Re-assessment Timepoint is a profile of the Encoutner resource tha
 * reasonCode ^short = "the ICD or Snomed Code that is the subject of the given timepoint"
 * reasonCode ^definition = "ICD 10 code is preferred in this field, and should reflect the focus of the timepoint. If the focus of the timepoint is a Home Health OASIS, then the Primary Diagnosis would be the reason code. If the focus is therapy related, then the reason should reflect the ICD Code(s) being treated by the therapist"
 * reasonReference 0..* MS
-* reasonReference only Reference(Condition or Procedure or Observation)
+* reasonReference only Reference($USCoreCondition or $USCoreProcedure or Observation)
 * reasonReference ^definition = "Reference Services Provided (Procedure) and/or Reference specific clinical findings (Observation) related to the given timepoint."
 * hospitalization 0..1 MS
 * hospitalization.dischargeDisposition 0..1 MS
