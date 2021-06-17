@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "PACIOReAssessmentTimepoints"];
   fhir:ImplementationGuide.title [ fhir:value "PACIO Re-Assessment Timepoints Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-06-16T21:16:54-07:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-06-16T23:58:13-07:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Community-Based Care and Privacy Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
