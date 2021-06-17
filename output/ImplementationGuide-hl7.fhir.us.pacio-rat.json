@@ -10,7 +10,7 @@
   "name": "PACIOReAssessmentTimepoints",
   "title": "PACIO Re-Assessment Timepoints Implementation Guide",
   "status": "draft",
-  "date": "2021-06-15T13:50:17-07:00",
+  "date": "2021-06-16T21:16:54-07:00",
   "publisher": "HL7 Community-Based Care and Privacy Working Group",
   "contact": [
     {
@@ -336,10 +336,24 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/PRAT-Encounter"
+          "reference": "StructureDefinition/prat-encounter"
         },
-        "name": "PACIO  Encounter Profile",
-        "description": "Re-assessment Timepoint is a profile of the Encoutner resource that allows longer term post acute admissions to be structured into smaller more consumable components, in line with the longer term clinical care and progression of a patient",
+        "name": "PACIO Re-assessment Timepoints Encounter Profile",
+        "description": "Re-assessment Timepoints Encounter is a profile of the Encoutner resource that allows longer term post acute admissions to be structured into smaller more consumable components, in line with the longer term clinical care and progression of a patient.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/clinicalImpression"
+        },
+        "name": "clinicalImpression",
+        "description": "Clinical impression resource reference",
         "exampleBoolean": false
       }
     ],

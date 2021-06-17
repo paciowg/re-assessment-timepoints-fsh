@@ -7,10 +7,17 @@
     "name": "PACIOReAssessmentTimepoints"
   },
   {
-    "id": "PRAT-Encounter",
+    "id": "clinicalImpression",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/PRAT-Encounter",
+    "url": "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/clinicalImpression",
     "version": "0.1.0",
-    "name": "PRATEncounter"
+    "name": "clinicalImpression"
+  },
+  {
+    "id": "prat-encounter",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter",
+    "version": "0.1.0",
+    "name": "ReassessmentTimepointsEncounter"
   }
 ]

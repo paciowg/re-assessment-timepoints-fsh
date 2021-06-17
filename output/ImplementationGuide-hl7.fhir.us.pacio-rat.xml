@@ -11,7 +11,7 @@
   <name value="PACIOReAssessmentTimepoints"/>
   <title value="PACIO Re-Assessment Timepoints Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-06-15T13:50:17-07:00"/>
+  <date value="2021-06-16T21:16:54-07:00"/>
   <publisher value="HL7 Community-Based Care and Privacy Working Group"/>
   <contact>
     <name value="HL7 Community-Based Care and Privacy Working Group"/>
@@ -213,10 +213,21 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/PRAT-Encounter"/>
+        <reference value="StructureDefinition/prat-encounter"/>
       </reference>
-      <name value="PACIO  Encounter Profile"/>
-      <description value="Re-assessment Timepoint is a profile of the Encoutner resource that allows longer term post acute admissions to be structured into smaller more consumable components, in line with the longer term clinical care and progression of a patient"/>
+      <name value="PACIO Re-assessment Timepoints Encounter Profile"/>
+      <description value="Re-assessment Timepoints Encounter is a profile of the Encoutner resource that allows longer term post acute admissions to be structured into smaller more consumable components, in line with the longer term clinical care and progression of a patient."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/clinicalImpression"/>
+      </reference>
+      <name value="clinicalImpression"/>
+      <description value="Clinical impression resource reference"/>
       <exampleBoolean value="false"/>
     </resource>
     <page>

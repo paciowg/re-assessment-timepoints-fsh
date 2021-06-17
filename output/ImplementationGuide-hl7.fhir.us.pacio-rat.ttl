@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "PACIOReAssessmentTimepoints"];
   fhir:ImplementationGuide.title [ fhir:value "PACIO Re-Assessment Timepoints Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-06-15T13:50:17-07:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-06-16T21:16:54-07:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Community-Based Care and Privacy Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -319,11 +319,25 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/pacio-rat/StructureDefinition/PRAT-Encounter>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/PRAT-Encounter" ]
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/prat-encounter" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PACIO  Encounter Profile" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Re-assessment Timepoint is a profile of the Encoutner resource that allows longer term post acute admissions to be structured into smaller more consumable components, in line with the longer term clinical care and progression of a patient" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PACIO Re-assessment Timepoints Encounter Profile" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Re-assessment Timepoints Encounter is a profile of the Encoutner resource that allows longer term post acute admissions to be structured into smaller more consumable components, in line with the longer term clinical care and progression of a patient." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/StructureDefinition/clinicalImpression>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/clinicalImpression" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "clinicalImpression" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Clinical impression resource reference" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ];
      fhir:ImplementationGuide.definition.page [
@@ -405,7 +419,9 @@
      ]
   ] .
 
-<http://hl7.org/fhir/us/pacio-rat/StructureDefinition/PRAT-Encounter> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/StructureDefinition/clinicalImpression> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 
