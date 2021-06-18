@@ -1,5 +1,12 @@
 [
   {
+    "id": "prat-entity-cs",
+    "type": "CodeSystem",
+    "url": "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs",
+    "version": "0.1.0",
+    "name": "TimepointEntityCodeSystem"
+  },
+  {
     "id": "hl7.fhir.us.pacio-rat",
     "type": "ImplementationGuide",
     "url": "http://hl7.org/fhir/us/pacio-rat/ImplementationGuide/hl7.fhir.us.pacio-rat",
@@ -19,5 +26,19 @@
     "url": "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter",
     "version": "0.1.0",
     "name": "ReassessmentTimepointsEncounter"
+  },
+  {
+    "id": "prat-entity-type-vs",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-entity-type-vs",
+    "version": "0.1.0",
+    "name": "TimepointEntityTypeValueSet"
+  },
+  {
+    "id": "prat-status-vs",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-status-vs",
+    "version": "0.1.0",
+    "name": "TimepointStatusValueSet"
   }
 ]

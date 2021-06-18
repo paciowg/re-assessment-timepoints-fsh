@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "PACIOReAssessmentTimepoints"];
   fhir:ImplementationGuide.title [ fhir:value "PACIO Re-Assessment Timepoints Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-06-16T23:58:13-07:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-06-18T14:33:43-07:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Community-Based Care and Privacy Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -339,6 +339,48 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "clinicalImpression" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Clinical impression resource reference" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-entity-type-vs>;
+         fhir:Reference.reference [ fhir:value "ValueSet/prat-entity-type-vs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Timepoint Entity Type Value Set" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes describing various entity types for structuring timepoints" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-status-vs>;
+         fhir:Reference.reference [ fhir:value "ValueSet/prat-status-vs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Timepoint Status Value Set" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes for the current state of the re-assessment timepoint." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/prat-entity-cs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Timepoint Entity Code System" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes describing various entity types for structuring timepoints" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ];
      fhir:ImplementationGuide.definition.page [
        fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ];
@@ -422,6 +464,12 @@
 <http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-rat/StructureDefinition/clinicalImpression> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-entity-type-vs> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-status-vs> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 
