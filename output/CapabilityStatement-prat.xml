@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CapabilityStatement xmlns="http://hl7.org/fhir">
+  <id value="prat"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2 id="title">PRAT CapabilityStatement</h2><ul><li>Implementation Guide Version: 0.0.1</li><li>FHIR Version: 4.0.1</li><li>Supported formats: xml, json</li><li>Published: 2021-06-17</li><li>Published by: HL7 Community Based Care and Privacy Working Group (CBCP WG)</li></ul><p>This PACIO Re-Assessment Timepoints implementation guide describes a means to break up extended Post-Acute admissions into consumable blocks that can reflect the evolution of care over time of the encounter or episode of care.</p><p>Post-Acute Admissions extend over much longer periods of time than the encounters in the Acute and Ambulatory Care Settings, often going for several months or even years. Over the course of these time periods the patient condition and therefore the care being provided is changing - for example in Home Health the goal is rehabilitation so Care Plans, Medications, and Orders are all likely changing throughout an admission that could last several months. Already in existence within post-acute care settings are periods of time structured by a variety of stakeholders, some more rigid than others - regulatory and conditions of participation, payer and revenue cycle requirements, and provider specific processes and protocols. In settings like Home Health and SNF, there are defined Medicare assessment instruments that must be completed every X number of days (varies by care setting); the results of said assessment drive the Care Plan for the next X number of days; if a patient has a pain management Care Plan, and their pain scores are down then they may have their Opioid drug dosages reduced or eliminated. If the patient's ambulation is improving, then we may see interventions focused on more complex exercises. These periods of time, defined by many different drivers, have direct impact on how data is made available outside of an EMR; without a structure in place to hold this information a connecting application or patient would have no choice but to sift through months worth of information rather than focusing on a given period or periods most relevant to the need of the application, patient, or other entity.</p><h3 id="behavior">FHIR RESTful Capabilities</h3><p>The Re-assessment Timepoints  Server <strong>SHALL</strong>:</p><ol><li>Support all profiles defined in this Implementation Guide.</li><li>Implement the RESTful behavior according to the FHIR specification.</li><li>Return the following response classes:
+<ul><li>(Status 400): invalid parameter</li><li>(Status 401/4xx): unauthorized request</li><li>(Status 403): insufficient scope</li><li>(Status 404): unknown resource</li><li>(Status 410): deleted resource.</li></ul>
+</li><li>Support json source formats for all re-assessment timepoints interactions.</li><li>Support the searchParameters on each profile  individually and in combination.</li></ol><p>The Re-assessment Timepoints Server <strong>SHOULD</strong>:</p><ol><li>Support xml source formats for all Re-assessment Timepoints interactions.</li></ol><p id="security"><strong>Security:</strong></p><ol><li>A server <strong>SHALL</strong> reject any unauthorized requests by returning an 'HTTP 401' unauthorized response code.</li></ol><h3 id="resource--details" class="no_toc">RESTful Capabilities by Resource/Profile:</h3><p><strong>Summary of Search Criteria</strong></p><table class="grid"><thead><tr><th>Resource Type</th><th>Supported Profiles</th><th>Supported Searches</th><th>Supported <code>_includes</code></th><th>Supported <code>_revincludes</code></th><th>Supported Operations</th></tr></thead><tbody><tr><td><a href="#encounter">Encounter</a></td><td style="white-space:nowrap;"><a href="https://paciowg.github.io/re-assessment-timepoints-ig/StructureDefinition-prat-encounter.html">PRAT-Encounter</a></td><td>
+							
+							_id, account, appointment, based-on, class, date, diagnosis, episode-of-care, identifier, length, location, location-period, part-of, participant, participant-type, patient, practitioner, reason-code, reason-reference, service-provider, special-arrangement, status, subject, type
+							
+							
+							
+						</td><td>
+							
+						</td><td>
+              
+            </td><td>
+							
+						</td></tr></tbody></table><br/><h4 id="encounter" class="no_toc">Encounter</h4><p>Conformance Expectation:	<strong>SHALL</strong></p><p>Supported Profiles:
+				
+											<a href="https://paciowg.github.io/re-assessment-timepoints-ig/StructureDefinition-prat-encounter.html">PRAT-Encounter</a>
+				
+				</p><p>Reference Policy: <code>resolves</code></p><p>Profile Interaction Summary:</p><ul><li><strong>SHALL</strong> support 
+																							<code>create</code>, 
+																							<code>search-type</code>, 
+																							<code>read</code>, 
+																							<code>update</code>.</li><li><strong>SHOULD</strong> support 
+																							<code>vread</code>, 
+																							<code>history-instance</code>.</li></ul><p>Fetch and Search Criteria:</p><ul><li>
+					A Server <strong>SHALL</strong> be capable of returning a Encounter resource using:
+					<br/>
+						<code class="highlighter-rouge">GET [base]/Encounter/[id]</code>
+				</li><br/><li>
+					A Server <strong>SHOULD</strong> be capable of returning a Encounter resource using:
+					<br/>
+						<code class="highlighter-rouge">GET [base]/Encounter/[id]/_history/vid</code>
+				</li><br/>  <!-- Only SHALL for include for now the capability statement does not create the primitive
+				     extensios for this yet. -->  <!-- Only SHALLs for revinclude for now the capability statement does not create the primitive extensios for this yet --></ul><p>Search Parameter Summary:</p><table class="grid"><thead><tr><th>Conformance</th><th>Parameter</th><th>Type</th><th>Example</th></tr></thead><tbody><tr><td><strong>SHALL</strong></td><td><a href="http://hl7.org/fhir/R4/search.html">_id</a></td><td>
+							token
+						</td><td><code class="highlighter-rouge">GET [base]/Encounter?_id=[id]</code></td></tr><tr><td><strong>MAY</strong></td><td><a href="http://hl7.org/fhir/R4/search.html">account</a></td><td>
+							reference
+						</td><td><code class="highlighter-rouge">GET [base]/Encounter?account=[account]</code></td></tr><tr><td><strong>MAY</strong></td><td><a href="http://hl7.org/fhir/R4/search.html">appointment</a></td><td>
+							reference
+						</td><td><code class="highlighter-rouge">GET [base]/Encounter?appointment=[appointment]</code></td></tr><tr><td><strong>SHOULD</strong></td><td><a href="http://hl7.org/fhir/R4/search.html">based-on</a></td><td>
+							reference
+						</td><td><code class="highlighter-rouge">GET [base]/Encounter?based-on=[based-on]</code></td></tr><tr><td><strong>MAY</strong></td><td><a href="http://hl7.org/fhir/R4/search.html">class</a></td><td>
+							token
+						</td><td><code class="highlighter-rouge">GET [base]/Encounter?class=[system]|[code]</code></td></tr><tr><td><strong>SHALL</strong></td><td><a href="http://hl7.org/fhir/R4/search.html">date</a></td><td>
+							date
+						</td><td><code class="highlighter-rouge">GET [base]/Encounter?date=[date]</code></td></tr><tr><td><strong>SHOULD</strong></td><td><a href="http://hl7.org/fhir/R4/search.html">diagnosis</a></td><td>
+							reference
+						</td><td><code class="highlighter-rouge">GET [base]/Encounter?diagnosis=[diagnosis]</code></td></tr><tr><td><strong>SHALL</strong></td><td><a href="http://hl7.org/fhir/R4/search.html">episode-of-care</a></td><td>
+							reference
+						</td><td><code class="highlighter-rouge">GET [base]/Encounter?episode-of-care=[episode-of-care]</code></td></tr><tr><td><strong>MAY</strong></td><td><a href="http://hl7.org/fhir/R4/search.html">identifier</a></td><td>
+							token
+						</td><td><code class="highlighter-rouge">GET [base]/Encounter?identifier=[system]|[code]</code></td></tr><tr><td><strong>MAY</strong></td><td><a href="http://hl7.org/fhir/R4/search.html">length</a></td><td>
+							quantity
+						</td><td><code class="highlighter-rouge">GET [base]/Encounter?length=[length]</code></td></tr><tr><td><strong>MAY</strong></td><td><a href="http://hl7.org/fhir/R4/search.html">location</a></td><td>
+							reference
+						</td><td><code class="highlighter-rouge">GET [base]/Encounter?location=[location]</code></td></tr><tr><td><strong>MAY</strong></td><td><a href="http://hl7.org/fhir/R4/search.html">location-period</a></td><td>
+							date
+						</td><td><code class="highlighter-rouge">GET [base]/Encounter?location-period=[location-period]</code></td></tr><tr><td><strong>SHALL</strong></td><td><a href="http://hl7.org/fhir/R4/search.html">part-of</a></td><td>
+							reference
+						</td><td><code class="highlighter-rouge">GET [base]/Encounter?part-of=[part-of]</code></td></tr><tr><td><strong>MAY</strong></td><td><a href="http://hl7.org/fhir/R4/search.html">participant</a></td><td>
+							reference
+						</td><td><code class="highlighter-rouge">GET [base]/Encounter?participant=[participant]</code></td></tr><tr><td><strong>MAY</strong></td><td><a href="http://hl7.org/fhir/R4/search.html">participant-type</a></td><td>
+							token
+						</td><td><code class="highlighter-rouge">GET [base]/Encounter?participant-type=[system]|[code]</code></td></tr><tr><td><strong>SHALL</strong></td><td><a href="http://hl7.org/fhir/R4/search.html">patient</a></td><td>
+							reference
+						</td><td><code class="highlighter-rouge">GET [base]/Encounter?patient=[patient]</code></td></tr><tr><td><strong>MAY</strong></td><td><a href="http://hl7.org/fhir/R4/search.html">practitioner</a></td><td>
+							reference
+						</td><td><code class="highlighter-rouge">GET [base]/Encounter?practitioner=[practitioner]</code></td></tr><tr><td><strong>MAY</strong></td><td><a href="http://hl7.org/fhir/R4/search.html">reason-code</a></td><td>
+							token
+						</td><td><code class="highlighter-rouge">GET [base]/Encounter?reason-code=[system]|[code]</code></td></tr><tr><td><strong>SHOULD</strong></td><td><a href="http://hl7.org/fhir/R4/search.html">reason-reference</a></td><td>
+							reference
+						</td><td><code class="highlighter-rouge">GET [base]/Encounter?reason-reference=[reason-reference]</code></td></tr><tr><td><strong>SHOULD</strong></td><td><a href="http://hl7.org/fhir/R4/search.html">service-provider</a></td><td>
+							reference
+						</td><td><code class="highlighter-rouge">GET [base]/Encounter?service-provider=[service-provider]</code></td></tr><tr><td><strong>MAY</strong></td><td><a href="http://hl7.org/fhir/R4/search.html">special-arrangement</a></td><td>
+							token
+						</td><td><code class="highlighter-rouge">GET [base]/Encounter?special-arrangement=[system]|[code]</code></td></tr><tr><td><strong>SHOULD</strong></td><td><a href="http://hl7.org/fhir/R4/search.html">status</a></td><td>
+							token
+						</td><td><code class="highlighter-rouge">GET [base]/Encounter?status=[status]</code></td></tr><tr><td><strong>MAY</strong></td><td><a href="http://hl7.org/fhir/R4/search.html">subject</a></td><td>
+							reference
+						</td><td><code class="highlighter-rouge">GET [base]/Encounter?subject=[subject]</code></td></tr><tr><td><strong>MAY</strong></td><td><a href="http://hl7.org/fhir/R4/search.html">type</a></td><td>
+							token
+						</td><td><code class="highlighter-rouge">GET [base]/Encounter?type=[system]|[code]</code></td></tr></tbody></table><hr/><br/></div>
+  </text>
+  <url value="https://paciowg.github.io/re-assessment-timepoints-ig/CapabilityStatement/prat"/>
+  <version value="0.1.0"/>
+  <name value="PacioRatCapabilityStatement"/>
+  <title value="PRAT CapabilityStatement"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-06-17"/>
+  <publisher value="HL7 Community-Based Care and Privacy Working Group"/>
+  <contact>
+    <name value="HL7 Community-Based Care and Privacy Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientempowerment/index.cfm"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="patients@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="This PACIO Re-Assessment Timepoints implementation guide describes a means to break up extended Post-Acute admissions into consumable blocks that can reflect the evolution of care over time of the encounter or episode of care.&#xA;&#xA;Post-Acute Admissions extend over much longer periods of time than the encounters in the Acute and Ambulatory Care Settings, often going for several months or even years. Over the course of these time periods the patient condition and therefore the care being provided is changing - for example in Home Health the goal is rehabilitation so Care Plans, Medications, and Orders are all likely changing throughout an admission that could last several months. Already in existence within post-acute care settings are periods of time structured by a variety of stakeholders, some more rigid than others - regulatory and conditions of participation, payer and revenue cycle requirements, and provider specific processes and protocols. In settings like Home Health and SNF, there are defined Medicare assessment instruments that must be completed every X number of days (varies by care setting); the results of said assessment drive the Care Plan for the next X number of days; if a patient has a pain management Care Plan, and their pain scores are down then they may have their Opioid drug dosages reduced or eliminated. If the patient&#39;s ambulation is improving, then we may see interventions focused on more complex exercises. These periods of time, defined by many different drivers, have direct impact on how data is made available outside of an EMR; without a structure in place to hold this information a connecting application or patient would have no choice but to sift through months worth of information rather than focusing on a given period or periods most relevant to the need of the application, patient, or other entity."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <kind value="requirements"/>
+  <fhirVersion value="4.0.1"/>
+  <format value="xml"/>
+  <format value="json"/>
+  <patchFormat value="application/json-patch+json"/>
+  <implementationGuide value="http://paciowg.github.io/re-assessment-timepoints-ig/ImplementationGuide-hl7.fhir.us.pacio-rat"/>
+  <rest>
+    <mode value="server"/>
+    <documentation value="The Re-assessment Timepoints  Server **SHALL**:&#xA;&#xA;1. Support all profiles defined in this Implementation Guide.&#xA;2.  Implement the RESTful behavior according to the FHIR specification.&#xA;3. Return the following response classes:&#xA;   - (Status 400): invalid parameter&#xA;   - (Status 401/4xx): unauthorized request&#xA;   - (Status 403): insufficient scope&#xA;   - (Status 404): unknown resource&#xA;   - (Status 410): deleted resource.&#xA;4. Support json source formats for all re-assessment timepoints interactions.&#xA;5. Support the searchParameters on each profile  individually and in combination.&#xA;&#xA;The Re-assessment Timepoints Server **SHOULD**:&#xA;&#xA;1. Support xml source formats for all Re-assessment Timepoints interactions."/>
+    <security>
+      <description value="1. A server **SHALL** reject any unauthorized requests by returning an &#39;HTTP 401&#39; unauthorized response code."/>
+    </security>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="SHALL"/>
+      </extension>
+      <type value="Encounter"/>
+      <supportedProfile value="https://paciowg.github.io/re-assessment-timepoints-ig/StructureDefinition-prat-encounter.html"/>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="search-type"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <code value="vread"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="update"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <code value="history-instance"/>
+      </interaction>
+      <referencePolicy value="resolves"/>
+      <searchParam>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <name value="_id"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Resource-id"/>
+        <type value="token"/>
+      </searchParam>
+      <searchParam>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="MAY"/>
+        </extension>
+        <name value="account"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Encounter-account"/>
+        <type value="reference"/>
+      </searchParam>
+      <searchParam>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="MAY"/>
+        </extension>
+        <name value="appointment"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Encounter-appointment"/>
+        <type value="reference"/>
+      </searchParam>
+      <searchParam>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <name value="based-on"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Encounter-based-on"/>
+        <type value="reference"/>
+      </searchParam>
+      <searchParam>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="MAY"/>
+        </extension>
+        <name value="class"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Encounter-class"/>
+        <type value="token"/>
+      </searchParam>
+      <searchParam>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <name value="date"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/clinical-date"/>
+        <type value="date"/>
+      </searchParam>
+      <searchParam>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <name value="diagnosis"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Encounter-diagnosis"/>
+        <type value="reference"/>
+      </searchParam>
+      <searchParam>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <name value="episode-of-care"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Encounter-episode-of-care"/>
+        <type value="reference"/>
+      </searchParam>
+      <searchParam>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="MAY"/>
+        </extension>
+        <name value="identifier"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/clinical-identifier"/>
+        <type value="token"/>
+      </searchParam>
+      <searchParam>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="MAY"/>
+        </extension>
+        <name value="length"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Encounter-length"/>
+        <type value="quantity"/>
+      </searchParam>
+      <searchParam>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="MAY"/>
+        </extension>
+        <name value="location"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Encounter-location"/>
+        <type value="reference"/>
+      </searchParam>
+      <searchParam>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="MAY"/>
+        </extension>
+        <name value="location-period"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Encounter-location-period"/>
+        <type value="date"/>
+      </searchParam>
+      <searchParam>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <name value="part-of"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Encounter-part-of"/>
+        <type value="reference"/>
+      </searchParam>
+      <searchParam>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="MAY"/>
+        </extension>
+        <name value="participant"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Encounter-participant"/>
+        <type value="reference"/>
+      </searchParam>
+      <searchParam>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="MAY"/>
+        </extension>
+        <name value="participant-type"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Encounter-participant-type"/>
+        <type value="token"/>
+      </searchParam>
+      <searchParam>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <name value="patient"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/clinical-patient"/>
+        <type value="reference"/>
+      </searchParam>
+      <searchParam>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="MAY"/>
+        </extension>
+        <name value="practitioner"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Encounter-practitioner"/>
+        <type value="reference"/>
+      </searchParam>
+      <searchParam>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="MAY"/>
+        </extension>
+        <name value="reason-code"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Encounter-reason-code"/>
+        <type value="token"/>
+      </searchParam>
+      <searchParam>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <name value="reason-reference"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Encounter-reason-reference"/>
+        <type value="reference"/>
+      </searchParam>
+      <searchParam>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <name value="service-provider"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Encounter-service-provider"/>
+        <type value="reference"/>
+      </searchParam>
+      <searchParam>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="MAY"/>
+        </extension>
+        <name value="special-arrangement"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Encounter-special-arrangement"/>
+        <type value="token"/>
+      </searchParam>
+      <searchParam>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <name value="status"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Encounter-status"/>
+        <type value="token"/>
+      </searchParam>
+      <searchParam>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="MAY"/>
+        </extension>
+        <name value="subject"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Encounter-subject"/>
+        <type value="reference"/>
+      </searchParam>
+      <searchParam>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="MAY"/>
+        </extension>
+        <name value="type"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/clinical-type"/>
+        <type value="token"/>
+      </searchParam>
+    </resource>
+  </rest>
+</CapabilityStatement>

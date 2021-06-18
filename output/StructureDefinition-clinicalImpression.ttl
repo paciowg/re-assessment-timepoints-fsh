@@ -16,7 +16,7 @@
   fhir:StructureDefinition.version [ fhir:value "0.1.0"];
   fhir:StructureDefinition.name [ fhir:value "clinicalImpression"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-06-16T23:58:13-07:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-06-17T21:59:48-07:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "HL7 Community-Based Care and Privacy Working Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
