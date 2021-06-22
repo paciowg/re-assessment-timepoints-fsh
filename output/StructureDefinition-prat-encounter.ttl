@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "ReassessmentTimepointsEncounter"];
   fhir:StructureDefinition.title [ fhir:value "PACIO Re-assessment Timepoints Encounter Profile"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-06-22T14:12:53-07:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-06-22T14:48:09-07:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "HL7 Community-Based Care and Privacy Working Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
