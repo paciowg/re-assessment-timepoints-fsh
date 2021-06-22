@@ -32,23 +32,25 @@ The audience for this IG includes architects and developers of healthcare inform
 ### How to read this Guide
 This Guide is divided into several pages which are listed at the top of each page in the menu bar.
 <ul>
-    <li>Home: The home page provides the introduction and background information to set context for the use of the HL7 FHIR® ADI Implementation Guide.</li>
-    <li>Guidance: These pages provide overall guidance in using the profiles and transactions defined in this guide by detailing the business case, patient stories and personas and use cases.
+    <li>Home: The home page provides the introduction and background information to set context for the use of the HL7 FHIR® Re-assessment Timepoints Implementation Guide.</li>
+<!--    <li>Guidance: These pages provide overall guidance in using the profiles and transactions defined in this guide by detailing the business case, patient stories and personas and use cases.
         <ul>
             <li>Business Case: A business case summarizes the scope of information exchange covered by the IG.</li>
             <li>Patient Stories and Personas: Patient stories and personas give context to the data exchange standards detailed in the technical areas of the IG.  They allow the non-technical reader to envision situations in which the IGs provisions would apply, and ensure that development aspects of conforming to the IG meet the intended needs for exchange of this type of information.</li>
             <li>Use Cases: A use case is a list of technical actions or event steps typically defining the interactions between a role and a system to achieve a goal. The actor can be a human or other external system. Technical scenarios that describe systems interactions between technical actors to implement the business case.</li>
-            <li>Security: General security requirements and recommendations for HL7 FHIR® ADI Implementation Guide actors.TBD: Security information will need to be described as needed.</li>
-            <li>About ADI Examples: Descriptive examples that demonstrate the use of ADI profiles and exchange mechanisms.</li>
+            <li>Security: General security requirements and recommendations for HL7 FHIR® Re-assessment Timepoints Implementation Guide actors.TBD: Security information will need to be described as needed.</li>
+            <li>About ADI Examples: Descriptive examples that demonstrate the use of Re-assessment Timepoints profiles and exchange mechanisms.</li>
         </ul>
     </li>
+-->
     <li>FHIR Artifacts: These sections provide detailed descriptions and formal definitions for all the FHIR objects defined in this guide.
         <ul>
             <li>Profiles: This section lists the set of Profiles that are defined in this guide to exchange advance directive information. Each linked Profile page includes a narrative introduction and a formal definition.</li>
             <li>Extensions: This section lists the set of Extensions that are defined in this guide that are used by the IG defined profiles. Each linked Extension  page includes a formal definition.</li>
-            <li>Search Parameters and Operations: This section lists the HL7 FHIR® ADI Implementation Guide defined Operations and Search Parameters that are used in ADI transactions.</li>
-            <li>Terminology: This section lists the value sets and code system defined for HL7 FHIR® ADI Implementation Guide profiles.</li>
+            <li>Search Parameters: This section lists the HL7 FHIR® Re-assessment Timepoints Implementation Guide defined Search Parameters.</li>
             <li>Capability Statement: The following artifacts define the specific capabilities that different types of systems are expected to have in order to comply with this implementation guide. Systems conforming to this implementation guide are expected to declare conformance to one or more of the included capability statements.</li>
+            <!--<li>Terminology: This section lists the value sets and code system defined for HL7 FHIR® ADI Implementation Guide profiles.</li>-->
+            
         </ul>
     </li>
     <li>Downloads: This page provides links to downloadable artifacts.</li>

@@ -1,0 +1,75 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "prat-entity-cs"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">payer<a name=\"prat-entity-cs-payer\"> </a></td><td>Payer</td></tr><tr><td style=\"white-space:nowrap\">regulatory-state<a name=\"prat-entity-cs-regulatory-state\"> </a></td><td>Regulatory - State</td></tr><tr><td style=\"white-space:nowrap\">regulatory-federal<a name=\"prat-entity-cs-regulatory-federal\"> </a></td><td>Regulatory - Federal</td></tr><tr><td style=\"white-space:nowrap\">provider<a name=\"prat-entity-cs-provider\"> </a></td><td>Provider</td></tr><tr><td style=\"white-space:nowrap\">accreditation-agency<a name=\"prat-entity-cs-accreditation-agency\"> </a></td><td>Accreditation Agency</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "TimepointEntityCodeSystem"];
+  fhir:CodeSystem.title [ fhir:value "Timepoint Entity Code System"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2021-06-22T15:34:06-07:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "HL7 Community-Based Care and Privacy Working Group"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "HL7 Community-Based Care and Privacy Working Group" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.org/Special/committees/patientempowerment/index.cfm" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "patients@lists.HL7.org" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Codes describing various entity types for structuring timepoints"];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "US" ]
+     ]
+  ];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "5"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "payer" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Payer" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "regulatory-state" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Regulatory - State" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "regulatory-federal" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Regulatory - Federal" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "provider" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Provider" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "accreditation-agency" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Accreditation Agency" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/pacio-rat/CodeSystem/prat-entity-cs.ttl> .
+
+# -------------------------------------------------------------------------------------
+

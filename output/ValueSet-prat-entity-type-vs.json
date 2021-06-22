@@ -1,0 +1,48 @@
+{
+  "resourceType": "ValueSet",
+  "id": "prat-entity-type-vs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-prat-entity-cs.html\"><code>http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs</code></a></li></ul></div>"
+  },
+  "url": "http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-entity-type-vs",
+  "version": "0.1.0",
+  "name": "TimepointEntityTypeValueSet",
+  "title": "Timepoint Entity Type Value Set",
+  "status": "active",
+  "date": "2021-06-22T15:34:06-07:00",
+  "publisher": "HL7 Community-Based Care and Privacy Working Group",
+  "contact": [
+    {
+      "name": "HL7 Community-Based Care and Privacy Working Group",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/patientempowerment/index.cfm"
+        },
+        {
+          "system": "email",
+          "value": "patients@lists.HL7.org"
+        }
+      ]
+    }
+  ],
+  "description": "Codes describing various entity types for structuring timepoints",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs"
+      }
+    ]
+  }
+}
