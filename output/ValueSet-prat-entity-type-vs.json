@@ -10,7 +10,7 @@
   "name": "TimepointEntityTypeValueSet",
   "title": "Timepoint Entity Type Value Set",
   "status": "active",
-  "date": "2021-06-22T15:34:06-07:00",
+  "date": "2021-06-22T22:22:30-07:00",
   "publisher": "HL7 Community-Based Care and Privacy Working Group",
   "contact": [
     {
@@ -27,7 +27,7 @@
       ]
     }
   ],
-  "description": "Codes describing various entity types for structuring timepoints",
+  "description": "Codes describing various entity types for structuring timepoints.",
   "jurisdiction": [
     {
       "coding": [

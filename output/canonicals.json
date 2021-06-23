@@ -7,6 +7,13 @@
     "name": "TimepointEntityCodeSystem"
   },
   {
+    "id": "prat-service-type-cs",
+    "type": "CodeSystem",
+    "url": "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs",
+    "version": "0.1.0",
+    "name": "TimepointServiceTypeCodeSystem"
+  },
+  {
     "id": "hl7.fhir.us.pacio-rat",
     "type": "ImplementationGuide",
     "url": "http://hl7.org/fhir/us/pacio-rat/ImplementationGuide/hl7.fhir.us.pacio-rat",
@@ -40,6 +47,13 @@
     "url": "http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-entity-type-vs",
     "version": "0.1.0",
     "name": "TimepointEntityTypeValueSet"
+  },
+  {
+    "id": "prat-service-type-vs",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-service-type-vs",
+    "version": "0.1.0",
+    "name": "TimepointServiceTypeValueSet"
   },
   {
     "id": "prat-status-vs",

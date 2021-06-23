@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "PACIOReAssessmentTimepoints"];
   fhir:ImplementationGuide.title [ fhir:value "PACIO Re-Assessment Timepoints Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-06-22T15:34:06-07:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-06-22T22:22:30-07:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Community-Based Care and Privacy Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -351,10 +351,24 @@
          fhir:Reference.reference [ fhir:value "ValueSet/prat-entity-type-vs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Timepoint Entity Type Value Set" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes describing various entity types for structuring timepoints" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes describing various entity types for structuring timepoints." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-service-type-vs>;
+         fhir:Reference.reference [ fhir:value "ValueSet/prat-service-type-vs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Timepoint Service Type Value Set" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Various service types of clinical assessment or instrument that a timepoint is centered on." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 4;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -368,7 +382,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes for the current state of the re-assessment timepoint." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 4;
+       fhir:index 5;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -379,10 +393,24 @@
          fhir:Reference.reference [ fhir:value "CodeSystem/prat-entity-cs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Timepoint Entity Code System" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes describing various entity types for structuring timepoints" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes describing various entity types for structuring timepoints." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 5;
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/prat-service-type-cs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Timepoint Service Type Code System" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes describing various service types of clinical assessment or instrument that a timepoint is centered on." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 7;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -396,7 +424,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "This PACIO Re-Assessment Timepoints implementation guide describes a means to break up extended Post-Acute admissions into consumable blocks that can reflect the evolution of care over time of the encounter or episode of care.\n\nPost-Acute Admissions extend over much longer periods of time than the encounters in the Acute and Ambulatory Care Settings, often going for several months or even years. Over the course of these time periods the patient condition and therefore the care being provided is changing - for example in Home Health the goal is rehabilitation so Care Plans, Medications, and Orders are all likely changing throughout an admission that could last several months. Already in existence within post-acute care settings are periods of time structured by a variety of stakeholders, some more rigid than others - regulatory and conditions of participation, payer and revenue cycle requirements, and provider specific processes and protocols. In settings like Home Health and SNF, there are defined Medicare assessment instruments that must be completed every X number of days (varies by care setting); the results of said assessment drive the Care Plan for the next X number of days; if a patient has a pain management Care Plan, and their pain scores are down then they may have their Opioid drug dosages reduced or eliminated. If the patient's ambulation is improving, then we may see interventions focused on more complex exercises. These periods of time, defined by many different drivers, have direct impact on how data is made available outside of an EMR; without a structure in place to hold this information a connecting application or patient would have no choice but to sift through months worth of information rather than focusing on a given period or periods most relevant to the need of the application, patient, or other entity." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 6;
+       fhir:index 8;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -495,9 +523,13 @@
 
 <http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-entity-type-vs> a fhir:us .
 
+<http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-service-type-vs> a fhir:us .
+
 <http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-status-vs> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-rat/CapabilityStatement/prat> a fhir:us .
 

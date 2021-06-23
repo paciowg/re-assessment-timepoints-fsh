@@ -3,14 +3,14 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="prat-entity-cs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">payer<a name="prat-entity-cs-payer"> </a></td><td>Payer</td></tr><tr><td style="white-space:nowrap">regulatory-state<a name="prat-entity-cs-regulatory-state"> </a></td><td>Regulatory - State</td></tr><tr><td style="white-space:nowrap">regulatory-federal<a name="prat-entity-cs-regulatory-federal"> </a></td><td>Regulatory - Federal</td></tr><tr><td style="white-space:nowrap">provider<a name="prat-entity-cs-provider"> </a></td><td>Provider</td></tr><tr><td style="white-space:nowrap">accreditation-agency<a name="prat-entity-cs-accreditation-agency"> </a></td><td>Accreditation Agency</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">payer<a name="prat-entity-cs-payer"> </a></td><td>Payer</td><td>Payer</td></tr><tr><td style="white-space:nowrap">regulatory-state<a name="prat-entity-cs-regulatory-state"> </a></td><td>Regulatory - State</td><td>Regulatory - State</td></tr><tr><td style="white-space:nowrap">regulatory-federal<a name="prat-entity-cs-regulatory-federal"> </a></td><td>Regulatory - Federal</td><td>Regulatory - Federal</td></tr><tr><td style="white-space:nowrap">provider<a name="prat-entity-cs-provider"> </a></td><td>Provider</td><td>Provider</td></tr><tr><td style="white-space:nowrap">accreditation-agency<a name="prat-entity-cs-accreditation-agency"> </a></td><td>Accreditation Agency</td><td>Accreditation Agency</td></tr></table></div>
   </text>
   <url value="http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs"/>
   <version value="0.1.0"/>
   <name value="TimepointEntityCodeSystem"/>
   <title value="Timepoint Entity Code System"/>
   <status value="active"/>
-  <date value="2021-06-22T15:34:06-07:00"/>
+  <date value="2021-06-22T22:22:30-07:00"/>
   <publisher value="HL7 Community-Based Care and Privacy Working Group"/>
   <contact>
     <name value="HL7 Community-Based Care and Privacy Working Group"/>
@@ -23,7 +23,7 @@
       <value value="patients@lists.HL7.org"/>
     </telecom>
   </contact>
-  <description value="Codes describing various entity types for structuring timepoints"/>
+  <description value="Codes describing various entity types for structuring timepoints."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -35,21 +35,26 @@
   <concept>
     <code value="payer"/>
     <display value="Payer"/>
+    <definition value="Payer"/>
   </concept>
   <concept>
     <code value="regulatory-state"/>
     <display value="Regulatory - State"/>
+    <definition value="Regulatory - State"/>
   </concept>
   <concept>
     <code value="regulatory-federal"/>
     <display value="Regulatory - Federal"/>
+    <definition value="Regulatory - Federal"/>
   </concept>
   <concept>
     <code value="provider"/>
     <display value="Provider"/>
+    <definition value="Provider"/>
   </concept>
   <concept>
     <code value="accreditation-agency"/>
     <display value="Accreditation Agency"/>
+    <definition value="Accreditation Agency"/>
   </concept>
 </CodeSystem>

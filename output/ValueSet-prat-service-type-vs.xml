@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="prat-service-type-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-prat-service-type-cs.html"><code>http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs</code></a></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-service-type-vs"/>
+  <version value="0.1.0"/>
+  <name value="TimepointServiceTypeValueSet"/>
+  <title value="Timepoint Service Type Value Set"/>
+  <status value="active"/>
+  <date value="2021-06-22T22:22:30-07:00"/>
+  <publisher value="HL7 Community-Based Care and Privacy Working Group"/>
+  <contact>
+    <name value="HL7 Community-Based Care and Privacy Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientempowerment/index.cfm"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="patients@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="Various service types of clinical assessment or instrument that a timepoint is centered on."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs"/>
+    </include>
+  </compose>
+</ValueSet>

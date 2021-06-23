@@ -27,6 +27,7 @@ Description: "Re-assessment Timepoints Encounter is a profile of the Encoutner r
 * serviceType 1..1 MS
 * serviceType ^short = "The assessment or instrument driving the timepoint"
 * serviceType ^definition = "The timepoint is an administrative structure for clinical data, service type is used to define the type of clinical assessment that the timepoint is centered on. For example, if the timepoint is driven by an CMS OASIS for Home Health, OASIS is the service type. If the timepoint is driven by a clinician discipline assessment (PT, OT etc.) or a system assessment (Pain, GI etc.) these assessments can be references."
+* serviceType from TimepointServiceTypeValueSet (extensible)
 * priority ^short = "Indicates the urgency of the timepoint"
 * priority ^definition = "Indicates the urgency of the timepoint"
 * subject only Reference(USCorePatientProfile)
@@ -91,18 +92,31 @@ Description: "Clinical impression resource reference"
 CodeSystem: TimepointEntityCodeSystem
 Title: "Timepoint Entity Code System"
 Id: prat-entity-cs
-Description: "Codes describing various entity types for structuring timepoints"
-* #payer "Payer"
-* #regulatory-state "Regulatory - State"
-* #regulatory-federal "Regulatory - Federal"
-* #provider "Provider"
-* #accreditation-agency "Accreditation Agency"
+Description: "Codes describing various entity types for structuring timepoints."
+* #payer "Payer" "Payer"
+* #regulatory-state "Regulatory - State" "Regulatory - State"
+* #regulatory-federal "Regulatory - Federal" "Regulatory - Federal"
+* #provider "Provider" "Provider"
+* #accreditation-agency "Accreditation Agency" "Accreditation Agency"
+
+CodeSystem: TimepointServiceTypeCodeSystem
+Title: "Timepoint Service Type Code System"
+Id: prat-service-type-cs
+Description: "Codes describing various service types of clinical assessment or instrument that a timepoint is centered on."
+* #oasis "OASIS" "Outcome and Assessment Information Set"
+* #pt "Physical Therapy Assessment" "Physical Therapy Assessment"
 
 ValueSet: TimepointEntityTypeValueSet
 Title: "Timepoint Entity Type Value Set"
-Description: "Codes describing various entity types for structuring timepoints"
+Description: "Codes describing various entity types for structuring timepoints."
 Id: prat-entity-type-vs
 * include codes from system TimepointEntityCodeSystem
+
+ValueSet: TimepointServiceTypeValueSet
+Title: "Timepoint Service Type Value Set"
+Description: "Various service types of clinical assessment or instrument that a timepoint is centered on."
+Id: prat-service-type-vs
+* include codes from system TimepointServiceTypeCodeSystem
 
 ValueSet: TimepointStatusValueSet
 Title: "Timepoint Status Value Set"

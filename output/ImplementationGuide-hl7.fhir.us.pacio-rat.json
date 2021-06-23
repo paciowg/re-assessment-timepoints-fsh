@@ -10,7 +10,7 @@
   "name": "PACIOReAssessmentTimepoints",
   "title": "PACIO Re-Assessment Timepoints Implementation Guide",
   "status": "draft",
-  "date": "2021-06-22T15:34:06-07:00",
+  "date": "2021-06-22T22:22:30-07:00",
   "publisher": "HL7 Community-Based Care and Privacy Working Group",
   "contact": [
     {
@@ -367,7 +367,21 @@
           "reference": "ValueSet/prat-entity-type-vs"
         },
         "name": "Timepoint Entity Type Value Set",
-        "description": "Codes describing various entity types for structuring timepoints",
+        "description": "Codes describing various entity types for structuring timepoints.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/prat-service-type-vs"
+        },
+        "name": "Timepoint Service Type Value Set",
+        "description": "Various service types of clinical assessment or instrument that a timepoint is centered on.",
         "exampleBoolean": false
       },
       {
@@ -395,7 +409,21 @@
           "reference": "CodeSystem/prat-entity-cs"
         },
         "name": "Timepoint Entity Code System",
-        "description": "Codes describing various entity types for structuring timepoints",
+        "description": "Codes describing various entity types for structuring timepoints.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/prat-service-type-cs"
+        },
+        "name": "Timepoint Service Type Code System",
+        "description": "Codes describing various service types of clinical assessment or instrument that a timepoint is centered on.",
         "exampleBoolean": false
       },
       {

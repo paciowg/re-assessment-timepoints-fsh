@@ -1,11 +1,248 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="51f37e0a-f5ef-4dc2-8ab9-3a03febbcd50"/>
+  <id value="48c60cca-7fd7-4203-b920-57efe208daf4"/>
   <meta>
-    <lastUpdated value="2021-06-22T15:34:06.265-07:00"/>
+    <lastUpdated value="2021-06-22T22:22:30.227-07:00"/>
   </meta>
   <type value="collection"/>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-entity-type-vs"/>
+    <resource>
+      <ValueSet>
+        <id value="prat-entity-type-vs"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 5 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-prat-entity-cs.html">Timepoint Entity Code System v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes from system 
+              <a href="CodeSystem-prat-entity-cs.html">
+                <code>http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-entity-cs-payer"> </a>
+                  <a href="CodeSystem-prat-entity-cs.html#prat-entity-cs-payer">payer</a>
+                </td>
+                <td>Payer</td>
+                <td>Payer</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-entity-cs-regulatory-state"> </a>
+                  <a href="CodeSystem-prat-entity-cs.html#prat-entity-cs-regulatory-state">regulatory-state</a>
+                </td>
+                <td>Regulatory - State</td>
+                <td>Regulatory - State</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-entity-cs-regulatory-federal"> </a>
+                  <a href="CodeSystem-prat-entity-cs.html#prat-entity-cs-regulatory-federal">regulatory-federal</a>
+                </td>
+                <td>Regulatory - Federal</td>
+                <td>Regulatory - Federal</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-entity-cs-provider"> </a>
+                  <a href="CodeSystem-prat-entity-cs.html#prat-entity-cs-provider">provider</a>
+                </td>
+                <td>Provider</td>
+                <td>Provider</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-entity-cs-accreditation-agency"> </a>
+                  <a href="CodeSystem-prat-entity-cs.html#prat-entity-cs-accreditation-agency">accreditation-agency</a>
+                </td>
+                <td>Accreditation Agency</td>
+                <td>Accreditation Agency</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-entity-type-vs"/>
+        <version value="0.1.0"/>
+        <name value="TimepointEntityTypeValueSet"/>
+        <title value="Timepoint Entity Type Value Set"/>
+        <status value="active"/>
+        <date value="2021-06-22T22:22:30-07:00"/>
+        <publisher value="HL7 Community-Based Care and Privacy Working Group"/>
+        <contact>
+          <name value="HL7 Community-Based Care and Privacy Working Group"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/patientempowerment/index.cfm"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="patients@lists.HL7.org"/>
+          </telecom>
+        </contact>
+        <description value="Codes describing various entity types for structuring timepoints."/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:5745cbfc-0233-4419-a3d3-853ca05d7f5b"/>
+          <timestamp value="2021-06-22T22:22:49-07:00"/>
+          <total value="5"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs"/>
+            <code value="payer"/>
+            <display value="Payer"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs"/>
+            <code value="regulatory-state"/>
+            <display value="Regulatory - State"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs"/>
+            <code value="regulatory-federal"/>
+            <display value="Regulatory - Federal"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs"/>
+            <code value="provider"/>
+            <display value="Provider"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs"/>
+            <code value="accreditation-agency"/>
+            <display value="Accreditation Agency"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-service-type-vs"/>
+    <resource>
+      <ValueSet>
+        <id value="prat-service-type-vs"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 2 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-prat-service-type-cs.html">Timepoint Service Type Code System v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes from system 
+              <a href="CodeSystem-prat-service-type-cs.html">
+                <code>http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-service-type-cs-oasis"> </a>
+                  <a href="CodeSystem-prat-service-type-cs.html#prat-service-type-cs-oasis">oasis</a>
+                </td>
+                <td>OASIS</td>
+                <td>Outcome and Assessment Information Set</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-service-type-cs-pt"> </a>
+                  <a href="CodeSystem-prat-service-type-cs.html#prat-service-type-cs-pt">pt</a>
+                </td>
+                <td>Physical Therapy Assessment</td>
+                <td>Physical Therapy Assessment</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-service-type-vs"/>
+        <version value="0.1.0"/>
+        <name value="TimepointServiceTypeValueSet"/>
+        <title value="Timepoint Service Type Value Set"/>
+        <status value="active"/>
+        <date value="2021-06-22T22:22:30-07:00"/>
+        <publisher value="HL7 Community-Based Care and Privacy Working Group"/>
+        <contact>
+          <name value="HL7 Community-Based Care and Privacy Working Group"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/patientempowerment/index.cfm"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="patients@lists.HL7.org"/>
+          </telecom>
+        </contact>
+        <description value="Various service types of clinical assessment or instrument that a timepoint is centered on."/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:14e0fe77-1470-4a5b-a3f5-92f0d3eabbec"/>
+          <timestamp value="2021-06-22T22:22:49-07:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs"/>
+            <code value="oasis"/>
+            <display value="OASIS"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs"/>
+            <code value="pt"/>
+            <display value="Physical Therapy Assessment"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
   <entry>
     <fullUrl value="http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-status-vs"/>
     <resource>
@@ -67,7 +304,7 @@
         <name value="TimepointStatusValueSet"/>
         <title value="Timepoint Status Value Set"/>
         <status value="active"/>
-        <date value="2021-06-22T15:34:06-07:00"/>
+        <date value="2021-06-22T22:22:30-07:00"/>
         <publisher value="HL7 Community-Based Care and Privacy Working Group"/>
         <contact>
           <name value="HL7 Community-Based Care and Privacy Working Group"/>
@@ -88,8 +325,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:90002297-01b7-42a5-82cc-db99f6f9e8da"/>
-          <timestamp value="2021-06-22T15:34:24-07:00"/>
+          <identifier value="urn:uuid:750e94be-4709-4d72-86c1-2d204fc9826b"/>
+          <timestamp value="2021-06-22T22:22:49-07:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -113,144 +350,6 @@
             <system value="http://hl7.org/fhir/encounter-status"/>
             <code value="planned"/>
             <display value="Planned"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-entity-type-vs"/>
-    <resource>
-      <ValueSet>
-        <id value="prat-entity-type-vs"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 5 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-prat-entity-cs.html">Timepoint Entity Code System v0.1.0 (CodeSystem)</a>
-            </p>
-            <p>All codes from system 
-              <a href="CodeSystem-prat-entity-cs.html">
-                <code>http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs</code>
-              </a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-                <td>
-                  <b>Definition</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-entity-cs-payer"> </a>
-                  <a href="CodeSystem-prat-entity-cs.html#prat-entity-cs-payer">payer</a>
-                </td>
-                <td>Payer</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-entity-cs-regulatory-state"> </a>
-                  <a href="CodeSystem-prat-entity-cs.html#prat-entity-cs-regulatory-state">regulatory-state</a>
-                </td>
-                <td>Regulatory - State</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-entity-cs-regulatory-federal"> </a>
-                  <a href="CodeSystem-prat-entity-cs.html#prat-entity-cs-regulatory-federal">regulatory-federal</a>
-                </td>
-                <td>Regulatory - Federal</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-entity-cs-provider"> </a>
-                  <a href="CodeSystem-prat-entity-cs.html#prat-entity-cs-provider">provider</a>
-                </td>
-                <td>Provider</td>
-                <td/>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-entity-cs-accreditation-agency"> </a>
-                  <a href="CodeSystem-prat-entity-cs.html#prat-entity-cs-accreditation-agency">accreditation-agency</a>
-                </td>
-                <td>Accreditation Agency</td>
-                <td/>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-entity-type-vs"/>
-        <version value="0.1.0"/>
-        <name value="TimepointEntityTypeValueSet"/>
-        <title value="Timepoint Entity Type Value Set"/>
-        <status value="active"/>
-        <date value="2021-06-22T15:34:06-07:00"/>
-        <publisher value="HL7 Community-Based Care and Privacy Working Group"/>
-        <contact>
-          <name value="HL7 Community-Based Care and Privacy Working Group"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://www.hl7.org/Special/committees/patientempowerment/index.cfm"/>
-          </telecom>
-          <telecom>
-            <system value="email"/>
-            <value value="patients@lists.HL7.org"/>
-          </telecom>
-        </contact>
-        <description value="Codes describing various entity types for structuring timepoints"/>
-        <jurisdiction>
-          <coding>
-            <system value="urn:iso:std:iso:3166"/>
-            <code value="US"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:bf8d9922-f65e-4223-9e11-755da868b22c"/>
-          <timestamp value="2021-06-22T15:34:26-07:00"/>
-          <total value="5"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs|0.1.0"/>
-          </parameter>
-          <contains>
-            <system value="http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs"/>
-            <code value="payer"/>
-            <display value="Payer"/>
-          </contains>
-          <contains>
-            <system value="http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs"/>
-            <code value="regulatory-state"/>
-            <display value="Regulatory - State"/>
-          </contains>
-          <contains>
-            <system value="http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs"/>
-            <code value="regulatory-federal"/>
-            <display value="Regulatory - Federal"/>
-          </contains>
-          <contains>
-            <system value="http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs"/>
-            <code value="provider"/>
-            <display value="Provider"/>
-          </contains>
-          <contains>
-            <system value="http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs"/>
-            <code value="accreditation-agency"/>
-            <display value="Accreditation Agency"/>
           </contains>
         </expansion>
       </ValueSet>

@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "prat-entity-cs"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">payer<a name=\"prat-entity-cs-payer\"> </a></td><td>Payer</td></tr><tr><td style=\"white-space:nowrap\">regulatory-state<a name=\"prat-entity-cs-regulatory-state\"> </a></td><td>Regulatory - State</td></tr><tr><td style=\"white-space:nowrap\">regulatory-federal<a name=\"prat-entity-cs-regulatory-federal\"> </a></td><td>Regulatory - Federal</td></tr><tr><td style=\"white-space:nowrap\">provider<a name=\"prat-entity-cs-provider\"> </a></td><td>Provider</td></tr><tr><td style=\"white-space:nowrap\">accreditation-agency<a name=\"prat-entity-cs-accreditation-agency\"> </a></td><td>Accreditation Agency</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">payer<a name=\"prat-entity-cs-payer\"> </a></td><td>Payer</td><td>Payer</td></tr><tr><td style=\"white-space:nowrap\">regulatory-state<a name=\"prat-entity-cs-regulatory-state\"> </a></td><td>Regulatory - State</td><td>Regulatory - State</td></tr><tr><td style=\"white-space:nowrap\">regulatory-federal<a name=\"prat-entity-cs-regulatory-federal\"> </a></td><td>Regulatory - Federal</td><td>Regulatory - Federal</td></tr><tr><td style=\"white-space:nowrap\">provider<a name=\"prat-entity-cs-provider\"> </a></td><td>Provider</td><td>Provider</td></tr><tr><td style=\"white-space:nowrap\">accreditation-agency<a name=\"prat-entity-cs-accreditation-agency\"> </a></td><td>Accreditation Agency</td><td>Accreditation Agency</td></tr></table></div>"
   ];
   fhir:CodeSystem.url [ fhir:value "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs"];
   fhir:CodeSystem.version [ fhir:value "0.1.0"];
   fhir:CodeSystem.name [ fhir:value "TimepointEntityCodeSystem"];
   fhir:CodeSystem.title [ fhir:value "Timepoint Entity Code System"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-06-22T15:34:06-07:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-06-22T22:22:30-07:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "HL7 Community-Based Care and Privacy Working Group"];
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -32,7 +32,7 @@
        fhir:ContactPoint.value [ fhir:value "patients@lists.HL7.org" ]
      ]
   ];
-  fhir:CodeSystem.description [ fhir:value "Codes describing various entity types for structuring timepoints"];
+  fhir:CodeSystem.description [ fhir:value "Codes describing various entity types for structuring timepoints."];
   fhir:CodeSystem.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -46,23 +46,28 @@
   fhir:CodeSystem.concept [
      fhir:index 0;
      fhir:CodeSystem.concept.code [ fhir:value "payer" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Payer" ]
+     fhir:CodeSystem.concept.display [ fhir:value "Payer" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Payer" ]
   ], [
      fhir:index 1;
      fhir:CodeSystem.concept.code [ fhir:value "regulatory-state" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Regulatory - State" ]
+     fhir:CodeSystem.concept.display [ fhir:value "Regulatory - State" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Regulatory - State" ]
   ], [
      fhir:index 2;
      fhir:CodeSystem.concept.code [ fhir:value "regulatory-federal" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Regulatory - Federal" ]
+     fhir:CodeSystem.concept.display [ fhir:value "Regulatory - Federal" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Regulatory - Federal" ]
   ], [
      fhir:index 3;
      fhir:CodeSystem.concept.code [ fhir:value "provider" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Provider" ]
+     fhir:CodeSystem.concept.display [ fhir:value "Provider" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Provider" ]
   ], [
      fhir:index 4;
      fhir:CodeSystem.concept.code [ fhir:value "accreditation-agency" ];
-     fhir:CodeSystem.concept.display [ fhir:value "Accreditation Agency" ]
+     fhir:CodeSystem.concept.display [ fhir:value "Accreditation Agency" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Accreditation Agency" ]
   ] .
 
 # - ontology header ------------------------------------------------------------

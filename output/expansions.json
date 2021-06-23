@@ -1,89 +1,25 @@
 {
   "resourceType" : "Bundle",
-  "id" : "51f37e0a-f5ef-4dc2-8ab9-3a03febbcd50",
+  "id" : "48c60cca-7fd7-4203-b920-57efe208daf4",
   "meta" : {
-    "lastUpdated" : "2021-06-22T15:34:06.265-07:00"
+    "lastUpdated" : "2021-06-22T22:22:30.227-07:00"
   },
   "type" : "collection",
   "entry" : [{
-    "fullUrl" : "http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-status-vs",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "id" : "prat-status-vs",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"http://hl7.org/fhir/R4/codesystem-encounter-status.html\">EncounterStatus v4.0.1 (CodeSystem)</a></p><p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-encounter-status.html\"><code>http://hl7.org/fhir/encounter-status</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-encounter-status-in-progress\"> </a><a href=\"http://hl7.org/fhir/R4/codesystem-encounter-status.html#encounter-status-in-progress\">in-progress</a></td><td>In Progress</td><td>The Encounter has begun and the patient is present / the practitioner and the patient are meeting.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-encounter-status-finished\"> </a><a href=\"http://hl7.org/fhir/R4/codesystem-encounter-status.html#encounter-status-finished\">finished</a></td><td>Finished</td><td>The Encounter has ended.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-encounter-status-planned\"> </a><a href=\"http://hl7.org/fhir/R4/codesystem-encounter-status.html#encounter-status-planned\">planned</a></td><td>Planned</td><td>The Encounter has not yet started.</td></tr></table></div>"
-      },
-      "url" : "http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-status-vs",
-      "version" : "0.1.0",
-      "name" : "TimepointStatusValueSet",
-      "title" : "Timepoint Status Value Set",
-      "status" : "active",
-      "date" : "2021-06-22T15:34:06-07:00",
-      "publisher" : "HL7 Community-Based Care and Privacy Working Group",
-      "contact" : [{
-        "name" : "HL7 Community-Based Care and Privacy Working Group",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/patientempowerment/index.cfm"
-        },
-        {
-          "system" : "email",
-          "value" : "patients@lists.HL7.org"
-        }]
-      }],
-      "description" : "Codes for the current state of the re-assessment timepoint.",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "US"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:90002297-01b7-42a5-82cc-db99f6f9e8da",
-        "timestamp" : "2021-06-22T15:34:24-07:00",
-        "total" : 3,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://hl7.org/fhir/encounter-status|4.0.1"
-        }],
-        "contains" : [{
-          "system" : "http://hl7.org/fhir/encounter-status",
-          "code" : "in-progress",
-          "display" : "In Progress"
-        },
-        {
-          "system" : "http://hl7.org/fhir/encounter-status",
-          "code" : "finished",
-          "display" : "Finished"
-        },
-        {
-          "system" : "http://hl7.org/fhir/encounter-status",
-          "code" : "planned",
-          "display" : "Planned"
-        }]
-      }
-    }
-  },
-  {
     "fullUrl" : "http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-entity-type-vs",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "prat-entity-type-vs",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-prat-entity-cs.html\">Timepoint Entity Code System v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-prat-entity-cs.html\"><code>http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-entity-cs-payer\"> </a><a href=\"CodeSystem-prat-entity-cs.html#prat-entity-cs-payer\">payer</a></td><td>Payer</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-entity-cs-regulatory-state\"> </a><a href=\"CodeSystem-prat-entity-cs.html#prat-entity-cs-regulatory-state\">regulatory-state</a></td><td>Regulatory - State</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-entity-cs-regulatory-federal\"> </a><a href=\"CodeSystem-prat-entity-cs.html#prat-entity-cs-regulatory-federal\">regulatory-federal</a></td><td>Regulatory - Federal</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-entity-cs-provider\"> </a><a href=\"CodeSystem-prat-entity-cs.html#prat-entity-cs-provider\">provider</a></td><td>Provider</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-entity-cs-accreditation-agency\"> </a><a href=\"CodeSystem-prat-entity-cs.html#prat-entity-cs-accreditation-agency\">accreditation-agency</a></td><td>Accreditation Agency</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-prat-entity-cs.html\">Timepoint Entity Code System v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-prat-entity-cs.html\"><code>http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-entity-cs-payer\"> </a><a href=\"CodeSystem-prat-entity-cs.html#prat-entity-cs-payer\">payer</a></td><td>Payer</td><td>Payer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-entity-cs-regulatory-state\"> </a><a href=\"CodeSystem-prat-entity-cs.html#prat-entity-cs-regulatory-state\">regulatory-state</a></td><td>Regulatory - State</td><td>Regulatory - State</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-entity-cs-regulatory-federal\"> </a><a href=\"CodeSystem-prat-entity-cs.html#prat-entity-cs-regulatory-federal\">regulatory-federal</a></td><td>Regulatory - Federal</td><td>Regulatory - Federal</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-entity-cs-provider\"> </a><a href=\"CodeSystem-prat-entity-cs.html#prat-entity-cs-provider\">provider</a></td><td>Provider</td><td>Provider</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-entity-cs-accreditation-agency\"> </a><a href=\"CodeSystem-prat-entity-cs.html#prat-entity-cs-accreditation-agency\">accreditation-agency</a></td><td>Accreditation Agency</td><td>Accreditation Agency</td></tr></table></div>"
       },
       "url" : "http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-entity-type-vs",
       "version" : "0.1.0",
       "name" : "TimepointEntityTypeValueSet",
       "title" : "Timepoint Entity Type Value Set",
       "status" : "active",
-      "date" : "2021-06-22T15:34:06-07:00",
+      "date" : "2021-06-22T22:22:30-07:00",
       "publisher" : "HL7 Community-Based Care and Privacy Working Group",
       "contact" : [{
         "name" : "HL7 Community-Based Care and Privacy Working Group",
@@ -96,7 +32,7 @@
           "value" : "patients@lists.HL7.org"
         }]
       }],
-      "description" : "Codes describing various entity types for structuring timepoints",
+      "description" : "Codes describing various entity types for structuring timepoints.",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -104,8 +40,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:bf8d9922-f65e-4223-9e11-755da868b22c",
-        "timestamp" : "2021-06-22T15:34:26-07:00",
+        "identifier" : "urn:uuid:5745cbfc-0233-4419-a3d3-853ca05d7f5b",
+        "timestamp" : "2021-06-22T22:22:49-07:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -139,6 +75,129 @@
           "system" : "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs",
           "code" : "accreditation-agency",
           "display" : "Accreditation Agency"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-service-type-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "prat-service-type-vs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-prat-service-type-cs.html\">Timepoint Service Type Code System v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-prat-service-type-cs.html\"><code>http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-service-type-cs-oasis\"> </a><a href=\"CodeSystem-prat-service-type-cs.html#prat-service-type-cs-oasis\">oasis</a></td><td>OASIS</td><td>Outcome and Assessment Information Set</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-service-type-cs-pt\"> </a><a href=\"CodeSystem-prat-service-type-cs.html#prat-service-type-cs-pt\">pt</a></td><td>Physical Therapy Assessment</td><td>Physical Therapy Assessment</td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-service-type-vs",
+      "version" : "0.1.0",
+      "name" : "TimepointServiceTypeValueSet",
+      "title" : "Timepoint Service Type Value Set",
+      "status" : "active",
+      "date" : "2021-06-22T22:22:30-07:00",
+      "publisher" : "HL7 Community-Based Care and Privacy Working Group",
+      "contact" : [{
+        "name" : "HL7 Community-Based Care and Privacy Working Group",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/patientempowerment/index.cfm"
+        },
+        {
+          "system" : "email",
+          "value" : "patients@lists.HL7.org"
+        }]
+      }],
+      "description" : "Various service types of clinical assessment or instrument that a timepoint is centered on.",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:14e0fe77-1470-4a5b-a3f5-92f0d3eabbec",
+        "timestamp" : "2021-06-22T22:22:49-07:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs|0.1.0"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs",
+          "code" : "oasis",
+          "display" : "OASIS"
+        },
+        {
+          "system" : "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs",
+          "code" : "pt",
+          "display" : "Physical Therapy Assessment"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-status-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "prat-status-vs",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"http://hl7.org/fhir/R4/codesystem-encounter-status.html\">EncounterStatus v4.0.1 (CodeSystem)</a></p><p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-encounter-status.html\"><code>http://hl7.org/fhir/encounter-status</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-encounter-status-in-progress\"> </a><a href=\"http://hl7.org/fhir/R4/codesystem-encounter-status.html#encounter-status-in-progress\">in-progress</a></td><td>In Progress</td><td>The Encounter has begun and the patient is present / the practitioner and the patient are meeting.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-encounter-status-finished\"> </a><a href=\"http://hl7.org/fhir/R4/codesystem-encounter-status.html#encounter-status-finished\">finished</a></td><td>Finished</td><td>The Encounter has ended.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-encounter-status-planned\"> </a><a href=\"http://hl7.org/fhir/R4/codesystem-encounter-status.html#encounter-status-planned\">planned</a></td><td>Planned</td><td>The Encounter has not yet started.</td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-status-vs",
+      "version" : "0.1.0",
+      "name" : "TimepointStatusValueSet",
+      "title" : "Timepoint Status Value Set",
+      "status" : "active",
+      "date" : "2021-06-22T22:22:30-07:00",
+      "publisher" : "HL7 Community-Based Care and Privacy Working Group",
+      "contact" : [{
+        "name" : "HL7 Community-Based Care and Privacy Working Group",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/patientempowerment/index.cfm"
+        },
+        {
+          "system" : "email",
+          "value" : "patients@lists.HL7.org"
+        }]
+      }],
+      "description" : "Codes for the current state of the re-assessment timepoint.",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:750e94be-4709-4d72-86c1-2d204fc9826b",
+        "timestamp" : "2021-06-22T22:22:49-07:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://hl7.org/fhir/encounter-status|4.0.1"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/fhir/encounter-status",
+          "code" : "in-progress",
+          "display" : "In Progress"
+        },
+        {
+          "system" : "http://hl7.org/fhir/encounter-status",
+          "code" : "finished",
+          "display" : "Finished"
+        },
+        {
+          "system" : "http://hl7.org/fhir/encounter-status",
+          "code" : "planned",
+          "display" : "Planned"
         }]
       }
     }

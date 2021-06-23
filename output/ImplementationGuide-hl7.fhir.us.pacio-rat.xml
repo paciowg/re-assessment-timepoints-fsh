@@ -11,7 +11,7 @@
   <name value="PACIOReAssessmentTimepoints"/>
   <title value="PACIO Re-Assessment Timepoints Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-06-22T15:34:06-07:00"/>
+  <date value="2021-06-22T22:22:30-07:00"/>
   <publisher value="HL7 Community-Based Care and Privacy Working Group"/>
   <contact>
     <name value="HL7 Community-Based Care and Privacy Working Group"/>
@@ -238,7 +238,18 @@
         <reference value="ValueSet/prat-entity-type-vs"/>
       </reference>
       <name value="Timepoint Entity Type Value Set"/>
-      <description value="Codes describing various entity types for structuring timepoints"/>
+      <description value="Codes describing various entity types for structuring timepoints."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/prat-service-type-vs"/>
+      </reference>
+      <name value="Timepoint Service Type Value Set"/>
+      <description value="Various service types of clinical assessment or instrument that a timepoint is centered on."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -260,7 +271,18 @@
         <reference value="CodeSystem/prat-entity-cs"/>
       </reference>
       <name value="Timepoint Entity Code System"/>
-      <description value="Codes describing various entity types for structuring timepoints"/>
+      <description value="Codes describing various entity types for structuring timepoints."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/prat-service-type-cs"/>
+      </reference>
+      <name value="Timepoint Service Type Code System"/>
+      <description value="Codes describing various service types of clinical assessment or instrument that a timepoint is centered on."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
