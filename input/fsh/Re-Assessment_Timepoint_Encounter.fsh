@@ -103,7 +103,8 @@ CodeSystem: TimepointServiceTypeCodeSystem
 Title: "Timepoint Service Type Code System"
 Id: prat-service-type-cs
 Description: "Codes describing various service types of clinical assessment or instrument that a timepoint is centered on."
-* #oasis "OASIS" "Outcome and Assessment Information Set"
+* #oasis "OASIS" "CMS Home Health Outcome and Assessment Information Set"
+* #mds "MDS" "CMS Minimum Data Set - Resident Assessment and Care Screening"
 * #pt "Physical Therapy Assessment" "Physical Therapy Assessment"
 
 ValueSet: TimepointEntityTypeValueSet

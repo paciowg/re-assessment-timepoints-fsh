@@ -3,14 +3,14 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="prat-service-type-cs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">oasis<a name="prat-service-type-cs-oasis"> </a></td><td>OASIS</td><td>Outcome and Assessment Information Set</td></tr><tr><td style="white-space:nowrap">pt<a name="prat-service-type-cs-pt"> </a></td><td>Physical Therapy Assessment</td><td>Physical Therapy Assessment</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">oasis<a name="prat-service-type-cs-oasis"> </a></td><td>OASIS</td><td>CMS Home Health Outcome and Assessment Information Set</td></tr><tr><td style="white-space:nowrap">mds<a name="prat-service-type-cs-mds"> </a></td><td>MDS</td><td>CMS Minimum Data Set - Resident Assessment and Care Screening</td></tr><tr><td style="white-space:nowrap">pt<a name="prat-service-type-cs-pt"> </a></td><td>Physical Therapy Assessment</td><td>Physical Therapy Assessment</td></tr></table></div>
   </text>
   <url value="http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs"/>
   <version value="0.1.0"/>
   <name value="TimepointServiceTypeCodeSystem"/>
   <title value="Timepoint Service Type Code System"/>
   <status value="active"/>
-  <date value="2021-06-22T22:22:30-07:00"/>
+  <date value="2021-06-23T07:29:51-07:00"/>
   <publisher value="HL7 Community-Based Care and Privacy Working Group"/>
   <contact>
     <name value="HL7 Community-Based Care and Privacy Working Group"/>
@@ -31,11 +31,16 @@
     </coding>
   </jurisdiction>
   <content value="complete"/>
-  <count value="2"/>
+  <count value="3"/>
   <concept>
     <code value="oasis"/>
     <display value="OASIS"/>
-    <definition value="Outcome and Assessment Information Set"/>
+    <definition value="CMS Home Health Outcome and Assessment Information Set"/>
+  </concept>
+  <concept>
+    <code value="mds"/>
+    <display value="MDS"/>
+    <definition value="CMS Minimum Data Set - Resident Assessment and Care Screening"/>
   </concept>
   <concept>
     <code value="pt"/>

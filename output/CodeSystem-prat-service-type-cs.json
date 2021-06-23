@@ -3,14 +3,14 @@
   "id": "prat-service-type-cs",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">oasis<a name=\"prat-service-type-cs-oasis\"> </a></td><td>OASIS</td><td>Outcome and Assessment Information Set</td></tr><tr><td style=\"white-space:nowrap\">pt<a name=\"prat-service-type-cs-pt\"> </a></td><td>Physical Therapy Assessment</td><td>Physical Therapy Assessment</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">oasis<a name=\"prat-service-type-cs-oasis\"> </a></td><td>OASIS</td><td>CMS Home Health Outcome and Assessment Information Set</td></tr><tr><td style=\"white-space:nowrap\">mds<a name=\"prat-service-type-cs-mds\"> </a></td><td>MDS</td><td>CMS Minimum Data Set - Resident Assessment and Care Screening</td></tr><tr><td style=\"white-space:nowrap\">pt<a name=\"prat-service-type-cs-pt\"> </a></td><td>Physical Therapy Assessment</td><td>Physical Therapy Assessment</td></tr></table></div>"
   },
   "url": "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs",
   "version": "0.1.0",
   "name": "TimepointServiceTypeCodeSystem",
   "title": "Timepoint Service Type Code System",
   "status": "active",
-  "date": "2021-06-22T22:22:30-07:00",
+  "date": "2021-06-23T07:29:51-07:00",
   "publisher": "HL7 Community-Based Care and Privacy Working Group",
   "contact": [
     {
@@ -39,12 +39,17 @@
     }
   ],
   "content": "complete",
-  "count": 2,
+  "count": 3,
   "concept": [
     {
       "code": "oasis",
       "display": "OASIS",
-      "definition": "Outcome and Assessment Information Set"
+      "definition": "CMS Home Health Outcome and Assessment Information Set"
+    },
+    {
+      "code": "mds",
+      "display": "MDS",
+      "definition": "CMS Minimum Data Set - Resident Assessment and Care Screening"
     },
     {
       "code": "pt",
