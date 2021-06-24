@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="prat-class-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">SNF<a name="prat-class-cs-SNF"> </a></td><td>skilled nursing facility</td><td>Healthcare encounter that takes place in a skilled nursing facility.</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs"/>
+  <version value="0.1.0"/>
+  <name value="TimepointClassCodeSystem"/>
+  <title value="Timepoint Class Code System"/>
+  <status value="active"/>
+  <date value="2021-06-24T10:57:23-07:00"/>
+  <publisher value="HL7 Community-Based Care and Privacy Working Group"/>
+  <contact>
+    <name value="HL7 Community-Based Care and Privacy Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientempowerment/index.cfm"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="patients@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <description value="Codes for the classification of patient timepoint such as Skilled nursing facility, home health, etc."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="1"/>
+  <concept>
+    <code value="SNF"/>
+    <display value="skilled nursing facility"/>
+    <definition value="Healthcare encounter that takes place in a skilled nursing facility."/>
+  </concept>
+</CodeSystem>

@@ -3,14 +3,16 @@
 
 err = 1, warn = 3, info = 0
 IG Publisher Version: 1.1.73 Out of date - current version is 1.1.75
-Generated Wed Jun 23 07:30:44 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-rat#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-rat)
+Generated Thu Jun 24 10:58:19 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-rat#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-rat)
 
  Build Errors : 1 / 0 / 0
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-class-cs : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-entity-cs : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-service-type-cs : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.pacio-rat : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/StructureDefinition-clinicalImpression : 0 / 2 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/StructureDefinition-prat-encounter : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-class-vs : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-entity-type-vs : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-service-type-vs : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-status-vs : 0 / 0 / 1
@@ -19,6 +21,8 @@ Generated Wed Jun 23 07:30:44 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
 </table>
 == n/a ==
 ERROR: There is no jira specification file defined with the expected name of FHIR-us-pacio-rat in the xml folder of the  https://github.com/HL7/Jira-Spec-Artifacts project.  This must exist before ballot or publication.
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-class-cs.json ==
+INFORMATION: CodeSystem/prat-class-cs: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-entity-cs.json ==
 INFORMATION: CodeSystem/prat-entity-cs: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-service-type-cs.json ==
@@ -32,6 +36,8 @@ WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-rat/Struc
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/StructureDefinition-prat-encounter.json ==
 INFORMATION: StructureDefinition/prat-encounter: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter'): The Implementation Guide contains no examples for this profile
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-class-vs.json ==
+INFORMATION: ValueSet/prat-class-vs: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-entity-type-vs.json ==
 INFORMATION: ValueSet/prat-entity-type-vs: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-service-type-vs.json ==

@@ -1,5 +1,12 @@
 [
   {
+    "id": "prat-class-cs",
+    "type": "CodeSystem",
+    "url": "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs",
+    "version": "0.1.0",
+    "name": "TimepointClassCodeSystem"
+  },
+  {
     "id": "prat-entity-cs",
     "type": "CodeSystem",
     "url": "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs",
@@ -40,6 +47,13 @@
     "url": "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter",
     "version": "0.1.0",
     "name": "ReassessmentTimepointsEncounter"
+  },
+  {
+    "id": "prat-class-vs",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-class-vs",
+    "version": "0.1.0",
+    "name": "TimepointClassValueSet"
   },
   {
     "id": "prat-entity-type-vs",

@@ -16,8 +16,10 @@ Description: "Re-assessment Timepoints Encounter is a profile of the Encoutner r
 * statusHistory.status from TimepointStatusValueSet (required)
 * statusHistory.status ^short = "in-progress | finished | planned"
 * statusHistory.status ^definition = "in-progress | finished | planned"
+* class from TimepointClassValueSet (extensible)
 * class ^short = "Classification of patient timepoint"
 * class ^definition = "Concepts representing classification of patient timepoint such as ambulatory (outpatient), inpatient, emergency, home health or others due to local variations."
+* classHistory.class from TimepointClassValueSet (extensible)
 * classHistory ^short = "List of past timepoint classes"
 * classHistory ^definition = "The class history permits the tracking of the timepoints transitions without needing to go through the resource history. This would be used for a case where an admission starts of as an emergency encounter, then transitions into an inpatient scenario. Doing this and not restarting a new timepoint ensures that any lab/diagnostic results can more easily follow the patient and not require re-processing and not get lost or cancelled during a kind of discharge from emergency to inpatient."
 * type 1..* MS
@@ -89,6 +91,10 @@ Extension: clinicalImpression
 Description: "Clinical impression resource reference"
 * value[x] only Reference(ClinicalImpression)
 
+//////////////////////////////
+// Code Systems and Value Sets
+//////////////////////////////
+
 CodeSystem: TimepointEntityCodeSystem
 Title: "Timepoint Entity Code System"
 Id: prat-entity-cs
@@ -99,6 +105,13 @@ Description: "Codes describing various entity types for structuring timepoints."
 * #provider "Provider" "Provider"
 * #accreditation-agency "Accreditation Agency" "Accreditation Agency"
 
+ValueSet: TimepointEntityTypeValueSet
+Title: "Timepoint Entity Type Value Set"
+Description: "Codes describing various entity types for structuring timepoints."
+Id: prat-entity-type-vs
+* include codes from system TimepointEntityCodeSystem
+
+
 CodeSystem: TimepointServiceTypeCodeSystem
 Title: "Timepoint Service Type Code System"
 Id: prat-service-type-cs
@@ -107,17 +120,12 @@ Description: "Codes describing various service types of clinical assessment or i
 * #mds "MDS" "CMS Minimum Data Set - Resident Assessment and Care Screening"
 * #pt "Physical Therapy Assessment" "Physical Therapy Assessment"
 
-ValueSet: TimepointEntityTypeValueSet
-Title: "Timepoint Entity Type Value Set"
-Description: "Codes describing various entity types for structuring timepoints."
-Id: prat-entity-type-vs
-* include codes from system TimepointEntityCodeSystem
-
 ValueSet: TimepointServiceTypeValueSet
 Title: "Timepoint Service Type Value Set"
 Description: "Various service types of clinical assessment or instrument that a timepoint is centered on."
 Id: prat-service-type-vs
 * include codes from system TimepointServiceTypeCodeSystem
+
 
 ValueSet: TimepointStatusValueSet
 Title: "Timepoint Status Value Set"
@@ -126,3 +134,17 @@ Id: prat-status-vs
 * include $ENSTATUS#in-progress
 * include $ENSTATUS#finished
 * include $ENSTATUS#planned
+
+
+CodeSystem: TimepointClassCodeSystem
+Title: "Timepoint Class Code System"
+Id: prat-class-cs
+Description: "Codes for the classification of patient timepoint such as Skilled nursing facility, home health, etc."
+* #SNF "skilled nursing facility" "Healthcare encounter that takes place in a skilled nursing facility."
+
+ValueSet: TimepointClassValueSet
+Title: "Timepoint Class Value Set"
+Description: "Codes for the classification of patient timepoint. This is an extension of the ActEncounterCode value set"
+Id: prat-class-vs
+* include codes from valueset $ActEncounterCode
+* include codes from system TimepointClassCodeSystem

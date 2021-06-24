@@ -1,0 +1,53 @@
+{
+  "resourceType": "ValueSet",
+  "id": "prat-class-vs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Import all the codes that are contained in <a href=\"https://terminology.hl7.org/1.0.0//ValueSet-v3-ActEncounterCode.html\">http://terminology.hl7.org/ValueSet/v3-ActEncounterCode</a></li><li>Include all codes defined in <a href=\"CodeSystem-prat-class-cs.html\"><code>http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs</code></a></li></ul></div>"
+  },
+  "url": "http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-class-vs",
+  "version": "0.1.0",
+  "name": "TimepointClassValueSet",
+  "title": "Timepoint Class Value Set",
+  "status": "active",
+  "date": "2021-06-24T10:57:23-07:00",
+  "publisher": "HL7 Community-Based Care and Privacy Working Group",
+  "contact": [
+    {
+      "name": "HL7 Community-Based Care and Privacy Working Group",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/patientempowerment/index.cfm"
+        },
+        {
+          "system": "email",
+          "value": "patients@lists.HL7.org"
+        }
+      ]
+    }
+  ],
+  "description": "Codes for the classification of patient timepoint. This is an extension of the ActEncounterCode value set",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "http://terminology.hl7.org/ValueSet/v3-ActEncounterCode"
+        ]
+      },
+      {
+        "system": "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs"
+      }
+    ]
+  }
+}

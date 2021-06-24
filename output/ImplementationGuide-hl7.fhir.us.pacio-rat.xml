@@ -11,7 +11,7 @@
   <name value="PACIOReAssessmentTimepoints"/>
   <title value="PACIO Re-Assessment Timepoints Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-06-23T07:29:51-07:00"/>
+  <date value="2021-06-24T10:57:23-07:00"/>
   <publisher value="HL7 Community-Based Care and Privacy Working Group"/>
   <contact>
     <name value="HL7 Community-Based Care and Privacy Working Group"/>
@@ -235,6 +235,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/prat-class-vs"/>
+      </reference>
+      <name value="Timepoint Class Value Set"/>
+      <description value="Codes for the classification of patient timepoint. This is an extension of the ActEncounterCode value set"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/prat-entity-type-vs"/>
       </reference>
       <name value="Timepoint Entity Type Value Set"/>
@@ -261,6 +272,17 @@
       </reference>
       <name value="Timepoint Status Value Set"/>
       <description value="Codes for the current state of the re-assessment timepoint."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/prat-class-cs"/>
+      </reference>
+      <name value="Timepoint Class Code System"/>
+      <description value="Codes for the classification of patient timepoint such as Skilled nursing facility, home health, etc."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
