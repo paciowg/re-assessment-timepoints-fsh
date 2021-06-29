@@ -1,0 +1,36 @@
+{
+  "resourceType": "Practitioner",
+  "id": "Practitioner-JohnSmith",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 4278275001</p><p><b>active</b>: true</p><p><b>name</b>: John Smith</p><p><b>telecom</b>: ph: (210) 564 1389</p><p><b>address</b>: 177 Deerfield St. San Antonio, TX 78207</p><p><b>gender</b>: male</p></div>"
+  },
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/sid/us-npi",
+      "value": "4278275001"
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "text": "John Smith",
+      "family": "Smith",
+      "given": [
+        "John"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(210) 564 1389"
+    }
+  ],
+  "address": [
+    {
+      "text": "177 Deerfield St. San Antonio, TX 78207"
+    }
+  ],
+  "gender": "male"
+}

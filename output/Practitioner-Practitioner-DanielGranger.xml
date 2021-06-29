@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="Practitioner-DanielGranger"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 1098326745</p><p><b>active</b>: true</p><p><b>name</b>: Daniel Granger</p><p><b>telecom</b>: ph: (210) 555 2071</p><p><b>address</b>: 8100 Pinebrook Dr, San Antonio, TX, 78230</p><p><b>gender</b>: male</p></div>
+  </text>
+  <identifier>
+    <system value="http://hl7.org/fhir/sid/us-npi"/>
+    <value value="1098326745"/>
+  </identifier>
+  <active value="true"/>
+  <name>
+    <text value="Daniel Granger"/>
+    <family value="Granger"/>
+    <given value="Daniel"/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="(210) 555 2071"/>
+  </telecom>
+  <address>
+    <text value="8100 Pinebrook Dr, San Antonio, TX, 78230"/>
+  </address>
+  <gender value="male"/>
+</Practitioner>

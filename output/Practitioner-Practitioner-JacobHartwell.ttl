@@ -1,0 +1,48 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-JacobHartwell> a fhir:Practitioner;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Practitioner-JacobHartwell"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 4567123789</p><p><b>active</b>: true</p><p><b>name</b>: Jacob Hartwell</p><p><b>telecom</b>: ph: (210) 555 1889</p><p><b>address</b>: 8810 Old Sky Harbor, San Antonio, TX 78242</p><p><b>gender</b>: male</p></div>"
+  ];
+  fhir:Practitioner.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "http://hl7.org/fhir/sid/us-npi" ];
+     fhir:Identifier.value [ fhir:value "4567123789" ]
+  ];
+  fhir:Practitioner.active [ fhir:value "true"^^xsd:boolean];
+  fhir:Practitioner.name [
+     fhir:index 0;
+     fhir:HumanName.text [ fhir:value "Jacob Hartwell" ];
+     fhir:HumanName.family [ fhir:value "Hartwell" ];
+     fhir:HumanName.given [
+       fhir:value "Jacob";
+       fhir:index 0
+     ]
+  ];
+  fhir:Practitioner.telecom [
+     fhir:index 0;
+     fhir:ContactPoint.system [ fhir:value "phone" ];
+     fhir:ContactPoint.value [ fhir:value "(210) 555 1889" ]
+  ];
+  fhir:Practitioner.address [
+     fhir:index 0;
+     fhir:Address.text [ fhir:value "8810 Old Sky Harbor, San Antonio, TX 78242" ]
+  ];
+  fhir:Practitioner.gender [ fhir:value "male"] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-JacobHartwell.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/pacio-rat/Practitioner/Practitioner-JacobHartwell.ttl> .
+
+# -------------------------------------------------------------------------------------
+

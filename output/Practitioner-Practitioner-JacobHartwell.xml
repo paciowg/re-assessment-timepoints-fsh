@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="Practitioner-JacobHartwell"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 4567123789</p><p><b>active</b>: true</p><p><b>name</b>: Jacob Hartwell</p><p><b>telecom</b>: ph: (210) 555 1889</p><p><b>address</b>: 8810 Old Sky Harbor, San Antonio, TX 78242</p><p><b>gender</b>: male</p></div>
+  </text>
+  <identifier>
+    <system value="http://hl7.org/fhir/sid/us-npi"/>
+    <value value="4567123789"/>
+  </identifier>
+  <active value="true"/>
+  <name>
+    <text value="Jacob Hartwell"/>
+    <family value="Hartwell"/>
+    <given value="Jacob"/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="(210) 555 1889"/>
+  </telecom>
+  <address>
+    <text value="8810 Old Sky Harbor, San Antonio, TX 78242"/>
+  </address>
+  <gender value="male"/>
+</Practitioner>

@@ -11,7 +11,7 @@
   <name value="PACIOReAssessmentTimepoints"/>
   <title value="PACIO Re-Assessment Timepoints Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-06-24T10:57:23-07:00"/>
+  <date value="2021-06-29T08:30:16-07:00"/>
   <publisher value="HL7 Community-Based Care and Privacy Working Group"/>
   <contact>
     <name value="HL7 Community-Based Care and Privacy Working Group"/>
@@ -306,6 +306,270 @@
       <name value="Timepoint Service Type Code System"/>
       <description value="Codes describing various service types of clinical assessment or instrument that a timepoint is centered on."/>
       <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/BSJ-Diagnosis1"/>
+      </reference>
+      <name value="BSJ-Diagnosis1"/>
+      <description value="An instance of USCoreCondition"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/BSJ-Diagnosis2"/>
+      </reference>
+      <name value="BSJ-Diagnosis2"/>
+      <description value="An instance of USCoreCondition"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/Encounter-1-SNF-Stay"/>
+      </reference>
+      <name value="Encounter-1-SNF-Stay"/>
+      <description value="An instance of USCoreEncounterProfile"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/Encounter-2-HHA-Stay"/>
+      </reference>
+      <name value="Encounter-2-HHA-Stay"/>
+      <description value="An instance of USCoreEncounterProfile"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/MDS-Re-assessment-Timepoint-1"/>
+      </reference>
+      <name value="MDS-Re-assessment-Timepoint-1"/>
+      <description value="An instance of ReassessmentTimepointsEncounter"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/MDS-Re-assessment-Timepoint-2"/>
+      </reference>
+      <name value="MDS-Re-assessment-Timepoint-2"/>
+      <description value="An instance of ReassessmentTimepointsEncounter"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/OASIS-Re-assessment-Timepoint-1"/>
+      </reference>
+      <name value="OASIS-Re-assessment-Timepoint-1"/>
+      <description value="An instance of ReassessmentTimepointsEncounter"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/OASIS-Re-assessment-Timepoint-2"/>
+      </reference>
+      <name value="OASIS-Re-assessment-Timepoint-2"/>
+      <description value="An instance of ReassessmentTimepointsEncounter"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/OASIS-Re-assessment-Timepoint-3"/>
+      </reference>
+      <name value="OASIS-Re-assessment-Timepoint-3"/>
+      <description value="An instance of ReassessmentTimepointsEncounter"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-DanielGranger"/>
+      </reference>
+      <name value="Practitioner-DanielGranger"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-JacobHartwell"/>
+      </reference>
+      <name value="Practitioner-JacobHartwell"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-JenCadbury"/>
+      </reference>
+      <name value="Practitioner-JenCadbury"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-JohnSmith"/>
+      </reference>
+      <name value="Practitioner-JohnSmith"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-LiaNguyen"/>
+      </reference>
+      <name value="Practitioner-LiaNguyen"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-LunaBaskins"/>
+      </reference>
+      <name value="Practitioner-LunaBaskins"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-NoraOlogist"/>
+      </reference>
+      <name value="Practitioner-NoraOlogist"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-ScottDumble"/>
+      </reference>
+      <name value="Practitioner-ScottDumble"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-SummerJohnson"/>
+      </reference>
+      <name value="Practitioner-SummerJohnson"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-TamaraRodriguez"/>
+      </reference>
+      <name value="Practitioner-TamaraRodriguez"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/Provider-Org-1"/>
+      </reference>
+      <name value="Provider-Org-1"/>
+      <description value="An instance of Organization"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/Provider-Org-2"/>
+      </reference>
+      <name value="Provider-Org-2"/>
+      <description value="An instance of Organization"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/Provider-Org-Loc-1"/>
+      </reference>
+      <name value="Provider-Org-Loc-1"/>
+      <description value="An instance of Location"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/Provider-Org-Loc-2"/>
+      </reference>
+      <name value="Provider-Org-Loc-2"/>
+      <description value="An instance of Location"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/patientBSJ1"/>
+      </reference>
+      <name value="patientBSJ1"/>
+      <description value="An instance of USCorePatientProfile"/>
+      <exampleBoolean value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

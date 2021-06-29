@@ -1,0 +1,48 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-DanielGranger> a fhir:Practitioner;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Practitioner-DanielGranger"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 1098326745</p><p><b>active</b>: true</p><p><b>name</b>: Daniel Granger</p><p><b>telecom</b>: ph: (210) 555 2071</p><p><b>address</b>: 8100 Pinebrook Dr, San Antonio, TX, 78230</p><p><b>gender</b>: male</p></div>"
+  ];
+  fhir:Practitioner.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "http://hl7.org/fhir/sid/us-npi" ];
+     fhir:Identifier.value [ fhir:value "1098326745" ]
+  ];
+  fhir:Practitioner.active [ fhir:value "true"^^xsd:boolean];
+  fhir:Practitioner.name [
+     fhir:index 0;
+     fhir:HumanName.text [ fhir:value "Daniel Granger" ];
+     fhir:HumanName.family [ fhir:value "Granger" ];
+     fhir:HumanName.given [
+       fhir:value "Daniel";
+       fhir:index 0
+     ]
+  ];
+  fhir:Practitioner.telecom [
+     fhir:index 0;
+     fhir:ContactPoint.system [ fhir:value "phone" ];
+     fhir:ContactPoint.value [ fhir:value "(210) 555 2071" ]
+  ];
+  fhir:Practitioner.address [
+     fhir:index 0;
+     fhir:Address.text [ fhir:value "8100 Pinebrook Dr, San Antonio, TX, 78230" ]
+  ];
+  fhir:Practitioner.gender [ fhir:value "male"] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-DanielGranger.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/pacio-rat/Practitioner/Practitioner-DanielGranger.ttl> .
+
+# -------------------------------------------------------------------------------------
+

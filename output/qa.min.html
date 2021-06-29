@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 0, errors = 1, warn = 3, info = 0 -->
+<!-- broken links = 0, errors = 12, warn = 4, info = 17 -->
 <head>
   <title>PACIOReAssessmentTimepoints : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -23,11 +23,11 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for PACIOReAssessmentTimepoints</h1>
- <p>Generated Thu Jun 24 10:58:19 PDT 2021, FHIR version 4.0.1 for hl7.fhir.us.pacio-rat#0.1.0 (canonical = <a href="http://hl7.org/fhir/us/pacio-rat">http://hl7.org/fhir/us/pacio-rat</a> (<a href="http://hl7.org/fhir/us/pacio-rat/history.html">history</a>)). See <a href="/mnt/c/users/calebwan/workspace/pacio-dev/github.com-repos/re-assessment-timepoints-fsh/output/qa.html">Full QA Report</a></p>
+ <p>Generated Tue Jun 29 08:31:11 PDT 2021, FHIR version 4.0.1 for hl7.fhir.us.pacio-rat#0.1.0 (canonical = <a href="http://hl7.org/fhir/us/pacio-rat">http://hl7.org/fhir/us/pacio-rat</a> (<a href="http://hl7.org/fhir/us/pacio-rat/history.html">history</a>)). See <a href="/mnt/c/users/calebwan/workspace/pacio-dev/github.com-repos/re-assessment-timepoints-fsh/output/qa.html">Full QA Report</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
- <tr><td>Publisher Version:</td><td><span style="background-color: #ffcccc">IG Publisher Version: v1.1.73, which is out of date. The current version is v1.1.75 <a href="https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar">Download Latest</a></span></td></tr>
+ <tr><td>Publisher Version:</td><td><span style="background-color: #ffcccc">IG Publisher Version: v1.1.73, which is out of date. The current version is v1.1.76 <a href="https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar">Download Latest</a></span></td></tr>
  <tr><td>Publication Code:</td><td>pacio-rat<span style="color: maroon; font-weight: bold"> </span>. PackageId = hl7.fhir.us.pacio-rat, Canonical = http://hl7.org/fhir/us/pacio-rat</td></tr>
- <tr><td>Realm Check for US:</td><td><span style="color: maroon; font-weight: bold"></span><p>Snomed: The IG doesn't use SNOMED CT</p><p>Profiles: All OK</p></td></tr>
+ <tr><td>Realm Check for US:</td><td><span style="color: maroon; font-weight: bold"></span><p>Snomed: <span style="background-color: #ffcccc">The IG does not specify the US edition of SNOMED CT version in the parameters (<code>http://snomed.info/sct/731000124108</code>)</span></p><p>Profiles: All OK</p></td></tr>
  <tr><td>Version Check:</td><td>0.1.0: <span stlye="color: marron; font-weight: bold">No entry in the package-list.json file for this version</span></td></tr>
  <tr><td>Supressed Messages:</td><td><a href="#suppressed">1 Suppressed Issue</a>
 </td></tr>
@@ -41,7 +41,7 @@
  <br/><br/>The copyrightYear parameter ('2021+') in the IG resource is good</td></tr>
  <tr><td>HTA Analysis:</td><td><i>no Non-HL7 references found</i></td></tr>
  <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://hl7.org/fhir/us/pacio-rat (Problem #1 with package-list.json at http://hl7.org/fhir/us/pacio-rat: http://hl7.org/fhir/us/pacio-rat/package-list.json)</td></tr>
- <tr><td>Summary:</td><td> broken links = 0, errors = 1, warn = 3, info = 0</td></tr>
+ <tr><td>Summary:</td><td> broken links = 0, errors = 12, warn = 4, info = 17</td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -51,10 +51,31 @@
      <td><a href="#internal"><b>Build Errors</b></a></td><td><b>1</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_mnt_c_Users_calebwan_workspace_PACIO-dev_github.com-repos_re-assessment-timepoints-fsh_fsh-generated_resources_StructureDefinition-clinicalImpression"><b>/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/StructureDefinition-clinicalImpression</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>1</b></td>
+     <td><a href="#_mnt_c_Users_calebwan_workspace_PACIO-dev_github.com-repos_re-assessment-timepoints-fsh_fsh-generated_resources_Condition-BSJ-Diagnosis1"><b>/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Condition-BSJ-Diagnosis1</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>3</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_mnt_c_Users_calebwan_workspace_PACIO-dev_github.com-repos_re-assessment-timepoints-fsh_fsh-generated_resources_StructureDefinition-prat-encounter"><b>/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/StructureDefinition-prat-encounter</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+     <td><a href="#_mnt_c_Users_calebwan_workspace_PACIO-dev_github.com-repos_re-assessment-timepoints-fsh_fsh-generated_resources_Condition-BSJ-Diagnosis2"><b>/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Condition-BSJ-Diagnosis2</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>3</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_mnt_c_Users_calebwan_workspace_PACIO-dev_github.com-repos_re-assessment-timepoints-fsh_fsh-generated_resources_Encounter-MDS-Re-assessment-Timepoint-1"><b>/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-MDS-Re-assessment-Timepoint-1</b></a></td><td><b>1</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_mnt_c_Users_calebwan_workspace_PACIO-dev_github.com-repos_re-assessment-timepoints-fsh_fsh-generated_resources_Encounter-MDS-Re-assessment-Timepoint-2"><b>/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-MDS-Re-assessment-Timepoint-2</b></a></td><td><b>1</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_mnt_c_Users_calebwan_workspace_PACIO-dev_github.com-repos_re-assessment-timepoints-fsh_fsh-generated_resources_Encounter-OASIS-Re-assessment-Timepoint-1"><b>/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-1</b></a></td><td><b>2</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_mnt_c_Users_calebwan_workspace_PACIO-dev_github.com-repos_re-assessment-timepoints-fsh_fsh-generated_resources_Encounter-OASIS-Re-assessment-Timepoint-2"><b>/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-2</b></a></td><td><b>2</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_mnt_c_Users_calebwan_workspace_PACIO-dev_github.com-repos_re-assessment-timepoints-fsh_fsh-generated_resources_Encounter-OASIS-Re-assessment-Timepoint-3"><b>/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-3</b></a></td><td><b>2</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_mnt_c_Users_calebwan_workspace_PACIO-dev_github.com-repos_re-assessment-timepoints-fsh_fsh-generated_resources_Patient-patientBSJ1"><b>/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Patient-patientBSJ1</b></a></td><td><b>3</b></td><td><b>0</b></td><td><b>3</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_mnt_c_Users_calebwan_workspace_PACIO-dev_github.com-repos_re-assessment-timepoints-fsh_fsh-generated_resources_StructureDefinition-clinicalImpression"><b>/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/StructureDefinition-clinicalImpression</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>2</b></td>
    </tr>
 </table>
 <hr/>
@@ -63,6 +84,151 @@
  <table class="grid">
    <tr style="background-color: #ffcccc">
      <td><b></b></td><td><b>error</b></td><td title=""><b>There is no jira specification file defined with the expected name of FHIR-us-pacio-rat in the xml folder of the  https://github.com/HL7/Jira-Spec-Artifacts project.  This must exist before ballot or publication.</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_mnt_c_Users_calebwan_workspace_PACIO-dev_github.com-repos_re-assessment-timepoints-fsh_fsh-generated_resources_Condition-BSJ-Diagnosis1"> </a>
+<h2><a href="Condition-BSJ-Diagnosis1.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Condition-BSJ-Diagnosis1.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Condition/BSJ-Diagnosis1: Condition (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Condition/BSJ-Diagnosis1: Condition.code.text (l47/c4)</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Condition/BSJ-Diagnosis1: Condition (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST_META"><b>Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition - listed in meta</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Condition/BSJ-Diagnosis1: Condition.code (l39/c16)</b></td><td><b>information</b></td><td title="TERMINOLOGY_TX_NOSVC_BOUND_EXT"><b>Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/us/core/ValueSet/us-core-condition-code because there is no terminology service</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_mnt_c_Users_calebwan_workspace_PACIO-dev_github.com-repos_re-assessment-timepoints-fsh_fsh-generated_resources_Condition-BSJ-Diagnosis2"> </a>
+<h2><a href="Condition-BSJ-Diagnosis2.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Condition-BSJ-Diagnosis2.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Condition/BSJ-Diagnosis2: Condition (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Condition/BSJ-Diagnosis2: Condition.code.text (l47/c4)</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Condition/BSJ-Diagnosis2: Condition (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST_META"><b>Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition - listed in meta</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Condition/BSJ-Diagnosis2: Condition.code (l39/c16)</b></td><td><b>information</b></td><td title="TERMINOLOGY_TX_NOSVC_BOUND_EXT"><b>Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/us/core/ValueSet/us-core-condition-code because there is no terminology service</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_mnt_c_Users_calebwan_workspace_PACIO-dev_github.com-repos_re-assessment-timepoints-fsh_fsh-generated_resources_Encounter-MDS-Re-assessment-Timepoint-1"> </a>
+<h2><a href="Encounter-MDS-Re-assessment-Timepoint-1.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-MDS-Re-assessment-Timepoint-1.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Encounter/MDS-Re-assessment-Timepoint-1: Encounter (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Encounter/MDS-Re-assessment-Timepoint-1: Encounter.identifier[0].system (l11/c52)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/us/pacio-rat' does not resolve</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_mnt_c_Users_calebwan_workspace_PACIO-dev_github.com-repos_re-assessment-timepoints-fsh_fsh-generated_resources_Encounter-MDS-Re-assessment-Timepoint-2"> </a>
+<h2><a href="Encounter-MDS-Re-assessment-Timepoint-2.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-MDS-Re-assessment-Timepoint-2.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Encounter/MDS-Re-assessment-Timepoint-2: Encounter (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Encounter/MDS-Re-assessment-Timepoint-2: Encounter.identifier[0].system (l11/c52)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/us/pacio-rat' does not resolve</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_mnt_c_Users_calebwan_workspace_PACIO-dev_github.com-repos_re-assessment-timepoints-fsh_fsh-generated_resources_Encounter-OASIS-Re-assessment-Timepoint-1"> </a>
+<h2><a href="Encounter-OASIS-Re-assessment-Timepoint-1.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-1.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Encounter/OASIS-Re-assessment-Timepoint-1: Encounter (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Encounter/OASIS-Re-assessment-Timepoint-1: Encounter.identifier[0].system (l11/c52)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/us/pacio-rat' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Encounter/OASIS-Re-assessment-Timepoint-1: Encounter.class (l17/c18)</b></td><td><b>error</b></td><td title="Terminology_PassThrough_TX_Message"><b>Unknown Code http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH in http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs for 'http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_mnt_c_Users_calebwan_workspace_PACIO-dev_github.com-repos_re-assessment-timepoints-fsh_fsh-generated_resources_Encounter-OASIS-Re-assessment-Timepoint-2"> </a>
+<h2><a href="Encounter-OASIS-Re-assessment-Timepoint-2.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-2.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Encounter/OASIS-Re-assessment-Timepoint-2: Encounter (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Encounter/OASIS-Re-assessment-Timepoint-2: Encounter.identifier[0].system (l11/c52)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/us/pacio-rat' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Encounter/OASIS-Re-assessment-Timepoint-2: Encounter.class (l17/c18)</b></td><td><b>error</b></td><td title="Terminology_PassThrough_TX_Message"><b>Unknown Code http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH in http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs for 'http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_mnt_c_Users_calebwan_workspace_PACIO-dev_github.com-repos_re-assessment-timepoints-fsh_fsh-generated_resources_Encounter-OASIS-Re-assessment-Timepoint-3"> </a>
+<h2><a href="Encounter-OASIS-Re-assessment-Timepoint-3.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-3.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Encounter/OASIS-Re-assessment-Timepoint-3: Encounter (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Encounter/OASIS-Re-assessment-Timepoint-3: Encounter.identifier[0].system (l11/c52)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/us/pacio-rat' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Encounter/OASIS-Re-assessment-Timepoint-3: Encounter.class (l17/c18)</b></td><td><b>error</b></td><td title="Terminology_PassThrough_TX_Message"><b>Unknown Code http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH in http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs for 'http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_mnt_c_Users_calebwan_workspace_PACIO-dev_github.com-repos_re-assessment-timepoints-fsh_fsh-generated_resources_Patient-patientBSJ1"> </a>
+<h2><a href="Patient-patientBSJ1.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Patient-patientBSJ1.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Patient/patientBSJ1: Patient (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Patient/patientBSJ1: Patient.identifier[0].system (l21/c55)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/sid/us-medicare' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Patient/patientBSJ1: Patient.contact[0].relationship[1].coding[0] (l76/c14)</b></td><td><b>error</b></td><td title="Terminology_TX_System_Unknown"><b>Unknown Code System 'http://hl7.org/fhir/v2/0131'</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Patient/patientBSJ1: Patient.contact[0].relationship[1].coding[0].system (l79/c14)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/v2/0131' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Patient/patientBSJ1: Patient.communication[0].language.coding[0] (l51/c12)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:ietf:bcp:47' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>Patient/patientBSJ1: Patient (l1/c2)</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST_META"><b>Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient - listed in meta</b></td>
    </tr>
 </table>
 <hr/>
@@ -78,22 +244,11 @@
    <tr style="background-color: #ffebcc">
      <td><b>StructureDefinition/clinicalImpression: StructureDefinition</b></td><td><b>warning</b></td><td title="sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed"><b>sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed</b></td>
    </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>StructureDefinition/clinicalImpression: StructureDefinition.jurisdiction[0].coding[0]</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated</b></td>
+   </tr>
    <tr style="background-color: #ffebcc">
      <td><b>StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-rat/StructureDefinition/clinicalImpression')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="_mnt_c_Users_calebwan_workspace_PACIO-dev_github.com-repos_re-assessment-timepoints-fsh_fsh-generated_resources_StructureDefinition-prat-encounter"> </a>
-<h2><a href="StructureDefinition-prat-encounter.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/StructureDefinition-prat-encounter.json</a></h2>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #d6feff">
-     <td><b>StructureDefinition/prat-encounter: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
    </tr>
 </table>
 <a name="suppressed"> </a>
@@ -103,5 +258,125 @@
 </ul>
 <p>No suppressed messsages</p><a name="sorted"> </a>
 <p><b>Errors sorted by type</b></p>
+<hr/>
+<a name="TERMINOLOGY_TX_NOSVC_BOUND_EXT"> </a>
+<h2>TERMINOLOGY_TX_NOSVC_BOUND_EXT</h2>
+ <table class="grid">
+   <tr style="background-color: #fffff2">
+     <td><a href="Condition-BSJ-Diagnosis1.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Condition-BSJ-Diagnosis1.json</a></td><td><b>Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/us/core/ValueSet/us-core-condition-code because there is no terminology service</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Condition-BSJ-Diagnosis2.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Condition-BSJ-Diagnosis2.json</a></td><td><b>Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/us/core/ValueSet/us-core-condition-code because there is no terminology service</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Encounter-Encounter-1-SNF-Stay.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-Encounter-1-SNF-Stay.json</a></td><td><b>Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/us/core/ValueSet/us-core-encounter-type because there is no terminology service</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Encounter-Encounter-2-HHA-Stay.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-Encounter-2-HHA-Stay.json</a></td><td><b>Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/us/core/ValueSet/us-core-encounter-type because there is no terminology service</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Terminology_PassThrough_TX_Message"> </a>
+<h2>Terminology_PassThrough_TX_Message</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="Encounter-OASIS-Re-assessment-Timepoint-1.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-1.json</a></td><td><b>Unknown Code http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH in http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs for 'http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH'</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Encounter-OASIS-Re-assessment-Timepoint-2.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-2.json</a></td><td><b>Unknown Code http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH in http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs for 'http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH'</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Encounter-OASIS-Re-assessment-Timepoint-3.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-3.json</a></td><td><b>Unknown Code http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH in http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs for 'http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Terminology_TX_System_NotKnown"> </a>
+<h2>Terminology_TX_System_NotKnown</h2>
+ <table class="grid">
+   <tr style="background-color: #fffff2">
+     <td><a href="CodeSystem-prat-class-cs.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-class-cs.json</a></td><td><b>Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="CodeSystem-prat-entity-cs.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-entity-cs.json</a></td><td><b>Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="CodeSystem-prat-service-type-cs.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-service-type-cs.json</a></td><td><b>Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="ImplementationGuide-hl7.fhir.us.pacio-rat.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.pacio-rat.json</a></td><td><b>Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Patient-patientBSJ1.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Patient-patientBSJ1.json</a></td><td><b>Code System URI 'urn:ietf:bcp:47' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="StructureDefinition-clinicalImpression.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/StructureDefinition-clinicalImpression.json</a></td><td><b>Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="StructureDefinition-prat-encounter.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/StructureDefinition-prat-encounter.json</a></td><td><b>Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="ValueSet-prat-class-vs.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-class-vs.json</a></td><td><b>Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="ValueSet-prat-entity-type-vs.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-entity-type-vs.json</a></td><td><b>Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="ValueSet-prat-service-type-vs.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-service-type-vs.json</a></td><td><b>Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="ValueSet-prat-status-vs.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-status-vs.json</a></td><td><b>Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="CapabilityStatement-prat.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/input/resources/capabilitystatement-prat.json</a></td><td><b>Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="SearchParameter-encounter-based-on.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/input/resources/searchparameter-encounter-basedon.json</a></td><td><b>Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Terminology_TX_System_Unknown"> </a>
+<h2>Terminology_TX_System_Unknown</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="Patient-patientBSJ1.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Patient-patientBSJ1.json</a></td><td><b>Unknown Code System 'http://hl7.org/fhir/v2/0131'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Type_Specific_Checks_DT_String_WS"> </a>
+<h2>Type_Specific_Checks_DT_String_WS</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="Condition-BSJ-Diagnosis1.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Condition-BSJ-Diagnosis1.json</a></td><td><b>value should not start or finish with whitespace</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Condition-BSJ-Diagnosis2.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Condition-BSJ-Diagnosis2.json</a></td><td><b>value should not start or finish with whitespace</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Type_Specific_Checks_DT_URL_Resolve"> </a>
+<h2>Type_Specific_Checks_DT_URL_Resolve</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="Encounter-MDS-Re-assessment-Timepoint-1.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-MDS-Re-assessment-Timepoint-1.json</a></td><td><b>URL value 'http://hl7.org/fhir/us/pacio-rat' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Encounter-MDS-Re-assessment-Timepoint-2.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-MDS-Re-assessment-Timepoint-2.json</a></td><td><b>URL value 'http://hl7.org/fhir/us/pacio-rat' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Encounter-OASIS-Re-assessment-Timepoint-1.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-1.json</a></td><td><b>URL value 'http://hl7.org/fhir/us/pacio-rat' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Encounter-OASIS-Re-assessment-Timepoint-2.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-2.json</a></td><td><b>URL value 'http://hl7.org/fhir/us/pacio-rat' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Encounter-OASIS-Re-assessment-Timepoint-3.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-3.json</a></td><td><b>URL value 'http://hl7.org/fhir/us/pacio-rat' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Patient-patientBSJ1.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Patient-patientBSJ1.json</a></td><td><b>URL value 'http://hl7.org/fhir/sid/us-medicare' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Patient-patientBSJ1.html">/mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Patient-patientBSJ1.json</a></td><td><b>URL value 'http://hl7.org/fhir/v2/0131' does not resolve</b></td>
+   </tr>
+</table>
 </body>
 </html>

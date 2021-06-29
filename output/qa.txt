@@ -1,50 +1,156 @@
 ﻿PACIOReAssessmentTimepoints : Validation Results
 =========================================
 
-err = 1, warn = 3, info = 0
-IG Publisher Version: 1.1.73 Out of date - current version is 1.1.75
-Generated Thu Jun 24 10:58:19 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-rat#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-rat)
+err = 12, warn = 4, info = 17
+IG Publisher Version: 1.1.73 Out of date - current version is 1.1.76
+Generated Tue Jun 29 08:31:11 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-rat#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-rat)
 
  Build Errors : 1 / 0 / 0
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-class-cs : 0 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-entity-cs : 0 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-service-type-cs : 0 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.pacio-rat : 0 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/StructureDefinition-clinicalImpression : 0 / 2 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/StructureDefinition-prat-encounter : 0 / 1 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-class-vs : 0 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-entity-type-vs : 0 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-service-type-vs : 0 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-status-vs : 0 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/input/resources/capabilitystatement-prat : 0 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/input/resources/searchparameter-encounter-basedon : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-class-cs : 0 / 0 / 2
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-entity-cs : 0 / 0 / 2
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-service-type-cs : 0 / 0 / 2
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Condition-BSJ-Diagnosis1 : 0 / 1 / 3
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Condition-BSJ-Diagnosis2 : 0 / 1 / 3
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-Encounter-1-SNF-Stay : 0 / 0 / 3
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-Encounter-2-HHA-Stay : 0 / 0 / 3
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-MDS-Re-assessment-Timepoint-1 : 1 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-MDS-Re-assessment-Timepoint-2 : 1 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-1 : 2 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-2 : 2 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-3 : 2 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.pacio-rat : 0 / 0 / 2
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Location-Provider-Org-Loc-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Location-Provider-Org-Loc-2 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Organization-Provider-Org-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Organization-Provider-Org-2 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Patient-patientBSJ1 : 3 / 0 / 3
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-DanielGranger : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-JacobHartwell : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-JenCadbury : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-JohnSmith : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-LiaNguyen : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-LunaBaskins : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-NoraOlogist : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-ScottDumble : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-SummerJohnson : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-TamaraRodriguez : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/StructureDefinition-clinicalImpression : 0 / 2 / 2
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/StructureDefinition-prat-encounter : 0 / 0 / 2
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-class-vs : 0 / 0 / 2
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-entity-type-vs : 0 / 0 / 2
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-service-type-vs : 0 / 0 / 2
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-status-vs : 0 / 0 / 2
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/input/resources/capabilitystatement-prat : 0 / 0 / 2
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/input/resources/searchparameter-encounter-basedon : 0 / 0 / 2
 </table>
 == n/a ==
 ERROR: There is no jira specification file defined with the expected name of FHIR-us-pacio-rat in the xml folder of the  https://github.com/HL7/Jira-Spec-Artifacts project.  This must exist before ballot or publication.
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-class-cs.json ==
 INFORMATION: CodeSystem/prat-class-cs: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
+INFORMATION: CodeSystem/prat-class-cs: CodeSystem.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-entity-cs.json ==
 INFORMATION: CodeSystem/prat-entity-cs: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
+INFORMATION: CodeSystem/prat-entity-cs: CodeSystem.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-service-type-cs.json ==
 INFORMATION: CodeSystem/prat-service-type-cs: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
+INFORMATION: CodeSystem/prat-service-type-cs: CodeSystem.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Condition-BSJ-Diagnosis1.json ==
+INFORMATION: Condition/BSJ-Diagnosis1: Condition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition
+WARNING: Condition/BSJ-Diagnosis1: Condition.code.text: value should not start or finish with whitespace
+INFORMATION: Condition/BSJ-Diagnosis1: Condition: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition - listed in meta
+INFORMATION: Condition/BSJ-Diagnosis1: Condition.code: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/us/core/ValueSet/us-core-condition-code because there is no terminology service
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Condition-BSJ-Diagnosis2.json ==
+INFORMATION: Condition/BSJ-Diagnosis2: Condition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition
+WARNING: Condition/BSJ-Diagnosis2: Condition.code.text: value should not start or finish with whitespace
+INFORMATION: Condition/BSJ-Diagnosis2: Condition: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition - listed in meta
+INFORMATION: Condition/BSJ-Diagnosis2: Condition.code: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/us/core/ValueSet/us-core-condition-code because there is no terminology service
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-Encounter-1-SNF-Stay.json ==
+INFORMATION: Encounter/Encounter-1-SNF-Stay: Encounter: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Encounter
+INFORMATION: Encounter/Encounter-1-SNF-Stay: Encounter: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter - listed in meta
+INFORMATION: Encounter/Encounter-1-SNF-Stay: Encounter.type[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/us/core/ValueSet/us-core-encounter-type because there is no terminology service
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-Encounter-2-HHA-Stay.json ==
+INFORMATION: Encounter/Encounter-2-HHA-Stay: Encounter: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Encounter
+INFORMATION: Encounter/Encounter-2-HHA-Stay: Encounter: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter - listed in meta
+INFORMATION: Encounter/Encounter-2-HHA-Stay: Encounter.type[0]: Could not confirm that the codes provided are from the extensible value set http://hl7.org/fhir/us/core/ValueSet/us-core-encounter-type because there is no terminology service
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-MDS-Re-assessment-Timepoint-1.json ==
+INFORMATION: Encounter/MDS-Re-assessment-Timepoint-1: Encounter: Validate resource against profile http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter
+ERROR: Encounter/MDS-Re-assessment-Timepoint-1: Encounter.identifier[0].system: URL value 'http://hl7.org/fhir/us/pacio-rat' does not resolve
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-MDS-Re-assessment-Timepoint-2.json ==
+INFORMATION: Encounter/MDS-Re-assessment-Timepoint-2: Encounter: Validate resource against profile http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter
+ERROR: Encounter/MDS-Re-assessment-Timepoint-2: Encounter.identifier[0].system: URL value 'http://hl7.org/fhir/us/pacio-rat' does not resolve
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-1.json ==
+INFORMATION: Encounter/OASIS-Re-assessment-Timepoint-1: Encounter: Validate resource against profile http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter
+ERROR: Encounter/OASIS-Re-assessment-Timepoint-1: Encounter.identifier[0].system: URL value 'http://hl7.org/fhir/us/pacio-rat' does not resolve
+ERROR: Encounter/OASIS-Re-assessment-Timepoint-1: Encounter.class: Unknown Code http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH in http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs for 'http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-2.json ==
+INFORMATION: Encounter/OASIS-Re-assessment-Timepoint-2: Encounter: Validate resource against profile http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter
+ERROR: Encounter/OASIS-Re-assessment-Timepoint-2: Encounter.identifier[0].system: URL value 'http://hl7.org/fhir/us/pacio-rat' does not resolve
+ERROR: Encounter/OASIS-Re-assessment-Timepoint-2: Encounter.class: Unknown Code http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH in http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs for 'http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-3.json ==
+INFORMATION: Encounter/OASIS-Re-assessment-Timepoint-3: Encounter: Validate resource against profile http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter
+ERROR: Encounter/OASIS-Re-assessment-Timepoint-3: Encounter.identifier[0].system: URL value 'http://hl7.org/fhir/us/pacio-rat' does not resolve
+ERROR: Encounter/OASIS-Re-assessment-Timepoint-3: Encounter.class: Unknown Code http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH in http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs for 'http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH'
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.pacio-rat.json ==
 INFORMATION: ImplementationGuide/hl7.fhir.us.pacio-rat: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
+INFORMATION: ImplementationGuide/hl7.fhir.us.pacio-rat: ImplementationGuide.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Location-Provider-Org-Loc-1.json ==
+INFORMATION: Location/Provider-Org-Loc-1: Location: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Location
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Location-Provider-Org-Loc-2.json ==
+INFORMATION: Location/Provider-Org-Loc-2: Location: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Location
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Organization-Provider-Org-1.json ==
+INFORMATION: Organization/Provider-Org-1: Organization: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Organization-Provider-Org-2.json ==
+INFORMATION: Organization/Provider-Org-2: Organization: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Patient-patientBSJ1.json ==
+INFORMATION: Patient/patientBSJ1: Patient: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient
+ERROR: Patient/patientBSJ1: Patient.identifier[0].system: URL value 'http://hl7.org/fhir/sid/us-medicare' does not resolve
+ERROR: Patient/patientBSJ1: Patient.contact[0].relationship[1].coding[0]: Unknown Code System 'http://hl7.org/fhir/v2/0131'
+ERROR: Patient/patientBSJ1: Patient.contact[0].relationship[1].coding[0].system: URL value 'http://hl7.org/fhir/v2/0131' does not resolve
+INFORMATION: Patient/patientBSJ1: Patient.communication[0].language.coding[0]: Code System URI 'urn:ietf:bcp:47' is unknown so the code cannot be validated
+INFORMATION: Patient/patientBSJ1: Patient: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient - listed in meta
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-DanielGranger.json ==
+INFORMATION: Practitioner/Practitioner-DanielGranger: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-JacobHartwell.json ==
+INFORMATION: Practitioner/Practitioner-JacobHartwell: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-JenCadbury.json ==
+INFORMATION: Practitioner/Practitioner-JenCadbury: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-JohnSmith.json ==
+INFORMATION: Practitioner/Practitioner-JohnSmith: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-LiaNguyen.json ==
+INFORMATION: Practitioner/Practitioner-LiaNguyen: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-LunaBaskins.json ==
+INFORMATION: Practitioner/Practitioner-LunaBaskins: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-NoraOlogist.json ==
+INFORMATION: Practitioner/Practitioner-NoraOlogist: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-ScottDumble.json ==
+INFORMATION: Practitioner/Practitioner-ScottDumble: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-SummerJohnson.json ==
+INFORMATION: Practitioner/Practitioner-SummerJohnson: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-TamaraRodriguez.json ==
+INFORMATION: Practitioner/Practitioner-TamaraRodriguez: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/StructureDefinition-clinicalImpression.json ==
 INFORMATION: StructureDefinition/clinicalImpression: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/clinicalImpression: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: StructureDefinition/clinicalImpression: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-rat/StructureDefinition/clinicalImpression'): The Implementation Guide contains no examples for this extension
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/StructureDefinition-prat-encounter.json ==
 INFORMATION: StructureDefinition/prat-encounter: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter'): The Implementation Guide contains no examples for this profile
+INFORMATION: StructureDefinition/prat-encounter: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-class-vs.json ==
 INFORMATION: ValueSet/prat-class-vs: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+INFORMATION: ValueSet/prat-class-vs: ValueSet.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-entity-type-vs.json ==
 INFORMATION: ValueSet/prat-entity-type-vs: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+INFORMATION: ValueSet/prat-entity-type-vs: ValueSet.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-service-type-vs.json ==
 INFORMATION: ValueSet/prat-service-type-vs: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+INFORMATION: ValueSet/prat-service-type-vs: ValueSet.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-status-vs.json ==
 INFORMATION: ValueSet/prat-status-vs: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+INFORMATION: ValueSet/prat-status-vs: ValueSet.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/input/resources/capabilitystatement-prat.json ==
 INFORMATION: CapabilityStatement/prat: CapabilityStatement: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CapabilityStatement
+INFORMATION: CapabilityStatement/prat: CapabilityStatement.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/input/resources/searchparameter-encounter-basedon.json ==
 INFORMATION: SearchParameter/encounter-based-on: SearchParameter: Validate resource against profile http://hl7.org/fhir/StructureDefinition/SearchParameter
+INFORMATION: SearchParameter/encounter-based-on: SearchParameter.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated

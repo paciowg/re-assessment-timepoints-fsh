@@ -10,7 +10,7 @@
   "name": "PACIOReAssessmentTimepoints",
   "title": "PACIO Re-Assessment Timepoints Implementation Guide",
   "status": "draft",
-  "date": "2021-06-24T10:57:23-07:00",
+  "date": "2021-06-29T08:30:16-07:00",
   "publisher": "HL7 Community-Based Care and Privacy Working Group",
   "contact": [
     {
@@ -453,6 +453,342 @@
         "name": "Timepoint Service Type Code System",
         "description": "Codes describing various service types of clinical assessment or instrument that a timepoint is centered on.",
         "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Condition"
+          }
+        ],
+        "reference": {
+          "reference": "Condition/BSJ-Diagnosis1"
+        },
+        "name": "BSJ-Diagnosis1",
+        "description": "An instance of USCoreCondition",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Condition"
+          }
+        ],
+        "reference": {
+          "reference": "Condition/BSJ-Diagnosis2"
+        },
+        "name": "BSJ-Diagnosis2",
+        "description": "An instance of USCoreCondition",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Encounter"
+          }
+        ],
+        "reference": {
+          "reference": "Encounter/Encounter-1-SNF-Stay"
+        },
+        "name": "Encounter-1-SNF-Stay",
+        "description": "An instance of USCoreEncounterProfile",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Encounter"
+          }
+        ],
+        "reference": {
+          "reference": "Encounter/Encounter-2-HHA-Stay"
+        },
+        "name": "Encounter-2-HHA-Stay",
+        "description": "An instance of USCoreEncounterProfile",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Encounter"
+          }
+        ],
+        "reference": {
+          "reference": "Encounter/MDS-Re-assessment-Timepoint-1"
+        },
+        "name": "MDS-Re-assessment-Timepoint-1",
+        "description": "An instance of ReassessmentTimepointsEncounter",
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Encounter"
+          }
+        ],
+        "reference": {
+          "reference": "Encounter/MDS-Re-assessment-Timepoint-2"
+        },
+        "name": "MDS-Re-assessment-Timepoint-2",
+        "description": "An instance of ReassessmentTimepointsEncounter",
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Encounter"
+          }
+        ],
+        "reference": {
+          "reference": "Encounter/OASIS-Re-assessment-Timepoint-1"
+        },
+        "name": "OASIS-Re-assessment-Timepoint-1",
+        "description": "An instance of ReassessmentTimepointsEncounter",
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Encounter"
+          }
+        ],
+        "reference": {
+          "reference": "Encounter/OASIS-Re-assessment-Timepoint-2"
+        },
+        "name": "OASIS-Re-assessment-Timepoint-2",
+        "description": "An instance of ReassessmentTimepointsEncounter",
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Encounter"
+          }
+        ],
+        "reference": {
+          "reference": "Encounter/OASIS-Re-assessment-Timepoint-3"
+        },
+        "name": "OASIS-Re-assessment-Timepoint-3",
+        "description": "An instance of ReassessmentTimepointsEncounter",
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Practitioner"
+          }
+        ],
+        "reference": {
+          "reference": "Practitioner/Practitioner-DanielGranger"
+        },
+        "name": "Practitioner-DanielGranger",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Practitioner"
+          }
+        ],
+        "reference": {
+          "reference": "Practitioner/Practitioner-JacobHartwell"
+        },
+        "name": "Practitioner-JacobHartwell",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Practitioner"
+          }
+        ],
+        "reference": {
+          "reference": "Practitioner/Practitioner-JenCadbury"
+        },
+        "name": "Practitioner-JenCadbury",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Practitioner"
+          }
+        ],
+        "reference": {
+          "reference": "Practitioner/Practitioner-JohnSmith"
+        },
+        "name": "Practitioner-JohnSmith",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Practitioner"
+          }
+        ],
+        "reference": {
+          "reference": "Practitioner/Practitioner-LiaNguyen"
+        },
+        "name": "Practitioner-LiaNguyen",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Practitioner"
+          }
+        ],
+        "reference": {
+          "reference": "Practitioner/Practitioner-LunaBaskins"
+        },
+        "name": "Practitioner-LunaBaskins",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Practitioner"
+          }
+        ],
+        "reference": {
+          "reference": "Practitioner/Practitioner-NoraOlogist"
+        },
+        "name": "Practitioner-NoraOlogist",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Practitioner"
+          }
+        ],
+        "reference": {
+          "reference": "Practitioner/Practitioner-ScottDumble"
+        },
+        "name": "Practitioner-ScottDumble",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Practitioner"
+          }
+        ],
+        "reference": {
+          "reference": "Practitioner/Practitioner-SummerJohnson"
+        },
+        "name": "Practitioner-SummerJohnson",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Practitioner"
+          }
+        ],
+        "reference": {
+          "reference": "Practitioner/Practitioner-TamaraRodriguez"
+        },
+        "name": "Practitioner-TamaraRodriguez",
+        "description": "An instance of Practitioner",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/Provider-Org-1"
+        },
+        "name": "Provider-Org-1",
+        "description": "An instance of Organization",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/Provider-Org-2"
+        },
+        "name": "Provider-Org-2",
+        "description": "An instance of Organization",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/Provider-Org-Loc-1"
+        },
+        "name": "Provider-Org-Loc-1",
+        "description": "An instance of Location",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/Provider-Org-Loc-2"
+        },
+        "name": "Provider-Org-Loc-2",
+        "description": "An instance of Location",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/patientBSJ1"
+        },
+        "name": "patientBSJ1",
+        "description": "An instance of USCorePatientProfile",
+        "exampleBoolean": true
       },
       {
         "extension": [

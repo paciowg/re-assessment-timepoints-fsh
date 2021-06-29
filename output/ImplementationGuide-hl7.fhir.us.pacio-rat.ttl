@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "PACIOReAssessmentTimepoints"];
   fhir:ImplementationGuide.title [ fhir:value "PACIO Re-Assessment Timepoints Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-06-24T10:57:23-07:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-06-29T08:30:16-07:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Community-Based Care and Privacy Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -442,6 +442,357 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Condition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Condition/BSJ-Diagnosis1>;
+         fhir:Reference.reference [ fhir:value "Condition/BSJ-Diagnosis1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-Diagnosis1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of USCoreCondition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Condition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Condition/BSJ-Diagnosis2>;
+         fhir:Reference.reference [ fhir:value "Condition/BSJ-Diagnosis2" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "BSJ-Diagnosis2" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of USCoreCondition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Encounter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Encounter/Encounter-1-SNF-Stay>;
+         fhir:Reference.reference [ fhir:value "Encounter/Encounter-1-SNF-Stay" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Encounter-1-SNF-Stay" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of USCoreEncounterProfile" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Encounter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Encounter/Encounter-2-HHA-Stay>;
+         fhir:Reference.reference [ fhir:value "Encounter/Encounter-2-HHA-Stay" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Encounter-2-HHA-Stay" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of USCoreEncounterProfile" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 13;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Encounter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Encounter/MDS-Re-assessment-Timepoint-1>;
+         fhir:Reference.reference [ fhir:value "Encounter/MDS-Re-assessment-Timepoint-1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "MDS-Re-assessment-Timepoint-1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of ReassessmentTimepointsEncounter" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter";
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter>
+       ]
+     ], [
+       fhir:index 14;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Encounter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Encounter/MDS-Re-assessment-Timepoint-2>;
+         fhir:Reference.reference [ fhir:value "Encounter/MDS-Re-assessment-Timepoint-2" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "MDS-Re-assessment-Timepoint-2" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of ReassessmentTimepointsEncounter" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter";
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter>
+       ]
+     ], [
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Encounter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Encounter/OASIS-Re-assessment-Timepoint-1>;
+         fhir:Reference.reference [ fhir:value "Encounter/OASIS-Re-assessment-Timepoint-1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "OASIS-Re-assessment-Timepoint-1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of ReassessmentTimepointsEncounter" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter";
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter>
+       ]
+     ], [
+       fhir:index 16;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Encounter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Encounter/OASIS-Re-assessment-Timepoint-2>;
+         fhir:Reference.reference [ fhir:value "Encounter/OASIS-Re-assessment-Timepoint-2" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "OASIS-Re-assessment-Timepoint-2" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of ReassessmentTimepointsEncounter" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter";
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter>
+       ]
+     ], [
+       fhir:index 17;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Encounter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Encounter/OASIS-Re-assessment-Timepoint-3>;
+         fhir:Reference.reference [ fhir:value "Encounter/OASIS-Re-assessment-Timepoint-3" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "OASIS-Re-assessment-Timepoint-3" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of ReassessmentTimepointsEncounter" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter";
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter>
+       ]
+     ], [
+       fhir:index 18;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Practitioner" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-DanielGranger>;
+         fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-DanielGranger" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Practitioner-DanielGranger" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 19;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Practitioner" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-JacobHartwell>;
+         fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-JacobHartwell" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Practitioner-JacobHartwell" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 20;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Practitioner" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-JenCadbury>;
+         fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-JenCadbury" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Practitioner-JenCadbury" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 21;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Practitioner" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-JohnSmith>;
+         fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-JohnSmith" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Practitioner-JohnSmith" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 22;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Practitioner" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-LiaNguyen>;
+         fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-LiaNguyen" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Practitioner-LiaNguyen" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 23;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Practitioner" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-LunaBaskins>;
+         fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-LunaBaskins" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Practitioner-LunaBaskins" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 24;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Practitioner" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-NoraOlogist>;
+         fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-NoraOlogist" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Practitioner-NoraOlogist" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 25;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Practitioner" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-ScottDumble>;
+         fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-ScottDumble" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Practitioner-ScottDumble" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 26;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Practitioner" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-SummerJohnson>;
+         fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-SummerJohnson" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Practitioner-SummerJohnson" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 27;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Practitioner" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-TamaraRodriguez>;
+         fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-TamaraRodriguez" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Practitioner-TamaraRodriguez" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 28;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Organization/Provider-Org-1>;
+         fhir:Reference.reference [ fhir:value "Organization/Provider-Org-1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Provider-Org-1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Organization" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 29;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Organization/Provider-Org-2>;
+         fhir:Reference.reference [ fhir:value "Organization/Provider-Org-2" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Provider-Org-2" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Organization" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 30;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Location" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Location/Provider-Org-Loc-1>;
+         fhir:Reference.reference [ fhir:value "Location/Provider-Org-Loc-1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Provider-Org-Loc-1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Location" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 31;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Location" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Location/Provider-Org-Loc-2>;
+         fhir:Reference.reference [ fhir:value "Location/Provider-Org-Loc-2" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Provider-Org-Loc-2" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Location" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 32;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Patient/patientBSJ1>;
+         fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "patientBSJ1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of USCorePatientProfile" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 33;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "CapabilityStatement" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -452,7 +803,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "This PACIO Re-Assessment Timepoints implementation guide describes a means to break up extended Post-Acute admissions into consumable blocks that can reflect the evolution of care over time of the encounter or episode of care.\n\nPost-Acute Admissions extend over much longer periods of time than the encounters in the Acute and Ambulatory Care Settings, often going for several months or even years. Over the course of these time periods the patient condition and therefore the care being provided is changing - for example in Home Health the goal is rehabilitation so Care Plans, Medications, and Orders are all likely changing throughout an admission that could last several months. Already in existence within post-acute care settings are periods of time structured by a variety of stakeholders, some more rigid than others - regulatory and conditions of participation, payer and revenue cycle requirements, and provider specific processes and protocols. In settings like Home Health and SNF, there are defined Medicare assessment instruments that must be completed every X number of days (varies by care setting); the results of said assessment drive the Care Plan for the next X number of days; if a patient has a pain management Care Plan, and their pain scores are down then they may have their Opioid drug dosages reduced or eliminated. If the patient's ambulation is improving, then we may see interventions focused on more complex exercises. These periods of time, defined by many different drivers, have direct impact on how data is made available outside of an EMR; without a structure in place to hold this information a connecting application or patient would have no choice but to sift through months worth of information rather than focusing on a given period or periods most relevant to the need of the application, patient, or other entity." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 10;
+       fhir:index 34;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -562,6 +913,54 @@
 <http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Condition/BSJ-Diagnosis1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Condition/BSJ-Diagnosis2> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Encounter/Encounter-1-SNF-Stay> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Encounter/Encounter-2-HHA-Stay> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Encounter/MDS-Re-assessment-Timepoint-1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Encounter/MDS-Re-assessment-Timepoint-2> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Encounter/OASIS-Re-assessment-Timepoint-1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Encounter/OASIS-Re-assessment-Timepoint-2> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Encounter/OASIS-Re-assessment-Timepoint-3> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-DanielGranger> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-JacobHartwell> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-JenCadbury> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-JohnSmith> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-LiaNguyen> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-LunaBaskins> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-NoraOlogist> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-ScottDumble> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-SummerJohnson> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-TamaraRodriguez> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Organization/Provider-Org-1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Organization/Provider-Org-2> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Location/Provider-Org-Loc-1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Location/Provider-Org-Loc-2> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Patient/patientBSJ1> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-rat/CapabilityStatement/prat> a fhir:us .
 

@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "TimepointEntityTypeValueSet"];
   fhir:ValueSet.title [ fhir:value "Timepoint Entity Type Value Set"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-06-24T10:57:23-07:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-06-29T08:30:16-07:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "HL7 Community-Based Care and Privacy Working Group"];
   fhir:ValueSet.contact [
      fhir:index 0;

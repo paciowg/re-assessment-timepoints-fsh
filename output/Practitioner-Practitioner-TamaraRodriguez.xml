@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="Practitioner-TamaraRodriguez"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>name</b>: Tamara Rodriguez</p><p><b>telecom</b>: ph: (210) 555 2089</p><p><b>address</b>: 8810 Old Sky Harbor, San Antonio, TX 78242</p><p><b>gender</b>: female</p></div>
+  </text>
+  <active value="true"/>
+  <name>
+    <text value="Tamara Rodriguez"/>
+    <family value="Rodriguez"/>
+    <given value="Tamara"/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="(210) 555 2089"/>
+  </telecom>
+  <address>
+    <text value="8810 Old Sky Harbor, San Antonio, TX 78242"/>
+  </address>
+  <gender value="female"/>
+</Practitioner>

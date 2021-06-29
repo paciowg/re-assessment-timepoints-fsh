@@ -1,0 +1,139 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-rat/Patient/patientBSJ1> a fhir:Patient;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "patientBSJ1"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 10A3D58WH1600</p><p><b>active</b>: true</p><p><b>name</b>: Betsy Smith-Johnson</p><p><b>telecom</b>: ph: 210-222-1111(MOBILE)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1950-11-01</p><p><b>address</b>: 111 Maple Ct, San Antonio, TX 78212</p><p><b>maritalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}\">unmarried</span></p><blockquote><p><b>contact</b></p><p><b>relationship</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-RoleCode SONC}\">son</span>, <span title=\"Codes: {http://hl7.org/fhir/v2/0131 C}\">C</span>, <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-RoleCode GUARD}\">guardian</span></p><p><b>name</b>: Charles Johnson</p><p><b>telecom</b>: ph: (210) 222-3333</p><p><b>address</b>: 100 Montana St., San Antonio, TX 78203</p></blockquote><blockquote><p><b>contact</b></p><p><b>relationship</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-RoleCode DAUC}\">daughter</span></p><p><b>name</b>: Debra Johnson</p><p><b>telecom</b>: ph: (410) 444-5555</p><p><b>address</b>: 333 W. Camden St., Baltimore, MD 21201</p></blockquote><h3>Communications</h3><table class=\"grid\"><tr><td>-</td><td><b>Language</b></td><td><b>Preferred</b></td></tr><tr><td>*</td><td><span title=\"Codes: {urn:ietf:bcp:47 en}\">English</span></td><td>true</td></tr></table><p><b>generalPractitioner</b>: <a href=\"Practitioner-Practitioner-JohnSmith.html\">Generated Summary: id: 4278275001; active; John Smith; Phone: (210) 564 1389; gender: male</a></p></div>"
+  ];
+  fhir:Patient.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "http://hl7.org/fhir/sid/us-medicare" ];
+     fhir:Identifier.value [ fhir:value "10A3D58WH1600" ]
+  ];
+  fhir:Patient.active [ fhir:value "true"^^xsd:boolean];
+  fhir:Patient.name [
+     fhir:index 0;
+     fhir:HumanName.text [ fhir:value "Betsy Smith-Johnson" ];
+     fhir:HumanName.family [ fhir:value "Smith-Johnson" ];
+     fhir:HumanName.given [
+       fhir:value "Betsy";
+       fhir:index 0
+     ]
+  ];
+  fhir:Patient.telecom [
+     fhir:index 0;
+     fhir:ContactPoint.system [ fhir:value "phone" ];
+     fhir:ContactPoint.value [ fhir:value "210-222-1111" ];
+     fhir:ContactPoint.use [ fhir:value "mobile" ]
+  ];
+  fhir:Patient.gender [ fhir:value "female"];
+  fhir:Patient.birthDate [ fhir:value "1950-11-01"^^xsd:date];
+  fhir:Patient.address [
+     fhir:index 0;
+     fhir:Address.text [ fhir:value "111 Maple Ct, San Antonio, TX 78212" ]
+  ];
+  fhir:Patient.maritalStatus [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus" ];
+       fhir:Coding.code [ fhir:value "U" ]
+     ]
+  ];
+  fhir:Patient.contact [
+     fhir:index 0;
+     fhir:Patient.contact.relationship [
+       fhir:index 0;
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-RoleCode" ];
+         fhir:Coding.code [ fhir:value "SONC" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://hl7.org/fhir/v2/0131" ];
+         fhir:Coding.code [ fhir:value "C" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-RoleCode" ];
+         fhir:Coding.code [ fhir:value "GUARD" ]
+       ]
+     ];
+     fhir:Patient.contact.name [
+       fhir:HumanName.text [ fhir:value "Charles Johnson" ]
+     ];
+     fhir:Patient.contact.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "phone" ];
+       fhir:ContactPoint.value [ fhir:value "(210) 222-3333" ]
+     ];
+     fhir:Patient.contact.address [
+       fhir:Address.text [ fhir:value "100 Montana St., San Antonio, TX 78203" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Patient.contact.relationship [
+       fhir:index 0;
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-RoleCode" ];
+         fhir:Coding.code [ fhir:value "DAUC" ]
+       ]
+     ];
+     fhir:Patient.contact.name [
+       fhir:HumanName.text [ fhir:value "Debra Johnson" ]
+     ];
+     fhir:Patient.contact.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "phone" ];
+       fhir:ContactPoint.value [ fhir:value "(410) 444-5555" ]
+     ];
+     fhir:Patient.contact.address [
+       fhir:Address.text [ fhir:value "333 W. Camden St., Baltimore, MD 21201" ]
+     ]
+  ];
+  fhir:Patient.communication [
+     fhir:index 0;
+     fhir:Patient.communication.language [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "urn:ietf:bcp:47" ];
+         fhir:Coding.code [ fhir:value "en" ]
+       ]
+     ];
+     fhir:Patient.communication.preferred [ fhir:value "true"^^xsd:boolean ]
+  ];
+  fhir:Patient.generalPractitioner [
+     fhir:index 0;
+     fhir:link <http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-JohnSmith>;
+     fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-JohnSmith" ]
+  ] .
+
+<http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-JohnSmith> a fhir:us .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-rat/Patient/patientBSJ1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/pacio-rat/Patient/patientBSJ1.ttl> .
+
+# -------------------------------------------------------------------------------------
+
