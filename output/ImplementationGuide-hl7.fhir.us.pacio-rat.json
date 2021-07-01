@@ -10,7 +10,7 @@
   "name": "PACIOReAssessmentTimepoints",
   "title": "PACIO Re-Assessment Timepoints Implementation Guide",
   "status": "draft",
-  "date": "2021-06-29T08:30:16-07:00",
+  "date": "2021-07-01T09:03:17-07:00",
   "publisher": "HL7 Community-Based Care and Privacy Working Group",
   "contact": [
     {
@@ -514,6 +514,34 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "EpisodeOfCare"
+          }
+        ],
+        "reference": {
+          "reference": "EpisodeOfCare/Episodecare-1-SNF-Stay"
+        },
+        "name": "Episodecare-1-SNF-Stay",
+        "description": "An instance of EpisodeOfCare",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "EpisodeOfCare"
+          }
+        ],
+        "reference": {
+          "reference": "EpisodeOfCare/Episodecare-2-HHA-Stay"
+        },
+        "name": "Episodecare-2-HHA-Stay",
+        "description": "An instance of EpisodeOfCare",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Encounter"
           }
         ],
@@ -780,6 +808,468 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-PF-MDS-5-Day-NC-1A"
+        },
+        "name": "SNF-PF-MDS-5-Day-NC-1A",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-PF-MDS-5-Day-NC-1A-Ob-Question-1"
+        },
+        "name": "SNF-PF-MDS-5-Day-NC-1A-Ob-Question-1",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-PF-MDS-5-Day-NC-1A-Ob-Question-2"
+        },
+        "name": "SNF-PF-MDS-5-Day-NC-1A-Ob-Question-2",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-PF-MDS-5-Day-NC-1A-Ob-Question-3"
+        },
+        "name": "SNF-PF-MDS-5-Day-NC-1A-Ob-Question-3",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-PF-MDS-5-Day-NC-1A-Ob-Question-4"
+        },
+        "name": "SNF-PF-MDS-5-Day-NC-1A-Ob-Question-4",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-SC-AP-MDS-5-Day-NC-1B"
+        },
+        "name": "SNF-SC-AP-MDS-5-Day-NC-1B",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-10"
+        },
+        "name": "SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-10",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-11"
+        },
+        "name": "SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-11",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-5"
+        },
+        "name": "SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-5",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-6"
+        },
+        "name": "SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-6",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-7"
+        },
+        "name": "SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-7",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-8"
+        },
+        "name": "SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-8",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-9"
+        },
+        "name": "SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-9",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-SC-DG-MDS-5-Day-NC-1C"
+        },
+        "name": "SNF-SC-DG-MDS-5-Day-NC-1C",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-12"
+        },
+        "name": "SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-12",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-13"
+        },
+        "name": "SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-13",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-14"
+        },
+        "name": "SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-14",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-15"
+        },
+        "name": "SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-15",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-16"
+        },
+        "name": "SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-16",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-17"
+        },
+        "name": "SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-17",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-18"
+        },
+        "name": "SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-18",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-SC-DP-MDS-Discharge-ND-1E"
+        },
+        "name": "SNF-SC-DP-MDS-Discharge-ND-1E",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-19"
+        },
+        "name": "SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-19",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-20"
+        },
+        "name": "SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-20",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-21"
+        },
+        "name": "SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-21",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-22"
+        },
+        "name": "SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-22",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-23"
+        },
+        "name": "SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-23",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-24"
+        },
+        "name": "SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-24",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-25"
+        },
+        "name": "SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-25",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-SC-IP-MDS-IPA-1D"
+        },
+        "name": "SNF-SC-IP-MDS-IPA-1D",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-SC-IP-MDS-IPA-1D-Ob-Question-26"
+        },
+        "name": "SNF-SC-IP-MDS-IPA-1D-Ob-Question-26",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-SC-IP-MDS-IPA-1D-Ob-Question-27"
+        },
+        "name": "SNF-SC-IP-MDS-IPA-1D-Ob-Question-27",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Observation"
+          }
+        ],
+        "reference": {
+          "reference": "Observation/SNF-SC-IP-MDS-IPA-1D-Ob-Question-28"
+        },
+        "name": "SNF-SC-IP-MDS-IPA-1D-Ob-Question-28",
+        "description": "An instance of Observation",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Patient"
           }
         ],
@@ -788,6 +1278,146 @@
         },
         "name": "patientBSJ1",
         "description": "An instance of USCorePatientProfile",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PractitionerRole"
+          }
+        ],
+        "reference": {
+          "reference": "PractitionerRole/provider-role-neurologist-Practitioner-NoraOlogist"
+        },
+        "name": "provider-role-neurologist-Practitioner-NoraOlogist",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PractitionerRole"
+          }
+        ],
+        "reference": {
+          "reference": "PractitionerRole/provider-role-nurse-Practitioner-JacobHartwell"
+        },
+        "name": "provider-role-nurse-Practitioner-JacobHartwell",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PractitionerRole"
+          }
+        ],
+        "reference": {
+          "reference": "PractitionerRole/provider-role-nurse-Practitioner-LiaNguyen"
+        },
+        "name": "provider-role-nurse-Practitioner-LiaNguyen",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PractitionerRole"
+          }
+        ],
+        "reference": {
+          "reference": "PractitionerRole/provider-role-nurse-Practitioner-SummerJohnson"
+        },
+        "name": "provider-role-nurse-Practitioner-SummerJohnson",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PractitionerRole"
+          }
+        ],
+        "reference": {
+          "reference": "PractitionerRole/provider-role-nurse-Practitioner-TamaraRodriguez"
+        },
+        "name": "provider-role-nurse-Practitioner-TamaraRodriguez",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PractitionerRole"
+          }
+        ],
+        "reference": {
+          "reference": "PractitionerRole/provider-role-pcp-Practitioner-JohnSmith"
+        },
+        "name": "provider-role-pcp-Practitioner-JohnSmith",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PractitionerRole"
+          }
+        ],
+        "reference": {
+          "reference": "PractitionerRole/provider-role-physical-therapist-Practitioner-DanielGranger"
+        },
+        "name": "provider-role-physical-therapist-Practitioner-DanielGranger",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PractitionerRole"
+          }
+        ],
+        "reference": {
+          "reference": "PractitionerRole/provider-role-physical-therapist-Practitioner-JenCadbury"
+        },
+        "name": "provider-role-physical-therapist-Practitioner-JenCadbury",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PractitionerRole"
+          }
+        ],
+        "reference": {
+          "reference": "PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins"
+        },
+        "name": "provider-role-physical-therapist-Practitioner-LunaBaskins",
+        "description": "An instance of PractitionerRole",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PractitionerRole"
+          }
+        ],
+        "reference": {
+          "reference": "PractitionerRole/provider-role-physical-therapist-Practitioner-ScottDumble"
+        },
+        "name": "provider-role-physical-therapist-Practitioner-ScottDumble",
+        "description": "An instance of PractitionerRole",
         "exampleBoolean": true
       },
       {

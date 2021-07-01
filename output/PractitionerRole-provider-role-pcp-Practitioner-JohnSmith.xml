@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PractitionerRole xmlns="http://hl7.org/fhir">
+  <id value="provider-role-pcp-Practitioner-JohnSmith"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>practitioner</b>: <a href="Practitioner-Practitioner-JohnSmith.html">Generated Summary: id: 4278275001; active; John Smith; Phone: (210) 564 1389; gender: male</a></p><p><b>code</b>: <span title="Codes: {http://nucc.org/provider-taxonomy 261QP2300X}">Primary Care Clinic/Center</span></p><p><b>specialty</b>: <span title="Codes: {http://nucc.org/provider-taxonomy 363LP2300X}">Primary Care Clinic/Center</span></p></div>
+  </text>
+  <active value="true"/>
+  <practitioner>
+    <reference value="Practitioner/Practitioner-JohnSmith"/>
+  </practitioner>
+  <code>
+    <coding>
+      <system value="http://nucc.org/provider-taxonomy"/>
+      <code value="261QP2300X"/>
+      <display value="Primary Care Clinic/Center"/>
+    </coding>
+  </code>
+  <specialty>
+    <coding>
+      <system value="http://nucc.org/provider-taxonomy"/>
+      <code value="363LP2300X"/>
+      <display value="Primary Care Clinic/Center"/>
+    </coding>
+  </specialty>
+</PractitionerRole>

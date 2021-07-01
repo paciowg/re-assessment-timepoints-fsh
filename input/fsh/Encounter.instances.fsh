@@ -15,7 +15,7 @@ Description: "An instance of USCoreEncounterProfile"
 * class.display = "Inpatient encounter"
 * type.coding = SNMD#32485007 "Hospital admission (procedure)"
 * period.start = "2020-01-01T15:00:00-05:00"
-* period.end = "2020-01-13T10:30:00-05:00"
+* period.end = "2020-01-10T10:30:00-05:00"
 * diagnosis.condition[0] = Reference(BSJ-Diagnosis1)
 * diagnosis.use.coding[0] = DRL#AD "Admission diagnosis"
 * participant.individual = Reference(Practitioner-NoraOlogist)
@@ -30,7 +30,7 @@ Description: "An instance of USCoreEncounterProfile"
 * class.display = "Inpatient encounter"
 * type.coding = SNMD#32485007 "Hospital admission (procedure)"
 * period.start = "2020-02-10T15:00:00-05:00"
-* period.end = "2020-04-09T10:30:00-05:00"
+* period.end = "2020-06-29T10:30:00-05:00"
 * diagnosis.condition[0] = Reference(BSJ-Diagnosis2)
 * diagnosis.use.coding[0] = DRL#AD "Admission diagnosis"
 * participant.individual = Reference(Practitioner-NoraOlogist)

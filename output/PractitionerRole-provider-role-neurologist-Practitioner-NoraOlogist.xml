@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PractitionerRole xmlns="http://hl7.org/fhir">
+  <id value="provider-role-neurologist-Practitioner-NoraOlogist"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>practitioner</b>: <a href="Practitioner-Practitioner-NoraOlogist.html">Generated Summary: id: 3668788925; active; Nora Ologist; Phone: (210) 555 7632; gender: female</a></p><p><b>code</b>: <span title="Codes: {http://nucc.org/provider-taxonomy 2084N0400X}">Neurology</span></p><p><b>specialty</b>: <span title="Codes: {http://nucc.org/provider-taxonomy 2084N0400X}">Neurology</span></p></div>
+  </text>
+  <active value="true"/>
+  <practitioner>
+    <reference value="Practitioner/Practitioner-NoraOlogist"/>
+  </practitioner>
+  <code>
+    <coding>
+      <system value="http://nucc.org/provider-taxonomy"/>
+      <code value="2084N0400X"/>
+      <display value="Neurology"/>
+    </coding>
+  </code>
+  <specialty>
+    <coding>
+      <system value="http://nucc.org/provider-taxonomy"/>
+      <code value="2084N0400X"/>
+      <display value="Neurology"/>
+    </coding>
+  </specialty>
+</PractitionerRole>

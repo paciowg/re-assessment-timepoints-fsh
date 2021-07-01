@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="SNF-SC-IP-MDS-IPA-1D-Ob-Question-28"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Event Location</b>: <a href="Location-Provider-Org-Loc-1.html">Generated Summary: status: active; name: Happy Nursing Facility</a></p><p></p><p><b>code</b>: <span title="Codes: {http://loinc.org 95017-0}">Toileting hygiene - usual functional ability during assessment period [CMS Assessment]</span></p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: id: 10A3D58WH1600; active; Betsy Smith-Johnson; Phone: 210-222-1111; gender: female; birthDate: 1950-11-01; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}">unmarried</span></a></p><p><b>effective</b>: Jan 14, 2020, 1:00:00 PM</p><p><b>performer</b>: <a href="PractitionerRole-provider-role-physical-therapist-Practitioner-JenCadbury.html">Generated Summary: active; <span title="Codes: {http://nucc.org/provider-taxonomy 225100000X}">Physical Therapist</span>; <span title="Codes: {http://nucc.org/provider-taxonomy 225100000X}">Physical Therapist</span></a></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA11759-0}">Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort.</span></p></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/event-location">
+    <valueReference>
+      <reference value="Location/Provider-Org-Loc-1"/>
+    </valueReference>
+  </extension>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="95017-0"/>
+      <display value="Toileting hygiene - usual functional ability during assessment period [CMS Assessment]"/>
+    </coding>
+    <text value="Toileting hygiene - usual functional ability during assessment period [CMS Assessment]"/>
+  </code>
+  <subject>
+    <reference value="Patient/patientBSJ1"/>
+  </subject>
+  <effectiveDateTime value="2020-01-14T16:00:00-05:00"/>
+  <performer>
+    <reference value="PractitionerRole/provider-role-physical-therapist-Practitioner-JenCadbury"/>
+  </performer>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="LA11759-0"/>
+      <display value="Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."/>
+    </coding>
+    <text value="Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."/>
+  </valueCodeableConcept>
+</Observation>

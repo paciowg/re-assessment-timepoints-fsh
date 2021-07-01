@@ -1,0 +1,48 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-pcp-Practitioner-JohnSmith> a fhir:PractitionerRole;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "provider-role-pcp-Practitioner-JohnSmith"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Practitioner-JohnSmith.html\">Generated Summary: id: 4278275001; active; John Smith; Phone: (210) 564 1389; gender: male</a></p><p><b>code</b>: <span title=\"Codes: {http://nucc.org/provider-taxonomy 261QP2300X}\">Primary Care Clinic/Center</span></p><p><b>specialty</b>: <span title=\"Codes: {http://nucc.org/provider-taxonomy 363LP2300X}\">Primary Care Clinic/Center</span></p></div>"
+  ];
+  fhir:PractitionerRole.active [ fhir:value "true"^^xsd:boolean];
+  fhir:PractitionerRole.practitioner [
+     fhir:link <http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-JohnSmith>;
+     fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-JohnSmith" ]
+  ];
+  fhir:PractitionerRole.code [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://nucc.org/provider-taxonomy" ];
+       fhir:Coding.code [ fhir:value "261QP2300X" ];
+       fhir:Coding.display [ fhir:value "Primary Care Clinic/Center" ]
+     ]
+  ];
+  fhir:PractitionerRole.specialty [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://nucc.org/provider-taxonomy" ];
+       fhir:Coding.code [ fhir:value "363LP2300X" ];
+       fhir:Coding.display [ fhir:value "Primary Care Clinic/Center" ]
+     ]
+  ] .
+
+<http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-JohnSmith> a fhir:us .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-pcp-Practitioner-JohnSmith.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/pacio-rat/PractitionerRole/provider-role-pcp-Practitioner-JohnSmith.ttl> .
+
+# -------------------------------------------------------------------------------------
+

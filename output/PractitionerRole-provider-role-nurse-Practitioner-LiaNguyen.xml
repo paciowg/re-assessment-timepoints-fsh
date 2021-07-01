@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PractitionerRole xmlns="http://hl7.org/fhir">
+  <id value="provider-role-nurse-Practitioner-LiaNguyen"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>practitioner</b>: <a href="Practitioner-Practitioner-LiaNguyen.html">Generated Summary: id: 9018273645; active; Lia Nguyen; Phone: (210) 555 7648; gender: female</a></p><p><b>organization</b>: <a href="Organization-Provider-Org-1.html">Generated Summary: name: Happy Nursing Facility</a></p><p><b>code</b>: <span title="Codes: {http://nucc.org/provider-taxonomy 363L00000X}">Nurse Practitioner</span></p><p><b>specialty</b>: <span title="Codes: {http://nucc.org/provider-taxonomy 224571005}">Nurse Practitioner</span></p><p><b>location</b>: <a href="Location-Provider-Org-Loc-1.html">Generated Summary: status: active; name: Happy Nursing Facility</a></p></div>
+  </text>
+  <active value="true"/>
+  <practitioner>
+    <reference value="Practitioner/Practitioner-LiaNguyen"/>
+  </practitioner>
+  <organization>
+    <reference value="Organization/Provider-Org-1"/>
+  </organization>
+  <code>
+    <coding>
+      <system value="http://nucc.org/provider-taxonomy"/>
+      <code value="363L00000X"/>
+      <display value="Nurse Practitioner"/>
+    </coding>
+  </code>
+  <specialty>
+    <coding>
+      <system value="http://nucc.org/provider-taxonomy"/>
+      <code value="224571005"/>
+      <display value="Nurse Practitioner"/>
+    </coding>
+  </specialty>
+  <location>
+    <reference value="Location/Provider-Org-Loc-1"/>
+  </location>
+</PractitionerRole>

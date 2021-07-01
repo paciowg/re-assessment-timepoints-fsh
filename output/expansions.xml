@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="3aff5db2-7c7b-4b6d-bbb8-ddf43a29030c"/>
+  <id value="07de56d7-045a-4cc4-9777-3894167693d2"/>
   <meta>
-    <lastUpdated value="2021-06-29T08:30:16.729-07:00"/>
+    <lastUpdated value="2021-07-01T09:03:17.572-07:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -162,7 +162,7 @@
         <name value="TimepointClassValueSet"/>
         <title value="Timepoint Class Value Set"/>
         <status value="active"/>
-        <date value="2021-06-29T08:30:16-07:00"/>
+        <date value="2021-07-01T09:03:17-07:00"/>
         <publisher value="HL7 Community-Based Care and Privacy Working Group"/>
         <contact>
           <name value="HL7 Community-Based Care and Privacy Working Group"/>
@@ -183,8 +183,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:706981c9-136c-4196-a49c-97526e6e8a94"/>
-          <timestamp value="2021-06-29T08:30:38-07:00"/>
+          <identifier value="urn:uuid:a5c4a4af-3c9e-4a02-b42c-49e75aacf3ec"/>
+          <timestamp value="2021-07-01T09:03:39-07:00"/>
           <total value="12"/>
           <parameter>
             <name value="excludeNested"/>
@@ -365,7 +365,7 @@
         <name value="TimepointEntityTypeValueSet"/>
         <title value="Timepoint Entity Type Value Set"/>
         <status value="active"/>
-        <date value="2021-06-29T08:30:16-07:00"/>
+        <date value="2021-07-01T09:03:17-07:00"/>
         <publisher value="HL7 Community-Based Care and Privacy Working Group"/>
         <contact>
           <name value="HL7 Community-Based Care and Privacy Working Group"/>
@@ -386,8 +386,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d724a897-3f1d-46d8-bac3-6011a4869043"/>
-          <timestamp value="2021-06-29T08:30:38-07:00"/>
+          <identifier value="urn:uuid:07372c7b-9e20-4cbb-b2cb-2ac7d9b3e107"/>
+          <timestamp value="2021-07-01T09:03:39-07:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -487,7 +487,7 @@
         <name value="TimepointServiceTypeValueSet"/>
         <title value="Timepoint Service Type Value Set"/>
         <status value="active"/>
-        <date value="2021-06-29T08:30:16-07:00"/>
+        <date value="2021-07-01T09:03:17-07:00"/>
         <publisher value="HL7 Community-Based Care and Privacy Working Group"/>
         <contact>
           <name value="HL7 Community-Based Care and Privacy Working Group"/>
@@ -508,8 +508,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:1831d510-a9fe-40c6-9a24-1f99ffd37aac"/>
-          <timestamp value="2021-06-29T08:30:38-07:00"/>
+          <identifier value="urn:uuid:bff5177a-f26b-4a82-8f59-b1a0ad6b527e"/>
+          <timestamp value="2021-07-01T09:03:39-07:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -599,7 +599,7 @@
         <name value="TimepointStatusValueSet"/>
         <title value="Timepoint Status Value Set"/>
         <status value="active"/>
-        <date value="2021-06-29T08:30:16-07:00"/>
+        <date value="2021-07-01T09:03:17-07:00"/>
         <publisher value="HL7 Community-Based Care and Privacy Working Group"/>
         <contact>
           <name value="HL7 Community-Based Care and Privacy Working Group"/>
@@ -620,8 +620,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:25ffd827-e6d6-4199-af27-b55c0e78e200"/>
-          <timestamp value="2021-06-29T08:30:38-07:00"/>
+          <identifier value="urn:uuid:bb0e1d20-8b10-4dfb-ab15-b39097c61a2a"/>
+          <timestamp value="2021-07-01T09:03:39-07:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>

@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "PACIOReAssessmentTimepoints"];
   fhir:ImplementationGuide.title [ fhir:value "PACIO Re-Assessment Timepoints Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-06-29T08:30:16-07:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-07-01T09:03:17-07:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Community-Based Care and Privacy Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -498,6 +498,34 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "EpisodeOfCare" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/EpisodeOfCare/Episodecare-1-SNF-Stay>;
+         fhir:Reference.reference [ fhir:value "EpisodeOfCare/Episodecare-1-SNF-Stay" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Episodecare-1-SNF-Stay" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of EpisodeOfCare" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 14;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "EpisodeOfCare" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/EpisodeOfCare/Episodecare-2-HHA-Stay>;
+         fhir:Reference.reference [ fhir:value "EpisodeOfCare/Episodecare-2-HHA-Stay" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Episodecare-2-HHA-Stay" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of EpisodeOfCare" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Encounter" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -511,7 +539,7 @@
          fhir:link <http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter>
        ]
      ], [
-       fhir:index 14;
+       fhir:index 16;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -528,7 +556,7 @@
          fhir:link <http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter>
        ]
      ], [
-       fhir:index 15;
+       fhir:index 17;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -545,7 +573,7 @@
          fhir:link <http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter>
        ]
      ], [
-       fhir:index 16;
+       fhir:index 18;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -562,7 +590,7 @@
          fhir:link <http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter>
        ]
      ], [
-       fhir:index 17;
+       fhir:index 19;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -579,7 +607,7 @@
          fhir:link <http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter>
        ]
      ], [
-       fhir:index 18;
+       fhir:index 20;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -593,7 +621,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 19;
+       fhir:index 21;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -607,7 +635,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 20;
+       fhir:index 22;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -621,7 +649,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 21;
+       fhir:index 23;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -635,7 +663,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 22;
+       fhir:index 24;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -649,7 +677,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 23;
+       fhir:index 25;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -663,7 +691,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 24;
+       fhir:index 26;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -677,7 +705,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 25;
+       fhir:index 27;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -691,7 +719,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 26;
+       fhir:index 28;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -705,7 +733,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 27;
+       fhir:index 29;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -719,7 +747,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 28;
+       fhir:index 30;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -733,7 +761,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 29;
+       fhir:index 31;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -747,7 +775,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 30;
+       fhir:index 32;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -761,7 +789,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Location" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 31;
+       fhir:index 33;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -775,7 +803,469 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Location" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 32;
+       fhir:index 34;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-PF-MDS-5-Day-NC-1A>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-PF-MDS-5-Day-NC-1A" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-PF-MDS-5-Day-NC-1A" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 35;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-PF-MDS-5-Day-NC-1A-Ob-Question-1>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-PF-MDS-5-Day-NC-1A-Ob-Question-1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-PF-MDS-5-Day-NC-1A-Ob-Question-1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 36;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-PF-MDS-5-Day-NC-1A-Ob-Question-2>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-PF-MDS-5-Day-NC-1A-Ob-Question-2" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-PF-MDS-5-Day-NC-1A-Ob-Question-2" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 37;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-PF-MDS-5-Day-NC-1A-Ob-Question-3>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-PF-MDS-5-Day-NC-1A-Ob-Question-3" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-PF-MDS-5-Day-NC-1A-Ob-Question-3" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 38;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-PF-MDS-5-Day-NC-1A-Ob-Question-4>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-PF-MDS-5-Day-NC-1A-Ob-Question-4" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-PF-MDS-5-Day-NC-1A-Ob-Question-4" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 39;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-AP-MDS-5-Day-NC-1B>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-SC-AP-MDS-5-Day-NC-1B" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-SC-AP-MDS-5-Day-NC-1B" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 40;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-10>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-10" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-10" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 41;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-11>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-11" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-11" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 42;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-5>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-5" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-5" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 43;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-6>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-6" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-6" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 44;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-7>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-7" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-7" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 45;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-8>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-8" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-8" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 46;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-9>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-9" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-9" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 47;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DG-MDS-5-Day-NC-1C>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-SC-DG-MDS-5-Day-NC-1C" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-SC-DG-MDS-5-Day-NC-1C" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 48;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-12>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-12" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-12" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 49;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-13>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-13" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-13" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 50;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-14>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-14" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-14" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 51;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-15>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-15" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-15" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 52;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-16>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-16" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-16" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 53;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-17>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-17" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-17" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 54;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-18>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-18" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-18" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 55;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DP-MDS-Discharge-ND-1E>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-SC-DP-MDS-Discharge-ND-1E" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-SC-DP-MDS-Discharge-ND-1E" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 56;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-19>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-19" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-19" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 57;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-20>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-20" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-20" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 58;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-21>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-21" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-21" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 59;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-22>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-22" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-22" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 60;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-23>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-23" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-23" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 61;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-24>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-24" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-24" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 62;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-25>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-25" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-25" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 63;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-IP-MDS-IPA-1D>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-SC-IP-MDS-IPA-1D" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-SC-IP-MDS-IPA-1D" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 64;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-IP-MDS-IPA-1D-Ob-Question-26>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-SC-IP-MDS-IPA-1D-Ob-Question-26" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-SC-IP-MDS-IPA-1D-Ob-Question-26" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 65;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-IP-MDS-IPA-1D-Ob-Question-27>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-SC-IP-MDS-IPA-1D-Ob-Question-27" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-SC-IP-MDS-IPA-1D-Ob-Question-27" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 66;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Observation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-IP-MDS-IPA-1D-Ob-Question-28>;
+         fhir:Reference.reference [ fhir:value "Observation/SNF-SC-IP-MDS-IPA-1D-Ob-Question-28" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "SNF-SC-IP-MDS-IPA-1D-Ob-Question-28" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of Observation" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 67;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -789,7 +1279,147 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of USCorePatientProfile" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 33;
+       fhir:index 68;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PractitionerRole" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-neurologist-Practitioner-NoraOlogist>;
+         fhir:Reference.reference [ fhir:value "PractitionerRole/provider-role-neurologist-Practitioner-NoraOlogist" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "provider-role-neurologist-Practitioner-NoraOlogist" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 69;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PractitionerRole" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-nurse-Practitioner-JacobHartwell>;
+         fhir:Reference.reference [ fhir:value "PractitionerRole/provider-role-nurse-Practitioner-JacobHartwell" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "provider-role-nurse-Practitioner-JacobHartwell" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 70;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PractitionerRole" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-nurse-Practitioner-LiaNguyen>;
+         fhir:Reference.reference [ fhir:value "PractitionerRole/provider-role-nurse-Practitioner-LiaNguyen" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "provider-role-nurse-Practitioner-LiaNguyen" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 71;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PractitionerRole" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-nurse-Practitioner-SummerJohnson>;
+         fhir:Reference.reference [ fhir:value "PractitionerRole/provider-role-nurse-Practitioner-SummerJohnson" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "provider-role-nurse-Practitioner-SummerJohnson" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 72;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PractitionerRole" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-nurse-Practitioner-TamaraRodriguez>;
+         fhir:Reference.reference [ fhir:value "PractitionerRole/provider-role-nurse-Practitioner-TamaraRodriguez" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "provider-role-nurse-Practitioner-TamaraRodriguez" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 73;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PractitionerRole" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-pcp-Practitioner-JohnSmith>;
+         fhir:Reference.reference [ fhir:value "PractitionerRole/provider-role-pcp-Practitioner-JohnSmith" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "provider-role-pcp-Practitioner-JohnSmith" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 74;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PractitionerRole" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-physical-therapist-Practitioner-DanielGranger>;
+         fhir:Reference.reference [ fhir:value "PractitionerRole/provider-role-physical-therapist-Practitioner-DanielGranger" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "provider-role-physical-therapist-Practitioner-DanielGranger" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 75;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PractitionerRole" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-physical-therapist-Practitioner-JenCadbury>;
+         fhir:Reference.reference [ fhir:value "PractitionerRole/provider-role-physical-therapist-Practitioner-JenCadbury" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "provider-role-physical-therapist-Practitioner-JenCadbury" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 76;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PractitionerRole" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins>;
+         fhir:Reference.reference [ fhir:value "PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "provider-role-physical-therapist-Practitioner-LunaBaskins" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 77;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PractitionerRole" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-physical-therapist-Practitioner-ScottDumble>;
+         fhir:Reference.reference [ fhir:value "PractitionerRole/provider-role-physical-therapist-Practitioner-ScottDumble" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "provider-role-physical-therapist-Practitioner-ScottDumble" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of PractitionerRole" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 78;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -803,7 +1433,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "This PACIO Re-Assessment Timepoints implementation guide describes a means to break up extended Post-Acute admissions into consumable blocks that can reflect the evolution of care over time of the encounter or episode of care.\n\nPost-Acute Admissions extend over much longer periods of time than the encounters in the Acute and Ambulatory Care Settings, often going for several months or even years. Over the course of these time periods the patient condition and therefore the care being provided is changing - for example in Home Health the goal is rehabilitation so Care Plans, Medications, and Orders are all likely changing throughout an admission that could last several months. Already in existence within post-acute care settings are periods of time structured by a variety of stakeholders, some more rigid than others - regulatory and conditions of participation, payer and revenue cycle requirements, and provider specific processes and protocols. In settings like Home Health and SNF, there are defined Medicare assessment instruments that must be completed every X number of days (varies by care setting); the results of said assessment drive the Care Plan for the next X number of days; if a patient has a pain management Care Plan, and their pain scores are down then they may have their Opioid drug dosages reduced or eliminated. If the patient's ambulation is improving, then we may see interventions focused on more complex exercises. These periods of time, defined by many different drivers, have direct impact on how data is made available outside of an EMR; without a structure in place to hold this information a connecting application or patient would have no choice but to sift through months worth of information rather than focusing on a given period or periods most relevant to the need of the application, patient, or other entity." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 34;
+       fhir:index 79;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -922,6 +1552,10 @@
 
 <http://hl7.org/fhir/us/pacio-rat/Encounter/Encounter-2-HHA-Stay> a fhir:us .
 
+<http://hl7.org/fhir/us/pacio-rat/EpisodeOfCare/Episodecare-1-SNF-Stay> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/EpisodeOfCare/Episodecare-2-HHA-Stay> a fhir:us .
+
 <http://hl7.org/fhir/us/pacio-rat/Encounter/MDS-Re-assessment-Timepoint-1> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-rat/Encounter/MDS-Re-assessment-Timepoint-2> a fhir:us .
@@ -960,7 +1594,93 @@
 
 <http://hl7.org/fhir/us/pacio-rat/Location/Provider-Org-Loc-2> a fhir:us .
 
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-PF-MDS-5-Day-NC-1A> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-PF-MDS-5-Day-NC-1A-Ob-Question-1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-PF-MDS-5-Day-NC-1A-Ob-Question-2> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-PF-MDS-5-Day-NC-1A-Ob-Question-3> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-PF-MDS-5-Day-NC-1A-Ob-Question-4> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-AP-MDS-5-Day-NC-1B> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-10> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-11> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-5> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-6> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-7> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-8> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-9> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DG-MDS-5-Day-NC-1C> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-12> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-13> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-14> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-15> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-16> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-17> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-18> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DP-MDS-Discharge-ND-1E> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-19> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-20> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-21> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-22> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-23> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-24> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-25> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-IP-MDS-IPA-1D> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-IP-MDS-IPA-1D-Ob-Question-26> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-IP-MDS-IPA-1D-Ob-Question-27> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/SNF-SC-IP-MDS-IPA-1D-Ob-Question-28> a fhir:us .
+
 <http://hl7.org/fhir/us/pacio-rat/Patient/patientBSJ1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-neurologist-Practitioner-NoraOlogist> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-nurse-Practitioner-JacobHartwell> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-nurse-Practitioner-LiaNguyen> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-nurse-Practitioner-SummerJohnson> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-nurse-Practitioner-TamaraRodriguez> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-pcp-Practitioner-JohnSmith> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-physical-therapist-Practitioner-DanielGranger> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-physical-therapist-Practitioner-JenCadbury> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-physical-therapist-Practitioner-ScottDumble> a fhir:us .
 
 <http://hl7.org/fhir/us/pacio-rat/CapabilityStatement/prat> a fhir:us .
 
