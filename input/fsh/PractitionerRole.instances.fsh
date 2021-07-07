@@ -1,15 +1,13 @@
 Alias: NUCC = http://nucc.org/provider-taxonomy
-Alias: PRO-ROLE = http://nucc.org/provider-taxonomy
-Alias: SPECIALTY = http://nucc.org/provider-taxonomy
-
+Alias: SNOMED = http://snomed.info/sct
 
 Instance: provider-role-nurse-Practitioner-SummerJohnson
 InstanceOf: PractitionerRole
 Description: "An instance of PractitionerRole"
-* code = PRO-ROLE#363L00000X
-* code.coding.display = "Nurse Practitioner"
-* specialty = SPECIALTY#224571005
-* specialty.coding.display = "Nurse Practitioner"
+* code = NUCC#163W00000X
+* code.coding.display = "Registered Nurse"
+* specialty = SNOMED#224535009
+* specialty.coding.display = "Registered Nurse (occupation)"
 * active = true
 * practitioner = Reference(Practitioner-SummerJohnson)
 * organization = Reference(Provider-Org-1)
@@ -18,10 +16,10 @@ Description: "An instance of PractitionerRole"
 Instance: provider-role-nurse-Practitioner-LiaNguyen
 InstanceOf: PractitionerRole
 Description: "An instance of PractitionerRole"
-* code = PRO-ROLE#363L00000X
-* code.coding.display = "Nurse Practitioner"
-* specialty = SPECIALTY#224571005
-* specialty.coding.display = "Nurse Practitioner"
+* code = NUCC#163W00000X
+* code.coding.display = "Registered Nurse"
+* specialty = SNOMED#224535009
+* specialty.coding.display = "Registered Nurse (occupation)"
 * active = true
 * practitioner = Reference(Practitioner-LiaNguyen)
 * organization = Reference(Provider-Org-1)
@@ -30,10 +28,10 @@ Description: "An instance of PractitionerRole"
 Instance: provider-role-physical-therapist-Practitioner-JenCadbury
 InstanceOf: PractitionerRole
 Description: "An instance of PractitionerRole"
-* code = PRO-ROLE#225100000X
+* code = NUCC#225100000X
 * code.coding.display = "Physical Therapist"
-* specialty = SPECIALTY#225100000X
-* specialty.coding.display = "Physical Therapist"
+* specialty = SNOMED#24430003
+* specialty.coding.display = "Physical Medicine Specialist"
 * active = true
 * practitioner = Reference(Practitioner-JenCadbury)
 * organization = Reference(Provider-Org-1)
@@ -42,10 +40,10 @@ Description: "An instance of PractitionerRole"
 Instance: provider-role-physical-therapist-Practitioner-DanielGranger
 InstanceOf: PractitionerRole
 Description: "An instance of PractitionerRole"
-* code = PRO-ROLE#225100000X
+* code = NUCC#225100000X
 * code.coding.display = "Physical Therapist"
-* specialty = SPECIALTY#225100000X
-* specialty.coding.display = "Physical Therapist"
+* specialty = SNOMED#24430003
+* specialty.coding.display = "Physical Medicine Specialist"
 * active = true
 * practitioner = Reference(Practitioner-DanielGranger)
 * organization = Reference(Provider-Org-1)
@@ -54,10 +52,10 @@ Description: "An instance of PractitionerRole"
 Instance: provider-role-nurse-Practitioner-JacobHartwell
 InstanceOf: PractitionerRole
 Description: "An instance of PractitionerRole"
-* code = PRO-ROLE#363L00000X
-* code.coding.display = "Nurse Practitioner"
-* specialty = SPECIALTY#224571005
-* specialty.coding.display = "Nurse Practitioner"
+* code = NUCC#163WH0200X
+* code.coding.display = "Home Health Registered Nurse"
+* specialty = SNOMED#224535009
+* specialty.coding.display = "Registered Nurse (occupation)"
 * active = true
 * practitioner = Reference(Practitioner-JacobHartwell)
 * organization = Reference(Provider-Org-2)
@@ -66,10 +64,10 @@ Description: "An instance of PractitionerRole"
 Instance: provider-role-nurse-Practitioner-TamaraRodriguez
 InstanceOf: PractitionerRole
 Description: "An instance of PractitionerRole"
-* code = PRO-ROLE#363L00000X
-* code.coding.display = "Nurse Practitioner"
-* specialty = SPECIALTY#224571005
-* specialty.coding.display = "Nurse Practitioner"
+* code = NUCC#163WH0200X
+* code.coding.display = "Home Health Registered Nurse"
+* specialty = SNOMED#224535009
+* specialty.coding.display = "Registered Nurse (occupation)"
 * active = true
 * practitioner = Reference(Practitioner-TamaraRodriguez)
 * organization = Reference(Provider-Org-2)
@@ -78,10 +76,10 @@ Description: "An instance of PractitionerRole"
 Instance: provider-role-physical-therapist-Practitioner-LunaBaskins
 InstanceOf: PractitionerRole
 Description: "An instance of PractitionerRole"
-* code = PRO-ROLE#225100000X
+* code = NUCC#225100000X
 * code.coding.display = "Physical Therapist"
-* specialty = SPECIALTY#225100000X
-* specialty.coding.display = "Physical Therapist"
+* specialty = SNOMED#24430003
+* specialty.coding.display = "Physical Medicine Specialist"
 * active = true
 * practitioner = Reference(Practitioner-LunaBaskins)
 * organization = Reference(Provider-Org-2)
@@ -90,10 +88,10 @@ Description: "An instance of PractitionerRole"
 Instance: provider-role-physical-therapist-Practitioner-ScottDumble
 InstanceOf: PractitionerRole
 Description: "An instance of PractitionerRole"
-* code = PRO-ROLE#225100000X
+* code = NUCC#225100000X
 * code.coding.display = "Physical Therapist"
-* specialty = SPECIALTY#225100000X
-* specialty.coding.display = "Physical Therapist"
+* specialty = SNOMED#24430003
+* specialty.coding.display = "Physical Medicine Specialist"
 * active = true
 * practitioner = Reference(Practitioner-ScottDumble)
 * organization = Reference(Provider-Org-2)
@@ -103,19 +101,19 @@ Description: "An instance of PractitionerRole"
 Instance: provider-role-pcp-Practitioner-JohnSmith
 InstanceOf: PractitionerRole
 Description: "An instance of PractitionerRole"
-* code = PRO-ROLE#261QP2300X
-* code.coding.display = "Primary Care Clinic/Center"
-* specialty = SPECIALTY#363LP2300X
-* specialty.coding.display = "Primary Care Clinic/Center"
+* code = NUCC#261QP2300X
+* code.coding.display = "Primary Care"
+* specialty = SNOMED#446050000
+* specialty.coding.display = "Primary care physician (occupation)"
 * active = true
 * practitioner = Reference(Practitioner-JohnSmith)
 
 Instance: provider-role-neurologist-Practitioner-NoraOlogist
 InstanceOf: PractitionerRole
 Description: "An instance of PractitionerRole"
-* code = PRO-ROLE#2084N0400X
+* code = NUCC#2084N0400X
 * code.coding.display = "Neurology"
-* specialty = SPECIALTY#2084N0400X
+* specialty = NUCC#2084N0400X
 * specialty.coding.display = "Neurology"
 * active = true
 * practitioner = Reference(Practitioner-NoraOlogist)

@@ -3,7 +3,7 @@
   "id": "provider-role-physical-therapist-Practitioner-LunaBaskins",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Practitioner-LunaBaskins.html\">Generated Summary: active; Luna Baskins Jones; Phone: (210) 555 1871; gender: female</a></p><p><b>organization</b>: <a href=\"Organization-Provider-Org-2.html\">Generated Summary: name: Sky Harbor Home Health Services</a></p><p><b>code</b>: <span title=\"Codes: {http://nucc.org/provider-taxonomy 225100000X}\">Physical Therapist</span></p><p><b>specialty</b>: <span title=\"Codes: {http://nucc.org/provider-taxonomy 225100000X}\">Physical Therapist</span></p><p><b>location</b>: <a href=\"Location-Provider-Org-Loc-2.html\">Generated Summary: status: active; name: Sky Harbor Home Health Services</a></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Practitioner-LunaBaskins.html\">Generated Summary: active; Luna Baskins Jones; Phone: (210) 555 1871; gender: female</a></p><p><b>organization</b>: <a href=\"Organization-Provider-Org-2.html\">Generated Summary: name: Sky Harbor Home Health Services</a></p><p><b>code</b>: <span title=\"Codes: {http://nucc.org/provider-taxonomy 225100000X}\">Physical Therapist</span></p><p><b>specialty</b>: <span title=\"Codes: {http://snomed.info/sct 24430003}\">Physical Medicine Specialist</span></p><p><b>location</b>: <a href=\"Location-Provider-Org-Loc-2.html\">Generated Summary: status: active; name: Sky Harbor Home Health Services</a></p></div>"
   },
   "active": true,
   "practitioner": {
@@ -27,9 +27,9 @@
     {
       "coding": [
         {
-          "system": "http://nucc.org/provider-taxonomy",
-          "code": "225100000X",
-          "display": "Physical Therapist"
+          "system": "http://snomed.info/sct",
+          "code": "24430003",
+          "display": "Physical Medicine Specialist"
         }
       ]
     }

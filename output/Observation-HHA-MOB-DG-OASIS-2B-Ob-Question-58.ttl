@@ -1,0 +1,69 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-58> a fhir:Observation;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "HHA-MOB-DG-OASIS-2B-Ob-Question-58"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Event Location</b>: <a href=\"Location-Provider-Org-Loc-2.html\">Generated Summary: status: active; name: Sky Harbor Home Health Services</a></p><p></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 89398-2}\">Roll left and right - functional goal [CMS Assessment]</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: 10A3D58WH1600; active; Betsy Smith-Johnson; Phone: 210-222-1111; gender: female; birthDate: 1950-11-01; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}\">unmarried</span></a></p><p><b>effective</b>: Feb 10, 2020, 1:31:00 PM</p><p><b>performer</b>: <a href=\"PractitionerRole-provider-role-physical-therapist-Practitioner-LunaBaskins.html\">Generated Summary: active; <span title=\"Codes: {http://nucc.org/provider-taxonomy 225100000X}\">Physical Therapist</span>; <span title=\"Codes: {http://snomed.info/sct 24430003}\">Physical Medicine Specialist</span></a></p><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent - Patient completes the activity by him/herself with no assistance from a helper.</span></p></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/event-location" ];
+     fhir:Extension.valueReference [
+       fhir:link <http://hl7.org/fhir/us/pacio-rat/Location/Provider-Org-Loc-2>;
+       fhir:Reference.reference [ fhir:value "Location/Provider-Org-Loc-2" ]
+     ]
+  ];
+  fhir:Observation.status [ fhir:value "final"];
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:89398-2;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "89398-2" ];
+       fhir:Coding.display [ fhir:value "Roll left and right - functional goal [CMS Assessment]" ]
+     ];
+     fhir:CodeableConcept.text [ fhir:value "Roll left and right - functional goal [CMS Assessment]" ]
+  ];
+  fhir:Observation.subject [
+     fhir:link <http://hl7.org/fhir/us/pacio-rat/Patient/patientBSJ1>;
+     fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
+  ];
+  fhir:Observation.effectiveDateTime [ fhir:value "2020-02-10T16:31:00-05:00"^^xsd:dateTime];
+  fhir:Observation.performer [
+     fhir:index 0;
+     fhir:link <http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins>;
+     fhir:Reference.reference [ fhir:value "PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins" ]
+  ];
+  fhir:Observation.valueCodeableConcept [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:LA9983-3;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "LA9983-3" ];
+       fhir:Coding.display [ fhir:value "Independent - Patient completes the activity by him/herself with no assistance from a helper." ]
+     ];
+     fhir:CodeableConcept.text [ fhir:value "Independent - Patient completes the activity by him/herself with no assistance from a helper." ]
+  ] .
+
+<http://hl7.org/fhir/us/pacio-rat/Location/Provider-Org-Loc-2> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Patient/patientBSJ1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins> a fhir:us .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-58.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-58.ttl> .
+
+# -------------------------------------------------------------------------------------
+

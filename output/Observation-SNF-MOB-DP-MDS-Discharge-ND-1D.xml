@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="SNF-MOB-DP-MDS-Discharge-ND-1D"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Event Location</b>: <a href="Location-Provider-Org-Loc-1.html">Generated Summary: status: active; name: Happy Nursing Facility</a></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}">Survey</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 95742-3}">IRF-PAI v3.0, MDS v1.17.1, 1.17.2 - Mobility - discharge performance during assessment period [CMS Assessment]</span></p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: id: 10A3D58WH1600; active; Betsy Smith-Johnson; Phone: 210-222-1111; gender: female; birthDate: 1950-11-01; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}">unmarried</span></a></p><p><b>effective</b>: Feb 10, 2020, 7:00:00 AM</p><p><b>performer</b>: <a href="PractitionerRole-provider-role-physical-therapist-Practitioner-JenCadbury.html">Generated Summary: active; <span title="Codes: {http://nucc.org/provider-taxonomy 225100000X}">Physical Therapist</span>; <span title="Codes: {http://snomed.info/sct 24430003}">Physical Medicine Specialist</span></a></p><p><b>hasMember</b>: </p><ul><li><a href="Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-3.html">Generated Summary: <span title="Codes: {http://loinc.org 95011-3}">Roll left and right - usual functional ability during assessment period [CMS Assessment]</span>; effective: Feb 10, 2020, 7:00:00 AM; <span title="Codes: {http://loinc.org LA30909-8}">Independent - Person completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href="Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-6.html">Generated Summary: <span title="Codes: {http://loinc.org 95010-5}">Sit to lying - usual functional ability during assessment period [CMS Assessment]</span>; effective: Feb 10, 2020, 7:00:00 AM; <span title="Codes: {http://loinc.org LA30909-8}">Independent - Person completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href="Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-9.html">Generated Summary: <span title="Codes: {http://loinc.org 95009-7}">Lying to sitting on side of bed - usual functional ability during assessment period [CMS Assessment]</span>; effective: Feb 10, 2020, 7:00:00 AM; <span title="Codes: {http://loinc.org LA30909-8}">Independent - Person completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href="Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-12.html">Generated Summary: <span title="Codes: {http://loinc.org 95008-9}">Sit to stand - usual functional ability during assessment period [CMS Assessment]</span>; effective: Feb 10, 2020, 7:00:00 AM; <span title="Codes: {http://loinc.org LA30909-8}">Independent - Person completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href="Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-15.html">Generated Summary: <span title="Codes: {http://loinc.org 95007-1}">Chair/bed-to-chair transfer - usual functional ability during assessment period [CMS Assessment]</span>; effective: Feb 10, 2020, 7:00:00 AM; <span title="Codes: {http://loinc.org LA30909-8}">Independent - Person completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href="Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-18.html">Generated Summary: <span title="Codes: {http://loinc.org 95006-3}">Toilet transfer - usual functional ability during assessment period [CMS Assessment]</span>; effective: Feb 10, 2020, 7:00:00 AM; <span title="Codes: {http://loinc.org LA30909-8}">Independent - Person completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href="Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-20.html">Generated Summary: <span title="Codes: {http://loinc.org 95005-5}">Car transfer - usual functional ability during assessment period [CMS Assessment]</span>; effective: Feb 10, 2020, 7:00:00 AM; <span title="Codes: {http://loinc.org LA10055-4}">Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort.</span></a></li><li><a href="Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-23.html">Generated Summary: <span title="Codes: {http://loinc.org 95004-8}">Walk 10 feet - usual functional ability during assessment period [CMS Assessment]</span>; effective: Feb 10, 2020, 7:00:00 AM; <span title="Codes: {http://loinc.org LA30909-8}">Independent - Person completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href="Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-26.html">Generated Summary: <span title="Codes: {http://loinc.org 95003-0}">Walk 50 feet with two turns - usual functional ability during assessment period [CMS Assessment]</span>; effective: Feb 10, 2020, 7:00:00 AM; <span title="Codes: {http://loinc.org LA30911-4}">Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as person completes activity. Assistance may be provided throughout the activity or intermittently.</span></a></li><li><a href="Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-29.html">Generated Summary: <span title="Codes: {http://loinc.org 95002-2}">Walk 150 feet - usual functional ability during assessment period [CMS Assessment]</span>; effective: Feb 10, 2020, 7:00:00 AM; <span title="Codes: {http://loinc.org LA10055-4}">Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort.</span></a></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/event-location">
+    <valueReference>
+      <reference value="Location/Provider-Org-Loc-1"/>
+    </valueReference>
+  </extension>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="survey"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="95742-3"/>
+      <display value="IRF-PAI v3.0, MDS v1.17.1, 1.17.2 - Mobility - discharge performance during assessment period [CMS Assessment]"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/patientBSJ1"/>
+  </subject>
+  <effectiveDateTime value="2020-02-10T10:00:00-05:00"/>
+  <performer>
+    <reference value="PractitionerRole/provider-role-physical-therapist-Practitioner-JenCadbury"/>
+  </performer>
+  <hasMember>
+    <reference value="Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-3"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-6"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-9"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-12"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-15"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-18"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-20"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-23"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-26"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-29"/>
+  </hasMember>
+</Observation>

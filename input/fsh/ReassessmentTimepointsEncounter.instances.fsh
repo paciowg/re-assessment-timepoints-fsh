@@ -1,7 +1,7 @@
 Alias: PRATCLASSCS = http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs
 Alias: PRATENTITYCS = http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs
 Alias: PRATSRVTYPECS = http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs
-Alias: ICD10 = http://hl7.org/fhir/sid/icd-10
+Alias: ICD10 = http://hl7.org/fhir/sid/icd-10-cm
 
 
 Instance: MDS-Re-assessment-Timepoint-1
@@ -65,7 +65,7 @@ Description: "An instance of ReassessmentTimepointsEncounter"
 * subject = Reference(patientBSJ1)
 * episodeOfCare = Reference(Episodecare-2-HHA-Stay)
 * reasonReference[0] = Reference(HHA-SC-FU-60-OASIS-2D)
-* reasonReference[1] = Reference(HHA-MOB-DG-OASIS-2B)
+* reasonReference[1] = Reference(HHA-MOB-FU-60-OASIS-2C)
 * participant[0].individual = Reference(Practitioner-LunaBaskins)
 * participant[1].individual = Reference(Practitioner-JacobHartwell)
 * participant[2].individual = Reference(Practitioner-ScottDumble)
@@ -88,7 +88,9 @@ Description: "An instance of ReassessmentTimepointsEncounter"
 * subject = Reference(patientBSJ1)
 * episodeOfCare = Reference(Episodecare-2-HHA-Stay)
 * reasonReference[0] = Reference(HHA-SC-FU-120-OASIS-2E)
-* reasonReference[1] = Reference(HHA-MOB-DC-OASIS-2E)
+* reasonReference[1] = Reference(HHA-MOB-FU-120-OASIS-2D)
+* reasonReference[2] = Reference(HHA-SC-DC-OASIS-2F)
+* reasonReference[3] = Reference(HHA-MOB-DC-OASIS-2E)
 * participant[0].individual = Reference(Practitioner-LunaBaskins)
 * participant[1].individual = Reference(Practitioner-JacobHartwell)
 * participant[2].individual = Reference(Practitioner-ScottDumble)
@@ -110,7 +112,7 @@ Description: "An instance of ReassessmentTimepointsEncounter"
 * serviceType = PRATSRVTYPECS#oasis
 * subject = Reference(patientBSJ1)
 * episodeOfCare = Reference(Episodecare-2-HHA-Stay)
-* reasonReference[0] = Reference(HHA-PF-SOC--OASIS-2A)
+* reasonReference[0] = Reference(HHA-PF-SOC-OASIS-2A)
 * reasonReference[1] = Reference(HHA-SC-SOC-Perf-OASIS-2B)
 * reasonReference[2] = Reference(HHA-SC-DG-OASIS-2C)
 * reasonReference[3] = Reference(HHA-MOB-SOC-Perf-OASIS-2A)

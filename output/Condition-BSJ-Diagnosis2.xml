@@ -6,7 +6,7 @@
     <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>clinicalStatus</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-clinical active}">Active</span></p><p><b>verificationStatus</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}">Confirmed</span></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-category encounter-diagnosis}">Encounter Diagnosis</span></p><p><b>code</b>: <span title="Codes: {http://snomed.info/sct 422504002}">Ischemic stroke (disorder) </span></p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: id: 10A3D58WH1600; active; Betsy Smith-Johnson; Phone: 210-222-1111; gender: female; birthDate: 1950-11-01; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}">unmarried</span></a></p><p><b>onset</b>: Feb 10, 2020, 12:00:00 PM</p><p><b>asserter</b>: <a href="Practitioner-Practitioner-NoraOlogist.html">Neurologist Nora Ologist. Generated Summary: id: 3668788925; active; Nora Ologist; Phone: (210) 555 7632; gender: female</a></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>clinicalStatus</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-clinical active}">Active</span></p><p><b>verificationStatus</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}">Confirmed</span></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-category encounter-diagnosis}">Encounter Diagnosis</span></p><p><b>code</b>: <span title="Codes: {http://hl7.org/fhir/sid/icd-10-cm I63.411}">Cerebral infarction due to embolism of right middle cerebral artery</span></p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: id: 10A3D58WH1600; active; Betsy Smith-Johnson; Phone: 210-222-1111; gender: female; birthDate: 1950-11-01; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}">unmarried</span></a></p><p><b>onset</b>: Feb 10, 2020, 12:00:00 PM</p><p><b>asserter</b>: <a href="Practitioner-Practitioner-NoraOlogist.html">Neurologist Nora Ologist. Generated Summary: id: 3668788925; active; Nora Ologist; Phone: (210) 555 7632; gender: female</a></p></div>
   </text>
   <clinicalStatus>
     <coding>
@@ -28,11 +28,11 @@
   </category>
   <code>
     <coding>
-      <system value="http://snomed.info/sct"/>
-      <code value="422504002"/>
-      <display value="Ischemic stroke"/>
+      <system value="http://hl7.org/fhir/sid/icd-10-cm"/>
+      <code value="I63.411"/>
+      <display value="Cerebral Infarction"/>
     </coding>
-    <text value="Ischemic stroke (disorder) "/>
+    <text value="Cerebral infarction due to embolism of right middle cerebral artery"/>
   </code>
   <subject>
     <reference value="Patient/patientBSJ1"/>

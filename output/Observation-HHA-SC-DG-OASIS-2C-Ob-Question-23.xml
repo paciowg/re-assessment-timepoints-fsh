@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="HHA-SC-DG-OASIS-2C-Ob-Question-23"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Event Location</b>: <a href="Location-Provider-Org-Loc-2.html">Generated Summary: status: active; name: Sky Harbor Home Health Services</a></p><p></p><p><b>code</b>: <span title="Codes: {http://loinc.org 89387-5}">Upper body dressing - functional goal [CMS Assessment]</span></p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: id: 10A3D58WH1600; active; Betsy Smith-Johnson; Phone: 210-222-1111; gender: female; birthDate: 1950-11-01; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}">unmarried</span></a></p><p><b>effective</b>: Feb 10, 2020, 1:31:00 PM</p><p><b>performer</b>: <a href="PractitionerRole-provider-role-physical-therapist-Practitioner-LunaBaskins.html">Generated Summary: active; <span title="Codes: {http://nucc.org/provider-taxonomy 225100000X}">Physical Therapist</span>; <span title="Codes: {http://snomed.info/sct 24430003}">Physical Medicine Specialist</span></a></p><p><b>value</b>: <span title="Codes: {http://loinc.org LA9983-3}">Independent - Patient completes the activity by him/herself with no assistance from a helper.</span></p></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/event-location">
+    <valueReference>
+      <reference value="Location/Provider-Org-Loc-2"/>
+    </valueReference>
+  </extension>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="89387-5"/>
+      <display value="Upper body dressing - functional goal [CMS Assessment]"/>
+    </coding>
+    <text value="Upper body dressing - functional goal [CMS Assessment]"/>
+  </code>
+  <subject>
+    <reference value="Patient/patientBSJ1"/>
+  </subject>
+  <effectiveDateTime value="2020-02-10T16:31:00-05:00"/>
+  <performer>
+    <reference value="PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins"/>
+  </performer>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="LA9983-3"/>
+      <display value="Independent - Patient completes the activity by him/herself with no assistance from a helper."/>
+    </coding>
+    <text value="Independent - Patient completes the activity by him/herself with no assistance from a helper."/>
+  </valueCodeableConcept>
+</Observation>

@@ -1,0 +1,163 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E> a fhir:Observation;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "HHA-MOB-DC-OASIS-2E"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Event Location</b>: <a href=\"Location-Provider-Org-Loc-2.html\">Generated Summary: status: active; name: Sky Harbor Home Health Services</a></p><p></p><p><b>category</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 89474-1}\">OASIS D - Mobility - discharge performance during assessment period [CMS Assessment]</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: 10A3D58WH1600; active; Betsy Smith-Johnson; Phone: 210-222-1111; gender: female; birthDate: 1950-11-01; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}\">unmarried</span></a></p><p><b>effective</b>: Jun 29, 2020, 12:00:00 PM</p><p><b>performer</b>: <a href=\"PractitionerRole-provider-role-physical-therapist-Practitioner-ScottDumble.html\">Generated Summary: active; <span title=\"Codes: {http://nucc.org/provider-taxonomy 225100000X}\">Physical Therapist</span>; <span title=\"Codes: {http://snomed.info/sct 24430003}\">Physical Medicine Specialist</span></a></p><p><b>hasMember</b>: </p><ul><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-4.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 95011-3}\">Roll left and right - usual functional ability during assessment period [CMS Assessment]</span>; effective: Jun 29, 2020, 12:00:00 PM; <span title=\"Codes: {http://loinc.org LA30909-8}\">Independent - Person completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-8.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 95010-5}\">Sit to lying - usual functional ability during assessment period [CMS Assessment]</span>; effective: Jun 29, 2020, 12:00:00 PM; <span title=\"Codes: {http://loinc.org LA30909-8}\">Independent - Person completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-12.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 95009-7}\">Lying to sitting on side of bed - usual functional ability during assessment period [CMS Assessment]</span>; effective: Jun 29, 2020, 12:00:00 PM; <span title=\"Codes: {http://loinc.org LA30909-8}\">Independent - Person completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-16.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 95008-9}\">Sit to stand - usual functional ability during assessment period [CMS Assessment]</span>; effective: Jun 29, 2020, 12:00:00 PM; <span title=\"Codes: {http://loinc.org LA30909-8}\">Independent - Person completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-20.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 95007-1}\">Chair/bed-to-chair transfer - usual functional ability during assessment period [CMS Assessment]</span>; effective: Jun 29, 2020, 12:00:00 PM; <span title=\"Codes: {http://loinc.org LA30909-8}\">Independent - Person completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-24.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 95006-3}\">Toilet transfer - usual functional ability during assessment period [CMS Assessment]</span>; effective: Jun 29, 2020, 12:00:00 PM; <span title=\"Codes: {http://loinc.org LA30909-8}\">Independent - Person completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-26.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 95005-5}\">Car transfer - usual functional ability during assessment period [CMS Assessment]</span>; effective: Jun 29, 2020, 12:00:00 PM; <span title=\"Codes: {http://loinc.org LA30909-8}\">Independent - Person completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-30.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 95004-8}\">Walk 10 feet - usual functional ability during assessment period [CMS Assessment]</span>; effective: Jun 29, 2020, 12:00:00 PM; <span title=\"Codes: {http://loinc.org LA30909-8}\">Independent - Person completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-34.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 95003-0}\">Walk 50 feet with two turns - usual functional ability during assessment period [CMS Assessment]</span>; effective: Jun 29, 2020, 12:00:00 PM; <span title=\"Codes: {http://loinc.org LA30909-8}\">Independent - Person completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-36.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 95002-2}\">Walk 150 feet - usual functional ability during assessment period [CMS Assessment]</span>; effective: Jun 29, 2020, 12:00:00 PM; <span title=\"Codes: {http://loinc.org LA30909-8}\">Independent - Person completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-40.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 95001-4}\">Walking 10 feet on uneven surfaces - usual functional ability during assessment period [CMS Assessment]</span>; effective: Jun 29, 2020, 12:00:00 PM; <span title=\"Codes: {http://loinc.org LA30909-8}\">Independent - Person completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-44.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 95000-6}\">Go up and down a curb/step - usual functional ability during assessment period [CMS Assessment]</span>; effective: Jun 29, 2020, 12:00:00 PM; <span title=\"Codes: {http://loinc.org LA30909-8}\">Independent - Person completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-48.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 94999-0}\">Go up and down 4 steps - usual functional ability during assessment period [CMS Assessment]</span>; effective: Jun 29, 2020, 12:00:00 PM; <span title=\"Codes: {http://loinc.org LA30909-8}\">Independent - Person completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-50.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 94998-2}\">Go up and down 12 steps - usual functional ability during assessment period [CMS Assessment]</span>; effective: Jun 29, 2020, 12:00:00 PM; <span title=\"Codes: {http://loinc.org LA30911-4}\">Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as person completes activity. Assistance may be provided throughout the activity or intermittently.</span></a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-53.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 94997-4}\">Picking up object - usual functional ability during assessment period [CMS Assessment]</span>; effective: Jun 29, 2020, 12:00:00 PM; <span title=\"Codes: {http://loinc.org LA30909-8}\">Independent - Person completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-57.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 95738-1}\">Does the patient use a wheelchair/scooter during assessment period [CMS Assessment]</span>; effective: Jun 29, 2020, 12:00:00 PM; <span title=\"Codes: {http://loinc.org LA32-8}\">No</span></a></li></ul></div>"
+  ];
+  fhir:DomainResource.extension [
+     fhir:index 0;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/event-location" ];
+     fhir:Extension.valueReference [
+       fhir:link <http://hl7.org/fhir/us/pacio-rat/Location/Provider-Org-Loc-2>;
+       fhir:Reference.reference [ fhir:value "Location/Provider-Org-Loc-2" ]
+     ]
+  ];
+  fhir:Observation.status [ fhir:value "final"];
+  fhir:Observation.category [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/observation-category" ];
+       fhir:Coding.code [ fhir:value "survey" ]
+     ]
+  ];
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       a loinc:89474-1;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ];
+       fhir:Coding.code [ fhir:value "89474-1" ];
+       fhir:Coding.display [ fhir:value "OASIS D - Mobility - discharge performance during assessment period [CMS Assessment]" ]
+     ]
+  ];
+  fhir:Observation.subject [
+     fhir:link <http://hl7.org/fhir/us/pacio-rat/Patient/patientBSJ1>;
+     fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
+  ];
+  fhir:Observation.effectiveDateTime [ fhir:value "2020-06-29T14:00:00-05:00"^^xsd:dateTime];
+  fhir:Observation.performer [
+     fhir:index 0;
+     fhir:link <http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-physical-therapist-Practitioner-ScottDumble>;
+     fhir:Reference.reference [ fhir:value "PractitionerRole/provider-role-physical-therapist-Practitioner-ScottDumble" ]
+  ];
+  fhir:Observation.hasMember [
+     fhir:index 0;
+     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-4>;
+     fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-4" ]
+  ], [
+     fhir:index 1;
+     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-8>;
+     fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-8" ]
+  ], [
+     fhir:index 2;
+     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-12>;
+     fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-12" ]
+  ], [
+     fhir:index 3;
+     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-16>;
+     fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-16" ]
+  ], [
+     fhir:index 4;
+     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-20>;
+     fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-20" ]
+  ], [
+     fhir:index 5;
+     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-24>;
+     fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-24" ]
+  ], [
+     fhir:index 6;
+     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-26>;
+     fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-26" ]
+  ], [
+     fhir:index 7;
+     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-30>;
+     fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-30" ]
+  ], [
+     fhir:index 8;
+     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-34>;
+     fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-34" ]
+  ], [
+     fhir:index 9;
+     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-36>;
+     fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-36" ]
+  ], [
+     fhir:index 10;
+     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-40>;
+     fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-40" ]
+  ], [
+     fhir:index 11;
+     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-44>;
+     fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-44" ]
+  ], [
+     fhir:index 12;
+     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-48>;
+     fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-48" ]
+  ], [
+     fhir:index 13;
+     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-50>;
+     fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-50" ]
+  ], [
+     fhir:index 14;
+     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-53>;
+     fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-53" ]
+  ], [
+     fhir:index 15;
+     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-57>;
+     fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-57" ]
+  ] .
+
+<http://hl7.org/fhir/us/pacio-rat/Location/Provider-Org-Loc-2> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Patient/patientBSJ1> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-physical-therapist-Practitioner-ScottDumble> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-4> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-8> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-12> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-16> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-20> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-24> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-26> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-30> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-34> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-36> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-40> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-44> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-48> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-50> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-53> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-57> a fhir:us .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E.ttl> .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,9 +1,8 @@
 Alias: USCCOND = http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition
 Alias: COND-CAT = http://terminology.hl7.org/CodeSystem/condition-category
-Alias: ELTSS-CAT = http://hl7.org/fhir/us/eLTSS/CodeSystem/eltss-condition-category-code
 Alias: CC = http://terminology.hl7.org/CodeSystem/condition-clinical
 Alias: CVS = http://terminology.hl7.org/CodeSystem/condition-ver-status
-Alias: SCT = http://snomed.info/sct
+Alias: ICD10 = http://hl7.org/fhir/sid/icd-10-cm
 
 
 Instance: BSJ-Diagnosis1
@@ -13,9 +12,9 @@ Description: "An instance of USCoreCondition"
 * clinicalStatus = CC#active
 * verificationStatus = CVS#confirmed
 * category = COND-CAT#encounter-diagnosis
-* code = SCT#422504002
-* code.text = "Ischemic stroke (disorder) "
-* code.coding.display = "Ischemic stroke"
+* code = ICD10#I63.411
+* code.text = "Cerebral infarction due to embolism of right middle cerebral artery"
+* code.coding.display = "Cerebral Infarction"
 * onsetDateTime = "2020-01-01T15:00:00-05:00"
 * asserter = Reference(Practitioner-NoraOlogist)
 * asserter.display = "Neurologist Nora Ologist"
@@ -27,9 +26,9 @@ Description: "An instance of USCoreCondition"
 * clinicalStatus = CC#active
 * verificationStatus = CVS#confirmed
 * category = COND-CAT#encounter-diagnosis
-* code = SCT#422504002
-* code.text = "Ischemic stroke (disorder) "
-* code.coding.display = "Ischemic stroke"
+* code = ICD10#I63.411
+* code.text = "Cerebral infarction due to embolism of right middle cerebral artery"
+* code.coding.display = "Cerebral Infarction"
 * onsetDateTime = "2020-02-10T15:00:00-05:00"
 * asserter = Reference(Practitioner-NoraOlogist)
 * asserter.display = "Neurologist Nora Ologist"

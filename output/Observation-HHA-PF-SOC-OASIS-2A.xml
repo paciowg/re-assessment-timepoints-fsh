@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="HHA-PF-SOC-OASIS-2A"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>Event Location</b>: <a href="Location-Provider-Org-Loc-2.html">Generated Summary: status: active; name: Sky Harbor Home Health Services</a></p><p></p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}">Survey</span></p><p><b>code</b>: <span title="Codes: {http://loinc.org 83239-4}">IRF-PAI v3.0, MDS v1.17.1, 1.17.2, OASIS D, D1 - Prior functioning: everyday activities [CMS Assessment]</span></p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: id: 10A3D58WH1600; active; Betsy Smith-Johnson; Phone: 210-222-1111; gender: female; birthDate: 1950-11-01; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}">unmarried</span></a></p><p><b>effective</b>: Feb 10, 2020, 1:31:00 PM</p><p><b>performer</b>: <a href="PractitionerRole-provider-role-physical-therapist-Practitioner-LunaBaskins.html">Generated Summary: active; <span title="Codes: {http://nucc.org/provider-taxonomy 225100000X}">Physical Therapist</span>; <span title="Codes: {http://snomed.info/sct 24430003}">Physical Medicine Specialist</span></a></p><p><b>hasMember</b>: </p><ul><li><a href="Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-1.html">Generated Summary: <span title="Codes: {http://loinc.org 85070-1}">Prior functioning.self care [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title="Codes: {http://loinc.org LA11539-6}">Independent - Patient completed the activities by him/herself, with or without an assistive device, with no assistance from a helper.</span></a></li><li><a href="Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-2.html">Generated Summary: <span title="Codes: {http://loinc.org 85071-9}">Indoor mobility (Ambulation) [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title="Codes: {http://loinc.org LA11539-6}">Independent - Patient completed the activities by him/herself, with or without an assistive device, with no assistance from a helper.</span></a></li><li><a href="Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-3.html">Generated Summary: <span title="Codes: {http://loinc.org 85072-7}">Stairs [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title="Codes: {http://loinc.org LA11539-6}">Independent - Patient completed the activities by him/herself, with or without an assistive device, with no assistance from a helper.</span></a></li><li><a href="Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-4.html">Generated Summary: <span title="Codes: {http://loinc.org 85073-5}">Functional cognition [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title="Codes: {http://loinc.org LA11539-6}">Independent - Patient completed the activities by him/herself, with or without an assistive device, with no assistance from a helper.</span></a></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/event-location">
+    <valueReference>
+      <reference value="Location/Provider-Org-Loc-2"/>
+    </valueReference>
+  </extension>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="survey"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="83239-4"/>
+      <display value="IRF-PAI v3.0, MDS v1.17.1, 1.17.2, OASIS D, D1 - Prior functioning: everyday activities [CMS Assessment]"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/patientBSJ1"/>
+  </subject>
+  <effectiveDateTime value="2020-02-10T16:31:00-05:00"/>
+  <performer>
+    <reference value="PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins"/>
+  </performer>
+  <hasMember>
+    <reference value="Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-1"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-2"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-3"/>
+  </hasMember>
+  <hasMember>
+    <reference value="Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-4"/>
+  </hasMember>
+</Observation>

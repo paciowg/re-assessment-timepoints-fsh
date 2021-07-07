@@ -1,28 +1,198 @@
 ﻿PACIOReAssessmentTimepoints : Validation Results
 =========================================
 
-err = 34, warn = 12, info = 10
+err = 12, warn = 33, info = 10
 IG Publisher Version: 1.1.73 Out of date - current version is 1.1.76
-Generated Thu Jul 01 09:04:19 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-rat#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-rat)
+Generated Tue Jul 06 14:32:36 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-rat#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-rat)
 
- Build Errors : 14 / 0 / 0
+ Build Errors : 1 / 0 / 0
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-class-cs : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-entity-cs : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-service-type-cs : 0 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Condition-BSJ-Diagnosis1 : 0 / 1 / 2
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Condition-BSJ-Diagnosis2 : 0 / 1 / 2
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Condition-BSJ-Diagnosis1 : 0 / 2 / 2
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Condition-BSJ-Diagnosis2 : 0 / 2 / 2
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-Encounter-1-SNF-Stay : 0 / 0 / 2
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-Encounter-2-HHA-Stay : 0 / 0 / 2
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-MDS-Re-assessment-Timepoint-1 : 4 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-MDS-Re-assessment-Timepoint-2 : 4 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-1 : 8 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-2 : 5 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-3 : 5 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-MDS-Re-assessment-Timepoint-1 : 1 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-MDS-Re-assessment-Timepoint-2 : 1 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-1 : 2 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-2 : 2 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-3 : 2 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/EpisodeOfCare-Episodecare-1-SNF-Stay : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/EpisodeOfCare-Episodecare-2-HHA-Stay : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.pacio-rat : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Location-Provider-Org-Loc-1 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Location-Provider-Org-Loc-2 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-12 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-16 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-20 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-24 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-26 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-30 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-34 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-36 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-4 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-40 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-44 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-48 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-50 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-53 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-57 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-8 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-58 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-59 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-60 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-61 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-62 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-63 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-64 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-65 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-66 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-67 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-68 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-69 : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-70 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-71 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-72 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-11 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-15 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-19 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-23 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-29 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-3 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-33 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-39 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-43 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-47 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-56 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-7 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-10 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-14 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-18 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-2 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-22 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-28 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-32 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-38 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-42 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-46 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-52 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-55 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-6 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-13 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-17 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-21 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-25 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-27 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-31 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-35 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-37 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-41 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-45 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-49 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-5 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-51 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-54 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-9 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-PF-SOC-OASIS-2A : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-2 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-3 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-4 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F-Ob-Question-10 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F-Ob-Question-12 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F-Ob-Question-14 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F-Ob-Question-16 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F-Ob-Question-18 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F-Ob-Question-6 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F-Ob-Question-8 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C-Ob-Question-19 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C-Ob-Question-20 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C-Ob-Question-21 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C-Ob-Question-22 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C-Ob-Question-23 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C-Ob-Question-24 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C-Ob-Question-25 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-FU-120-OASIS-2E : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-FU-120-OASIS-2E-Ob-Question-27 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-FU-120-OASIS-2E-Ob-Question-29 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-FU-120-OASIS-2E-Ob-Question-31 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-FU-60-OASIS-2D : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-FU-60-OASIS-2D-Ob-Question-26 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-FU-60-OASIS-2D-Ob-Question-28 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-FU-60-OASIS-2D-Ob-Question-30 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-11 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-13 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-15 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-17 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-5 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-7 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-9 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-10 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-13 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-16 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-19 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-21 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-24 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-27 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-30 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-31 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-32 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-33 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-34 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-35 : 0 / 2 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-4 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-7 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-36 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-37 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-38 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-39 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-40 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-41 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-42 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-43 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-44 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-45 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-46 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-47 : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-48 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-49 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-50 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-51 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-52 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-12 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-15 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-18 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-20 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-23 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-26 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-29 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-3 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-6 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-9 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C : 0 / 1 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-11 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-14 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-17 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-2 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-22 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-25 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-28 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-5 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-8 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-PF-MDS-5-Day-NC-1A : 0 / 1 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-PF-MDS-5-Day-NC-1A-Ob-Question-1 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-PF-MDS-5-Day-NC-1A-Ob-Question-2 : 0 / 0 / 1
@@ -70,10 +240,10 @@ Generated Thu Jul 01 09:04:19 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-SummerJohnson : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-TamaraRodriguez : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-neurologist-Practitioner-NoraOlogist : 0 / 2 / 2
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-nurse-Practitioner-JacobHartwell : 1 / 0 / 2
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-nurse-Practitioner-LiaNguyen : 1 / 0 / 2
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-nurse-Practitioner-SummerJohnson : 1 / 0 / 2
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-nurse-Practitioner-TamaraRodriguez : 1 / 0 / 2
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-nurse-Practitioner-JacobHartwell : 0 / 0 / 2
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-nurse-Practitioner-LiaNguyen : 0 / 0 / 2
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-nurse-Practitioner-SummerJohnson : 0 / 0 / 2
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-nurse-Practitioner-TamaraRodriguez : 0 / 0 / 2
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-pcp-Practitioner-JohnSmith : 0 / 1 / 2
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-physical-therapist-Practitioner-DanielGranger : 0 / 0 / 2
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-physical-therapist-Practitioner-JenCadbury : 0 / 0 / 2
@@ -90,19 +260,6 @@ Generated Thu Jul 01 09:04:19 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
 </table>
 == n/a ==
 ERROR: There is no jira specification file defined with the expected name of FHIR-us-pacio-rat in the xml folder of the  https://github.com/HL7/Jira-Spec-Artifacts project.  This must exist before ballot or publication.
-ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/output/Encounter-MDS-Re-assessment-Timepoint-1.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 193, column 2952: The link 'SNF-MOB-AP-MDS-5-Day-NC-1A' for "SNF-MOB-AP-MDS-5-Day-NC-1A" cannot be resolved
-ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/output/Encounter-MDS-Re-assessment-Timepoint-1.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 193, column 3028: The link 'SNF-MOB-DG-MDS-5-Day-NC-1B' for "SNF-MOB-DG-MDS-5-Day-NC-1B" cannot be resolved
-ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/output/Encounter-MDS-Re-assessment-Timepoint-2.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 193, column 2185: The link 'SNF-MOB-IP-MDS-IPA-1C' for "SNF-MOB-IP-MDS-IPA-1C" cannot be resolved
-ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/output/Encounter-MDS-Re-assessment-Timepoint-2.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 193, column 2646: The link 'SNF-MOB-DP-MDS-Discharge-ND-1D' for "SNF-MOB-DP-MDS-Discharge-ND-1D" cannot be resolved
-ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/output/Encounter-OASIS-Re-assessment-Timepoint-1.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 193, column 1999: The link 'HHA-PF-SOC--OASIS-2A' for "HHA-PF-SOC--OASIS-2A" cannot be resolved
-ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/output/Encounter-OASIS-Re-assessment-Timepoint-1.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 193, column 2063: The link 'HHA-SC-SOC-Perf-OASIS-2B' for "HHA-SC-SOC-Perf-OASIS-2B" cannot be resolved
-ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/output/Encounter-OASIS-Re-assessment-Timepoint-1.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 193, column 2135: The link 'HHA-SC-DG-OASIS-2C' for "HHA-SC-DG-OASIS-2C" cannot be resolved
-ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/output/Encounter-OASIS-Re-assessment-Timepoint-1.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 193, column 2195: The link 'HHA-MOB-SOC-Perf-OASIS-2A' for "HHA-MOB-SOC-Perf-OASIS-2A" cannot be resolved
-ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/output/Encounter-OASIS-Re-assessment-Timepoint-1.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 193, column 2269: The link 'HHA-MOB-DG-OASIS-2B' for "HHA-MOB-DG-OASIS-2B" cannot be resolved
-ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/output/Encounter-OASIS-Re-assessment-Timepoint-2.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 193, column 1999: The link 'HHA-SC-FU-60-OASIS-2D' for "HHA-SC-FU-60-OASIS-2D" cannot be resolved
-ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/output/Encounter-OASIS-Re-assessment-Timepoint-2.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 193, column 2065: The link 'HHA-MOB-DG-OASIS-2B' for "HHA-MOB-DG-OASIS-2B" cannot be resolved
-ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/output/Encounter-OASIS-Re-assessment-Timepoint-3.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 193, column 1999: The link 'HHA-SC-FU-120-OASIS-2E' for "HHA-SC-FU-120-OASIS-2E" cannot be resolved
-ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/output/Encounter-OASIS-Re-assessment-Timepoint-3.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 193, column 2067: The link 'HHA-MOB-DC-OASIS-2E' for "HHA-MOB-DC-OASIS-2E" cannot be resolved
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-class-cs.json ==
 INFORMATION: CodeSystem/prat-class-cs: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-entity-cs.json ==
@@ -111,12 +268,14 @@ INFORMATION: CodeSystem/prat-entity-cs: CodeSystem: Validate resource against pr
 INFORMATION: CodeSystem/prat-service-type-cs: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Condition-BSJ-Diagnosis1.json ==
 INFORMATION: Condition/BSJ-Diagnosis1: Condition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition
-WARNING: Condition/BSJ-Diagnosis1: Condition.code.text: value should not start or finish with whitespace
+WARNING: Condition/BSJ-Diagnosis1: Condition.code.coding[0]: The display "Cerebral Infarction" is not a valid display for the code {http://hl7.org/fhir/sid/icd-10-cm}I63.411 - should be one of [Cerebral infarction due to embolism of right middle cerebral artery, Cereb infrc due to embolism of right middle cerebral artery] (from http://tx.fhir.org/r4) for 'http://hl7.org/fhir/sid/icd-10-cm#I63.411'
 INFORMATION: Condition/BSJ-Diagnosis1: Condition: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition - listed in meta
+WARNING: Condition/BSJ-Diagnosis1: Condition.code: The display "Cerebral Infarction" is not a valid display for the code {http://hl7.org/fhir/sid/icd-10-cm}I63.411 - should be one of [Cerebral infarction due to embolism of right middle cerebral artery, Cereb infrc due to embolism of right middle cerebral artery] (from http://tx.fhir.org/r4)
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Condition-BSJ-Diagnosis2.json ==
 INFORMATION: Condition/BSJ-Diagnosis2: Condition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition
-WARNING: Condition/BSJ-Diagnosis2: Condition.code.text: value should not start or finish with whitespace
+WARNING: Condition/BSJ-Diagnosis2: Condition.code.coding[0]: The display "Cerebral Infarction" is not a valid display for the code {http://hl7.org/fhir/sid/icd-10-cm}I63.411 - should be one of [Cerebral infarction due to embolism of right middle cerebral artery, Cereb infrc due to embolism of right middle cerebral artery] (from http://tx.fhir.org/r4) for 'http://hl7.org/fhir/sid/icd-10-cm#I63.411'
 INFORMATION: Condition/BSJ-Diagnosis2: Condition: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition - listed in meta
+WARNING: Condition/BSJ-Diagnosis2: Condition.code: The display "Cerebral Infarction" is not a valid display for the code {http://hl7.org/fhir/sid/icd-10-cm}I63.411 - should be one of [Cerebral infarction due to embolism of right middle cerebral artery, Cereb infrc due to embolism of right middle cerebral artery] (from http://tx.fhir.org/r4)
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-Encounter-1-SNF-Stay.json ==
 INFORMATION: Encounter/Encounter-1-SNF-Stay: Encounter: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Encounter
 INFORMATION: Encounter/Encounter-1-SNF-Stay: Encounter: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter - listed in meta
@@ -126,39 +285,21 @@ INFORMATION: Encounter/Encounter-2-HHA-Stay: Encounter: Validate resource agains
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-MDS-Re-assessment-Timepoint-1.json ==
 INFORMATION: Encounter/MDS-Re-assessment-Timepoint-1: Encounter: Validate resource against profile http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter
 ERROR: Encounter/MDS-Re-assessment-Timepoint-1: Encounter.identifier[0].system: URL value 'http://hl7.org/fhir/us/pacio-rat' does not resolve
-ERROR: Encounter/MDS-Re-assessment-Timepoint-1: Encounter.reasonCode[0].coding[0]: The code "I63.411" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#I63.411) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://hl7.org/fhir/sid/icd-10#I63.411'
-ERROR: Encounter/MDS-Re-assessment-Timepoint-1: Encounter.reasonReference[3]: Unable to resolve resource 'SNF-MOB-AP-MDS-5-Day-NC-1A'
-ERROR: Encounter/MDS-Re-assessment-Timepoint-1: Encounter.reasonReference[4]: Unable to resolve resource 'SNF-MOB-DG-MDS-5-Day-NC-1B'
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-MDS-Re-assessment-Timepoint-2.json ==
 INFORMATION: Encounter/MDS-Re-assessment-Timepoint-2: Encounter: Validate resource against profile http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter
 ERROR: Encounter/MDS-Re-assessment-Timepoint-2: Encounter.identifier[0].system: URL value 'http://hl7.org/fhir/us/pacio-rat' does not resolve
-ERROR: Encounter/MDS-Re-assessment-Timepoint-2: Encounter.reasonCode[0].coding[0]: The code "I63.411" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#I63.411) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://hl7.org/fhir/sid/icd-10#I63.411'
-ERROR: Encounter/MDS-Re-assessment-Timepoint-2: Encounter.reasonReference[1]: Unable to resolve resource 'SNF-MOB-IP-MDS-IPA-1C'
-ERROR: Encounter/MDS-Re-assessment-Timepoint-2: Encounter.reasonReference[3]: Unable to resolve resource 'SNF-MOB-DP-MDS-Discharge-ND-1D'
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-1.json ==
 INFORMATION: Encounter/OASIS-Re-assessment-Timepoint-1: Encounter: Validate resource against profile http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter
 ERROR: Encounter/OASIS-Re-assessment-Timepoint-1: Encounter.identifier[0].system: URL value 'http://hl7.org/fhir/us/pacio-rat' does not resolve
 ERROR: Encounter/OASIS-Re-assessment-Timepoint-1: Encounter.class: Unknown Code http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH in http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs for 'http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH'
-ERROR: Encounter/OASIS-Re-assessment-Timepoint-1: Encounter.reasonCode[0].coding[0]: The code "I63.411" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#I63.411) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://hl7.org/fhir/sid/icd-10#I63.411'
-ERROR: Encounter/OASIS-Re-assessment-Timepoint-1: Encounter.reasonReference[0]: Unable to resolve resource 'HHA-PF-SOC--OASIS-2A'
-ERROR: Encounter/OASIS-Re-assessment-Timepoint-1: Encounter.reasonReference[1]: Unable to resolve resource 'HHA-SC-SOC-Perf-OASIS-2B'
-ERROR: Encounter/OASIS-Re-assessment-Timepoint-1: Encounter.reasonReference[2]: Unable to resolve resource 'HHA-SC-DG-OASIS-2C'
-ERROR: Encounter/OASIS-Re-assessment-Timepoint-1: Encounter.reasonReference[3]: Unable to resolve resource 'HHA-MOB-SOC-Perf-OASIS-2A'
-ERROR: Encounter/OASIS-Re-assessment-Timepoint-1: Encounter.reasonReference[4]: Unable to resolve resource 'HHA-MOB-DG-OASIS-2B'
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-2.json ==
 INFORMATION: Encounter/OASIS-Re-assessment-Timepoint-2: Encounter: Validate resource against profile http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter
 ERROR: Encounter/OASIS-Re-assessment-Timepoint-2: Encounter.identifier[0].system: URL value 'http://hl7.org/fhir/us/pacio-rat' does not resolve
 ERROR: Encounter/OASIS-Re-assessment-Timepoint-2: Encounter.class: Unknown Code http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH in http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs for 'http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH'
-ERROR: Encounter/OASIS-Re-assessment-Timepoint-2: Encounter.reasonCode[0].coding[0]: The code "I63.411" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#I63.411) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://hl7.org/fhir/sid/icd-10#I63.411'
-ERROR: Encounter/OASIS-Re-assessment-Timepoint-2: Encounter.reasonReference[0]: Unable to resolve resource 'HHA-SC-FU-60-OASIS-2D'
-ERROR: Encounter/OASIS-Re-assessment-Timepoint-2: Encounter.reasonReference[1]: Unable to resolve resource 'HHA-MOB-DG-OASIS-2B'
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-3.json ==
 INFORMATION: Encounter/OASIS-Re-assessment-Timepoint-3: Encounter: Validate resource against profile http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter
 ERROR: Encounter/OASIS-Re-assessment-Timepoint-3: Encounter.identifier[0].system: URL value 'http://hl7.org/fhir/us/pacio-rat' does not resolve
 ERROR: Encounter/OASIS-Re-assessment-Timepoint-3: Encounter.class: Unknown Code http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH in http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs for 'http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH'
-ERROR: Encounter/OASIS-Re-assessment-Timepoint-3: Encounter.reasonCode[0].coding[0]: The code "I63.411" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#I63.411) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://hl7.org/fhir/sid/icd-10#I63.411'
-ERROR: Encounter/OASIS-Re-assessment-Timepoint-3: Encounter.reasonReference[0]: Unable to resolve resource 'HHA-SC-FU-120-OASIS-2E'
-ERROR: Encounter/OASIS-Re-assessment-Timepoint-3: Encounter.reasonReference[1]: Unable to resolve resource 'HHA-MOB-DC-OASIS-2E'
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/EpisodeOfCare-Episodecare-1-SNF-Stay.json ==
 INFORMATION: EpisodeOfCare/Episodecare-1-SNF-Stay: EpisodeOfCare: Validate resource against profile http://hl7.org/fhir/StructureDefinition/EpisodeOfCare
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/EpisodeOfCare-Episodecare-2-HHA-Stay.json ==
@@ -169,6 +310,365 @@ INFORMATION: ImplementationGuide/hl7.fhir.us.pacio-rat: ImplementationGuide: Val
 INFORMATION: Location/Provider-Org-Loc-1: Location: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Location
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Location-Provider-Org-Loc-2.json ==
 INFORMATION: Location/Provider-Org-Loc-2: Location: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Location
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E.json ==
+INFORMATION: Observation/HHA-MOB-DC-OASIS-2E: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+WARNING: Observation/HHA-MOB-DC-OASIS-2E: Observation.code.coding[0]: The display "OASIS D - Mobility - discharge performance during assessment period [CMS Assessment]" is not a valid display for the code {http://loinc.org}89474-1 - should be one of [OASIS D - Mobility - discharge performance [CMS Assessment], ] (from http://tx.fhir.org/r4) for 'http://loinc.org#89474-1'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-12.json ==
+INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-12: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-16.json ==
+INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-16: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-20.json ==
+INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-20: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-24.json ==
+INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-24: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-26.json ==
+INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-26: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-30.json ==
+INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-30: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-34.json ==
+INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-34: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-36.json ==
+INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-36: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-4.json ==
+INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-4: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-40.json ==
+INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-40: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-44.json ==
+INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-44: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-48.json ==
+INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-48: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-50.json ==
+INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-50: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-53.json ==
+INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-53: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-57.json ==
+INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-57: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-8.json ==
+INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-8: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B.json ==
+INFORMATION: Observation/HHA-MOB-DG-OASIS-2B: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+WARNING: Observation/HHA-MOB-DG-OASIS-2B: Observation.code.coding[0]: The display "Mobility - discharge goal [CMS Assessment]" is not a valid display for the code {http://loinc.org}89476-6 - should be one of [IRF-PAI v3.0, LCDS v5.00, OASIS D, D1 - Mobility - discharge goal [CMS Assessment], ] (from http://tx.fhir.org/r4) for 'http://loinc.org#89476-6'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-58.json ==
+INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-58: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-59.json ==
+INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-59: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-60.json ==
+INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-60: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-61.json ==
+INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-61: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-62.json ==
+INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-62: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-63.json ==
+INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-63: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-64.json ==
+INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-64: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-65.json ==
+INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-65: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-66.json ==
+INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-66: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-67.json ==
+INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-67: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-68.json ==
+INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-68: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-69.json ==
+INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-69: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+WARNING: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-69: Observation.code.coding[0]: The display "Go up and down a curb/step - functional goal [CMS Assessment]" is not a valid display for the code {http://loinc.org}89420-4 - should be one of [1 step (curb) - functional goal [CMS Assessment], ] (from http://tx.fhir.org/r4) for 'http://loinc.org#89420-4'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-70.json ==
+INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-70: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-71.json ==
+INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-71: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-72.json ==
+INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-72: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D.json ==
+INFORMATION: Observation/HHA-MOB-FU-120-OASIS-2D: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+WARNING: Observation/HHA-MOB-FU-120-OASIS-2D: Observation.code.coding[0]: The display "OASID D - Mobility - follow-up perfomance during assessment period [CMS Assessment]" is not a valid display for the code {http://loinc.org}88486-6 - should be one of [OASID D - Mobility - follow-up perfomance [CMS Assessment], ] (from http://tx.fhir.org/r4) for 'http://loinc.org#88486-6'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-11.json ==
+INFORMATION: Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-11: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-15.json ==
+INFORMATION: Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-15: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-19.json ==
+INFORMATION: Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-19: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-23.json ==
+INFORMATION: Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-23: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-29.json ==
+INFORMATION: Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-29: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-3.json ==
+INFORMATION: Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-3: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-33.json ==
+INFORMATION: Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-33: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-39.json ==
+INFORMATION: Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-39: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-43.json ==
+INFORMATION: Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-43: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-47.json ==
+INFORMATION: Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-47: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-56.json ==
+INFORMATION: Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-56: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-7.json ==
+INFORMATION: Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-7: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C.json ==
+INFORMATION: Observation/HHA-MOB-FU-60-OASIS-2C: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+WARNING: Observation/HHA-MOB-FU-60-OASIS-2C: Observation.code.coding[0]: The display "OASID D - Mobility - follow-up perfomance during assessment period [CMS Assessment]" is not a valid display for the code {http://loinc.org}88486-6 - should be one of [OASID D - Mobility - follow-up perfomance [CMS Assessment], ] (from http://tx.fhir.org/r4) for 'http://loinc.org#88486-6'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-10.json ==
+INFORMATION: Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-10: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-14.json ==
+INFORMATION: Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-14: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-18.json ==
+INFORMATION: Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-18: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-2.json ==
+INFORMATION: Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-2: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-22.json ==
+INFORMATION: Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-22: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-28.json ==
+INFORMATION: Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-28: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-32.json ==
+INFORMATION: Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-32: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-38.json ==
+INFORMATION: Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-38: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-42.json ==
+INFORMATION: Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-42: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-46.json ==
+INFORMATION: Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-46: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-52.json ==
+INFORMATION: Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-52: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-55.json ==
+INFORMATION: Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-55: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-6.json ==
+INFORMATION: Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-6: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A.json ==
+INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+WARNING: Observation/HHA-MOB-SOC-Perf-OASIS-2A: Observation.code.coding[0]: The display "OASIS D - Mobility - SOC and ROC performance during assessment period [CMS Assessment]" is not a valid display for the code {http://loinc.org}89477-4 - should be one of [OASIS D - Mobility - SOC and ROC performance [CMS Assessment], ] (from http://tx.fhir.org/r4) for 'http://loinc.org#89477-4'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-1.json ==
+INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-1: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-13.json ==
+INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-13: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-17.json ==
+INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-17: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-21.json ==
+INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-21: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-25.json ==
+INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-25: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-27.json ==
+INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-27: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-31.json ==
+INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-31: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-35.json ==
+INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-35: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-37.json ==
+INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-37: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-41.json ==
+INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-41: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-45.json ==
+INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-45: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-49.json ==
+INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-49: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-5.json ==
+INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-5: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-51.json ==
+INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-51: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-54.json ==
+INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-54: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-9.json ==
+INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-9: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-PF-SOC-OASIS-2A.json ==
+INFORMATION: Observation/HHA-PF-SOC-OASIS-2A: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+WARNING: Observation/HHA-PF-SOC-OASIS-2A: Observation.code.coding[0]: The display "IRF-PAI v3.0, MDS v1.17.1, 1.17.2, OASIS D, D1 - Prior functioning: everyday activities [CMS Assessment]" is not a valid display for the code {http://loinc.org}83239-4 - should be one of [IRF-PAI v3.0, MDS 1.17.1, 1.17.2, OASIS D, D1 - Prior functioning: everyday activities [CMS Assessment], ] (from http://tx.fhir.org/r4) for 'http://loinc.org#83239-4'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-1.json ==
+INFORMATION: Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-1: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-2.json ==
+INFORMATION: Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-2: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-3.json ==
+INFORMATION: Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-3: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-4.json ==
+INFORMATION: Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-4: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F.json ==
+INFORMATION: Observation/HHA-SC-DC-OASIS-2F: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+WARNING: Observation/HHA-SC-DC-OASIS-2F: Observation.code.coding[0]: The display "OASIS D - Self-care - discharge performance during assessment period [CMS Assessment]" is not a valid display for the code {http://loinc.org}89475-8 - should be one of [OASIS D - Self-care - discharge performance [CMS Assessment], ] (from http://tx.fhir.org/r4) for 'http://loinc.org#89475-8'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F-Ob-Question-10.json ==
+INFORMATION: Observation/HHA-SC-DC-OASIS-2F-Ob-Question-10: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F-Ob-Question-12.json ==
+INFORMATION: Observation/HHA-SC-DC-OASIS-2F-Ob-Question-12: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F-Ob-Question-14.json ==
+INFORMATION: Observation/HHA-SC-DC-OASIS-2F-Ob-Question-14: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F-Ob-Question-16.json ==
+INFORMATION: Observation/HHA-SC-DC-OASIS-2F-Ob-Question-16: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F-Ob-Question-18.json ==
+INFORMATION: Observation/HHA-SC-DC-OASIS-2F-Ob-Question-18: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F-Ob-Question-6.json ==
+INFORMATION: Observation/HHA-SC-DC-OASIS-2F-Ob-Question-6: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F-Ob-Question-8.json ==
+INFORMATION: Observation/HHA-SC-DC-OASIS-2F-Ob-Question-8: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C.json ==
+INFORMATION: Observation/HHA-SC-DG-OASIS-2C: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+WARNING: Observation/HHA-SC-DG-OASIS-2C: Observation.code.coding[0]: The display "IRF-PAI v3.0, MDS v1.17.1, 1.17.2, OASIS D, D1 - Self-care - discharge goal [CMS Assessment]" is not a valid display for the code {http://loinc.org}89478-2 - should be one of [IRF-PAI v3.0, OASIS D, D1 - Self-care - discharge goal [CMS Assessment], ] (from http://tx.fhir.org/r4) for 'http://loinc.org#89478-2'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C-Ob-Question-19.json ==
+INFORMATION: Observation/HHA-SC-DG-OASIS-2C-Ob-Question-19: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C-Ob-Question-20.json ==
+INFORMATION: Observation/HHA-SC-DG-OASIS-2C-Ob-Question-20: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C-Ob-Question-21.json ==
+INFORMATION: Observation/HHA-SC-DG-OASIS-2C-Ob-Question-21: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C-Ob-Question-22.json ==
+INFORMATION: Observation/HHA-SC-DG-OASIS-2C-Ob-Question-22: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C-Ob-Question-23.json ==
+INFORMATION: Observation/HHA-SC-DG-OASIS-2C-Ob-Question-23: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C-Ob-Question-24.json ==
+INFORMATION: Observation/HHA-SC-DG-OASIS-2C-Ob-Question-24: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C-Ob-Question-25.json ==
+INFORMATION: Observation/HHA-SC-DG-OASIS-2C-Ob-Question-25: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-FU-120-OASIS-2E.json ==
+INFORMATION: Observation/HHA-SC-FU-120-OASIS-2E: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+WARNING: Observation/HHA-SC-FU-120-OASIS-2E: Observation.code.coding[0]: The display "OASIS D - Self-care - follow-up performance during assessment period [CMS Assessment]" is not a valid display for the code {http://loinc.org}88485-8 - should be one of [OASIS D - Self-care - follow-up performance [CMS Assessment], ] (from http://tx.fhir.org/r4) for 'http://loinc.org#88485-8'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-FU-120-OASIS-2E-Ob-Question-27.json ==
+INFORMATION: Observation/HHA-SC-FU-120-OASIS-2E-Ob-Question-27: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-FU-120-OASIS-2E-Ob-Question-29.json ==
+INFORMATION: Observation/HHA-SC-FU-120-OASIS-2E-Ob-Question-29: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-FU-120-OASIS-2E-Ob-Question-31.json ==
+INFORMATION: Observation/HHA-SC-FU-120-OASIS-2E-Ob-Question-31: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-FU-60-OASIS-2D.json ==
+INFORMATION: Observation/HHA-SC-FU-60-OASIS-2D: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+WARNING: Observation/HHA-SC-FU-60-OASIS-2D: Observation.code.coding[0]: The display "OASIS D - Self-care - follow-up performance during assessment period [CMS Assessment]" is not a valid display for the code {http://loinc.org}88485-8 - should be one of [OASIS D - Self-care - follow-up performance [CMS Assessment], ] (from http://tx.fhir.org/r4) for 'http://loinc.org#88485-8'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-FU-60-OASIS-2D-Ob-Question-26.json ==
+INFORMATION: Observation/HHA-SC-FU-60-OASIS-2D-Ob-Question-26: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-FU-60-OASIS-2D-Ob-Question-28.json ==
+INFORMATION: Observation/HHA-SC-FU-60-OASIS-2D-Ob-Question-28: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-FU-60-OASIS-2D-Ob-Question-30.json ==
+INFORMATION: Observation/HHA-SC-FU-60-OASIS-2D-Ob-Question-30: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B.json ==
+INFORMATION: Observation/HHA-SC-SOC-Perf-OASIS-2B: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+WARNING: Observation/HHA-SC-SOC-Perf-OASIS-2B: Observation.code.coding[0]: The display "OASIS D - Self-care - SOC/ROC performance during assessment period [CMS Assessment]" is not a valid display for the code {http://loinc.org}89479-0 - should be one of [OASIS D - Self-care - SOC/ROC performance [CMS Assessment], ] (from http://tx.fhir.org/r4) for 'http://loinc.org#89479-0'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-11.json ==
+INFORMATION: Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-11: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-13.json ==
+INFORMATION: Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-13: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-15.json ==
+INFORMATION: Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-15: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-17.json ==
+INFORMATION: Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-17: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-5.json ==
+INFORMATION: Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-5: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-7.json ==
+INFORMATION: Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-7: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-9.json ==
+INFORMATION: Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-9: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A.json ==
+INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+WARNING: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A: Observation.code.coding[0]: The display "IRF-PAI v3.0, MDS v1.17.1, 1.17.2 - Mobility - admission performance during assessment period [CMS Assessment]" is not a valid display for the code {http://loinc.org}95741-5 - should be one of [IRF-PAI v3.0 - Mobility - admission performance during assessment period [CMS Assessment], ] (from http://tx.fhir.org/r4) for 'http://loinc.org#95741-5'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-1.json ==
+INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-1: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-10.json ==
+INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-10: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-13.json ==
+INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-13: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-16.json ==
+INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-16: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-19.json ==
+INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-19: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-21.json ==
+INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-21: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-24.json ==
+INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-24: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-27.json ==
+INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-27: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-30.json ==
+INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-30: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-31.json ==
+INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-31: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-32.json ==
+INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-32: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-33.json ==
+INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-33: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-34.json ==
+INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-34: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-35.json ==
+INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-35: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+WARNING: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-35: Observation.value.ofType(CodeableConcept).coding[0].display: value should not start or finish with whitespace
+WARNING: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-35: Observation.value.ofType(CodeableConcept).text: value should not start or finish with whitespace
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-4.json ==
+INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-4: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-7.json ==
+INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-7: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B.json ==
+INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+WARNING: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B: Observation.code.coding[0]: The display "Mobility - discharge goal [CMS Assessment]" is not a valid display for the code {http://loinc.org}89476-6 - should be one of [IRF-PAI v3.0, LCDS v5.00, OASIS D, D1 - Mobility - discharge goal [CMS Assessment], ] (from http://tx.fhir.org/r4) for 'http://loinc.org#89476-6'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-36.json ==
+INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-36: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-37.json ==
+INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-37: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-38.json ==
+INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-38: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-39.json ==
+INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-39: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-40.json ==
+INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-40: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-41.json ==
+INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-41: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-42.json ==
+INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-42: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-43.json ==
+INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-43: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-44.json ==
+INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-44: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-45.json ==
+INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-45: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-46.json ==
+INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-46: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-47.json ==
+INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-47: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+WARNING: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-47: Observation.code.coding[0]: The display "Go up and down a curb/step - functional goal [CMS Assessment]" is not a valid display for the code {http://loinc.org}89420-4 - should be one of [1 step (curb) - functional goal [CMS Assessment], ] (from http://tx.fhir.org/r4) for 'http://loinc.org#89420-4'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-48.json ==
+INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-48: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-49.json ==
+INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-49: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-50.json ==
+INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-50: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-51.json ==
+INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-51: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-52.json ==
+INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-52: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D.json ==
+INFORMATION: Observation/SNF-MOB-DP-MDS-Discharge-ND-1D: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+WARNING: Observation/SNF-MOB-DP-MDS-Discharge-ND-1D: Observation.code.coding[0]: The display "IRF-PAI v3.0, MDS v1.17.1, 1.17.2 - Mobility - discharge performance during assessment period [CMS Assessment]" is not a valid display for the code {http://loinc.org}95742-3 - should be one of [IRF-PAI v3.0 - Mobility - discharge performance during assessment period [CMS Assessment], ] (from http://tx.fhir.org/r4) for 'http://loinc.org#95742-3'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-12.json ==
+INFORMATION: Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-12: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-15.json ==
+INFORMATION: Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-15: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-18.json ==
+INFORMATION: Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-18: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-20.json ==
+INFORMATION: Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-20: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-23.json ==
+INFORMATION: Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-23: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-26.json ==
+INFORMATION: Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-26: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-29.json ==
+INFORMATION: Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-29: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-3.json ==
+INFORMATION: Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-3: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-6.json ==
+INFORMATION: Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-6: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-9.json ==
+INFORMATION: Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-9: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C.json ==
+INFORMATION: Observation/SNF-MOB-IP-MDS-IPA-1C: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+WARNING: Observation/SNF-MOB-IP-MDS-IPA-1C: Observation.code.coding[0]: The display "Mobility - interim performance during assessment period [CMS Assessment]" is not a valid display for the code {http://loinc.org}90541-4 - should be one of [Mobility - interim performance during 3 day assessment period [CMS Assessment], ] (from http://tx.fhir.org/r4) for 'http://loinc.org#90541-4'
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-11.json ==
+INFORMATION: Observation/SNF-MOB-IP-MDS-IPA-1C-Ob-Question-11: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-14.json ==
+INFORMATION: Observation/SNF-MOB-IP-MDS-IPA-1C-Ob-Question-14: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-17.json ==
+INFORMATION: Observation/SNF-MOB-IP-MDS-IPA-1C-Ob-Question-17: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-2.json ==
+INFORMATION: Observation/SNF-MOB-IP-MDS-IPA-1C-Ob-Question-2: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-22.json ==
+INFORMATION: Observation/SNF-MOB-IP-MDS-IPA-1C-Ob-Question-22: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-25.json ==
+INFORMATION: Observation/SNF-MOB-IP-MDS-IPA-1C-Ob-Question-25: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-28.json ==
+INFORMATION: Observation/SNF-MOB-IP-MDS-IPA-1C-Ob-Question-28: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-5.json ==
+INFORMATION: Observation/SNF-MOB-IP-MDS-IPA-1C-Ob-Question-5: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-8.json ==
+INFORMATION: Observation/SNF-MOB-IP-MDS-IPA-1C-Ob-Question-8: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-PF-MDS-5-Day-NC-1A.json ==
 INFORMATION: Observation/SNF-PF-MDS-5-Day-NC-1A: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
 WARNING: Observation/SNF-PF-MDS-5-Day-NC-1A: Observation.code.coding[0]: The display "IRF-PAI v3.0, MDS v1.17.1, 1.17.2, OASIS D, D1 - Prior functioning: everyday activities [CMS Assessment]" is not a valid display for the code {http://loinc.org}83239-4 - should be one of [IRF-PAI v3.0, MDS 1.17.1, 1.17.2, OASIS D, D1 - Prior functioning: everyday activities [CMS Assessment], ] (from http://tx.fhir.org/r4) for 'http://loinc.org#83239-4'
@@ -277,36 +777,32 @@ INFORMATION: PractitionerRole/provider-role-neurologist-Practitioner-NoraOlogist
 WARNING: PractitionerRole/provider-role-neurologist-Practitioner-NoraOlogist: PractitionerRole.specialty[0].coding[0]: The display "Neurology" is not a valid display for the code {http://nucc.org/provider-taxonomy}2084N0400X - should be one of [Neurology Physician] (from http://tx.fhir.org/r4) for 'http://nucc.org/provider-taxonomy#2084N0400X'
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-nurse-Practitioner-JacobHartwell.json ==
 INFORMATION: PractitionerRole/provider-role-nurse-Practitioner-JacobHartwell: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
-INFORMATION: PractitionerRole/provider-role-nurse-Practitioner-JacobHartwell: PractitionerRole.specialty[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#224571005)
-ERROR: PractitionerRole/provider-role-nurse-Practitioner-JacobHartwell: PractitionerRole.specialty[0].coding[0]: The code "224571005" is not valid in the system http://nucc.org/provider-taxonomy; The code provided (http://nucc.org/provider-taxonomy#224571005) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://nucc.org/provider-taxonomy#224571005'
+INFORMATION: PractitionerRole/provider-role-nurse-Practitioner-JacobHartwell: PractitionerRole.specialty[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://snomed.info/sct#224535009)
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-nurse-Practitioner-LiaNguyen.json ==
 INFORMATION: PractitionerRole/provider-role-nurse-Practitioner-LiaNguyen: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
-INFORMATION: PractitionerRole/provider-role-nurse-Practitioner-LiaNguyen: PractitionerRole.specialty[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#224571005)
-ERROR: PractitionerRole/provider-role-nurse-Practitioner-LiaNguyen: PractitionerRole.specialty[0].coding[0]: The code "224571005" is not valid in the system http://nucc.org/provider-taxonomy; The code provided (http://nucc.org/provider-taxonomy#224571005) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://nucc.org/provider-taxonomy#224571005'
+INFORMATION: PractitionerRole/provider-role-nurse-Practitioner-LiaNguyen: PractitionerRole.specialty[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://snomed.info/sct#224535009)
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-nurse-Practitioner-SummerJohnson.json ==
 INFORMATION: PractitionerRole/provider-role-nurse-Practitioner-SummerJohnson: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
-INFORMATION: PractitionerRole/provider-role-nurse-Practitioner-SummerJohnson: PractitionerRole.specialty[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#224571005)
-ERROR: PractitionerRole/provider-role-nurse-Practitioner-SummerJohnson: PractitionerRole.specialty[0].coding[0]: The code "224571005" is not valid in the system http://nucc.org/provider-taxonomy; The code provided (http://nucc.org/provider-taxonomy#224571005) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://nucc.org/provider-taxonomy#224571005'
+INFORMATION: PractitionerRole/provider-role-nurse-Practitioner-SummerJohnson: PractitionerRole.specialty[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://snomed.info/sct#224535009)
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-nurse-Practitioner-TamaraRodriguez.json ==
 INFORMATION: PractitionerRole/provider-role-nurse-Practitioner-TamaraRodriguez: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
-INFORMATION: PractitionerRole/provider-role-nurse-Practitioner-TamaraRodriguez: PractitionerRole.specialty[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#224571005)
-ERROR: PractitionerRole/provider-role-nurse-Practitioner-TamaraRodriguez: PractitionerRole.specialty[0].coding[0]: The code "224571005" is not valid in the system http://nucc.org/provider-taxonomy; The code provided (http://nucc.org/provider-taxonomy#224571005) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://nucc.org/provider-taxonomy#224571005'
+INFORMATION: PractitionerRole/provider-role-nurse-Practitioner-TamaraRodriguez: PractitionerRole.specialty[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://snomed.info/sct#224535009)
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-pcp-Practitioner-JohnSmith.json ==
 INFORMATION: PractitionerRole/provider-role-pcp-Practitioner-JohnSmith: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
-INFORMATION: PractitionerRole/provider-role-pcp-Practitioner-JohnSmith: PractitionerRole.specialty[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#363LP2300X)
-WARNING: PractitionerRole/provider-role-pcp-Practitioner-JohnSmith: PractitionerRole.specialty[0].coding[0]: The display "Primary Care Clinic/Center" is not a valid display for the code {http://nucc.org/provider-taxonomy}363LP2300X - should be one of [Primary Care Nurse Practitioner] (from http://tx.fhir.org/r4) for 'http://nucc.org/provider-taxonomy#363LP2300X'
+WARNING: PractitionerRole/provider-role-pcp-Practitioner-JohnSmith: PractitionerRole.code[0].coding[0]: The display "Primary Care" is not a valid display for the code {http://nucc.org/provider-taxonomy}261QP2300X - should be one of [Primary Care Clinic/Center] (from http://tx.fhir.org/r4) for 'http://nucc.org/provider-taxonomy#261QP2300X'
+INFORMATION: PractitionerRole/provider-role-pcp-Practitioner-JohnSmith: PractitionerRole.specialty[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://snomed.info/sct#446050000)
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-physical-therapist-Practitioner-DanielGranger.json ==
 INFORMATION: PractitionerRole/provider-role-physical-therapist-Practitioner-DanielGranger: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
-INFORMATION: PractitionerRole/provider-role-physical-therapist-Practitioner-DanielGranger: PractitionerRole.specialty[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#225100000X)
+INFORMATION: PractitionerRole/provider-role-physical-therapist-Practitioner-DanielGranger: PractitionerRole.specialty[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://snomed.info/sct#24430003)
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-physical-therapist-Practitioner-JenCadbury.json ==
 INFORMATION: PractitionerRole/provider-role-physical-therapist-Practitioner-JenCadbury: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
-INFORMATION: PractitionerRole/provider-role-physical-therapist-Practitioner-JenCadbury: PractitionerRole.specialty[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#225100000X)
+INFORMATION: PractitionerRole/provider-role-physical-therapist-Practitioner-JenCadbury: PractitionerRole.specialty[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://snomed.info/sct#24430003)
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-physical-therapist-Practitioner-LunaBaskins.json ==
 INFORMATION: PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
-INFORMATION: PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins: PractitionerRole.specialty[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#225100000X)
+INFORMATION: PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins: PractitionerRole.specialty[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://snomed.info/sct#24430003)
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-physical-therapist-Practitioner-ScottDumble.json ==
 INFORMATION: PractitionerRole/provider-role-physical-therapist-Practitioner-ScottDumble: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
-INFORMATION: PractitionerRole/provider-role-physical-therapist-Practitioner-ScottDumble: PractitionerRole.specialty[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#225100000X)
+INFORMATION: PractitionerRole/provider-role-physical-therapist-Practitioner-ScottDumble: PractitionerRole.specialty[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://snomed.info/sct#24430003)
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/StructureDefinition-clinicalImpression.json ==
 INFORMATION: StructureDefinition/clinicalImpression: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/clinicalImpression: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
