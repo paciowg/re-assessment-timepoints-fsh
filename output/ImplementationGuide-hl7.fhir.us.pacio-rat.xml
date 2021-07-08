@@ -11,7 +11,7 @@
   <name value="PACIOReAssessmentTimepoints"/>
   <title value="PACIO Re-Assessment Timepoints Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-07-07T17:06:07-07:00"/>
+  <date value="2021-07-07T20:31:04-07:00"/>
   <publisher value="HL7 Community-Based Care and Privacy Working Group"/>
   <contact>
     <name value="HL7 Community-Based Care and Privacy Working Group"/>
@@ -216,7 +216,7 @@
         <reference value="StructureDefinition/prat-encounter"/>
       </reference>
       <name value="PACIO Re-assessment Timepoints Encounter Profile"/>
-      <description value="Re-assessment Timepoints Encounter is a profile of the Encoutner resource that allows longer term post acute admissions to be structured into smaller more consumable components, in line with the longer term clinical care and progression of a patient."/>
+      <description value="Re-assessment Timepoints Encounter is a profile of the Encounter resource that allows longer term post acute admissions to be structured into smaller more consumable components, in line with the longer term clinical care and progression of a patient."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

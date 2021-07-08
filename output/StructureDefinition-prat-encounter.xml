@@ -42,7 +42,7 @@
   <name value="ReassessmentTimepointsEncounter"/>
   <title value="PACIO Re-assessment Timepoints Encounter Profile"/>
   <status value="active"/>
-  <date value="2021-07-07T17:06:07-07:00"/>
+  <date value="2021-07-07T20:31:04-07:00"/>
   <publisher value="HL7 Community-Based Care and Privacy Working Group"/>
   <contact>
     <name value="HL7 Community-Based Care and Privacy Working Group"/>
@@ -55,7 +55,7 @@
       <value value="patients@lists.HL7.org"/>
     </telecom>
   </contact>
-  <description value="Re-assessment Timepoints Encounter is a profile of the Encoutner resource that allows longer term post acute admissions to be structured into smaller more consumable components, in line with the longer term clinical care and progression of a patient."/>
+  <description value="Re-assessment Timepoints Encounter is a profile of the Encounter resource that allows longer term post acute admissions to be structured into smaller more consumable components, in line with the longer term clinical care and progression of a patient."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

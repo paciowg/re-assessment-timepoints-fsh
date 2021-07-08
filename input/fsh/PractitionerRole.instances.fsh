@@ -103,8 +103,8 @@ InstanceOf: PractitionerRole
 Description: "An instance of PractitionerRole"
 * code = NUCC#261QP2300X
 * code.coding.display = "Primary Care"
-* specialty = SNOMED#446050000
-* specialty.coding.display = "Primary care physician (occupation)"
+* specialty = SNOMED#39677007
+* specialty.coding.display = "Internal medicine specialist (occupation)"
 * active = true
 * practitioner = Reference(Practitioner-JohnSmith)
 

@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "PACIOReAssessmentTimepoints"];
   fhir:ImplementationGuide.title [ fhir:value "PACIO Re-Assessment Timepoints Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-07-07T17:06:07-07:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-07-07T20:31:04-07:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Community-Based Care and Privacy Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -323,7 +323,7 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/prat-encounter" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "PACIO Re-assessment Timepoints Encounter Profile" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Re-assessment Timepoints Encounter is a profile of the Encoutner resource that allows longer term post acute admissions to be structured into smaller more consumable components, in line with the longer term clinical care and progression of a patient." ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Re-assessment Timepoints Encounter is a profile of the Encounter resource that allows longer term post acute admissions to be structured into smaller more consumable components, in line with the longer term clinical care and progression of a patient." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;

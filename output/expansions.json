@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "53b60bc7-47bb-40a9-8ee8-523745f30339",
+  "id" : "55c3bd92-625c-45ac-9f3c-0d696f1707a2",
   "meta" : {
-    "lastUpdated" : "2021-07-07T17:06:07.202-07:00"
+    "lastUpdated" : "2021-07-07T20:31:04.665-07:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "name" : "TimepointClassValueSet",
       "title" : "Timepoint Class Value Set",
       "status" : "active",
-      "date" : "2021-07-07T17:06:07-07:00",
+      "date" : "2021-07-07T20:31:04-07:00",
       "publisher" : "HL7 Community-Based Care and Privacy Working Group",
       "contact" : [{
         "name" : "HL7 Community-Based Care and Privacy Working Group",
@@ -40,8 +40,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:3cc3afe5-c5a1-490e-af63-8423eaac202f",
-        "timestamp" : "2021-07-07T17:06:46-07:00",
+        "identifier" : "urn:uuid:1001c96c-8910-43e0-b9a8-35ed5f443a7a",
+        "timestamp" : "2021-07-07T20:31:36-07:00",
         "total" : 12,
         "parameter" : [{
           "name" : "excludeNested",
@@ -158,7 +158,7 @@
       "name" : "TimepointEntityTypeValueSet",
       "title" : "Timepoint Entity Type Value Set",
       "status" : "active",
-      "date" : "2021-07-07T17:06:07-07:00",
+      "date" : "2021-07-07T20:31:04-07:00",
       "publisher" : "HL7 Community-Based Care and Privacy Working Group",
       "contact" : [{
         "name" : "HL7 Community-Based Care and Privacy Working Group",
@@ -179,8 +179,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:29c4b180-094c-4b6a-9e00-159392e47b98",
-        "timestamp" : "2021-07-07T17:06:46-07:00",
+        "identifier" : "urn:uuid:5e550493-821a-4c37-8d57-2f6f94e5f2af",
+        "timestamp" : "2021-07-07T20:31:36-07:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -232,7 +232,7 @@
       "name" : "TimepointServiceTypeValueSet",
       "title" : "Timepoint Service Type Value Set",
       "status" : "active",
-      "date" : "2021-07-07T17:06:07-07:00",
+      "date" : "2021-07-07T20:31:04-07:00",
       "publisher" : "HL7 Community-Based Care and Privacy Working Group",
       "contact" : [{
         "name" : "HL7 Community-Based Care and Privacy Working Group",
@@ -253,8 +253,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:60b53224-7f92-4cdb-b979-1433f37e9782",
-        "timestamp" : "2021-07-07T17:06:46-07:00",
+        "identifier" : "urn:uuid:baf2e235-aaf1-4e07-888f-e62caeb28de3",
+        "timestamp" : "2021-07-07T20:31:36-07:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -296,7 +296,7 @@
       "name" : "TimepointStatusValueSet",
       "title" : "Timepoint Status Value Set",
       "status" : "active",
-      "date" : "2021-07-07T17:06:07-07:00",
+      "date" : "2021-07-07T20:31:04-07:00",
       "publisher" : "HL7 Community-Based Care and Privacy Working Group",
       "contact" : [{
         "name" : "HL7 Community-Based Care and Privacy Working Group",
@@ -317,8 +317,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4a6c28cd-0bb6-4ae9-8393-53c6d114ffbe",
-        "timestamp" : "2021-07-07T17:06:46-07:00",
+        "identifier" : "urn:uuid:cfa373a4-0bb8-4c99-94bf-7e5fc783983c",
+        "timestamp" : "2021-07-07T20:31:36-07:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
