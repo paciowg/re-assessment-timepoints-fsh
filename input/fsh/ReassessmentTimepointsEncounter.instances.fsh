@@ -110,7 +110,7 @@ Description: "An instance of ReassessmentTimepointsEncounter"
 * serviceType = PRATSRVTYPECS#oasis
 * subject = Reference(patientBSJ1)
 * episodeOfCare = Reference(Episodecare-2-HHA-Stay)
-* reasonReference[0] = Reference(HHA-PF-SOC--OASIS-2A)
+* reasonReference[0] = Reference(HHA-PF-SOC-OASIS-2A)
 * reasonReference[1] = Reference(HHA-SC-SOC-Perf-OASIS-2B)
 * reasonReference[2] = Reference(HHA-SC-DG-OASIS-2C)
 * reasonReference[3] = Reference(HHA-MOB-SOC-Perf-OASIS-2A)
