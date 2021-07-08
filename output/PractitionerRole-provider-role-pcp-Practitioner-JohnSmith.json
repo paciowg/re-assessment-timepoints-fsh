@@ -3,7 +3,7 @@
   "id": "provider-role-pcp-Practitioner-JohnSmith",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Practitioner-JohnSmith.html\">Generated Summary: id: 4278275001; active; John Smith; Phone: (210) 564 1389; gender: male</a></p><p><b>code</b>: <span title=\"Codes: {http://nucc.org/provider-taxonomy 261QP2300X}\">Primary Care</span></p><p><b>specialty</b>: <span title=\"Codes: {http://snomed.info/sct 446050000}\">Primary care physician (occupation)</span></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Practitioner-JohnSmith.html\">Generated Summary: id: 2345678901; active; John Smith; Phone: (210) 564 1389; gender: male</a></p><p><b>code</b>: <span title=\"Codes: {http://nucc.org/provider-taxonomy 261QP2300X}\">Primary Care</span></p><p><b>specialty</b>: <span title=\"Codes: {http://snomed.info/sct 446050000}\">Primary care physician (occupation)</span></p></div>"
   },
   "active": true,
   "practitioner": {

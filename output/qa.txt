@@ -1,21 +1,21 @@
 ﻿PACIOReAssessmentTimepoints : Validation Results
 =========================================
 
-err = 12, warn = 33, info = 10
+err = 14, warn = 29, info = 10
 IG Publisher Version: 1.1.73 Out of date - current version is 1.1.76
-Generated Tue Jul 06 14:32:36 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-rat#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-rat)
+Generated Wed Jul 07 17:07:57 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-rat#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-rat)
 
- Build Errors : 1 / 0 / 0
+ Build Errors : 2 / 0 / 0
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-class-cs : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-entity-cs : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-service-type-cs : 0 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Condition-BSJ-Diagnosis1 : 0 / 2 / 2
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Condition-BSJ-Diagnosis2 : 0 / 2 / 2
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-Encounter-1-SNF-Stay : 0 / 0 / 2
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Condition-BSJ-Diagnosis1 : 0 / 0 / 2
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Condition-BSJ-Diagnosis2 : 0 / 0 / 2
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-Encounter-1-SNF-Stay : 1 / 0 / 2
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-Encounter-2-HHA-Stay : 0 / 0 / 2
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-MDS-Re-assessment-Timepoint-1 : 1 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-MDS-Re-assessment-Timepoint-2 : 1 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-1 : 2 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-1 : 3 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-2 : 2 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-3 : 2 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/EpisodeOfCare-Episodecare-1-SNF-Stay : 0 / 0 / 1
@@ -260,6 +260,7 @@ Generated Tue Jul 06 14:32:36 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
 </table>
 == n/a ==
 ERROR: There is no jira specification file defined with the expected name of FHIR-us-pacio-rat in the xml folder of the  https://github.com/HL7/Jira-Spec-Artifacts project.  This must exist before ballot or publication.
+ERROR: /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/output/Encounter-OASIS-Re-assessment-Timepoint-1.html#/html/body/div/div/div/div/div/div/ul/li/a at Line 202, column 1977: The link 'HHA-PF-SOC--OASIS-2A' for "HHA-PF-SOC--OASIS-2A" cannot be resolved
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-class-cs.json ==
 INFORMATION: CodeSystem/prat-class-cs: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-entity-cs.json ==
@@ -268,16 +269,13 @@ INFORMATION: CodeSystem/prat-entity-cs: CodeSystem: Validate resource against pr
 INFORMATION: CodeSystem/prat-service-type-cs: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Condition-BSJ-Diagnosis1.json ==
 INFORMATION: Condition/BSJ-Diagnosis1: Condition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition
-WARNING: Condition/BSJ-Diagnosis1: Condition.code.coding[0]: The display "Cerebral Infarction" is not a valid display for the code {http://hl7.org/fhir/sid/icd-10-cm}I63.411 - should be one of [Cerebral infarction due to embolism of right middle cerebral artery, Cereb infrc due to embolism of right middle cerebral artery] (from http://tx.fhir.org/r4) for 'http://hl7.org/fhir/sid/icd-10-cm#I63.411'
 INFORMATION: Condition/BSJ-Diagnosis1: Condition: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition - listed in meta
-WARNING: Condition/BSJ-Diagnosis1: Condition.code: The display "Cerebral Infarction" is not a valid display for the code {http://hl7.org/fhir/sid/icd-10-cm}I63.411 - should be one of [Cerebral infarction due to embolism of right middle cerebral artery, Cereb infrc due to embolism of right middle cerebral artery] (from http://tx.fhir.org/r4)
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Condition-BSJ-Diagnosis2.json ==
 INFORMATION: Condition/BSJ-Diagnosis2: Condition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition
-WARNING: Condition/BSJ-Diagnosis2: Condition.code.coding[0]: The display "Cerebral Infarction" is not a valid display for the code {http://hl7.org/fhir/sid/icd-10-cm}I63.411 - should be one of [Cerebral infarction due to embolism of right middle cerebral artery, Cereb infrc due to embolism of right middle cerebral artery] (from http://tx.fhir.org/r4) for 'http://hl7.org/fhir/sid/icd-10-cm#I63.411'
 INFORMATION: Condition/BSJ-Diagnosis2: Condition: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition - listed in meta
-WARNING: Condition/BSJ-Diagnosis2: Condition.code: The display "Cerebral Infarction" is not a valid display for the code {http://hl7.org/fhir/sid/icd-10-cm}I63.411 - should be one of [Cerebral infarction due to embolism of right middle cerebral artery, Cereb infrc due to embolism of right middle cerebral artery] (from http://tx.fhir.org/r4)
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-Encounter-1-SNF-Stay.json ==
 INFORMATION: Encounter/Encounter-1-SNF-Stay: Encounter: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Encounter
+ERROR: Encounter/Encounter-1-SNF-Stay: Encounter.class: Unknown Code http://terminology.hl7.org/CodeSystem/v3-ActCode#SNF in http://terminology.hl7.org/CodeSystem/v3-ActCode for 'http://terminology.hl7.org/CodeSystem/v3-ActCode#SNF'
 INFORMATION: Encounter/Encounter-1-SNF-Stay: Encounter: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter - listed in meta
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-Encounter-2-HHA-Stay.json ==
 INFORMATION: Encounter/Encounter-2-HHA-Stay: Encounter: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Encounter
@@ -292,6 +290,7 @@ ERROR: Encounter/MDS-Re-assessment-Timepoint-2: Encounter.identifier[0].system: 
 INFORMATION: Encounter/OASIS-Re-assessment-Timepoint-1: Encounter: Validate resource against profile http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter
 ERROR: Encounter/OASIS-Re-assessment-Timepoint-1: Encounter.identifier[0].system: URL value 'http://hl7.org/fhir/us/pacio-rat' does not resolve
 ERROR: Encounter/OASIS-Re-assessment-Timepoint-1: Encounter.class: Unknown Code http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH in http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs for 'http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH'
+ERROR: Encounter/OASIS-Re-assessment-Timepoint-1: Encounter.reasonReference[0]: Unable to resolve resource 'HHA-PF-SOC--OASIS-2A'
 == /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-2.json ==
 INFORMATION: Encounter/OASIS-Re-assessment-Timepoint-2: Encounter: Validate resource against profile http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter
 ERROR: Encounter/OASIS-Re-assessment-Timepoint-2: Encounter.identifier[0].system: URL value 'http://hl7.org/fhir/us/pacio-rat' does not resolve

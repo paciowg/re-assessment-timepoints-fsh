@@ -46,7 +46,7 @@
        fhir:index 0;
        fhir:Coding.system [ fhir:value "http://hl7.org/fhir/sid/icd-10-cm" ];
        fhir:Coding.code [ fhir:value "I63.411" ];
-       fhir:Coding.display [ fhir:value "Cerebral Infarction" ]
+       fhir:Coding.display [ fhir:value "Cerebral infarction due to embolism of right middle cerebral artery" ]
      ];
      fhir:CodeableConcept.text [ fhir:value "Cerebral infarction due to embolism of right middle cerebral artery" ]
   ];

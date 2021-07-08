@@ -3,11 +3,11 @@
 <Practitioner xmlns="http://hl7.org/fhir">
   <id value="Practitioner-JohnSmith"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 4278275001</p><p><b>active</b>: true</p><p><b>name</b>: John Smith</p><p><b>telecom</b>: ph: (210) 564 1389</p><p><b>address</b>: 177 Deerfield St. San Antonio, TX 78207</p><p><b>gender</b>: male</p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 2345678901</p><p><b>active</b>: true</p><p><b>name</b>: John Smith</p><p><b>telecom</b>: ph: (210) 564 1389</p><p><b>address</b>: 23 Garden Street, San Antonio, TX 78242</p><p><b>gender</b>: male</p></div>
   </text>
   <identifier>
     <system value="http://hl7.org/fhir/sid/us-npi"/>
-    <value value="4278275001"/>
+    <value value="2345678901"/>
   </identifier>
   <active value="true"/>
   <name>
@@ -20,7 +20,7 @@
     <value value="(210) 564 1389"/>
   </telecom>
   <address>
-    <text value="177 Deerfield St. San Antonio, TX 78207"/>
+    <text value="23 Garden Street, San Antonio, TX 78242"/>
   </address>
   <gender value="male"/>
 </Practitioner>

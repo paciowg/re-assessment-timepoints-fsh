@@ -17,7 +17,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>clinicalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>verificationStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}\">Confirmed</span></p><p><b>category</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/condition-category encounter-diagnosis}\">Encounter Diagnosis</span></p><p><b>code</b>: <span title=\"Codes: {http://hl7.org/fhir/sid/icd-10-cm I63.411}\">Cerebral infarction due to embolism of right middle cerebral artery</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: 10A3D58WH1600; active; Betsy Smith-Johnson; Phone: 210-222-1111; gender: female; birthDate: 1950-11-01; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}\">unmarried</span></a></p><p><b>onset</b>: Feb 10, 2020, 12:00:00 PM</p><p><b>asserter</b>: <a href=\"Practitioner-Practitioner-NoraOlogist.html\">Neurologist Nora Ologist. Generated Summary: id: 3668788925; active; Nora Ologist; Phone: (210) 555 7632; gender: female</a></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>clinicalStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>verificationStatus</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}\">Confirmed</span></p><p><b>category</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/condition-category encounter-diagnosis}\">Encounter Diagnosis</span></p><p><b>code</b>: <span title=\"Codes: {http://hl7.org/fhir/sid/icd-10-cm I69.30}\">Unspecified sequelae of cerebral infarction</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: 10A3D58WH1600; active; Betsy Smith-Johnson; Phone: 210-222-1111; gender: female; birthDate: 1950-11-01; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}\">unmarried</span></a></p><p><b>onset</b>: Feb 10, 2020, 12:00:00 PM</p><p><b>asserter</b>: <a href=\"Practitioner-Practitioner-JohnSmith.html\">Primary Care John Smith. Generated Summary: id: 2345678901; active; John Smith; Phone: (210) 564 1389; gender: male</a></p></div>"
   ];
   fhir:Condition.clinicalStatus [
      fhir:CodeableConcept.coding [
@@ -45,10 +45,10 @@
      fhir:CodeableConcept.coding [
        fhir:index 0;
        fhir:Coding.system [ fhir:value "http://hl7.org/fhir/sid/icd-10-cm" ];
-       fhir:Coding.code [ fhir:value "I63.411" ];
-       fhir:Coding.display [ fhir:value "Cerebral Infarction" ]
+       fhir:Coding.code [ fhir:value "I69.30" ];
+       fhir:Coding.display [ fhir:value "Unspecified sequelae of cerebral infarction" ]
      ];
-     fhir:CodeableConcept.text [ fhir:value "Cerebral infarction due to embolism of right middle cerebral artery" ]
+     fhir:CodeableConcept.text [ fhir:value "Unspecified sequelae of cerebral infarction" ]
   ];
   fhir:Condition.subject [
      fhir:link <http://hl7.org/fhir/us/pacio-rat/Patient/patientBSJ1>;
@@ -56,14 +56,14 @@
   ];
   fhir:Condition.onsetDateTime [ fhir:value "2020-02-10T15:00:00-05:00"^^xsd:dateTime];
   fhir:Condition.asserter [
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-NoraOlogist>;
-     fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-NoraOlogist" ];
-     fhir:Reference.display [ fhir:value "Neurologist Nora Ologist" ]
+     fhir:link <http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-JohnSmith>;
+     fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-JohnSmith" ];
+     fhir:Reference.display [ fhir:value "Primary Care John Smith" ]
   ] .
 
 <http://hl7.org/fhir/us/pacio-rat/Patient/patientBSJ1> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-NoraOlogist> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-JohnSmith> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 

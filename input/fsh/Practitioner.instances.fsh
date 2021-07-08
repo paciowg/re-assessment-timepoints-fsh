@@ -5,7 +5,7 @@ Instance: Practitioner-JohnSmith
 InstanceOf: Practitioner
 Description: "An instance of Practitioner"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
-* identifier.value = "4278275001"
+* identifier.value = "2345678901"
 * name.given = "John"
 * name.family = "Smith"
 * name.text = "John Smith"
@@ -13,7 +13,7 @@ Description: "An instance of Practitioner"
 * gender = Hl7FhirAdminGender#male
 * telecom.system = #phone
 * telecom.value = "(210) 564 1389"
-* address.text = "177 Deerfield St. San Antonio, TX 78207"
+* address.text = "23 Garden Street, San Antonio, TX 78242"
 
 Instance: Practitioner-NoraOlogist
 InstanceOf: Practitioner

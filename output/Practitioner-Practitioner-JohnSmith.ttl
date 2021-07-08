@@ -10,12 +10,12 @@
   fhir:Resource.id [ fhir:value "Practitioner-JohnSmith"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 4278275001</p><p><b>active</b>: true</p><p><b>name</b>: John Smith</p><p><b>telecom</b>: ph: (210) 564 1389</p><p><b>address</b>: 177 Deerfield St. San Antonio, TX 78207</p><p><b>gender</b>: male</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 2345678901</p><p><b>active</b>: true</p><p><b>name</b>: John Smith</p><p><b>telecom</b>: ph: (210) 564 1389</p><p><b>address</b>: 23 Garden Street, San Antonio, TX 78242</p><p><b>gender</b>: male</p></div>"
   ];
   fhir:Practitioner.identifier [
      fhir:index 0;
      fhir:Identifier.system [ fhir:value "http://hl7.org/fhir/sid/us-npi" ];
-     fhir:Identifier.value [ fhir:value "4278275001" ]
+     fhir:Identifier.value [ fhir:value "2345678901" ]
   ];
   fhir:Practitioner.active [ fhir:value "true"^^xsd:boolean];
   fhir:Practitioner.name [
@@ -34,7 +34,7 @@
   ];
   fhir:Practitioner.address [
      fhir:index 0;
-     fhir:Address.text [ fhir:value "177 Deerfield St. San Antonio, TX 78207" ]
+     fhir:Address.text [ fhir:value "23 Garden Street, San Antonio, TX 78242" ]
   ];
   fhir:Practitioner.gender [ fhir:value "male"] .
 
