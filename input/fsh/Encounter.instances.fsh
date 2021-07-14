@@ -7,7 +7,7 @@ Alias: SNMD = http://snomed.info/sct
 
 Instance: Encounter-1-SNF-Stay
 InstanceOf: USCoreEncounterProfile
-Description: "An instance of USCoreEncounterProfile"
+Description: "SNF-Stay Encounter for Betsy Smith-Johnson, period 2020-01-01 to 2020-02-10"
 * subject = Reference(patientBSJ1)
 * status = ENCSTATUS#finished
 * class.system = "http://terminology.hl7.org/CodeSystem/v3-ActCode"
@@ -22,7 +22,7 @@ Description: "An instance of USCoreEncounterProfile"
 
 Instance: Encounter-2-HHA-Stay
 InstanceOf: USCoreEncounterProfile
-Description: "An instance of USCoreEncounterProfile"
+Description: "HHA-Stay Encounter for Betsy Smith-Johnson, period 2020-02-10 to 2020-06-29"
 * subject = Reference(patientBSJ1)
 * status = ENCSTATUS#finished
 * class.system = "http://terminology.hl7.org/CodeSystem/v3-ActCode"

@@ -10,7 +10,7 @@
   "name": "PACIOReAssessmentTimepoints",
   "title": "PACIO Re-Assessment Timepoints Implementation Guide",
   "status": "draft",
-  "date": "2021-07-13T20:44:14-07:00",
+  "date": "2021-07-14T15:27:29-07:00",
   "publisher": "HL7 Community-Based Care and Privacy Working Group",
   "contact": [
     {
@@ -493,7 +493,7 @@
           "reference": "Encounter/Encounter-1-SNF-Stay"
         },
         "name": "Encounter-1-SNF-Stay",
-        "description": "An instance of USCoreEncounterProfile",
+        "description": "SNF-Stay Encounter for Betsy Smith-Johnson, period 2020-01-01 to 2020-02-10",
         "exampleBoolean": true
       },
       {
@@ -507,7 +507,7 @@
           "reference": "Encounter/Encounter-2-HHA-Stay"
         },
         "name": "Encounter-2-HHA-Stay",
-        "description": "An instance of USCoreEncounterProfile",
+        "description": "HHA-Stay Encounter for Betsy Smith-Johnson, period 2020-02-10 to 2020-06-29",
         "exampleBoolean": true
       },
       {
@@ -521,7 +521,7 @@
           "reference": "EpisodeOfCare/Episodecare-1-SNF-Stay"
         },
         "name": "Episodecare-1-SNF-Stay",
-        "description": "An instance of EpisodeOfCare",
+        "description": "SNF-Stay Episode of Care for Betsy Smith-Johnson, period 2020-01-01 to 2020-02-10",
         "exampleBoolean": true
       },
       {
@@ -535,7 +535,7 @@
           "reference": "EpisodeOfCare/Episodecare-2-HHA-Stay"
         },
         "name": "Episodecare-2-HHA-Stay",
-        "description": "An instance of EpisodeOfCare",
+        "description": "HHA-Stay Episode of Care for Betsy Smith-Johnson, period 2020-02-10 to 2020-06-29",
         "exampleBoolean": true
       },
       {
@@ -2145,7 +2145,7 @@
           "reference": "Encounter/MDS-Re-assessment-Timepoint-1"
         },
         "name": "MDS-Re-assessment-Timepoint-1",
-        "description": "An instance of ReassessmentTimepointsEncounter",
+        "description": "SNF-Stay MDS Re-assessment Timepoint with Type Payer, period 2020-01-01 to 2020-01-13",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter"
       },
       {
@@ -2159,7 +2159,7 @@
           "reference": "Encounter/MDS-Re-assessment-Timepoint-2"
         },
         "name": "MDS-Re-assessment-Timepoint-2",
-        "description": "An instance of ReassessmentTimepointsEncounter",
+        "description": "SNF-Stay MDS Re-assessment Timepoint with Type Payer, period 2020-01-14 to 2020-02-10",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter"
       },
       {
@@ -2173,7 +2173,7 @@
           "reference": "Encounter/OASIS-Re-assessment-Timepoint-1"
         },
         "name": "OASIS-Re-assessment-Timepoint-1",
-        "description": "An instance of ReassessmentTimepointsEncounter",
+        "description": "HHA-Stay OASIS Re-assessment Timepoint with Type Payer, period 2020-02-10 to 2020-04-09",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter"
       },
       {
@@ -2187,7 +2187,7 @@
           "reference": "Encounter/OASIS-Re-assessment-Timepoint-2"
         },
         "name": "OASIS-Re-assessment-Timepoint-2",
-        "description": "An instance of ReassessmentTimepointsEncounter",
+        "description": "HHA-Stay OASIS Re-assessment Timepoint with Type Payer, period 2020-04-10 to 2020-06-09",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter"
       },
       {
@@ -2201,7 +2201,7 @@
           "reference": "Encounter/OASIS-Re-assessment-Timepoint-3"
         },
         "name": "OASIS-Re-assessment-Timepoint-3",
-        "description": "An instance of ReassessmentTimepointsEncounter",
+        "description": "HHA-Stay OASIS Re-assessment Timepoint with Type Payer, period 2020-06-10 to 2020-06-29",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter"
       },
       {

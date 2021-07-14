@@ -3,7 +3,7 @@ Alias: EOCTYPECS = http://terminology.hl7.org/CodeSystem/episodeofcare-type
 
 Instance: Episodecare-1-SNF-Stay
 InstanceOf: EpisodeOfCare
-Description: "An instance of EpisodeOfCare"
+Description: "SNF-Stay Episode of Care for Betsy Smith-Johnson, period 2020-01-01 to 2020-02-10"
 * status = #finished
 * type = EOCTYPECS#pac
 * diagnosis.condition = Reference(BSJ-Diagnosis1)
@@ -16,7 +16,7 @@ Description: "An instance of EpisodeOfCare"
 
 Instance: Episodecare-2-HHA-Stay
 InstanceOf: EpisodeOfCare
-Description: "An instance of EpisodeOfCare"
+Description: "HHA-Stay Episode of Care for Betsy Smith-Johnson, period 2020-02-10 to 2020-06-29"
 * status = #finished
 * type = EOCTYPECS#hacc
 * diagnosis.condition = Reference(BSJ-Diagnosis2)

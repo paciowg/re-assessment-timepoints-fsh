@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "PACIOReAssessmentTimepoints"];
   fhir:ImplementationGuide.title [ fhir:value "PACIO Re-Assessment Timepoints Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-07-13T20:44:14-07:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-07-14T15:27:29-07:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Community-Based Care and Privacy Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -477,7 +477,7 @@
          fhir:Reference.reference [ fhir:value "Encounter/Encounter-1-SNF-Stay" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Encounter-1-SNF-Stay" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of USCoreEncounterProfile" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SNF-Stay Encounter for Betsy Smith-Johnson, period 2020-01-01 to 2020-02-10" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 12;
@@ -491,7 +491,7 @@
          fhir:Reference.reference [ fhir:value "Encounter/Encounter-2-HHA-Stay" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Encounter-2-HHA-Stay" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of USCoreEncounterProfile" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "HHA-Stay Encounter for Betsy Smith-Johnson, period 2020-02-10 to 2020-06-29" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 13;
@@ -505,7 +505,7 @@
          fhir:Reference.reference [ fhir:value "EpisodeOfCare/Episodecare-1-SNF-Stay" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Episodecare-1-SNF-Stay" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of EpisodeOfCare" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SNF-Stay Episode of Care for Betsy Smith-Johnson, period 2020-01-01 to 2020-02-10" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 14;
@@ -519,7 +519,7 @@
          fhir:Reference.reference [ fhir:value "EpisodeOfCare/Episodecare-2-HHA-Stay" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Episodecare-2-HHA-Stay" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of EpisodeOfCare" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "HHA-Stay Episode of Care for Betsy Smith-Johnson, period 2020-02-10 to 2020-06-29" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 15;
@@ -2129,7 +2129,7 @@
          fhir:Reference.reference [ fhir:value "Encounter/MDS-Re-assessment-Timepoint-1" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "MDS-Re-assessment-Timepoint-1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of ReassessmentTimepointsEncounter" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SNF-Stay MDS Re-assessment Timepoint with Type Payer, period 2020-01-01 to 2020-01-13" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter";
          fhir:link <http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter>
@@ -2146,7 +2146,7 @@
          fhir:Reference.reference [ fhir:value "Encounter/MDS-Re-assessment-Timepoint-2" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "MDS-Re-assessment-Timepoint-2" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of ReassessmentTimepointsEncounter" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SNF-Stay MDS Re-assessment Timepoint with Type Payer, period 2020-01-14 to 2020-02-10" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter";
          fhir:link <http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter>
@@ -2163,7 +2163,7 @@
          fhir:Reference.reference [ fhir:value "Encounter/OASIS-Re-assessment-Timepoint-1" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "OASIS-Re-assessment-Timepoint-1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of ReassessmentTimepointsEncounter" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "HHA-Stay OASIS Re-assessment Timepoint with Type Payer, period 2020-02-10 to 2020-04-09" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter";
          fhir:link <http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter>
@@ -2180,7 +2180,7 @@
          fhir:Reference.reference [ fhir:value "Encounter/OASIS-Re-assessment-Timepoint-2" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "OASIS-Re-assessment-Timepoint-2" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of ReassessmentTimepointsEncounter" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "HHA-Stay OASIS Re-assessment Timepoint with Type Payer, period 2020-04-10 to 2020-06-09" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter";
          fhir:link <http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter>
@@ -2197,7 +2197,7 @@
          fhir:Reference.reference [ fhir:value "Encounter/OASIS-Re-assessment-Timepoint-3" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "OASIS-Re-assessment-Timepoint-3" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An instance of ReassessmentTimepointsEncounter" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "HHA-Stay OASIS Re-assessment Timepoint with Type Payer, period 2020-06-10 to 2020-06-29" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
          fhir:value "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter";
          fhir:link <http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter>

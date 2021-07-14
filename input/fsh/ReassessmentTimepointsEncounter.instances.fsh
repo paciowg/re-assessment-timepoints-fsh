@@ -6,7 +6,7 @@ Alias: ICD10 = http://hl7.org/fhir/sid/icd-10-cm
 
 Instance: MDS-Re-assessment-Timepoint-1
 InstanceOf: ReassessmentTimepointsEncounter
-Description: "An instance of ReassessmentTimepointsEncounter"
+Description: "SNF-Stay MDS Re-assessment Timepoint with Type Payer, period 2020-01-01 to 2020-01-13"
 * identifier.system = "http://hl7.org/fhir/us/pacio-rat"
 * identifier.value = "MDS-Re-assessment-Timepoint-1001"
 * status = #finished
@@ -31,7 +31,7 @@ Description: "An instance of ReassessmentTimepointsEncounter"
 
 Instance: MDS-Re-assessment-Timepoint-2
 InstanceOf: ReassessmentTimepointsEncounter
-Description: "An instance of ReassessmentTimepointsEncounter"
+Description: "SNF-Stay MDS Re-assessment Timepoint with Type Payer, period 2020-01-14 to 2020-02-10"
 * identifier.system = "http://hl7.org/fhir/us/pacio-rat"
 * identifier.value = "MDS-Re-assessment-Timepoint-2001"
 * status = #finished
@@ -55,7 +55,7 @@ Description: "An instance of ReassessmentTimepointsEncounter"
 
 Instance: OASIS-Re-assessment-Timepoint-2
 InstanceOf: ReassessmentTimepointsEncounter
-Description: "An instance of ReassessmentTimepointsEncounter"
+Description: "HHA-Stay OASIS Re-assessment Timepoint with Type Payer, period 2020-04-10 to 2020-06-09"
 * identifier.system = "http://hl7.org/fhir/us/pacio-rat"
 * identifier.value = "OASIS-Re-assessment-Timepoint-2001"
 * status = #finished
@@ -78,7 +78,7 @@ Description: "An instance of ReassessmentTimepointsEncounter"
 
 Instance: OASIS-Re-assessment-Timepoint-3
 InstanceOf: ReassessmentTimepointsEncounter
-Description: "An instance of ReassessmentTimepointsEncounter"
+Description: "HHA-Stay OASIS Re-assessment Timepoint with Type Payer, period 2020-06-10 to 2020-06-29"
 * identifier.system = "http://hl7.org/fhir/us/pacio-rat"
 * identifier.value = "OASIS-Re-assessment-Timepoint-3001"
 * status = #finished
@@ -101,7 +101,7 @@ Description: "An instance of ReassessmentTimepointsEncounter"
 
 Instance: OASIS-Re-assessment-Timepoint-1
 InstanceOf: ReassessmentTimepointsEncounter
-Description: "An instance of ReassessmentTimepointsEncounter"
+Description: "HHA-Stay OASIS Re-assessment Timepoint with Type Payer, period 2020-02-10 to 2020-04-09"
 * identifier.system = "http://hl7.org/fhir/us/pacio-rat"
 * identifier.value = "OASIS-Re-assessment-Timepoint-1001"
 * status = #finished

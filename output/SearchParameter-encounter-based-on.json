@@ -3,13 +3,13 @@
   "id": "encounter-based-on",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>url</b>: <code>http://hl7.org/fhir/us/pacio-rat/SearchParameter/encounter-based-on</code></p><p><b>version</b>: 0.1.0</p><p><b>name</b>: Timepoint_BasedOn</p><p><b>status</b>: active</p><p><b>date</b>: Jul 13, 2021, 8:44:14 PM</p><p><b>publisher</b>: HL7 Community-Based Care and Privacy Working Group</p><p><b>contact</b>: HL7 Community-Based Care and Privacy Working Group: <a href=\"http://www.hl7.org/Special/committees/patientempowerment/index.cfm\">http://www.hl7.org/Special/committees/patientempowerment/index.cfm</a>,<a href=\"mailto:patients@lists.HL7.org\">patients@lists.HL7.org</a></p><p><b>description</b>: The ClinicalImpression or ServiceRequest that initiated this timepoint</p><p><b>jurisdiction</b>: <span title=\"Codes: {urn:iso:std:iso:3166 US}\">United States of America</span></p><p><b>code</b>: based-on</p><p><b>base</b>: Encounter</p><p><b>type</b>: reference</p><p><b>expression</b>: Encounter.basedOn | Encounter.basedOn.extension.where(url='http://hl7.org/fhir/us/pacio-rat/StructureDefinition/clinicalImpression').valueReference</p><p><b>target</b>: ServiceRequest, ClinicalImpression</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>url</b>: <code>http://hl7.org/fhir/us/pacio-rat/SearchParameter/encounter-based-on</code></p><p><b>version</b>: 0.1.0</p><p><b>name</b>: Timepoint_BasedOn</p><p><b>status</b>: active</p><p><b>date</b>: Jul 14, 2021, 3:27:29 PM</p><p><b>publisher</b>: HL7 Community-Based Care and Privacy Working Group</p><p><b>contact</b>: HL7 Community-Based Care and Privacy Working Group: <a href=\"http://www.hl7.org/Special/committees/patientempowerment/index.cfm\">http://www.hl7.org/Special/committees/patientempowerment/index.cfm</a>,<a href=\"mailto:patients@lists.HL7.org\">patients@lists.HL7.org</a></p><p><b>description</b>: The ClinicalImpression or ServiceRequest that initiated this timepoint</p><p><b>jurisdiction</b>: <span title=\"Codes: {urn:iso:std:iso:3166 US}\">United States of America</span></p><p><b>code</b>: based-on</p><p><b>base</b>: Encounter</p><p><b>type</b>: reference</p><p><b>expression</b>: Encounter.basedOn | Encounter.basedOn.extension.where(url='http://hl7.org/fhir/us/pacio-rat/StructureDefinition/clinicalImpression').valueReference</p><p><b>target</b>: ServiceRequest, ClinicalImpression</p></div>"
   },
   "url": "http://hl7.org/fhir/us/pacio-rat/SearchParameter/encounter-based-on",
   "version": "0.1.0",
   "name": "Timepoint_BasedOn",
   "status": "active",
-  "date": "2021-07-13T20:44:14-07:00",
+  "date": "2021-07-14T15:27:29-07:00",
   "publisher": "HL7 Community-Based Care and Privacy Working Group",
   "contact": [
     {

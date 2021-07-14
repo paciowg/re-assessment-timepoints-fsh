@@ -11,7 +11,7 @@
   <name value="PACIOReAssessmentTimepoints"/>
   <title value="PACIO Re-Assessment Timepoints Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-07-13T20:44:14-07:00"/>
+  <date value="2021-07-14T15:27:29-07:00"/>
   <publisher value="HL7 Community-Based Care and Privacy Working Group"/>
   <contact>
     <name value="HL7 Community-Based Care and Privacy Working Group"/>
@@ -337,7 +337,7 @@
         <reference value="Encounter/Encounter-1-SNF-Stay"/>
       </reference>
       <name value="Encounter-1-SNF-Stay"/>
-      <description value="An instance of USCoreEncounterProfile"/>
+      <description value="SNF-Stay Encounter for Betsy Smith-Johnson, period 2020-01-01 to 2020-02-10"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -348,7 +348,7 @@
         <reference value="Encounter/Encounter-2-HHA-Stay"/>
       </reference>
       <name value="Encounter-2-HHA-Stay"/>
-      <description value="An instance of USCoreEncounterProfile"/>
+      <description value="HHA-Stay Encounter for Betsy Smith-Johnson, period 2020-02-10 to 2020-06-29"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -359,7 +359,7 @@
         <reference value="EpisodeOfCare/Episodecare-1-SNF-Stay"/>
       </reference>
       <name value="Episodecare-1-SNF-Stay"/>
-      <description value="An instance of EpisodeOfCare"/>
+      <description value="SNF-Stay Episode of Care for Betsy Smith-Johnson, period 2020-01-01 to 2020-02-10"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -370,7 +370,7 @@
         <reference value="EpisodeOfCare/Episodecare-2-HHA-Stay"/>
       </reference>
       <name value="Episodecare-2-HHA-Stay"/>
-      <description value="An instance of EpisodeOfCare"/>
+      <description value="HHA-Stay Episode of Care for Betsy Smith-Johnson, period 2020-02-10 to 2020-06-29"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -1635,7 +1635,7 @@
         <reference value="Encounter/MDS-Re-assessment-Timepoint-1"/>
       </reference>
       <name value="MDS-Re-assessment-Timepoint-1"/>
-      <description value="An instance of ReassessmentTimepointsEncounter"/>
+      <description value="SNF-Stay MDS Re-assessment Timepoint with Type Payer, period 2020-01-01 to 2020-01-13"/>
       <exampleCanonical value="http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter"/>
     </resource>
     <resource>
@@ -1646,7 +1646,7 @@
         <reference value="Encounter/MDS-Re-assessment-Timepoint-2"/>
       </reference>
       <name value="MDS-Re-assessment-Timepoint-2"/>
-      <description value="An instance of ReassessmentTimepointsEncounter"/>
+      <description value="SNF-Stay MDS Re-assessment Timepoint with Type Payer, period 2020-01-14 to 2020-02-10"/>
       <exampleCanonical value="http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter"/>
     </resource>
     <resource>
@@ -1657,7 +1657,7 @@
         <reference value="Encounter/OASIS-Re-assessment-Timepoint-1"/>
       </reference>
       <name value="OASIS-Re-assessment-Timepoint-1"/>
-      <description value="An instance of ReassessmentTimepointsEncounter"/>
+      <description value="HHA-Stay OASIS Re-assessment Timepoint with Type Payer, period 2020-02-10 to 2020-04-09"/>
       <exampleCanonical value="http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter"/>
     </resource>
     <resource>
@@ -1668,7 +1668,7 @@
         <reference value="Encounter/OASIS-Re-assessment-Timepoint-2"/>
       </reference>
       <name value="OASIS-Re-assessment-Timepoint-2"/>
-      <description value="An instance of ReassessmentTimepointsEncounter"/>
+      <description value="HHA-Stay OASIS Re-assessment Timepoint with Type Payer, period 2020-04-10 to 2020-06-09"/>
       <exampleCanonical value="http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter"/>
     </resource>
     <resource>
@@ -1679,7 +1679,7 @@
         <reference value="Encounter/OASIS-Re-assessment-Timepoint-3"/>
       </reference>
       <name value="OASIS-Re-assessment-Timepoint-3"/>
-      <description value="An instance of ReassessmentTimepointsEncounter"/>
+      <description value="HHA-Stay OASIS Re-assessment Timepoint with Type Payer, period 2020-06-10 to 2020-06-29"/>
       <exampleCanonical value="http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter"/>
     </resource>
     <resource>
