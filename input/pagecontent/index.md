@@ -50,14 +50,13 @@ This Guide is divided into several pages which are listed at the top of each pag
             <li>Search Parameters: This section lists the HL7 FHIR® Re-assessment Timepoints Implementation Guide defined Search Parameters.</li>
             <li>Capability Statement: The following artifacts define the specific capabilities that different types of systems are expected to have in order to comply with this implementation guide. Systems conforming to this implementation guide are expected to declare conformance to one or more of the included capability statements.</li>
             <!--<li>Terminology: This section lists the value sets and code system defined for HL7 FHIR® ADI Implementation Guide profiles.</li>-->
-            
         </ul>
     </li>
     <li>Downloads: This page provides links to downloadable artifacts.</li>
 </ul>
 
 
-### Key Terms and Acronyms 
+### Key Terms and Acronyms
 
 <table border="1">
     <tr>
@@ -80,6 +79,6 @@ This Guide is divided into several pages which are listed at the top of each pag
     </tr>
     <tr>
         <td>Re-Assessment Timepoint</td>
-        <td></td>
+        <td>A more consumable time block of a broader Post-Acute admission to properly define the progression of care over time of the encounter or episode of care.</td>
     </tr>
 </table>
