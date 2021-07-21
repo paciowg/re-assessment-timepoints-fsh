@@ -22,7 +22,7 @@ InstanceOf: Observation
 Description: "An instance of Observation"
 * subject = Reference(patientBSJ1)
 * status = #final
-* effectiveDateTime = "2020-04-10T11:21:00-05:00"
+* effectiveDateTime = "2020-04-07T11:21:00-05:00"
 * code = LNC#95011-3
 * code.text = "Roll left and right - usual functional ability during assessment period [CMS Assessment]"
 * code.coding.display = "Roll left and right - usual functional ability during assessment period [CMS Assessment]"
@@ -82,7 +82,7 @@ InstanceOf: Observation
 Description: "An instance of Observation"
 * subject = Reference(patientBSJ1)
 * status = #final
-* effectiveDateTime = "2020-04-10T11:21:00-05:00"
+* effectiveDateTime = "2020-04-07T11:21:00-05:00"
 * code = LNC#95010-5
 * code.text = "Sit to lying - usual functional ability during assessment period [CMS Assessment]"
 * code.coding.display = "Sit to lying - usual functional ability during assessment period [CMS Assessment]"
@@ -142,7 +142,7 @@ InstanceOf: Observation
 Description: "An instance of Observation"
 * subject = Reference(patientBSJ1)
 * status = #final
-* effectiveDateTime = "2020-04-10T11:21:00-05:00"
+* effectiveDateTime = "2020-04-07T11:21:00-05:00"
 * code = LNC#95009-7
 * code.text = "Lying to sitting on side of bed - usual functional ability during assessment period [CMS Assessment]"
 * code.coding.display = "Lying to sitting on side of bed - usual functional ability during assessment period [CMS Assessment]"
@@ -202,7 +202,7 @@ InstanceOf: Observation
 Description: "An instance of Observation"
 * subject = Reference(patientBSJ1)
 * status = #final
-* effectiveDateTime = "2020-04-10T11:21:00-05:00"
+* effectiveDateTime = "2020-04-07T11:21:00-05:00"
 * code = LNC#95008-9
 * code.text = "Sit to stand - usual functional ability during assessment period [CMS Assessment]"
 * code.coding.display = "Sit to stand - usual functional ability during assessment period [CMS Assessment]"
@@ -262,7 +262,7 @@ InstanceOf: Observation
 Description: "An instance of Observation"
 * subject = Reference(patientBSJ1)
 * status = #final
-* effectiveDateTime = "2020-04-10T11:21:00-05:00"
+* effectiveDateTime = "2020-04-07T11:21:00-05:00"
 * code = LNC#95007-1
 * code.text = "Chair/bed-to-chair transfer - usual functional ability during assessment period [CMS Assessment]"
 * code.coding.display = "Chair/bed-to-chair transfer - usual functional ability during assessment period [CMS Assessment]"
@@ -322,7 +322,7 @@ InstanceOf: Observation
 Description: "An instance of Observation"
 * subject = Reference(patientBSJ1)
 * status = #final
-* effectiveDateTime = "2020-04-10T11:21:00-05:00"
+* effectiveDateTime = "2020-04-07T11:21:00-05:00"
 * code = LNC#95006-3
 * code.text = "Toilet transfer - usual functional ability during assessment period [CMS Assessment]"
 * code.coding.display = "Toilet transfer - usual functional ability during assessment period [CMS Assessment]"
@@ -412,7 +412,7 @@ InstanceOf: Observation
 Description: "An instance of Observation"
 * subject = Reference(patientBSJ1)
 * status = #final
-* effectiveDateTime = "2020-04-10T11:21:00-05:00"
+* effectiveDateTime = "2020-04-07T11:21:00-05:00"
 * code = LNC#95004-8
 * code.text = "Walk 10 feet - usual functional ability during assessment period [CMS Assessment]"
 * code.coding.display = "Walk 10 feet - usual functional ability during assessment period [CMS Assessment]"
@@ -472,7 +472,7 @@ InstanceOf: Observation
 Description: "An instance of Observation"
 * subject = Reference(patientBSJ1)
 * status = #final
-* effectiveDateTime = "2020-04-10T11:21:00-05:00"
+* effectiveDateTime = "2020-04-07T11:21:00-05:00"
 * code = LNC#95003-0
 * code.text = "Walk 50 feet with two turns - usual functional ability during assessment period [CMS Assessment]"
 * code.coding.display = "Walk 50 feet with two turns - usual functional ability during assessment period [CMS Assessment]"
@@ -562,7 +562,7 @@ InstanceOf: Observation
 Description: "An instance of Observation"
 * subject = Reference(patientBSJ1)
 * status = #final
-* effectiveDateTime = "2020-04-10T11:21:00-05:00"
+* effectiveDateTime = "2020-04-07T11:21:00-05:00"
 * code = LNC#95001-4
 * code.text = "Walking 10 feet on uneven surfaces - usual functional ability during assessment period [CMS Assessment]"
 * code.coding.display = "Walking 10 feet on uneven surfaces - usual functional ability during assessment period [CMS Assessment]"
@@ -622,7 +622,7 @@ InstanceOf: Observation
 Description: "An instance of Observation"
 * subject = Reference(patientBSJ1)
 * status = #final
-* effectiveDateTime = "2020-04-10T11:21:00-05:00"
+* effectiveDateTime = "2020-04-07T11:21:00-05:00"
 * code = LNC#95000-6
 * code.text = "Go up and down a curb/step - usual functional ability during assessment period [CMS Assessment]"
 * code.coding.display = "Go up and down a curb/step - usual functional ability during assessment period [CMS Assessment]"
@@ -682,7 +682,7 @@ InstanceOf: Observation
 Description: "An instance of Observation"
 * subject = Reference(patientBSJ1)
 * status = #final
-* effectiveDateTime = "2020-04-10T11:21:00-05:00"
+* effectiveDateTime = "2020-04-07T11:21:00-05:00"
 * code = LNC#94999-0
 * code.text = "Go up and down 4 steps - usual functional ability during assessment period [CMS Assessment]"
 * code.coding.display = "Go up and down 4 steps - usual functional ability during assessment period [CMS Assessment]"
@@ -772,7 +772,7 @@ InstanceOf: Observation
 Description: "An instance of Observation"
 * subject = Reference(patientBSJ1)
 * status = #final
-* effectiveDateTime = "2020-04-10T11:21:00-05:00"
+* effectiveDateTime = "2020-04-07T11:21:00-05:00"
 * code = LNC#94997-4
 * code.text = "Picking up object - usual functional ability during assessment period [CMS Assessment]"
 * code.coding.display = "Picking up object - usual functional ability during assessment period [CMS Assessment]"
@@ -807,8 +807,8 @@ Description: "An instance of Observation"
 * code.text = "Does the patient use a wheelchair/scooter during assessment period [CMS Assessment]"
 * code.coding.display = "Does the patient use a wheelchair/scooter during assessment period [CMS Assessment]"
 * valueCodeableConcept = LNC#LA32-8
-* valueCodeableConcept.text = "No"
-* valueCodeableConcept.coding.display = "No"
+* valueCodeableConcept.text = "No			"
+* valueCodeableConcept.coding.display = "No			"
 * performer = Reference(provider-role-physical-therapist-Practitioner-LunaBaskins)
 * extension[event-location].valueReference = Reference(Provider-Org-Loc-2)
 
@@ -817,13 +817,13 @@ InstanceOf: Observation
 Description: "An instance of Observation"
 * subject = Reference(patientBSJ1)
 * status = #final
-* effectiveDateTime = "2020-04-10T11:21:00-05:00"
+* effectiveDateTime = "2020-04-07T11:21:00-05:00"
 * code = LNC#95738-1
 * code.text = "Does the patient use a wheelchair/scooter during assessment period [CMS Assessment]"
 * code.coding.display = "Does the patient use a wheelchair/scooter during assessment period [CMS Assessment]"
 * valueCodeableConcept = LNC#LA32-8
-* valueCodeableConcept.text = "No"
-* valueCodeableConcept.coding.display = "No"
+* valueCodeableConcept.text = "No			"
+* valueCodeableConcept.coding.display = "No			"
 * performer = Reference(provider-role-nurse-Practitioner-JacobHartwell)
 * extension[event-location].valueReference = Reference(Provider-Org-Loc-2)
 
@@ -837,8 +837,8 @@ Description: "An instance of Observation"
 * code.text = "Does the patient use a wheelchair/scooter during assessment period [CMS Assessment]"
 * code.coding.display = "Does the patient use a wheelchair/scooter during assessment period [CMS Assessment]"
 * valueCodeableConcept = LNC#LA32-8
-* valueCodeableConcept.text = "No"
-* valueCodeableConcept.coding.display = "No"
+* valueCodeableConcept.text = "No			"
+* valueCodeableConcept.coding.display = "No			"
 * performer = Reference(provider-role-physical-therapist-Practitioner-ScottDumble)
 * extension[event-location].valueReference = Reference(Provider-Org-Loc-2)
 
@@ -852,8 +852,8 @@ Description: "An instance of Observation"
 * code.text = "Does the patient use a wheelchair/scooter during assessment period [CMS Assessment]"
 * code.coding.display = "Does the patient use a wheelchair/scooter during assessment period [CMS Assessment]"
 * valueCodeableConcept = LNC#LA32-8
-* valueCodeableConcept.text = "No"
-* valueCodeableConcept.coding.display = "No"
+* valueCodeableConcept.text = "No			"
+* valueCodeableConcept.coding.display = "No			"
 * performer = Reference(provider-role-physical-therapist-Practitioner-ScottDumble)
 * extension[event-location].valueReference = Reference(Provider-Org-Loc-2)
 

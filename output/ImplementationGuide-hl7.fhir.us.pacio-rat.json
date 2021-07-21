@@ -10,7 +10,7 @@
   "name": "PACIOReAssessmentTimepoints",
   "title": "PACIO Re-Assessment Timepoints Implementation Guide",
   "status": "draft",
-  "date": "2021-07-14T15:27:29-07:00",
+  "date": "2021-07-20T22:04:19-07:00",
   "publisher": "HL7 Community-Based Care and Privacy Working Group",
   "contact": [
     {
@@ -353,7 +353,7 @@
           "reference": "StructureDefinition/clinicalImpression"
         },
         "name": "clinicalImpression",
-        "description": "Clinical impression resource reference",
+        "description": "An extension for referencing a clinical impression resource reflecting any and all clinical related data tied to the assessment/instrument driving the timepoint, or within the timepoint itself.",
         "exampleBoolean": false
       },
       {
@@ -423,7 +423,7 @@
           "reference": "CodeSystem/prat-class-cs"
         },
         "name": "Timepoint Class Code System",
-        "description": "Codes for the classification of patient timepoint such as Skilled nursing facility, home health, etc.",
+        "description": "Defining codes for the classification of patient timepoint such as skilled nursing facility, home health, etc.",
         "exampleBoolean": false
       },
       {
@@ -437,7 +437,7 @@
           "reference": "CodeSystem/prat-entity-cs"
         },
         "name": "Timepoint Entity Code System",
-        "description": "Codes describing various entity types for structuring timepoints.",
+        "description": "Defining codes for describing various entity types for structuring timepoints.",
         "exampleBoolean": false
       },
       {
@@ -451,7 +451,7 @@
           "reference": "CodeSystem/prat-service-type-cs"
         },
         "name": "Timepoint Service Type Code System",
-        "description": "Codes describing various service types of clinical assessment or instrument that a timepoint is centered on.",
+        "description": "Defining codes for describing various service types of clinical assessment or instrument that a timepoint is centered on.",
         "exampleBoolean": false
       },
       {

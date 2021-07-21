@@ -61,7 +61,7 @@ InstanceOf: Observation
 Description: "An instance of Observation"
 * subject = Reference(patientBSJ1)
 * status = #final
-* effectiveDateTime = "2020-04-10T11:21:00-05:00"
+* effectiveDateTime = "2020-04-07T11:21:00-05:00"
 * code = LNC#88486-6
 * code.coding.display = "OASID D - Mobility - follow-up perfomance during assessment period [CMS Assessment]"
 * category = CAT#survey

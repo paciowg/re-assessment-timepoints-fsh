@@ -88,7 +88,7 @@ Description: "Re-assessment Timepoints Encounter is a profile of the Encounter r
 * partOf ^definition = "An Encounter this timepoint is part of"
 
 Extension: clinicalImpression
-Description: "Clinical impression resource reference"
+Description: "An extension for referencing a clinical impression resource reflecting any and all clinical related data tied to the assessment/instrument driving the timepoint, or within the timepoint itself."
 * value[x] only Reference(ClinicalImpression)
 
 //////////////////////////////
@@ -98,7 +98,7 @@ Description: "Clinical impression resource reference"
 CodeSystem: TimepointEntityCodeSystem
 Title: "Timepoint Entity Code System"
 Id: prat-entity-cs
-Description: "Codes describing various entity types for structuring timepoints."
+Description: "Defining codes for describing various entity types for structuring timepoints."
 * #payer "Payer" "Payer"
 * #regulatory-state "Regulatory - State" "Regulatory - State"
 * #regulatory-federal "Regulatory - Federal" "Regulatory - Federal"
@@ -115,7 +115,7 @@ Id: prat-entity-type-vs
 CodeSystem: TimepointServiceTypeCodeSystem
 Title: "Timepoint Service Type Code System"
 Id: prat-service-type-cs
-Description: "Codes describing various service types of clinical assessment or instrument that a timepoint is centered on."
+Description: "Defining codes for describing various service types of clinical assessment or instrument that a timepoint is centered on."
 * #oasis "OASIS" "CMS Home Health Outcome and Assessment Information Set"
 * #mds "MDS" "CMS Minimum Data Set - Resident Assessment and Care Screening"
 * #pt "Physical Therapy Assessment" "Physical Therapy Assessment"
@@ -139,7 +139,7 @@ Id: prat-status-vs
 CodeSystem: TimepointClassCodeSystem
 Title: "Timepoint Class Code System"
 Id: prat-class-cs
-Description: "Codes for the classification of patient timepoint such as Skilled nursing facility, home health, etc."
+Description: "Defining codes for the classification of patient timepoint such as skilled nursing facility, home health, etc."
 * #SNF "skilled nursing facility" "Healthcare encounter that takes place in a skilled nursing facility."
 
 ValueSet: TimepointClassValueSet

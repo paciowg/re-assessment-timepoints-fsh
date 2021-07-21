@@ -10,7 +10,7 @@
   "name": "TimepointServiceTypeCodeSystem",
   "title": "Timepoint Service Type Code System",
   "status": "active",
-  "date": "2021-07-14T15:27:29-07:00",
+  "date": "2021-07-20T22:04:19-07:00",
   "publisher": "HL7 Community-Based Care and Privacy Working Group",
   "contact": [
     {
@@ -27,7 +27,7 @@
       ]
     }
   ],
-  "description": "Codes describing various service types of clinical assessment or instrument that a timepoint is centered on.",
+  "description": "Defining codes for describing various service types of clinical assessment or instrument that a timepoint is centered on.",
   "jurisdiction": [
     {
       "coding": [

@@ -60,7 +60,7 @@ InstanceOf: Observation
 Description: "An instance of Observation"
 * subject = Reference(patientBSJ1)
 * status = #final
-* effectiveDateTime = "2020-04-10T11:21:00-05:00"
+* effectiveDateTime = "2020-04-07T11:21:00-05:00"
 * code = LNC#88485-8
 * code.coding.display = "OASIS D - Self-care - follow-up performance during assessment period [CMS Assessment]"
 * category = CAT#survey

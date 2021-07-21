@@ -3,10 +3,10 @@
   "name": "PACIOReAssessmentTimepoints",
   "package-id": "hl7.fhir.us.pacio-rat",
   "ig-ver": "0.1.0",
-  "date": "Wed, 14 Jul, 2021 15:27:29 -0700",
+  "date": "Tue, 20 Jul, 2021 22:04:19 -0700",
   "errs": 13,
-  "warnings": 29,
-  "hints": 10,
+  "warnings": 12,
+  "hints": 34,
   "version": "4.0.1",
   "tool": "4.6.0 (3)"
 }

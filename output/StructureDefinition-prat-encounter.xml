@@ -42,7 +42,7 @@
   <name value="ReassessmentTimepointsEncounter"/>
   <title value="PACIO Re-assessment Timepoints Encounter Profile"/>
   <status value="active"/>
-  <date value="2021-07-14T15:27:29-07:00"/>
+  <date value="2021-07-20T22:04:19-07:00"/>
   <publisher value="HL7 Community-Based Care and Privacy Working Group"/>
   <contact>
     <name value="HL7 Community-Based Care and Privacy Working Group"/>
@@ -1619,7 +1619,7 @@
       <path value="Encounter.basedOn.extension"/>
       <sliceName value="impression"/>
       <short value="Clinical Impression can reflect any and all clinical related data tied to the assessment/instrument driving the timepoint, or within the timepoint itself."/>
-      <definition value="Clinical impression resource reference"/>
+      <definition value="An extension for referencing a clinical impression resource reflecting any and all clinical related data tied to the assessment/instrument driving the timepoint, or within the timepoint itself."/>
       <min value="0"/>
       <max value="*"/>
       <base>

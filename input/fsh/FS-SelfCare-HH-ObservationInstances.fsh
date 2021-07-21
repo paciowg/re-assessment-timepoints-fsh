@@ -382,7 +382,7 @@ InstanceOf: Observation
 Description: "An instance of Observation"
 * subject = Reference(patientBSJ1)
 * status = #final
-* effectiveDateTime = "2020-04-10T11:21:00-05:00"
+* effectiveDateTime = "2020-04-07T11:21:00-05:00"
 * code = LNC#95019-6
 * code.text = "Eating - usual functional ability during assessment period [CMS Assessment]"
 * code.coding.display = "Eating - usual functional ability during assessment period [CMS Assessment]"
@@ -412,7 +412,7 @@ InstanceOf: Observation
 Description: "An instance of Observation"
 * subject = Reference(patientBSJ1)
 * status = #final
-* effectiveDateTime = "2020-04-10T11:21:00-05:00"
+* effectiveDateTime = "2020-04-07T11:21:00-05:00"
 * code = LNC#95018-8
 * code.text = "Oral hygiene - usual functional ability during assessment period [CMS Assessment]"
 * code.coding.display = "Oral hygiene - usual functional ability during assessment period [CMS Assessment]"
@@ -442,7 +442,7 @@ InstanceOf: Observation
 Description: "An instance of Observation"
 * subject = Reference(patientBSJ1)
 * status = #final
-* effectiveDateTime = "2020-04-10T11:21:00-05:00"
+* effectiveDateTime = "2020-04-07T11:21:00-05:00"
 * code = LNC#95017-0
 * code.text = "Toileting hygiene - usual functional ability during assessment period [CMS Assessment]"
 * code.coding.display = "Toileting hygiene - usual functional ability during assessment period [CMS Assessment]"

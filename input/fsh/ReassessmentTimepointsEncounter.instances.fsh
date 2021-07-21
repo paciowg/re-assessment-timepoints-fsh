@@ -64,8 +64,8 @@ Description: "HHA-Stay OASIS Re-assessment Timepoint with Type Payer, period 202
 * serviceType = PRATSRVTYPECS#oasis
 * subject = Reference(patientBSJ1)
 * episodeOfCare = Reference(Episodecare-2-HHA-Stay)
-* reasonReference[0] = Reference(HHA-SC-FU-60-OASIS-2D)
-* reasonReference[1] = Reference(HHA-MOB-DG-OASIS-2B)
+* reasonReference[0] = Reference(HHA-SC-FU-120-OASIS-2E)
+* reasonReference[1] = Reference(HHA-MOB-FU-120-OASIS-2D)
 * participant[0].individual = Reference(Practitioner-LunaBaskins)
 * participant[1].individual = Reference(Practitioner-JacobHartwell)
 * participant[2].individual = Reference(Practitioner-ScottDumble)
@@ -87,7 +87,7 @@ Description: "HHA-Stay OASIS Re-assessment Timepoint with Type Payer, period 202
 * serviceType = PRATSRVTYPECS#oasis
 * subject = Reference(patientBSJ1)
 * episodeOfCare = Reference(Episodecare-2-HHA-Stay)
-* reasonReference[0] = Reference(HHA-SC-FU-120-OASIS-2E)
+* reasonReference[0] = Reference(HHA-SC-DC-OASIS-2F)
 * reasonReference[1] = Reference(HHA-MOB-DC-OASIS-2E)
 * participant[0].individual = Reference(Practitioner-LunaBaskins)
 * participant[1].individual = Reference(Practitioner-JacobHartwell)
@@ -115,6 +115,8 @@ Description: "HHA-Stay OASIS Re-assessment Timepoint with Type Payer, period 202
 * reasonReference[2] = Reference(HHA-SC-DG-OASIS-2C)
 * reasonReference[3] = Reference(HHA-MOB-SOC-Perf-OASIS-2A)
 * reasonReference[4] = Reference(HHA-MOB-DG-OASIS-2B)
+* reasonReference[5] = Reference(HHA-SC-FU-60-OASIS-2D)
+* reasonReference[6] = Reference(HHA-MOB-FU-60-OASIS-2C)
 * participant[0].individual = Reference(Practitioner-LunaBaskins)
 * participant[1].individual = Reference(Practitioner-JacobHartwell)
 * participant[2].individual = Reference(Practitioner-ScottDumble)

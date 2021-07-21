@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "TimepointClassCodeSystem"];
   fhir:CodeSystem.title [ fhir:value "Timepoint Class Code System"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-07-14T15:27:29-07:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-07-20T22:04:19-07:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "HL7 Community-Based Care and Privacy Working Group"];
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -32,7 +32,7 @@
        fhir:ContactPoint.value [ fhir:value "patients@lists.HL7.org" ]
      ]
   ];
-  fhir:CodeSystem.description [ fhir:value "Codes for the classification of patient timepoint such as Skilled nursing facility, home health, etc."];
+  fhir:CodeSystem.description [ fhir:value "Defining codes for the classification of patient timepoint such as skilled nursing facility, home health, etc."];
   fhir:CodeSystem.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [

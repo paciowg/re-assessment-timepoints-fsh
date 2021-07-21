@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "ReassessmentTimepointsEncounter"];
   fhir:StructureDefinition.title [ fhir:value "PACIO Re-assessment Timepoints Encounter Profile"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-07-14T15:27:29-07:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-07-20T22:04:19-07:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "HL7 Community-Based Care and Privacy Working Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -2053,7 +2053,7 @@
        fhir:ElementDefinition.path [ fhir:value "Encounter.basedOn.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "impression" ];
        fhir:ElementDefinition.short [ fhir:value "Clinical Impression can reflect any and all clinical related data tied to the assessment/instrument driving the timepoint, or within the timepoint itself." ];
-       fhir:ElementDefinition.definition [ fhir:value "Clinical impression resource reference" ];
+       fhir:ElementDefinition.definition [ fhir:value "An extension for referencing a clinical impression resource reflecting any and all clinical related data tied to the assessment/instrument driving the timepoint, or within the timepoint itself." ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "*" ];
        fhir:ElementDefinition.base [

@@ -10,7 +10,7 @@
   <name value="TimepointClassCodeSystem"/>
   <title value="Timepoint Class Code System"/>
   <status value="active"/>
-  <date value="2021-07-14T15:27:29-07:00"/>
+  <date value="2021-07-20T22:04:19-07:00"/>
   <publisher value="HL7 Community-Based Care and Privacy Working Group"/>
   <contact>
     <name value="HL7 Community-Based Care and Privacy Working Group"/>
@@ -23,7 +23,7 @@
       <value value="patients@lists.HL7.org"/>
     </telecom>
   </contact>
-  <description value="Codes for the classification of patient timepoint such as Skilled nursing facility, home health, etc."/>
+  <description value="Defining codes for the classification of patient timepoint such as skilled nursing facility, home health, etc."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "PACIOReAssessmentTimepoints"];
   fhir:ImplementationGuide.title [ fhir:value "PACIO Re-Assessment Timepoints Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-07-14T15:27:29-07:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-07-20T22:04:19-07:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Community-Based Care and Privacy Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -337,7 +337,7 @@
          fhir:Reference.reference [ fhir:value "StructureDefinition/clinicalImpression" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "clinicalImpression" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Clinical impression resource reference" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An extension for referencing a clinical impression resource reflecting any and all clinical related data tied to the assessment/instrument driving the timepoint, or within the timepoint itself." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 2;
@@ -407,7 +407,7 @@
          fhir:Reference.reference [ fhir:value "CodeSystem/prat-class-cs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Timepoint Class Code System" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes for the classification of patient timepoint such as Skilled nursing facility, home health, etc." ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Defining codes for the classification of patient timepoint such as skilled nursing facility, home health, etc." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 7;
@@ -421,7 +421,7 @@
          fhir:Reference.reference [ fhir:value "CodeSystem/prat-entity-cs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Timepoint Entity Code System" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes describing various entity types for structuring timepoints." ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Defining codes for describing various entity types for structuring timepoints." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 8;
@@ -435,7 +435,7 @@
          fhir:Reference.reference [ fhir:value "CodeSystem/prat-service-type-cs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Timepoint Service Type Code System" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes describing various service types of clinical assessment or instrument that a timepoint is centered on." ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Defining codes for describing various service types of clinical assessment or instrument that a timepoint is centered on." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 9;
