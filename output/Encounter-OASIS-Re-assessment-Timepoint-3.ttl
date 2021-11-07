@@ -5,70 +5,85 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/us/pacio-rat/Encounter/OASIS-Re-assessment-Timepoint-3> a fhir:Encounter;
+<http://hl7.org/fhir/us/pacio-rt/Encounter/OASIS-Re-assessment-Timepoint-3> a fhir:Encounter;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "OASIS-Re-assessment-Timepoint-3"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter";
+       fhir:value "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/reassessment-timepoints-encounter";
        fhir:index 0;
-       fhir:link <http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter>
+       fhir:link <http://hl7.org/fhir/us/pacio-rt/StructureDefinition/reassessment-timepoints-encounter>
      ]
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: OASIS-Re-assessment-Timepoint-3001</p><p><b>status</b>: finished</p><p><b>class</b>: <span title=\"{http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs HH}\">HH</span></p><p><b>type</b>: <span title=\"Codes: {http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs payer}\">Payer</span></p><p><b>serviceType</b>: <span title=\"Codes: {http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs oasis}\">OASIS</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: 10A3D58WH1600; active; Betsy Smith-Johnson; Phone: 210-222-1111; gender: female; birthDate: 1950-11-01; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}\">unmarried</span></a></p><p><b>episodeOfCare</b>: <a href=\"EpisodeOfCare-Episodecare-2-HHA-Stay.html\">Generated Summary: status: finished; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/episodeofcare-type hacc}\">Home and Community Care</span>; period: 2020-02-10 --&gt; 2020-06-29</a></p><blockquote><p><b>participant</b></p><p><b>individual</b>: <a href=\"Practitioner-Practitioner-LunaBaskins.html\">Generated Summary: active; Luna Baskins Jones; Phone: (210) 555 1871; gender: female</a></p></blockquote><blockquote><p><b>participant</b></p><p><b>individual</b>: <a href=\"Practitioner-Practitioner-JacobHartwell.html\">Generated Summary: id: 4567123789; active; Jacob Hartwell; Phone: (210) 555 1889; gender: male</a></p></blockquote><blockquote><p><b>participant</b></p><p><b>individual</b>: <a href=\"Practitioner-Practitioner-ScottDumble.html\">Generated Summary: active; Scott Dumble; Phone: (210) 555 1399; gender: male</a></p></blockquote><p><b>period</b>: 2020-06-10 --&gt; 2020-06-29</p><p><b>reasonCode</b>: <span title=\"Codes: {http://hl7.org/fhir/sid/icd-10-cm I69.30}\">Unspecified sequelae of cerebral infarction</span></p><p><b>reasonReference</b>: </p><ul><li><a href=\"Observation-HHA-SC-DC-OASIS-2F.html\">Generated Summary: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span>; <span title=\"Codes: {http://loinc.org 89475-8}\">OASIS D - Self-care - discharge performance during assessment period [CMS Assessment]</span>; effective: Jun 29, 2020, 12:00:00 PM</a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E.html\">Generated Summary: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span>; <span title=\"Codes: {http://loinc.org 89474-1}\">OASIS D - Mobility - discharge performance during assessment period [CMS Assessment]</span>; effective: Jun 29, 2020, 12:00:00 PM</a></li></ul><h3>Locations</h3><table class=\"grid\"><tr><td>-</td><td><b>Location</b></td></tr><tr><td>*</td><td><a href=\"Location-Provider-Org-Loc-2.html\">Generated Summary: status: active; name: Sky Harbor Home Health Services</a></td></tr></table><p><b>serviceProvider</b>: <a href=\"Organization-Provider-Org-2.html\">Generated Summary: name: Sky Harbor Home Health Services</a></p><p><b>partOf</b>: <a href=\"Encounter-Encounter-2-HHA-Stay.html\">Generated Summary: status: finished; <span title=\"{http://terminology.hl7.org/CodeSystem/v3-ActCode HH}\">home health</span>; <span title=\"Codes: {http://snomed.info/sct 50357006}\">Evaluation and management of patient at home (procedure)</span>; period: Feb 10, 2020, 12:00:00 PM --&gt; Jun 29, 2020, 8:30:00 AM</a></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: OASIS-Re-assessment-Timepoint-3001</p><p><b>status</b>: finished</p><p><b>class</b>: <span title=\"{http://terminology.hl7.org/CodeSystem/v3-ActCode HH}\">home health</span></p><p><b>type</b>: <span title=\"Codes: {http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-entity-cs payer}\">Payer</span></p><p><b>serviceType</b>: <span title=\"Codes: {http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-service-type-cs oasis}\">Outcome and Assessment Information Set</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: 10A3D58WH1600; active: true; Betsy Smith-Johnson; Phone: 210-222-1111; gender: female; birthDate: 1950-11-01; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}\">unmarried</span></a></p><p><b>episodeOfCare</b>: <a href=\"EpisodeOfCare-Episodecare-2-HHA-Stay.html\">Generated Summary: status: finished; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/episodeofcare-type hacc}\">Home and Community Care</span>; period: 2020-02-10 --&gt; 2020-06-29</a></p><p><b>basedOn</b>: <span>Clinical Impression</span></p><blockquote><p><b>participant</b></p><p><b>individual</b>: <a href=\"Practitioner-Practitioner-LunaBaskins.html\">Generated Summary: active: true; Luna Baskins Jones; Phone: (210) 555 1871; gender: female</a></p></blockquote><blockquote><p><b>participant</b></p><p><b>individual</b>: <a href=\"Practitioner-Practitioner-JacobHartwell.html\">Generated Summary: id: 4567123789; active: true; Jacob Hartwell; Phone: (210) 555 1889; gender: male</a></p></blockquote><blockquote><p><b>participant</b></p><p><b>individual</b>: <a href=\"Practitioner-Practitioner-ScottDumble.html\">Generated Summary: active: true; Scott Dumble; Phone: (210) 555 1399; gender: male</a></p></blockquote><p><b>period</b>: 2020-06-10 --&gt; 2020-06-29</p><p><b>reasonCode</b>: <span title=\"Codes: {http://hl7.org/fhir/sid/icd-10-cm I69.30}\">Unspecified sequelae of cerebral infarction</span></p><p><b>reasonReference</b>: </p><ul><li><a href=\"Observation-HHA-SC-DC-OASIS-2F.html\">Generated Summary: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span>; <span title=\"Codes: {http://loinc.org 89475-8}\">OASIS D - Self-care - discharge performance during assessment period [CMS Assessment]</span>; effective: Jun 29, 2020, 12:00:00 PM</a></li><li><a href=\"Observation-HHA-MOB-DC-OASIS-2E.html\">Generated Summary: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span>; <span title=\"Codes: {http://loinc.org 89474-1}\">OASIS D - Mobility - discharge performance during assessment period [CMS Assessment]</span>; effective: Jun 29, 2020, 12:00:00 PM</a></li></ul><h3>Locations</h3><table class=\"grid\"><tr><td>-</td><td><b>Location</b></td></tr><tr><td>*</td><td><a href=\"Location-Provider-Org-Loc-2.html\">Generated Summary: status: active; name: Sky Harbor Home Health Services</a></td></tr></table><p><b>serviceProvider</b>: <a href=\"Organization-Provider-Org-2.html\">Generated Summary: name: Sky Harbor Home Health Services</a></p><p><b>partOf</b>: <a href=\"Encounter-Encounter-2-HHA-Stay.html\">Generated Summary: status: finished; <span title=\"{http://terminology.hl7.org/CodeSystem/v3-ActCode HH}\">home health</span>; <span title=\"Codes: {http://snomed.info/sct 50357006}\">Evaluation and management of patient at home (procedure)</span>; period: Feb 10, 2020, 12:00:00 PM --&gt; Jun 29, 2020, 8:30:00 AM</a></p></div>"
   ];
   fhir:Encounter.identifier [
      fhir:index 0;
-     fhir:Identifier.system [ fhir:value "http://hl7.org/fhir/us/pacio-rat" ];
+     fhir:Identifier.system [ fhir:value "http://example.org/identifiers/patient" ];
      fhir:Identifier.value [ fhir:value "OASIS-Re-assessment-Timepoint-3001" ]
   ];
   fhir:Encounter.status [ fhir:value "finished"];
   fhir:Encounter.class [
-     fhir:Coding.system [ fhir:value "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs" ];
-     fhir:Coding.code [ fhir:value "HH" ]
+     fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-ActCode" ];
+     fhir:Coding.code [ fhir:value "HH" ];
+     fhir:Coding.display [ fhir:value "home health" ]
   ];
   fhir:Encounter.type [
      fhir:index 0;
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs" ];
-       fhir:Coding.code [ fhir:value "payer" ]
+       fhir:Coding.system [ fhir:value "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-entity-cs" ];
+       fhir:Coding.code [ fhir:value "payer" ];
+       fhir:Coding.display [ fhir:value "Payer" ]
      ]
   ];
   fhir:Encounter.serviceType [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs" ];
-       fhir:Coding.code [ fhir:value "oasis" ]
+       fhir:Coding.system [ fhir:value "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-service-type-cs" ];
+       fhir:Coding.code [ fhir:value "oasis" ];
+       fhir:Coding.display [ fhir:value "Outcome and Assessment Information Set" ]
      ]
   ];
   fhir:Encounter.subject [
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Patient/patientBSJ1>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Patient/patientBSJ1>;
      fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
   ];
   fhir:Encounter.episodeOfCare [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/EpisodeOfCare/Episodecare-2-HHA-Stay>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/EpisodeOfCare/Episodecare-2-HHA-Stay>;
      fhir:Reference.reference [ fhir:value "EpisodeOfCare/Episodecare-2-HHA-Stay" ]
+  ];
+  fhir:Encounter.basedOn [
+     fhir:index 0;
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/clinicalImpression" ];
+       fhir:Extension.valueReference [
+         fhir:link <http://hl7.org/fhir/us/pacio-rt/ClinicalImpression/ClinicalImpression-2>;
+         fhir:Reference.reference [ fhir:value "ClinicalImpression/ClinicalImpression-2" ]
+       ]
+     ];
+     fhir:Reference.display [ fhir:value "Clinical Impression" ]
   ];
   fhir:Encounter.participant [
      fhir:index 0;
      fhir:Encounter.participant.individual [
-       fhir:link <http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-LunaBaskins>;
+       fhir:link <http://hl7.org/fhir/us/pacio-rt/Practitioner/Practitioner-LunaBaskins>;
        fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-LunaBaskins" ]
      ]
   ], [
      fhir:index 1;
      fhir:Encounter.participant.individual [
-       fhir:link <http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-JacobHartwell>;
+       fhir:link <http://hl7.org/fhir/us/pacio-rt/Practitioner/Practitioner-JacobHartwell>;
        fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-JacobHartwell" ]
      ]
   ], [
      fhir:index 2;
      fhir:Encounter.participant.individual [
-       fhir:link <http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-ScottDumble>;
+       fhir:link <http://hl7.org/fhir/us/pacio-rt/Practitioner/Practitioner-ScottDumble>;
        fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-ScottDumble" ]
      ]
   ];
@@ -87,54 +102,56 @@
   ];
   fhir:Encounter.reasonReference [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-SC-DC-OASIS-2F>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Observation/HHA-SC-DC-OASIS-2F>;
      fhir:Reference.reference [ fhir:value "Observation/HHA-SC-DC-OASIS-2F" ]
   ], [
      fhir:index 1;
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DC-OASIS-2E>;
      fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DC-OASIS-2E" ]
   ];
   fhir:Encounter.location [
      fhir:index 0;
      fhir:Encounter.location.location [
-       fhir:link <http://hl7.org/fhir/us/pacio-rat/Location/Provider-Org-Loc-2>;
+       fhir:link <http://hl7.org/fhir/us/pacio-rt/Location/Provider-Org-Loc-2>;
        fhir:Reference.reference [ fhir:value "Location/Provider-Org-Loc-2" ]
      ]
   ];
   fhir:Encounter.serviceProvider [
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Organization/Provider-Org-2>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Organization/Provider-Org-2>;
      fhir:Reference.reference [ fhir:value "Organization/Provider-Org-2" ]
   ];
   fhir:Encounter.partOf [
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Encounter/Encounter-2-HHA-Stay>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Encounter/Encounter-2-HHA-Stay>;
      fhir:Reference.reference [ fhir:value "Encounter/Encounter-2-HHA-Stay" ]
   ] .
 
-<http://hl7.org/fhir/us/pacio-rat/Patient/patientBSJ1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Patient/patientBSJ1> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/EpisodeOfCare/Episodecare-2-HHA-Stay> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/EpisodeOfCare/Episodecare-2-HHA-Stay> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-LunaBaskins> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/ClinicalImpression/ClinicalImpression-2> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-JacobHartwell> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Practitioner/Practitioner-LunaBaskins> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-ScottDumble> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Practitioner/Practitioner-JacobHartwell> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-SC-DC-OASIS-2F> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Practitioner/Practitioner-ScottDumble> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DC-OASIS-2E> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Observation/HHA-SC-DC-OASIS-2F> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Location/Provider-Org-Loc-2> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DC-OASIS-2E> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Organization/Provider-Org-2> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Location/Provider-Org-Loc-2> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Encounter/Encounter-2-HHA-Stay> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Organization/Provider-Org-2> a fhir:us .
+
+<http://hl7.org/fhir/us/pacio-rt/Encounter/Encounter-2-HHA-Stay> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/us/pacio-rat/Encounter/OASIS-Re-assessment-Timepoint-3.ttl> a owl:Ontology;
+<http://hl7.org/fhir/us/pacio-rt/Encounter/OASIS-Re-assessment-Timepoint-3.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/us/pacio-rat/Encounter/OASIS-Re-assessment-Timepoint-3.ttl> .
+  owl:versionIRI <http://build.fhir.org/us/pacio-rt/Encounter/OASIS-Re-assessment-Timepoint-3.ttl> .
 
 # -------------------------------------------------------------------------------------
 

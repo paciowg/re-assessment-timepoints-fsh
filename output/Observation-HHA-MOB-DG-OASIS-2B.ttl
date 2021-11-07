@@ -6,18 +6,18 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B> a fhir:Observation;
+<http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B> a fhir:Observation;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "HHA-MOB-DG-OASIS-2B"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Event Location</b>: <a href=\"Location-Provider-Org-Loc-2.html\">Generated Summary: status: active; name: Sky Harbor Home Health Services</a></p><p></p><p><b>category</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 89476-6}\">Mobility - discharge goal [CMS Assessment]</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: 10A3D58WH1600; active; Betsy Smith-Johnson; Phone: 210-222-1111; gender: female; birthDate: 1950-11-01; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}\">unmarried</span></a></p><p><b>effective</b>: Feb 10, 2020, 1:31:00 PM</p><p><b>performer</b>: <a href=\"PractitionerRole-provider-role-physical-therapist-Practitioner-LunaBaskins.html\">Generated Summary: active; <span title=\"Codes: {http://nucc.org/provider-taxonomy 225100000X}\">Physical Therapist</span>; <span title=\"Codes: {http://snomed.info/sct 24430003}\">Physical Medicine Specialist</span></a></p><p><b>hasMember</b>: </p><ul><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-58.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 89398-2}\">Roll left and right - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent - Patient completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-59.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 89394-1}\">Sit to lying - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent - Patient completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-60.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 85927-2}\">Lying to sitting on side of bed - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent - Patient completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-61.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 89392-5}\">Sit to stand - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent - Patient completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-62.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 89414-7}\">Chair/bed-to-chair transfer - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent - Patient completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-63.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 89390-9}\">Toilet transfer - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent - Patient completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-64.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 89412-1}\">Car transfer - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent - Patient completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-65.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 89385-9}\">Walk 10 feet - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent - Patient completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-66.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 89381-8}\">Walk 50 feet with two turns - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent - Patient completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-67.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 89383-4}\">Walk 150 feet - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA10073-7}\">Setup or clean-up assistance - Helper sets up or cleans up; patient completes activity. Helper assists only prior to or following the activity.</span></a></li><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-68.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 89379-2}\">Walking 10 feet on uneven surfaces - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA28225-3}\">Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.</span></a></li><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-69.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 89420-4}\">Go up and down a curb/step - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent - Patient completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-70.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 89416-2}\">Go up and down 4 steps - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA28225-3}\">Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.</span></a></li><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-71.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 89418-8}\">Go up and down 12 steps - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA28225-3}\">Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.</span></a></li><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-72.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 89402-2}\">Picking up object - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent - Patient completes the activity by him/herself with no assistance from a helper.</span></a></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Event Location</b>: <a href=\"Location-Provider-Org-Loc-2.html\">Generated Summary: status: active; name: Sky Harbor Home Health Services</a></p><p></p><p><b>category</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 89476-6}\">Mobility - discharge goal [CMS Assessment]</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: 10A3D58WH1600; active: true; Betsy Smith-Johnson; Phone: 210-222-1111; gender: female; birthDate: 1950-11-01; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}\">unmarried</span></a></p><p><b>effective</b>: Feb 10, 2020, 1:31:00 PM</p><p><b>performer</b>: <a href=\"PractitionerRole-provider-role-physical-therapist-Practitioner-LunaBaskins.html\">Generated Summary: active: true; <span title=\"Codes: {http://nucc.org/provider-taxonomy 225100000X}\">Physical Therapist</span>; <span title=\"Codes: {http://snomed.info/sct 394601005}\">Clinical physiology</span></a></p><p><b>hasMember</b>: </p><ul><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-58.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 89398-2}\">Roll left and right - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent - Patient completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-59.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 89394-1}\">Sit to lying - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent - Patient completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-60.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 85927-2}\">Lying to sitting on side of bed - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent - Patient completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-61.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 89392-5}\">Sit to stand - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent - Patient completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-62.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 89414-7}\">Chair/bed-to-chair transfer - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent - Patient completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-63.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 89390-9}\">Toilet transfer - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent - Patient completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-64.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 89412-1}\">Car transfer - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent - Patient completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-65.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 89385-9}\">Walk 10 feet - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent - Patient completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-66.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 89381-8}\">Walk 50 feet with two turns - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent - Patient completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-67.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 89383-4}\">Walk 150 feet - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA10073-7}\">Setup or clean-up assistance - Helper sets up or cleans up; patient completes activity. Helper assists only prior to or following the activity.</span></a></li><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-68.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 89379-2}\">Walking 10 feet on uneven surfaces - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA28225-3}\">Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.</span></a></li><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-69.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 89420-4}\">Go up and down a curb/step - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent - Patient completes the activity by him/herself with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-70.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 89416-2}\">Go up and down 4 steps - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA28225-3}\">Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.</span></a></li><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-71.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 89418-8}\">Go up and down 12 steps - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA28225-3}\">Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as patient completes activity. Assistance may be provided throughout the activity or intermittently.</span></a></li><li><a href=\"Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-72.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 89402-2}\">Picking up object - functional goal [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA9983-3}\">Independent - Patient completes the activity by him/herself with no assistance from a helper.</span></a></li></ul></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/event-location" ];
      fhir:Extension.valueReference [
-       fhir:link <http://hl7.org/fhir/us/pacio-rat/Location/Provider-Org-Loc-2>;
+       fhir:link <http://hl7.org/fhir/us/pacio-rt/Location/Provider-Org-Loc-2>;
        fhir:Reference.reference [ fhir:value "Location/Provider-Org-Loc-2" ]
      ]
   ];
@@ -40,118 +40,118 @@
      ]
   ];
   fhir:Observation.subject [
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Patient/patientBSJ1>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Patient/patientBSJ1>;
      fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
   ];
   fhir:Observation.effectiveDateTime [ fhir:value "2020-02-10T16:31:00-05:00"^^xsd:dateTime];
   fhir:Observation.performer [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins>;
      fhir:Reference.reference [ fhir:value "PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins" ]
   ];
   fhir:Observation.hasMember [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-58>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-58>;
      fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-58" ]
   ], [
      fhir:index 1;
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-59>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-59>;
      fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-59" ]
   ], [
      fhir:index 2;
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-60>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-60>;
      fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-60" ]
   ], [
      fhir:index 3;
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-61>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-61>;
      fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-61" ]
   ], [
      fhir:index 4;
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-62>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-62>;
      fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-62" ]
   ], [
      fhir:index 5;
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-63>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-63>;
      fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-63" ]
   ], [
      fhir:index 6;
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-64>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-64>;
      fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-64" ]
   ], [
      fhir:index 7;
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-65>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-65>;
      fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-65" ]
   ], [
      fhir:index 8;
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-66>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-66>;
      fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-66" ]
   ], [
      fhir:index 9;
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-67>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-67>;
      fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-67" ]
   ], [
      fhir:index 10;
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-68>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-68>;
      fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-68" ]
   ], [
      fhir:index 11;
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-69>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-69>;
      fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-69" ]
   ], [
      fhir:index 12;
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-70>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-70>;
      fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-70" ]
   ], [
      fhir:index 13;
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-71>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-71>;
      fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-71" ]
   ], [
      fhir:index 14;
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-72>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-72>;
      fhir:Reference.reference [ fhir:value "Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-72" ]
   ] .
 
-<http://hl7.org/fhir/us/pacio-rat/Location/Provider-Org-Loc-2> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Location/Provider-Org-Loc-2> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Patient/patientBSJ1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Patient/patientBSJ1> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-58> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-58> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-59> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-59> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-60> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-60> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-61> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-61> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-62> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-62> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-63> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-63> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-64> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-64> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-65> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-65> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-66> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-66> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-67> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-67> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-68> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-68> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-69> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-69> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-70> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-70> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-71> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-71> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-72> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-72> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B.ttl> a owl:Ontology;
+<http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/us/pacio-rat/Observation/HHA-MOB-DG-OASIS-2B.ttl> .
+  owl:versionIRI <http://build.fhir.org/us/pacio-rt/Observation/HHA-MOB-DG-OASIS-2B.ttl> .
 
 # -------------------------------------------------------------------------------------
 

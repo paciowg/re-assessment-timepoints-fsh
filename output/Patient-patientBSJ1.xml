@@ -6,10 +6,10 @@
     <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 10A3D58WH1600</p><p><b>active</b>: true</p><p><b>name</b>: Betsy Smith-Johnson</p><p><b>telecom</b>: ph: 210-222-1111(MOBILE)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1950-11-01</p><p><b>address</b>: 111 Maple Ct, San Antonio, TX 78212</p><p><b>maritalStatus</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}">unmarried</span></p><blockquote><p><b>contact</b></p><p><b>relationship</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-RoleCode SONC}">son</span>, <span title="Codes: {http://hl7.org/fhir/v2/0131 C}">C</span>, <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-RoleCode GUARD}">guardian</span></p><p><b>name</b>: Charles Johnson</p><p><b>telecom</b>: ph: (210) 222-3333</p><p><b>address</b>: 100 Montana St., San Antonio, TX 78203</p></blockquote><blockquote><p><b>contact</b></p><p><b>relationship</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-RoleCode DAUC}">daughter</span></p><p><b>name</b>: Debra Johnson</p><p><b>telecom</b>: ph: (410) 444-5555</p><p><b>address</b>: 333 W. Camden St., Baltimore, MD 21201</p></blockquote><h3>Communications</h3><table class="grid"><tr><td>-</td><td><b>Language</b></td><td><b>Preferred</b></td></tr><tr><td>*</td><td><span title="Codes: {urn:ietf:bcp:47 en}">English</span></td><td>true</td></tr></table><p><b>generalPractitioner</b>: <a href="Practitioner-Practitioner-JohnSmith.html">Generated Summary: id: 2345678901; active; John Smith; Phone: (210) 564 1389; gender: male</a></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: 10A3D58WH1600</p><p><b>active</b>: true</p><p><b>name</b>: Betsy Smith-Johnson</p><p><b>telecom</b>: ph: 210-222-1111(MOBILE)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1950-11-01</p><p><b>address</b>: 111 Maple Ct, San Antonio, TX 78212</p><p><b>maritalStatus</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}">unmarried</span></p><blockquote><p><b>contact</b></p><p><b>relationship</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-RoleCode SONC}">son</span>, <span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0131 C}">Emergency Contact</span>, <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-RoleCode GUARD}">guardian</span></p><p><b>name</b>: Charles Johnson</p><p><b>telecom</b>: ph: (210) 222-3333</p><p><b>address</b>: 100 Montana St., San Antonio, TX 78203</p></blockquote><blockquote><p><b>contact</b></p><p><b>relationship</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-RoleCode DAUC}">daughter</span></p><p><b>name</b>: Debra Johnson</p><p><b>telecom</b>: ph: (410) 444-5555</p><p><b>address</b>: 333 W. Camden St., Baltimore, MD 21201</p></blockquote><h3>Communications</h3><table class="grid"><tr><td>-</td><td><b>Language</b></td><td><b>Preferred</b></td></tr><tr><td>*</td><td><span title="Codes: {urn:ietf:bcp:47 en}">English</span></td><td>true</td></tr></table><p><b>generalPractitioner</b>: <a href="Practitioner-Practitioner-JohnSmith.html">Generated Summary: id: 2345678901; active: true; John Smith; Phone: (210) 564 1389; gender: male</a></p></div>
   </text>
   <identifier>
-    <system value="http://hl7.org/fhir/sid/us-medicare"/>
+    <system value="http://example.org/identifiers/patient"/>
     <value value="10A3D58WH1600"/>
   </identifier>
   <active value="true"/>
@@ -43,7 +43,7 @@
     </relationship>
     <relationship>
       <coding>
-        <system value="http://hl7.org/fhir/v2/0131"/>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0131"/>
         <code value="C"/>
       </coding>
     </relationship>

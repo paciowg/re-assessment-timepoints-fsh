@@ -1,35 +1,46 @@
 {
   "resourceType" : "Bundle",
-  "id" : "e041a521-5461-4fd3-a154-f79e7916ebe1",
+  "id" : "5d93ee5a-5605-4055-b5b5-f8348a058854",
   "meta" : {
-    "lastUpdated" : "2021-07-20T22:04:19.923-07:00"
+    "lastUpdated" : "2021-11-06T19:36:09.626-07:00"
   },
   "type" : "collection",
   "entry" : [{
-    "fullUrl" : "http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-class-vs",
+    "fullUrl" : "http://hl7.org/fhir/us/pacio-rt/ValueSet/timepoint-class-vs",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "prat-class-vs",
+      "id" : "timepoint-class-vs",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 12 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"https://terminology.hl7.org/1.0.0//CodeSystem-v3-ActCode.html\">ActCode v2.0.0 (CodeSystem)</a></li><li><a href=\"CodeSystem-prat-class-cs.html\">Timepoint Class Code System v0.1.0 (CodeSystem)</a></li><li><a href=\"https://terminology.hl7.org/1.0.0//ValueSet-v3-ActEncounterCode.html\">ActEncounterCode v2.0.0 (ValueSet)</a></li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-ActCode-AMB\"> </a><a href=\"https://terminology.hl7.org/1.0.0//CodeSystem-v3-ActCode.html#v3-ActCode-AMB\">AMB</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>ambulatory</td><td>A comprehensive term for health care provided in a healthcare facility (e.g. a practitioneraTMs office, clinic setting, or hospital) on a nonresident basis. The term ambulatory usually implies that the patient has come to the location and is not assigned to a bed. Sometimes referred to as an outpatient encounter.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-ActCode-EMER\"> </a><a href=\"https://terminology.hl7.org/1.0.0//CodeSystem-v3-ActCode.html#v3-ActCode-EMER\">EMER</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>emergency</td><td>A patient encounter that takes place at a dedicated healthcare service delivery location where the patient receives immediate evaluation and treatment, provided until the patient can be discharged or responsibility for the patient's care is transferred elsewhere (for example, the patient could be admitted as an inpatient or transferred to another facility.)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-ActCode-FLD\"> </a><a href=\"https://terminology.hl7.org/1.0.0//CodeSystem-v3-ActCode.html#v3-ActCode-FLD\">FLD</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>field</td><td>A patient encounter that takes place both outside a dedicated service delivery location and outside a patient's residence. Example locations might include an accident site and at a supermarket.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-ActCode-HH\"> </a><a href=\"https://terminology.hl7.org/1.0.0//CodeSystem-v3-ActCode.html#v3-ActCode-HH\">HH</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>home health</td><td>Healthcare encounter that takes place in the residence of the patient or a designee</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-ActCode-IMP\"> </a><a href=\"https://terminology.hl7.org/1.0.0//CodeSystem-v3-ActCode.html#v3-ActCode-IMP\">IMP</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>inpatient encounter</td><td>A patient encounter where a patient is admitted by a hospital or equivalent facility, assigned to a location where patients generally stay at least overnight and provided with room, board, and continuous nursing service.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-ActCode-ACUTE\"> </a><a href=\"https://terminology.hl7.org/1.0.0//CodeSystem-v3-ActCode.html#v3-ActCode-ACUTE\">ACUTE</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>inpatient acute</td><td>An acute inpatient encounter.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-ActCode-NONAC\"> </a><a href=\"https://terminology.hl7.org/1.0.0//CodeSystem-v3-ActCode.html#v3-ActCode-NONAC\">NONAC</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>inpatient non-acute</td><td>Any category of inpatient encounter except 'acute'</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-ActCode-OBSENC\"> </a><a href=\"https://terminology.hl7.org/1.0.0//CodeSystem-v3-ActCode.html#v3-ActCode-OBSENC\">OBSENC</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>observation encounter</td><td>An encounter where the patient usually will start in different encounter, such as one in the emergency department (EMER) but then transition to this type of encounter because they require a significant period of treatment and monitoring to determine whether or not their condition warrants an inpatient admission or discharge. In the majority of cases the decision about admission or discharge will occur within a time period determined by local, regional or national regulation, often between 24 and 48 hours.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-ActCode-PRENC\"> </a><a href=\"https://terminology.hl7.org/1.0.0//CodeSystem-v3-ActCode.html#v3-ActCode-PRENC\">PRENC</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>pre-admission</td><td>A patient encounter where patient is scheduled or planned to receive service delivery in the future, and the patient is given a pre-admission account number. When the patient comes back for subsequent service, the pre-admission encounter is selected and is encapsulated into the service registration, and a new account number is generated.\r\n\r\n*Usage Note:* This is intended to be used in advance of encounter types such as ambulatory, inpatient encounter, virtual, etc.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-ActCode-SS\"> </a><a href=\"https://terminology.hl7.org/1.0.0//CodeSystem-v3-ActCode.html#v3-ActCode-SS\">SS</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>short stay</td><td>An encounter where the patient is admitted to a health care facility for a predetermined length of time, usually less than 24 hours.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-ActCode-VR\"> </a><a href=\"https://terminology.hl7.org/1.0.0//CodeSystem-v3-ActCode.html#v3-ActCode-VR\">VR</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>virtual</td><td>A patient encounter where the patient and the practitioner(s) are not in the same physical location. Examples include telephone conference, email exchange, robotic surgery, and televideo conference.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-class-cs-SNF\"> </a><a href=\"CodeSystem-prat-class-cs.html#prat-class-cs-SNF\">SNF</a></td><td>http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs</td><td>skilled nursing facility</td><td>Healthcare encounter that takes place in a skilled nursing facility.</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 12 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html\">ActCode v5.0.0 (CodeSystem)</a></li><li><a href=\"CodeSystem-timepoint-class-cs.html\">Timepoint Class Code System v0.1.0 (CodeSystem)</a></li><li><a href=\"http://terminology.hl7.org/2.1.0/ValueSet-v3-ActEncounterCode.html\">ActEncounterCode v2.0.0 (ValueSet)</a></li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-ActCode-AMB\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-AMB\">AMB</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>ambulatory</td><td>A comprehensive term for health care provided in a healthcare facility (e.g. a practitioneraTMs office, clinic setting, or hospital) on a nonresident basis. The term ambulatory usually implies that the patient has come to the location and is not assigned to a bed. Sometimes referred to as an outpatient encounter.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-ActCode-EMER\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-EMER\">EMER</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>emergency</td><td>A patient encounter that takes place at a dedicated healthcare service delivery location where the patient receives immediate evaluation and treatment, provided until the patient can be discharged or responsibility for the patient's care is transferred elsewhere (for example, the patient could be admitted as an inpatient or transferred to another facility.)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-ActCode-FLD\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-FLD\">FLD</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>field</td><td>A patient encounter that takes place both outside a dedicated service delivery location and outside a patient's residence. Example locations might include an accident site and at a supermarket.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-ActCode-HH\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-HH\">HH</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>home health</td><td>Healthcare encounter that takes place in the residence of the patient or a designee</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-ActCode-IMP\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-IMP\">IMP</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>inpatient encounter</td><td>A patient encounter where a patient is admitted by a hospital or equivalent facility, assigned to a location where patients generally stay at least overnight and provided with room, board, and continuous nursing service.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-ActCode-ACUTE\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-ACUTE\">ACUTE</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>inpatient acute</td><td>An acute inpatient encounter.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-ActCode-NONAC\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-NONAC\">NONAC</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>inpatient non-acute</td><td>Any category of inpatient encounter except 'acute'</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-ActCode-OBSENC\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-OBSENC\">OBSENC</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>observation encounter</td><td>An encounter where the patient usually will start in different encounter, such as one in the emergency department (EMER) but then transition to this type of encounter because they require a significant period of treatment and monitoring to determine whether or not their condition warrants an inpatient admission or discharge. In the majority of cases the decision about admission or discharge will occur within a time period determined by local, regional or national regulation, often between 24 and 48 hours.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-ActCode-PRENC\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-PRENC\">PRENC</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>pre-admission</td><td>A patient encounter where patient is scheduled or planned to receive service delivery in the future, and the patient is given a pre-admission account number. When the patient comes back for subsequent service, the pre-admission encounter is selected and is encapsulated into the service registration, and a new account number is generated.\r\n\r\n*Usage Note:* This is intended to be used in advance of encounter types such as ambulatory, inpatient encounter, virtual, etc.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-ActCode-SS\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-SS\">SS</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>short stay</td><td>An encounter where the patient is admitted to a health care facility for a predetermined length of time, usually less than 24 hours.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-v3-ActCode-VR\"> </a><a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-VR\">VR</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>virtual</td><td>A patient encounter where the patient and the practitioner(s) are not in the same physical location. Examples include telephone conference, email exchange, robotic surgery, and televideo conference.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rt-CodeSystem-timepoint-class-cs-SNF\"> </a><a href=\"CodeSystem-timepoint-class-cs.html#timepoint-class-cs-SNF\">SNF</a></td><td>http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-class-cs</td><td>skilled nursing facility</td><td>Healthcare encounter that takes place in a skilled nursing facility.</td></tr></table></div>"
       },
-      "url" : "http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-class-vs",
+      "url" : "http://hl7.org/fhir/us/pacio-rt/ValueSet/timepoint-class-vs",
       "version" : "0.1.0",
       "name" : "TimepointClassValueSet",
       "title" : "Timepoint Class Value Set",
       "status" : "active",
-      "date" : "2021-07-20T22:04:19-07:00",
+      "date" : "2021-11-06T19:36:09-07:00",
       "publisher" : "HL7 Community-Based Care and Privacy Working Group",
       "contact" : [{
         "name" : "HL7 Community-Based Care and Privacy Working Group",
         "telecom" : [{
           "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/patientempowerment/index.cfm"
+          "value" : "http://www.hl7.org/Special/committees/patientempowerment"
         },
         {
           "system" : "email",
           "value" : "patients@lists.HL7.org"
+        }]
+      },
+      {
+        "name" : "PACIO project",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/patientempowerment"
+        },
+        {
+          "system" : "email",
+          "value" : "info@pacioproject.org"
         }]
       }],
       "description" : "Codes for the classification of patient timepoint. This is an extension of the ActEncounterCode value set",
@@ -40,8 +51,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:054aff8d-6176-44ec-b685-a6d0d29cd72e",
-        "timestamp" : "2021-07-20T22:05:01-07:00",
+        "identifier" : "urn:uuid:535da7e4-00f4-44ed-92aa-2cb35fa65bff",
+        "timestamp" : "2021-11-06T19:37:14-07:00",
         "total" : 12,
         "parameter" : [{
           "name" : "excludeNested",
@@ -53,11 +64,11 @@
         },
         {
           "name" : "version",
-          "valueUri" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|2.0.0"
+          "valueUri" : "http://terminology.hl7.org/CodeSystem/v3-ActCode|5.0.0"
         },
         {
           "name" : "version",
-          "valueUri" : "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs|0.1.0"
+          "valueUri" : "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-class-cs|0.1.0"
         }],
         "contains" : [{
           "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
@@ -137,7 +148,7 @@
           "display" : "virtual"
         },
         {
-          "system" : "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs",
+          "system" : "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-class-cs",
           "code" : "SNF",
           "display" : "skilled nursing facility"
         }]
@@ -145,30 +156,41 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-entity-type-vs",
+    "fullUrl" : "http://hl7.org/fhir/us/pacio-rt/ValueSet/timepoint-entity-type-vs",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "prat-entity-type-vs",
+      "id" : "timepoint-entity-type-vs",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-prat-entity-cs.html\">Timepoint Entity Code System v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-prat-entity-cs.html\"><code>http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-entity-cs-payer\"> </a><a href=\"CodeSystem-prat-entity-cs.html#prat-entity-cs-payer\">payer</a></td><td>Payer</td><td>Payer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-entity-cs-regulatory-state\"> </a><a href=\"CodeSystem-prat-entity-cs.html#prat-entity-cs-regulatory-state\">regulatory-state</a></td><td>Regulatory - State</td><td>Regulatory - State</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-entity-cs-regulatory-federal\"> </a><a href=\"CodeSystem-prat-entity-cs.html#prat-entity-cs-regulatory-federal\">regulatory-federal</a></td><td>Regulatory - Federal</td><td>Regulatory - Federal</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-entity-cs-provider\"> </a><a href=\"CodeSystem-prat-entity-cs.html#prat-entity-cs-provider\">provider</a></td><td>Provider</td><td>Provider</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-entity-cs-accreditation-agency\"> </a><a href=\"CodeSystem-prat-entity-cs.html#prat-entity-cs-accreditation-agency\">accreditation-agency</a></td><td>Accreditation Agency</td><td>Accreditation Agency</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-timepoint-entity-cs.html\">Timepoint Entity Code System v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-timepoint-entity-cs.html\"><code>http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-entity-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rt-CodeSystem-timepoint-entity-cs-payer\"> </a><a href=\"CodeSystem-timepoint-entity-cs.html#timepoint-entity-cs-payer\">payer</a></td><td>Payer</td><td>Payer</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rt-CodeSystem-timepoint-entity-cs-regulatory-state\"> </a><a href=\"CodeSystem-timepoint-entity-cs.html#timepoint-entity-cs-regulatory-state\">regulatory-state</a></td><td>Regulatory - State</td><td>Regulatory - State</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rt-CodeSystem-timepoint-entity-cs-regulatory-federal\"> </a><a href=\"CodeSystem-timepoint-entity-cs.html#timepoint-entity-cs-regulatory-federal\">regulatory-federal</a></td><td>Regulatory - Federal</td><td>Regulatory - Federal</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rt-CodeSystem-timepoint-entity-cs-provider\"> </a><a href=\"CodeSystem-timepoint-entity-cs.html#timepoint-entity-cs-provider\">provider</a></td><td>Provider</td><td>Provider</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rt-CodeSystem-timepoint-entity-cs-accreditation-agency\"> </a><a href=\"CodeSystem-timepoint-entity-cs.html#timepoint-entity-cs-accreditation-agency\">accreditation-agency</a></td><td>Accreditation Agency</td><td>Accreditation Agency</td></tr></table></div>"
       },
-      "url" : "http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-entity-type-vs",
+      "url" : "http://hl7.org/fhir/us/pacio-rt/ValueSet/timepoint-entity-type-vs",
       "version" : "0.1.0",
       "name" : "TimepointEntityTypeValueSet",
       "title" : "Timepoint Entity Type Value Set",
       "status" : "active",
-      "date" : "2021-07-20T22:04:19-07:00",
+      "date" : "2021-11-06T19:36:09-07:00",
       "publisher" : "HL7 Community-Based Care and Privacy Working Group",
       "contact" : [{
         "name" : "HL7 Community-Based Care and Privacy Working Group",
         "telecom" : [{
           "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/patientempowerment/index.cfm"
+          "value" : "http://www.hl7.org/Special/committees/patientempowerment"
         },
         {
           "system" : "email",
           "value" : "patients@lists.HL7.org"
+        }]
+      },
+      {
+        "name" : "PACIO project",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/patientempowerment"
+        },
+        {
+          "system" : "email",
+          "value" : "info@pacioproject.org"
         }]
       }],
       "description" : "Codes describing various entity types for structuring timepoints.",
@@ -179,8 +201,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:97357c7d-d3ca-42b4-9d31-92c95f574bc4",
-        "timestamp" : "2021-07-20T22:05:01-07:00",
+        "identifier" : "urn:uuid:54d7f69e-2adf-4e01-920e-c53efdb42a27",
+        "timestamp" : "2021-11-06T19:37:14-07:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -188,30 +210,30 @@
         },
         {
           "name" : "version",
-          "valueUri" : "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs|0.1.0"
+          "valueUri" : "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-entity-cs|0.1.0"
         }],
         "contains" : [{
-          "system" : "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs",
+          "system" : "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-entity-cs",
           "code" : "payer",
           "display" : "Payer"
         },
         {
-          "system" : "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs",
+          "system" : "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-entity-cs",
           "code" : "regulatory-state",
           "display" : "Regulatory - State"
         },
         {
-          "system" : "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs",
+          "system" : "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-entity-cs",
           "code" : "regulatory-federal",
           "display" : "Regulatory - Federal"
         },
         {
-          "system" : "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs",
+          "system" : "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-entity-cs",
           "code" : "provider",
           "display" : "Provider"
         },
         {
-          "system" : "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs",
+          "system" : "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-entity-cs",
           "code" : "accreditation-agency",
           "display" : "Accreditation Agency"
         }]
@@ -219,30 +241,41 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-service-type-vs",
+    "fullUrl" : "http://hl7.org/fhir/us/pacio-rt/ValueSet/timepoint-service-type-vs",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "prat-service-type-vs",
+      "id" : "timepoint-service-type-vs",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-prat-service-type-cs.html\">Timepoint Service Type Code System v0.1.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-prat-service-type-cs.html\"><code>http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-service-type-cs-oasis\"> </a><a href=\"CodeSystem-prat-service-type-cs.html#prat-service-type-cs-oasis\">oasis</a></td><td>OASIS</td><td>CMS Home Health Outcome and Assessment Information Set</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-service-type-cs-mds\"> </a><a href=\"CodeSystem-prat-service-type-cs.html#prat-service-type-cs-mds\">mds</a></td><td>MDS</td><td>CMS Minimum Data Set - Resident Assessment and Care Screening</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rat-CodeSystem-prat-service-type-cs-pt\"> </a><a href=\"CodeSystem-prat-service-type-cs.html#prat-service-type-cs-pt\">pt</a></td><td>Physical Therapy Assessment</td><td>Physical Therapy Assessment</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-timepoint-service-type-cs.html\">Timepoint Service Type Code System v0.1.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-timepoint-service-type-cs.html\"><code>http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-service-type-cs</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rt-CodeSystem-timepoint-service-type-cs-oasis\"> </a><a href=\"CodeSystem-timepoint-service-type-cs.html#timepoint-service-type-cs-oasis\">oasis</a></td><td>Outcome and Assessment Information Set</td><td>CMS Home Health Outcome and Assessment Information Set</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rt-CodeSystem-timepoint-service-type-cs-mds\"> </a><a href=\"CodeSystem-timepoint-service-type-cs.html#timepoint-service-type-cs-mds\">mds</a></td><td>Minimum Data Set</td><td>CMS Minimum Data Set - Resident Assessment and Care Screening</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-us-pacio-rt-CodeSystem-timepoint-service-type-cs-pt\"> </a><a href=\"CodeSystem-timepoint-service-type-cs.html#timepoint-service-type-cs-pt\">pt</a></td><td>Physical Therapy Assessment</td><td>Physical Therapy Assessment</td></tr></table></div>"
       },
-      "url" : "http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-service-type-vs",
+      "url" : "http://hl7.org/fhir/us/pacio-rt/ValueSet/timepoint-service-type-vs",
       "version" : "0.1.0",
       "name" : "TimepointServiceTypeValueSet",
       "title" : "Timepoint Service Type Value Set",
       "status" : "active",
-      "date" : "2021-07-20T22:04:19-07:00",
+      "date" : "2021-11-06T19:36:09-07:00",
       "publisher" : "HL7 Community-Based Care and Privacy Working Group",
       "contact" : [{
         "name" : "HL7 Community-Based Care and Privacy Working Group",
         "telecom" : [{
           "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/patientempowerment/index.cfm"
+          "value" : "http://www.hl7.org/Special/committees/patientempowerment"
         },
         {
           "system" : "email",
           "value" : "patients@lists.HL7.org"
+        }]
+      },
+      {
+        "name" : "PACIO project",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/patientempowerment"
+        },
+        {
+          "system" : "email",
+          "value" : "info@pacioproject.org"
         }]
       }],
       "description" : "Various service types of clinical assessment or instrument that a timepoint is centered on.",
@@ -253,8 +286,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:be5cfb5e-3854-4058-8da4-b869c0642248",
-        "timestamp" : "2021-07-20T22:05:01-07:00",
+        "identifier" : "urn:uuid:1d7b6404-664a-41d6-ad72-2465ff6aeb25",
+        "timestamp" : "2021-11-06T19:37:14-07:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -262,20 +295,20 @@
         },
         {
           "name" : "version",
-          "valueUri" : "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs|0.1.0"
+          "valueUri" : "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-service-type-cs|0.1.0"
         }],
         "contains" : [{
-          "system" : "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs",
+          "system" : "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-service-type-cs",
           "code" : "oasis",
-          "display" : "OASIS"
+          "display" : "Outcome and Assessment Information Set"
         },
         {
-          "system" : "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs",
+          "system" : "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-service-type-cs",
           "code" : "mds",
-          "display" : "MDS"
+          "display" : "Minimum Data Set"
         },
         {
-          "system" : "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs",
+          "system" : "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-service-type-cs",
           "code" : "pt",
           "display" : "Physical Therapy Assessment"
         }]
@@ -283,30 +316,41 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-status-vs",
+    "fullUrl" : "http://hl7.org/fhir/us/pacio-rt/ValueSet/timepoint-status-vs",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "prat-status-vs",
+      "id" : "timepoint-status-vs",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"http://hl7.org/fhir/R4/codesystem-encounter-status.html\">EncounterStatus v4.0.1 (CodeSystem)</a></p><p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-encounter-status.html\"><code>http://hl7.org/fhir/encounter-status</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-encounter-status-in-progress\"> </a><a href=\"http://hl7.org/fhir/R4/codesystem-encounter-status.html#encounter-status-in-progress\">in-progress</a></td><td>In Progress</td><td>The Encounter has begun and the patient is present / the practitioner and the patient are meeting.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-encounter-status-finished\"> </a><a href=\"http://hl7.org/fhir/R4/codesystem-encounter-status.html#encounter-status-finished\">finished</a></td><td>Finished</td><td>The Encounter has ended.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-encounter-status-planned\"> </a><a href=\"http://hl7.org/fhir/R4/codesystem-encounter-status.html#encounter-status-planned\">planned</a></td><td>Planned</td><td>The Encounter has not yet started.</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"http://hl7.org/fhir/R4/codesystem-encounter-status.html\">EncounterStatus v4.0.1 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"http://hl7.org/fhir/R4/codesystem-encounter-status.html\"><code>http://hl7.org/fhir/encounter-status</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-encounter-status-in-progress\"> </a><a href=\"http://hl7.org/fhir/R4/codesystem-encounter-status.html#encounter-status-in-progress\">in-progress</a></td><td>In Progress</td><td>The Encounter has begun and the patient is present / the practitioner and the patient are meeting.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-encounter-status-finished\"> </a><a href=\"http://hl7.org/fhir/R4/codesystem-encounter-status.html#encounter-status-finished\">finished</a></td><td>Finished</td><td>The Encounter has ended.</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-encounter-status-planned\"> </a><a href=\"http://hl7.org/fhir/R4/codesystem-encounter-status.html#encounter-status-planned\">planned</a></td><td>Planned</td><td>The Encounter has not yet started.</td></tr></table></div>"
       },
-      "url" : "http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-status-vs",
+      "url" : "http://hl7.org/fhir/us/pacio-rt/ValueSet/timepoint-status-vs",
       "version" : "0.1.0",
       "name" : "TimepointStatusValueSet",
       "title" : "Timepoint Status Value Set",
       "status" : "active",
-      "date" : "2021-07-20T22:04:19-07:00",
+      "date" : "2021-11-06T19:36:09-07:00",
       "publisher" : "HL7 Community-Based Care and Privacy Working Group",
       "contact" : [{
         "name" : "HL7 Community-Based Care and Privacy Working Group",
         "telecom" : [{
           "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/patientempowerment/index.cfm"
+          "value" : "http://www.hl7.org/Special/committees/patientempowerment"
         },
         {
           "system" : "email",
           "value" : "patients@lists.HL7.org"
+        }]
+      },
+      {
+        "name" : "PACIO project",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/patientempowerment"
+        },
+        {
+          "system" : "email",
+          "value" : "info@pacioproject.org"
         }]
       }],
       "description" : "Codes for the current state of the re-assessment timepoint.",
@@ -317,8 +361,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:be5f2988-282c-46bd-8040-f38b2bcf29eb",
-        "timestamp" : "2021-07-20T22:05:01-07:00",
+        "identifier" : "urn:uuid:2e1dec05-4b9d-441d-9b5a-d9cae7b2fb9b",
+        "timestamp" : "2021-11-06T19:37:14-07:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",

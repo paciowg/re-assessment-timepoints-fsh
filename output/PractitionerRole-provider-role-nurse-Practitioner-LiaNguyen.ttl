@@ -6,20 +6,20 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-nurse-Practitioner-LiaNguyen> a fhir:PractitionerRole;
+<http://hl7.org/fhir/us/pacio-rt/PractitionerRole/provider-role-nurse-Practitioner-LiaNguyen> a fhir:PractitionerRole;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "provider-role-nurse-Practitioner-LiaNguyen"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Practitioner-LiaNguyen.html\">Generated Summary: id: 9018273645; active; Lia Nguyen; Phone: (210) 555 7648; gender: female</a></p><p><b>organization</b>: <a href=\"Organization-Provider-Org-1.html\">Generated Summary: name: Happy Nursing Facility</a></p><p><b>code</b>: <span title=\"Codes: {http://nucc.org/provider-taxonomy 163W00000X}\">Registered Nurse</span></p><p><b>specialty</b>: <span title=\"Codes: {http://snomed.info/sct 224535009}\">Registered Nurse (occupation)</span></p><p><b>location</b>: <a href=\"Location-Provider-Org-Loc-1.html\">Generated Summary: status: active; name: Happy Nursing Facility</a></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Practitioner-LiaNguyen.html\">Generated Summary: id: 9018273645; active: true; Lia Nguyen; Phone: (210) 555 7648; gender: female</a></p><p><b>organization</b>: <a href=\"Organization-Provider-Org-1.html\">Generated Summary: name: Happy Nursing Facility</a></p><p><b>code</b>: <span title=\"Codes: {http://nucc.org/provider-taxonomy 163W00000X}\">Registered Nurse</span></p><p><b>specialty</b>: <span title=\"Codes: {http://snomed.info/sct 408443003}\">General medical practice</span></p><p><b>location</b>: <a href=\"Location-Provider-Org-Loc-1.html\">Generated Summary: status: active; name: Happy Nursing Facility</a></p></div>"
   ];
   fhir:PractitionerRole.active [ fhir:value "true"^^xsd:boolean];
   fhir:PractitionerRole.practitioner [
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-LiaNguyen>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Practitioner/Practitioner-LiaNguyen>;
      fhir:Reference.reference [ fhir:value "Practitioner/Practitioner-LiaNguyen" ]
   ];
   fhir:PractitionerRole.organization [
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Organization/Provider-Org-1>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Organization/Provider-Org-1>;
      fhir:Reference.reference [ fhir:value "Organization/Provider-Org-1" ]
   ];
   fhir:PractitionerRole.code [
@@ -35,29 +35,29 @@
      fhir:index 0;
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       a sct:224535009;
+       a sct:408443003;
        fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
-       fhir:Coding.code [ fhir:value "224535009" ];
-       fhir:Coding.display [ fhir:value "Registered Nurse (occupation)" ]
+       fhir:Coding.code [ fhir:value "408443003" ];
+       fhir:Coding.display [ fhir:value "General medical practice" ]
      ]
   ];
   fhir:PractitionerRole.location [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Location/Provider-Org-Loc-1>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Location/Provider-Org-Loc-1>;
      fhir:Reference.reference [ fhir:value "Location/Provider-Org-Loc-1" ]
   ] .
 
-<http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-LiaNguyen> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Practitioner/Practitioner-LiaNguyen> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Organization/Provider-Org-1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Organization/Provider-Org-1> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Location/Provider-Org-Loc-1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Location/Provider-Org-Loc-1> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-nurse-Practitioner-LiaNguyen.ttl> a owl:Ontology;
+<http://hl7.org/fhir/us/pacio-rt/PractitionerRole/provider-role-nurse-Practitioner-LiaNguyen.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/us/pacio-rat/PractitionerRole/provider-role-nurse-Practitioner-LiaNguyen.ttl> .
+  owl:versionIRI <http://build.fhir.org/us/pacio-rt/PractitionerRole/provider-role-nurse-Practitioner-LiaNguyen.ttl> .
 
 # -------------------------------------------------------------------------------------
 

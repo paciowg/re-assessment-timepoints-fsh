@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-SummerJohnson> a fhir:Practitioner;
+<http://hl7.org/fhir/us/pacio-rt/Practitioner/Practitioner-SummerJohnson> a fhir:Practitioner;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "Practitioner-SummerJohnson"];
   fhir:DomainResource.text [
@@ -40,9 +40,9 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/us/pacio-rat/Practitioner/Practitioner-SummerJohnson.ttl> a owl:Ontology;
+<http://hl7.org/fhir/us/pacio-rt/Practitioner/Practitioner-SummerJohnson.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/us/pacio-rat/Practitioner/Practitioner-SummerJohnson.ttl> .
+  owl:versionIRI <http://build.fhir.org/us/pacio-rt/Practitioner/Practitioner-SummerJohnson.ttl> .
 
 # -------------------------------------------------------------------------------------
 

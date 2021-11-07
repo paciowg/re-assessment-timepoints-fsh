@@ -1,0 +1,31 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-rt/ClinicalImpression/ClinicalImpression-1> a fhir:ClinicalImpression;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "ClinicalImpression-1"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: 10A3D58WH1600; active: true; Betsy Smith-Johnson; Phone: 210-222-1111; gender: female; birthDate: 1950-11-01; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}\">unmarried</span></a></p><p><b>effective</b>: 2020-01-01</p></div>"
+  ];
+  fhir:ClinicalImpression.status [ fhir:value "completed"];
+  fhir:ClinicalImpression.subject [
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Patient/patientBSJ1>;
+     fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
+  ];
+  fhir:ClinicalImpression.effectiveDateTime [ fhir:value "2020-01-01"^^xsd:date] .
+
+<http://hl7.org/fhir/us/pacio-rt/Patient/patientBSJ1> a fhir:us .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/pacio-rt/ClinicalImpression/ClinicalImpression-1.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/pacio-rt/ClinicalImpression/ClinicalImpression-1.ttl> .
+
+# -------------------------------------------------------------------------------------
+

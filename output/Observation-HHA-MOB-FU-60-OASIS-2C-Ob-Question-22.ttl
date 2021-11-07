@@ -6,18 +6,18 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-22> a fhir:Observation;
+<http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-22> a fhir:Observation;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "HHA-MOB-FU-60-OASIS-2C-Ob-Question-22"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Event Location</b>: <a href=\"Location-Provider-Org-Loc-2.html\">Generated Summary: status: active; name: Sky Harbor Home Health Services</a></p><p></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 95006-3}\">Toilet transfer - usual functional ability during assessment period [CMS Assessment]</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: 10A3D58WH1600; active; Betsy Smith-Johnson; Phone: 210-222-1111; gender: female; birthDate: 1950-11-01; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}\">unmarried</span></a></p><p><b>effective</b>: Apr 7, 2020, 9:21:00 AM</p><p><b>performer</b>: <a href=\"PractitionerRole-provider-role-nurse-Practitioner-JacobHartwell.html\">Generated Summary: active; <span title=\"Codes: {http://nucc.org/provider-taxonomy 163WH0200X}\">Home Health Registered Nurse</span>; <span title=\"Codes: {http://snomed.info/sct 224535009}\">Registered Nurse (occupation)</span></a></p><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA30910-6}\">Setup or cleanup assistance - Helper sets up or cleans up; person completes activity. Helper assists only prior to or following the activity.</span></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Event Location</b>: <a href=\"Location-Provider-Org-Loc-2.html\">Generated Summary: status: active; name: Sky Harbor Home Health Services</a></p><p></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 95006-3}\">Toilet transfer - usual functional ability during assessment period [CMS Assessment]</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: 10A3D58WH1600; active: true; Betsy Smith-Johnson; Phone: 210-222-1111; gender: female; birthDate: 1950-11-01; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}\">unmarried</span></a></p><p><b>effective</b>: Apr 7, 2020, 9:21:00 AM</p><p><b>performer</b>: <a href=\"PractitionerRole-provider-role-nurse-Practitioner-JacobHartwell.html\">Generated Summary: active: true; <span title=\"Codes: {http://nucc.org/provider-taxonomy 163WH0200X}\">Home Health Registered Nurse</span>; <span title=\"Codes: {http://snomed.info/sct 408443003}\">General medical practice</span></a></p><p><b>value</b>: <span title=\"Codes: {http://loinc.org LA30910-6}\">Setup or cleanup assistance - Helper sets up or cleans up; person completes activity. Helper assists only prior to or following the activity.</span></p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/event-location" ];
      fhir:Extension.valueReference [
-       fhir:link <http://hl7.org/fhir/us/pacio-rat/Location/Provider-Org-Loc-2>;
+       fhir:link <http://hl7.org/fhir/us/pacio-rt/Location/Provider-Org-Loc-2>;
        fhir:Reference.reference [ fhir:value "Location/Provider-Org-Loc-2" ]
      ]
   ];
@@ -33,13 +33,13 @@
      fhir:CodeableConcept.text [ fhir:value "Toilet transfer - usual functional ability during assessment period [CMS Assessment]" ]
   ];
   fhir:Observation.subject [
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Patient/patientBSJ1>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Patient/patientBSJ1>;
      fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
   ];
   fhir:Observation.effectiveDateTime [ fhir:value "2020-04-07T11:21:00-05:00"^^xsd:dateTime];
   fhir:Observation.performer [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-nurse-Practitioner-JacobHartwell>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/PractitionerRole/provider-role-nurse-Practitioner-JacobHartwell>;
      fhir:Reference.reference [ fhir:value "PractitionerRole/provider-role-nurse-Practitioner-JacobHartwell" ]
   ];
   fhir:Observation.valueCodeableConcept [
@@ -53,17 +53,17 @@
      fhir:CodeableConcept.text [ fhir:value "Setup or cleanup assistance - Helper sets up or cleans up; person completes activity. Helper assists only prior to or following the activity." ]
   ] .
 
-<http://hl7.org/fhir/us/pacio-rat/Location/Provider-Org-Loc-2> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Location/Provider-Org-Loc-2> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Patient/patientBSJ1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Patient/patientBSJ1> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-nurse-Practitioner-JacobHartwell> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/PractitionerRole/provider-role-nurse-Practitioner-JacobHartwell> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-22.ttl> a owl:Ontology;
+<http://hl7.org/fhir/us/pacio-rt/Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-22.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/us/pacio-rat/Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-22.ttl> .
+  owl:versionIRI <http://build.fhir.org/us/pacio-rt/Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-22.ttl> .
 
 # -------------------------------------------------------------------------------------
 

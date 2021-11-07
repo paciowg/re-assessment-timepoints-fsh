@@ -3,7 +3,7 @@
   "id": "provider-role-neurologist-Practitioner-NoraOlogist",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Practitioner-NoraOlogist.html\">Generated Summary: id: 3668788925; active; Nora Ologist; Phone: (210) 555 7632; gender: female</a></p><p><b>code</b>: <span title=\"Codes: {http://nucc.org/provider-taxonomy 2084N0400X}\">Neurology</span></p><p><b>specialty</b>: <span title=\"Codes: {http://nucc.org/provider-taxonomy 2084N0400X}\">Neurology</span></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Practitioner-NoraOlogist.html\">Generated Summary: id: 3668788925; active: true; Nora Ologist; Phone: (210) 555 7632; gender: female</a></p><p><b>code</b>: <span title=\"Codes: {http://nucc.org/provider-taxonomy 2084N0400X}\">Neurology Physician</span></p><p><b>specialty</b>: <span title=\"Codes: {http://snomed.info/sct 394591006}\">Neurology</span></p></div>"
   },
   "active": true,
   "practitioner": {
@@ -15,7 +15,7 @@
         {
           "system": "http://nucc.org/provider-taxonomy",
           "code": "2084N0400X",
-          "display": "Neurology"
+          "display": "Neurology Physician"
         }
       ]
     }
@@ -24,8 +24,8 @@
     {
       "coding": [
         {
-          "system": "http://nucc.org/provider-taxonomy",
-          "code": "2084N0400X",
+          "system": "http://snomed.info/sct",
+          "code": "394591006",
           "display": "Neurology"
         }
       ]

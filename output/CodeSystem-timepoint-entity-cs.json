@@ -1,0 +1,83 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "timepoint-entity-cs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-entity-cs defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">payer<a name=\"timepoint-entity-cs-payer\"> </a></td><td>Payer</td><td>Payer</td></tr><tr><td style=\"white-space:nowrap\">regulatory-state<a name=\"timepoint-entity-cs-regulatory-state\"> </a></td><td>Regulatory - State</td><td>Regulatory - State</td></tr><tr><td style=\"white-space:nowrap\">regulatory-federal<a name=\"timepoint-entity-cs-regulatory-federal\"> </a></td><td>Regulatory - Federal</td><td>Regulatory - Federal</td></tr><tr><td style=\"white-space:nowrap\">provider<a name=\"timepoint-entity-cs-provider\"> </a></td><td>Provider</td><td>Provider</td></tr><tr><td style=\"white-space:nowrap\">accreditation-agency<a name=\"timepoint-entity-cs-accreditation-agency\"> </a></td><td>Accreditation Agency</td><td>Accreditation Agency</td></tr></table></div>"
+  },
+  "url": "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-entity-cs",
+  "version": "0.1.0",
+  "name": "TimepointEntityCodeSystem",
+  "title": "Timepoint Entity Code System",
+  "status": "active",
+  "date": "2021-11-06T19:36:09-07:00",
+  "publisher": "HL7 Community-Based Care and Privacy Working Group",
+  "contact": [
+    {
+      "name": "HL7 Community-Based Care and Privacy Working Group",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/patientempowerment"
+        },
+        {
+          "system": "email",
+          "value": "patients@lists.HL7.org"
+        }
+      ]
+    },
+    {
+      "name": "PACIO project",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://www.hl7.org/Special/committees/patientempowerment"
+        },
+        {
+          "system": "email",
+          "value": "info@pacioproject.org"
+        }
+      ]
+    }
+  ],
+  "description": "Defining codes for describing various entity types for structuring timepoints.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US"
+        }
+      ]
+    }
+  ],
+  "content": "complete",
+  "count": 5,
+  "concept": [
+    {
+      "code": "payer",
+      "display": "Payer",
+      "definition": "Payer"
+    },
+    {
+      "code": "regulatory-state",
+      "display": "Regulatory - State",
+      "definition": "Regulatory - State"
+    },
+    {
+      "code": "regulatory-federal",
+      "display": "Regulatory - Federal",
+      "definition": "Regulatory - Federal"
+    },
+    {
+      "code": "provider",
+      "display": "Provider",
+      "definition": "Provider"
+    },
+    {
+      "code": "accreditation-agency",
+      "display": "Accreditation Agency",
+      "definition": "Accreditation Agency"
+    }
+  ]
+}

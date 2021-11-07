@@ -1,12 +1,12 @@
 {
-  "package": "hl7.fhir.us.pacio-rat",
+  "package": "hl7.fhir.us.pacio-rt",
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "US",
   "extensions": [
     {
-      "url": "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/clinicalImpression",
-      "title": "clinicalImpression",
+      "url": "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/clinicalImpression",
+      "title": "BasedOnClinicalImpression",
       "types": [
         "Reference"
       ]
@@ -15,7 +15,7 @@
   "profiles": {
     "Encounter": [
       {
-        "url": "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter",
+        "url": "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/reassessment-timepoints-encounter",
         "title": "PACIO Re-assessment Timepoints Encounter Profile"
       }
     ]
@@ -63,7 +63,7 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
-    "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/clinicalImpression": [
+    "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/clinicalImpression": [
       "Encounter.basedOn"
     ]
   }

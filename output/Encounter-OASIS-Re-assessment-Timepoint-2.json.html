@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>HL7.FHIR.US.PACIO-RAT\OASIS-Re-assessment-Timepoint-2 - JSON Representation - FHIR v4.0.1</title>
+    <title>HL7.FHIR.US.PACIO-RT\OASIS-Re-assessment-Timepoint-2 - JSON Representation - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -43,8 +43,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"3.135"}
-    h3,h4,h5,h6{--heading-prefix:"3.135"}</style>
+    <style type="text/css">h2{--heading-prefix:"3.137"}
+    h3,h4,h5,h6{--heading-prefix:"3.137"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -63,7 +63,7 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">PACIO Re-Assessment Timepoints Implementation Guide</span><br/>0.1.0 - STU1</p>
+          <p><span style="font-size:12pt;font-weight:bold">PACIO Re-Assessment Timepoints Implementation Guide</span><br/>0.1.0 - STU 1</p>
         </div>
       </div> <!-- /container -->
     </div>  <!-- /segment-header -->
@@ -98,7 +98,7 @@
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="CapabilityStatement-prat.html">Capability Statement</a>
+        <a href="CapabilityStatement-rt-cs.html">Capability Statement</a>
       </li>
       <li>
         <a href="artifacts.html#2">Search Parameters</a>
@@ -148,7 +148,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 8" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">PACIO Re-Assessment Timepoints Implementation Guide - Local Development build (v0.1.0). See the <a href="http://hl7.org/fhir/us/pacio-rat/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">PACIO Re-Assessment Timepoints Implementation Guide - Local Development build (v0.1.0). See the <a href="http://hl7.org/fhir/us/pacio-rt/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -206,30 +206,32 @@
   "<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.id">id</a>" : "OASIS-Re-assessment-Timepoint-2",
   "<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.meta">meta</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
-      "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter"
+      "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/reassessment-timepoints-encounter"
     ]
   },
   "<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.text">text</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id: OASIS-Re-assessment-Timepoint-2001&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: finished&lt;/p&gt;&lt;p&gt;&lt;b&gt;class&lt;/b&gt;: &lt;span title=\&quot;{http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs HH}\&quot;&gt;HH&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=\&quot;Codes: {http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs payer}\&quot;&gt;Payer&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;serviceType&lt;/b&gt;: &lt;span title=\&quot;Codes: {http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs oasis}\&quot;&gt;OASIS&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-patientBSJ1.html\&quot;&gt;Generated Summary: id: 10A3D58WH1600; active; Betsy Smith-Johnson; Phone: 210-222-1111; gender: female; birthDate: 1950-11-01; &lt;span title=\&quot;Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}\&quot;&gt;unmarried&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;episodeOfCare&lt;/b&gt;: &lt;a href=\&quot;EpisodeOfCare-Episodecare-2-HHA-Stay.html\&quot;&gt;Generated Summary: status: finished; &lt;span title=\&quot;Codes: {http://terminology.hl7.org/CodeSystem/episodeofcare-type hacc}\&quot;&gt;Home and Community Care&lt;/span&gt;; period: 2020-02-10 --&amp;gt; 2020-06-29&lt;/a&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;participant&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;individual&lt;/b&gt;: &lt;a href=\&quot;Practitioner-Practitioner-LunaBaskins.html\&quot;&gt;Generated Summary: active; Luna Baskins Jones; Phone: (210) 555 1871; gender: female&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;participant&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;individual&lt;/b&gt;: &lt;a href=\&quot;Practitioner-Practitioner-JacobHartwell.html\&quot;&gt;Generated Summary: id: 4567123789; active; Jacob Hartwell; Phone: (210) 555 1889; gender: male&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;participant&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;individual&lt;/b&gt;: &lt;a href=\&quot;Practitioner-Practitioner-ScottDumble.html\&quot;&gt;Generated Summary: active; Scott Dumble; Phone: (210) 555 1399; gender: male&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;period&lt;/b&gt;: 2020-04-10 --&amp;gt; 2020-06-09&lt;/p&gt;&lt;p&gt;&lt;b&gt;reasonCode&lt;/b&gt;: &lt;span title=\&quot;Codes: {http://hl7.org/fhir/sid/icd-10-cm I69.30}\&quot;&gt;Unspecified sequelae of cerebral infarction&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;reasonReference&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=\&quot;Observation-HHA-SC-FU-120-OASIS-2E.html\&quot;&gt;Generated Summary: &lt;span title=\&quot;Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\&quot;&gt;Survey&lt;/span&gt;; &lt;span title=\&quot;Codes: {http://loinc.org 88485-8}\&quot;&gt;OASIS D - Self-care - follow-up performance during assessment period [CMS Assessment]&lt;/span&gt;; effective: Jun 9, 2020, 12:00:00 PM&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Observation-HHA-MOB-FU-120-OASIS-2D.html\&quot;&gt;Generated Summary: &lt;span title=\&quot;Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\&quot;&gt;Survey&lt;/span&gt;; &lt;span title=\&quot;Codes: {http://loinc.org 88486-6}\&quot;&gt;OASID D - Mobility - follow-up perfomance during assessment period [CMS Assessment]&lt;/span&gt;; effective: Jun 9, 2020, 12:00:00 PM&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Locations&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Location&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;Location-Provider-Org-Loc-2.html\&quot;&gt;Generated Summary: status: active; name: Sky Harbor Home Health Services&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;serviceProvider&lt;/b&gt;: &lt;a href=\&quot;Organization-Provider-Org-2.html\&quot;&gt;Generated Summary: name: Sky Harbor Home Health Services&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;partOf&lt;/b&gt;: &lt;a href=\&quot;Encounter-Encounter-2-HHA-Stay.html\&quot;&gt;Generated Summary: status: finished; &lt;span title=\&quot;{http://terminology.hl7.org/CodeSystem/v3-ActCode HH}\&quot;&gt;home health&lt;/span&gt;; &lt;span title=\&quot;Codes: {http://snomed.info/sct 50357006}\&quot;&gt;Evaluation and management of patient at home (procedure)&lt;/span&gt;; period: Feb 10, 2020, 12:00:00 PM --&amp;gt; Jun 29, 2020, 8:30:00 AM&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id: OASIS-Re-assessment-Timepoint-2001&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: finished&lt;/p&gt;&lt;p&gt;&lt;b&gt;class&lt;/b&gt;: &lt;span title=\&quot;{http://terminology.hl7.org/CodeSystem/v3-ActCode HH}\&quot;&gt;home health&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=\&quot;Codes: {http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-entity-cs payer}\&quot;&gt;Payer&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;serviceType&lt;/b&gt;: &lt;span title=\&quot;Codes: {http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-service-type-cs oasis}\&quot;&gt;Outcome and Assessment Information Set&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-patientBSJ1.html\&quot;&gt;Generated Summary: id: 10A3D58WH1600; active: true; Betsy Smith-Johnson; Phone: 210-222-1111; gender: female; birthDate: 1950-11-01; &lt;span title=\&quot;Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}\&quot;&gt;unmarried&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;episodeOfCare&lt;/b&gt;: &lt;a href=\&quot;EpisodeOfCare-Episodecare-2-HHA-Stay.html\&quot;&gt;Generated Summary: status: finished; &lt;span title=\&quot;Codes: {http://terminology.hl7.org/CodeSystem/episodeofcare-type hacc}\&quot;&gt;Home and Community Care&lt;/span&gt;; period: 2020-02-10 --&amp;gt; 2020-06-29&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;basedOn&lt;/b&gt;: &lt;span&gt;Clinical Impression&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;participant&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;individual&lt;/b&gt;: &lt;a href=\&quot;Practitioner-Practitioner-LunaBaskins.html\&quot;&gt;Generated Summary: active: true; Luna Baskins Jones; Phone: (210) 555 1871; gender: female&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;participant&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;individual&lt;/b&gt;: &lt;a href=\&quot;Practitioner-Practitioner-JacobHartwell.html\&quot;&gt;Generated Summary: id: 4567123789; active: true; Jacob Hartwell; Phone: (210) 555 1889; gender: male&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;participant&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;individual&lt;/b&gt;: &lt;a href=\&quot;Practitioner-Practitioner-ScottDumble.html\&quot;&gt;Generated Summary: active: true; Scott Dumble; Phone: (210) 555 1399; gender: male&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;period&lt;/b&gt;: 2020-04-10 --&amp;gt; 2020-06-09&lt;/p&gt;&lt;p&gt;&lt;b&gt;reasonCode&lt;/b&gt;: &lt;span title=\&quot;Codes: {http://hl7.org/fhir/sid/icd-10-cm I69.30}\&quot;&gt;Unspecified sequelae of cerebral infarction&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;reasonReference&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=\&quot;Observation-HHA-SC-FU-120-OASIS-2E.html\&quot;&gt;Generated Summary: &lt;span title=\&quot;Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\&quot;&gt;Survey&lt;/span&gt;; &lt;span title=\&quot;Codes: {http://loinc.org 88485-8}\&quot;&gt;OASIS D - Self-care - follow-up performance during assessment period [CMS Assessment]&lt;/span&gt;; effective: Jun 9, 2020, 12:00:00 PM&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;Observation-HHA-MOB-FU-120-OASIS-2D.html\&quot;&gt;Generated Summary: &lt;span title=\&quot;Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\&quot;&gt;Survey&lt;/span&gt;; &lt;span title=\&quot;Codes: {http://loinc.org 88486-6}\&quot;&gt;OASID D - Mobility - follow-up perfomance during assessment period [CMS Assessment]&lt;/span&gt;; effective: Jun 9, 2020, 12:00:00 PM&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Locations&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Location&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;Location-Provider-Org-Loc-2.html\&quot;&gt;Generated Summary: status: active; name: Sky Harbor Home Health Services&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;serviceProvider&lt;/b&gt;: &lt;a href=\&quot;Organization-Provider-Org-2.html\&quot;&gt;Generated Summary: name: Sky Harbor Home Health Services&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;partOf&lt;/b&gt;: &lt;a href=\&quot;Encounter-Encounter-2-HHA-Stay.html\&quot;&gt;Generated Summary: status: finished; &lt;span title=\&quot;{http://terminology.hl7.org/CodeSystem/v3-ActCode HH}\&quot;&gt;home health&lt;/span&gt;; &lt;span title=\&quot;Codes: {http://snomed.info/sct 50357006}\&quot;&gt;Evaluation and management of patient at home (procedure)&lt;/span&gt;; period: Feb 10, 2020, 12:00:00 PM --&amp;gt; Jun 29, 2020, 8:30:00 AM&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
   },
   "<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.identifier">identifier</a>" : [
     {
-      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>" : "http://hl7.org/fhir/us/pacio-rat",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>" : "http://example.org/identifiers/patient",
       "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a>" : "OASIS-Re-assessment-Timepoint-2001"
     }
   ],
   "<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.status">status</a>" : "finished",
   "<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.class">class</a>" : {
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "HH"
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "HH",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "home health"
   },
   "<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.type">type</a>" : [
     {
       "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
         {
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "payer"
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-entity-cs",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "payer",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Payer"
         }
       ]
     }
@@ -237,8 +239,9 @@
   "<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.serviceType">serviceType</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
       {
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs",
-        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "oasis"
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-service-type-cs",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "oasis",
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Outcome and Assessment Information Set"
       }
     ]
   },
@@ -248,6 +251,19 @@
   "<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.episodeOfCare">episodeOfCare</a>" : [
     {
       "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "EpisodeOfCare/Episodecare-2-HHA-Stay"
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.basedOn">basedOn</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.extension">extension</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/clinicalImpression",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueReference</a>" : {
+            "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "ClinicalImpression/ClinicalImpression-2"
+          }
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.display">display</a>" : "Clinical Impression"
     }
   ],
   "<a href="http://hl7.org/fhir/R4/encounter.html#Encounter.participant">participant</a>" : [
@@ -333,14 +349,14 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/patientempowerment/index.cfm">HL7 Community-Based Care and Privacy Working Group</a>.  Package hl7.fhir.us.pacio-rat#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jul 20, 2021 22:04-0700">2021-07-20</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/patientempowerment">HL7 Community-Based Care and Privacy Working Group</a>.  Package hl7.fhir.us.pacio-rt#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Nov 6, 2021 19:36-0700">2021-11-06</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
                 
-               | <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir/us/pacio-rat/history.html">Version History  |
+               | <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir/us/pacio-rt/history.html">Version History  |
                <a style="color: #81BEF7" target="_blank" href="searchform.html">Search  |
                  <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
                  <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 

@@ -6,11 +6,11 @@
     <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: finished</p><p><b>class</b>: <span title="{http://terminology.hl7.org/CodeSystem/v3-ActCode SNF}">skilled nursing facility</span></p><p><b>type</b>: <span title="Codes: {http://snomed.info/sct 185347001}">Encounter for problem (procedure)</span></p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: id: 10A3D58WH1600; active; Betsy Smith-Johnson; Phone: 210-222-1111; gender: female; birthDate: 1950-11-01; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}">unmarried</span></a></p><h3>Participants</h3><table class="grid"><tr><td>-</td><td><b>Individual</b></td></tr><tr><td>*</td><td><a href="Practitioner-Practitioner-JohnSmith.html">Generated Summary: id: 2345678901; active; John Smith; Phone: (210) 564 1389; gender: male</a></td></tr></table><p><b>period</b>: Jan 1, 2020, 12:00:00 PM --&gt; Feb 10, 2020, 7:30:00 AM</p><h3>Diagnoses</h3><table class="grid"><tr><td>-</td><td><b>Condition</b></td><td><b>Use</b></td></tr><tr><td>*</td><td><a href="Condition-BSJ-Diagnosis1.html">Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-clinical active}">Active</span>; <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}">Confirmed</span>; <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-category encounter-diagnosis}">Encounter Diagnosis</span>; <span title="Codes: {http://hl7.org/fhir/sid/icd-10-cm I63.411}">Cerebral infarction due to embolism of right middle cerebral artery</span>; onset: Jan 1, 2020, 12:00:00 PM</a></td><td><span title="Codes: {http://terminology.hl7.org/CodeSystem/diagnosis-role AD}">Admission diagnosis</span></td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: finished</p><p><b>class</b>: <span title="{http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-class-cs SNF}">skilled nursing facility</span></p><p><b>type</b>: <span title="Codes: {http://snomed.info/sct 185347001}">Encounter for problem (procedure)</span></p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: id: 10A3D58WH1600; active: true; Betsy Smith-Johnson; Phone: 210-222-1111; gender: female; birthDate: 1950-11-01; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}">unmarried</span></a></p><h3>Participants</h3><table class="grid"><tr><td>-</td><td><b>Individual</b></td></tr><tr><td>*</td><td><a href="Practitioner-Practitioner-JohnSmith.html">Generated Summary: id: 2345678901; active: true; John Smith; Phone: (210) 564 1389; gender: male</a></td></tr></table><p><b>period</b>: Jan 1, 2020, 12:00:00 PM --&gt; Feb 10, 2020, 7:30:00 AM</p><h3>Diagnoses</h3><table class="grid"><tr><td>-</td><td><b>Condition</b></td><td><b>Use</b></td></tr><tr><td>*</td><td><a href="Condition-BSJ-Diagnosis1.html">Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-clinical active}">Active</span>; <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}">Confirmed</span>; <span title="Codes: {http://terminology.hl7.org/CodeSystem/condition-category encounter-diagnosis}">Encounter Diagnosis</span>; <span title="Codes: {http://hl7.org/fhir/sid/icd-10-cm I63.411}">Cerebral infarction due to embolism of right middle cerebral artery</span>; onset: Jan 1, 2020, 12:00:00 PM</a></td><td><span title="Codes: {http://terminology.hl7.org/CodeSystem/diagnosis-role AD}">Admission diagnosis</span></td></tr></table><h3>Locations</h3><table class="grid"><tr><td>-</td><td><b>Location</b></td></tr><tr><td>*</td><td><a href="Location-Provider-Org-Loc-1.html">Generated Summary: status: active; name: Happy Nursing Facility</a></td></tr></table></div>
   </text>
   <status value="finished"/>
   <class>
-    <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+    <system value="http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-class-cs"/>
     <code value="SNF"/>
     <display value="skilled nursing facility"/>
   </class>
@@ -45,4 +45,9 @@
       </coding>
     </use>
   </diagnosis>
+  <location>
+    <location>
+      <reference value="Location/Provider-Org-Loc-1"/>
+    </location>
+  </location>
 </Encounter>

@@ -1,6 +1,6 @@
 Profile: ReassessmentTimepointsEncounter
 Parent: USCoreEncounterProfile
-Id: prat-encounter
+Id: reassessment-timepoints-encounter
 Title: "PACIO Re-assessment Timepoints Encounter Profile"
 Description: "Re-assessment Timepoints Encounter is a profile of the Encounter resource that allows longer term post acute admissions to be structured into smaller more consumable components, in line with the longer term clinical care and progression of a patient."
 
@@ -38,7 +38,8 @@ Description: "Re-assessment Timepoints Encounter is a profile of the Encounter r
 * episodeOfCare MS
 * episodeOfCare ^short = "Episode(s) of care that this timepoint should be recorded against"
 * episodeOfCare ^definition = "Where a specific timepoint should be classified as a part of a specific episode(s) of care this field should be used. This association can facilitate grouping of related timepoints together for a specific purpose, such as government reporting, issue tracking, association via a common problem. The association is recorded on the timepoint as these are typically created after the episode of care and grouped on entry rather than editing the episode of care to append another timepoint to it (the episode of care could span years)."
-* basedOn.extension contains clinicalImpression named impression 0..* MS
+//* basedOn.display = "Clinical Impression"
+* basedOn.extension contains BasedOnClinicalImpression named clinicalImpression 0..* MS
 * basedOn.extension[clinicalImpression] ^short = "Clinical Impression can reflect any and all clinical related data tied to the assessment/instrument driving the timepoint, or within the timepoint itself."
 * participant 1..* MS
 * participant ^short = "Clinicians or Care Teams active in a timepoint"
@@ -87,17 +88,19 @@ Description: "Re-assessment Timepoints Encounter is a profile of the Encounter r
 * partOf ^short = "An Encounter this timepoint is part of"
 * partOf ^definition = "An Encounter this timepoint is part of"
 
-Extension: clinicalImpression
+Extension: BasedOnClinicalImpression
+Id: clinicalImpression
 Description: "An extension for referencing a clinical impression resource reflecting any and all clinical related data tied to the assessment/instrument driving the timepoint, or within the timepoint itself."
 * value[x] only Reference(ClinicalImpression)
+* value[x] ^short = "Reflecting any and all clinical related data tied to the assessment/instrument driving the timepoint, or within the timepoint itself."
 
 //////////////////////////////
 // Code Systems and Value Sets
 //////////////////////////////
 
 CodeSystem: TimepointEntityCodeSystem
+Id: timepoint-entity-cs
 Title: "Timepoint Entity Code System"
-Id: prat-entity-cs
 Description: "Defining codes for describing various entity types for structuring timepoints."
 * #payer "Payer" "Payer"
 * #regulatory-state "Regulatory - State" "Regulatory - State"
@@ -106,45 +109,45 @@ Description: "Defining codes for describing various entity types for structuring
 * #accreditation-agency "Accreditation Agency" "Accreditation Agency"
 
 ValueSet: TimepointEntityTypeValueSet
+Id: timepoint-entity-type-vs
 Title: "Timepoint Entity Type Value Set"
 Description: "Codes describing various entity types for structuring timepoints."
-Id: prat-entity-type-vs
 * include codes from system TimepointEntityCodeSystem
 
 
 CodeSystem: TimepointServiceTypeCodeSystem
+Id: timepoint-service-type-cs
 Title: "Timepoint Service Type Code System"
-Id: prat-service-type-cs
 Description: "Defining codes for describing various service types of clinical assessment or instrument that a timepoint is centered on."
-* #oasis "OASIS" "CMS Home Health Outcome and Assessment Information Set"
-* #mds "MDS" "CMS Minimum Data Set - Resident Assessment and Care Screening"
+* #oasis "Outcome and Assessment Information Set" "CMS Home Health Outcome and Assessment Information Set"
+* #mds "Minimum Data Set" "CMS Minimum Data Set - Resident Assessment and Care Screening"
 * #pt "Physical Therapy Assessment" "Physical Therapy Assessment"
 
 ValueSet: TimepointServiceTypeValueSet
+Id: timepoint-service-type-vs
 Title: "Timepoint Service Type Value Set"
 Description: "Various service types of clinical assessment or instrument that a timepoint is centered on."
-Id: prat-service-type-vs
 * include codes from system TimepointServiceTypeCodeSystem
 
 
 ValueSet: TimepointStatusValueSet
+Id: timepoint-status-vs
 Title: "Timepoint Status Value Set"
 Description: "Codes for the current state of the re-assessment timepoint."
-Id: prat-status-vs
 * include $ENSTATUS#in-progress
 * include $ENSTATUS#finished
 * include $ENSTATUS#planned
 
 
 CodeSystem: TimepointClassCodeSystem
+Id: timepoint-class-cs
 Title: "Timepoint Class Code System"
-Id: prat-class-cs
 Description: "Defining codes for the classification of patient timepoint such as skilled nursing facility, home health, etc."
 * #SNF "skilled nursing facility" "Healthcare encounter that takes place in a skilled nursing facility."
 
 ValueSet: TimepointClassValueSet
+Id: timepoint-class-vs
 Title: "Timepoint Class Value Set"
 Description: "Codes for the classification of patient timepoint. This is an extension of the ActEncounterCode value set"
-Id: prat-class-vs
 * include codes from valueset $ActEncounterCode
 * include codes from system TimepointClassCodeSystem

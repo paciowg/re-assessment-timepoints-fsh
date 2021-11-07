@@ -6,8 +6,8 @@ InstanceOf: PractitionerRole
 Description: "An instance of PractitionerRole"
 * code = NUCC#163W00000X
 * code.coding.display = "Registered Nurse"
-* specialty = SNOMED#224535009
-* specialty.coding.display = "Registered Nurse (occupation)"
+* specialty = SNOMED#408443003
+* specialty.coding.display = "General medical practice"
 * active = true
 * practitioner = Reference(Practitioner-SummerJohnson)
 * organization = Reference(Provider-Org-1)
@@ -18,8 +18,8 @@ InstanceOf: PractitionerRole
 Description: "An instance of PractitionerRole"
 * code = NUCC#163W00000X
 * code.coding.display = "Registered Nurse"
-* specialty = SNOMED#224535009
-* specialty.coding.display = "Registered Nurse (occupation)"
+* specialty = SNOMED#408443003
+* specialty.coding.display = "General medical practice"
 * active = true
 * practitioner = Reference(Practitioner-LiaNguyen)
 * organization = Reference(Provider-Org-1)
@@ -30,8 +30,8 @@ InstanceOf: PractitionerRole
 Description: "An instance of PractitionerRole"
 * code = NUCC#225100000X
 * code.coding.display = "Physical Therapist"
-* specialty = SNOMED#24430003
-* specialty.coding.display = "Physical Medicine Specialist"
+* specialty = SNOMED#394601005
+* specialty.coding.display = "Clinical physiology"
 * active = true
 * practitioner = Reference(Practitioner-JenCadbury)
 * organization = Reference(Provider-Org-1)
@@ -42,8 +42,8 @@ InstanceOf: PractitionerRole
 Description: "An instance of PractitionerRole"
 * code = NUCC#225100000X
 * code.coding.display = "Physical Therapist"
-* specialty = SNOMED#24430003
-* specialty.coding.display = "Physical Medicine Specialist"
+* specialty = SNOMED#394601005
+* specialty.coding.display = "Clinical physiology"
 * active = true
 * practitioner = Reference(Practitioner-DanielGranger)
 * organization = Reference(Provider-Org-1)
@@ -54,8 +54,8 @@ InstanceOf: PractitionerRole
 Description: "An instance of PractitionerRole"
 * code = NUCC#163WH0200X
 * code.coding.display = "Home Health Registered Nurse"
-* specialty = SNOMED#224535009
-* specialty.coding.display = "Registered Nurse (occupation)"
+* specialty = SNOMED#408443003
+* specialty.coding.display = "General medical practice"
 * active = true
 * practitioner = Reference(Practitioner-JacobHartwell)
 * organization = Reference(Provider-Org-2)
@@ -66,8 +66,8 @@ InstanceOf: PractitionerRole
 Description: "An instance of PractitionerRole"
 * code = NUCC#163WH0200X
 * code.coding.display = "Home Health Registered Nurse"
-* specialty = SNOMED#224535009
-* specialty.coding.display = "Registered Nurse (occupation)"
+* specialty = SNOMED#408443003
+* specialty.coding.display = "General medical practice"
 * active = true
 * practitioner = Reference(Practitioner-TamaraRodriguez)
 * organization = Reference(Provider-Org-2)
@@ -78,8 +78,8 @@ InstanceOf: PractitionerRole
 Description: "An instance of PractitionerRole"
 * code = NUCC#225100000X
 * code.coding.display = "Physical Therapist"
-* specialty = SNOMED#24430003
-* specialty.coding.display = "Physical Medicine Specialist"
+* specialty = SNOMED#394601005
+* specialty.coding.display = "Clinical physiology"
 * active = true
 * practitioner = Reference(Practitioner-LunaBaskins)
 * organization = Reference(Provider-Org-2)
@@ -90,8 +90,8 @@ InstanceOf: PractitionerRole
 Description: "An instance of PractitionerRole"
 * code = NUCC#225100000X
 * code.coding.display = "Physical Therapist"
-* specialty = SNOMED#24430003
-* specialty.coding.display = "Physical Medicine Specialist"
+* specialty = SNOMED#394601005
+* specialty.coding.display = "Clinical physiology"
 * active = true
 * practitioner = Reference(Practitioner-ScottDumble)
 * organization = Reference(Provider-Org-2)
@@ -102,9 +102,9 @@ Instance: provider-role-pcp-Practitioner-JohnSmith
 InstanceOf: PractitionerRole
 Description: "An instance of PractitionerRole"
 * code = NUCC#261QP2300X
-* code.coding.display = "Primary Care"
-* specialty = SNOMED#39677007
-* specialty.coding.display = "Internal medicine specialist (occupation)"
+* code.coding.display = "Primary Care Clinic/Center"
+* specialty = SNOMED#419192003
+* specialty.coding.display = "Internal medicine"
 * active = true
 * practitioner = Reference(Practitioner-JohnSmith)
 
@@ -112,8 +112,8 @@ Instance: provider-role-neurologist-Practitioner-NoraOlogist
 InstanceOf: PractitionerRole
 Description: "An instance of PractitionerRole"
 * code = NUCC#2084N0400X
-* code.coding.display = "Neurology"
-* specialty = NUCC#2084N0400X
+* code.coding.display = "Neurology Physician"
+* specialty = SNOMED#394591006
 * specialty.coding.display = "Neurology"
 * active = true
 * practitioner = Reference(Practitioner-NoraOlogist)

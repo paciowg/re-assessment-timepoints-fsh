@@ -1,26 +1,27 @@
 ﻿PACIOReAssessmentTimepoints : Validation Results
 =========================================
 
-err = 13, warn = 12, info = 34
-IG Publisher Version: 1.1.73 Out of date - current version is 1.1.77
-Generated Tue Jul 20 22:06:13 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-rat#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-rat)
-
+err = 1, warn = 0, info = 0
+IG Publisher Version: 1.1.84
+Generated Sat Nov 06 19:38:16 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio-rt#0.1.0 (canonical = http://hl7.org/fhir/us/pacio-rt)
  Build Errors : 1 / 0 / 0
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-class-cs : 0 / 0 / 2
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-entity-cs : 0 / 0 / 2
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-service-type-cs : 0 / 0 / 2
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ClinicalImpression-ClinicalImpression-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ClinicalImpression-ClinicalImpression-2 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-timepoint-class-cs : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-timepoint-entity-cs : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-timepoint-service-type-cs : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Condition-BSJ-Diagnosis1 : 0 / 0 / 2
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Condition-BSJ-Diagnosis2 : 0 / 0 / 2
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-Encounter-1-SNF-Stay : 1 / 0 / 2
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-Encounter-1-SNF-Stay : 0 / 0 / 2
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-Encounter-2-HHA-Stay : 0 / 0 / 2
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-MDS-Re-assessment-Timepoint-1 : 1 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-MDS-Re-assessment-Timepoint-2 : 1 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-1 : 2 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-2 : 2 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-3 : 2 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-MDS-Re-assessment-Timepoint-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-MDS-Re-assessment-Timepoint-2 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-1 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-2 : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-3 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/EpisodeOfCare-Episodecare-1-SNF-Stay : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/EpisodeOfCare-Episodecare-2-HHA-Stay : 0 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.pacio-rat : 0 / 0 / 2
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.pacio-rt : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Location-Provider-Org-Loc-1 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Location-Provider-Org-Loc-2 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E : 0 / 0 / 1
@@ -38,7 +39,7 @@ Generated Tue Jul 20 22:06:13 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-48 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-50 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-53 : 0 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-57 : 0 / 2 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-57 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-8 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-58 : 0 / 0 / 1
@@ -67,7 +68,7 @@ Generated Tue Jul 20 22:06:13 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-39 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-43 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-47 : 0 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-56 : 0 / 2 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-56 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-7 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-10 : 0 / 0 / 1
@@ -81,7 +82,7 @@ Generated Tue Jul 20 22:06:13 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-42 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-46 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-52 : 0 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-55 : 0 / 2 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-55 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-6 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-1 : 0 / 0 / 1
@@ -98,7 +99,7 @@ Generated Tue Jul 20 22:06:13 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-49 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-5 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-51 : 0 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-54 : 0 / 2 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-54 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-9 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-PF-SOC-OASIS-2A : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-1 : 0 / 0 / 1
@@ -151,7 +152,7 @@ Generated Tue Jul 20 22:06:13 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-32 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-33 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-34 : 0 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-35 : 0 / 2 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-35 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-4 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-7 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B : 0 / 0 / 1
@@ -228,7 +229,7 @@ Generated Tue Jul 20 22:06:13 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-IP-MDS-IPA-1D-Ob-Question-28 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Organization-Provider-Org-1 : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Organization-Provider-Org-2 : 0 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Patient-patientBSJ1 : 3 / 0 / 3
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Patient-patientBSJ1 : 0 / 0 / 2
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-DanielGranger : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-JacobHartwell : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-JenCadbury : 0 / 0 / 1
@@ -239,589 +240,277 @@ Generated Tue Jul 20 22:06:13 PDT 2021. FHIR version 4.0.1 for hl7.fhir.us.pacio
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-ScottDumble : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-SummerJohnson : 0 / 0 / 1
  /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-TamaraRodriguez : 0 / 0 / 1
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-neurologist-Practitioner-NoraOlogist : 0 / 0 / 4
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-nurse-Practitioner-JacobHartwell : 0 / 0 / 3
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-nurse-Practitioner-LiaNguyen : 0 / 0 / 3
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-nurse-Practitioner-SummerJohnson : 0 / 0 / 3
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-nurse-Practitioner-TamaraRodriguez : 0 / 0 / 3
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-pcp-Practitioner-JohnSmith : 0 / 0 / 3
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-physical-therapist-Practitioner-DanielGranger : 0 / 0 / 3
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-physical-therapist-Practitioner-JenCadbury : 0 / 0 / 3
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-physical-therapist-Practitioner-LunaBaskins : 0 / 0 / 3
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-physical-therapist-Practitioner-ScottDumble : 0 / 0 / 3
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/StructureDefinition-clinicalImpression : 0 / 2 / 2
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/StructureDefinition-prat-encounter : 0 / 0 / 2
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-class-vs : 0 / 0 / 2
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-entity-type-vs : 0 / 0 / 2
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-service-type-vs : 0 / 0 / 2
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-status-vs : 0 / 0 / 2
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/input/resources/capabilitystatement-prat : 0 / 0 / 2
- /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/input/resources/searchparameter-encounter-basedon : 0 / 0 / 2
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-neurologist-Practitioner-NoraOlogist : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-nurse-Practitioner-JacobHartwell : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-nurse-Practitioner-LiaNguyen : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-nurse-Practitioner-SummerJohnson : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-nurse-Practitioner-TamaraRodriguez : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-pcp-Practitioner-JohnSmith : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-physical-therapist-Practitioner-DanielGranger : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-physical-therapist-Practitioner-JenCadbury : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-physical-therapist-Practitioner-LunaBaskins : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-physical-therapist-Practitioner-ScottDumble : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/StructureDefinition-clinicalImpression : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/StructureDefinition-reassessment-timepoints-encounter : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-timepoint-class-vs : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-timepoint-entity-type-vs : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-timepoint-service-type-vs : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-timepoint-status-vs : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/input/resources/capabilitystatement-rt-cs : 0 / 0 / 1
+ /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/input/resources/searchparameter-encounter-basedon : 0 / 0 / 1
 </table>
 == n/a ==
-ERROR: There is no jira specification file defined with the expected name of FHIR-us-pacio-rat in the xml folder of the  https://github.com/HL7/Jira-Spec-Artifacts project.  This must exist before ballot or publication.
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-class-cs.json ==
-INFORMATION: CodeSystem/prat-class-cs: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
-INFORMATION: CodeSystem/prat-class-cs: CodeSystem.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-entity-cs.json ==
-INFORMATION: CodeSystem/prat-entity-cs: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
-INFORMATION: CodeSystem/prat-entity-cs: CodeSystem.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/CodeSystem-prat-service-type-cs.json ==
-INFORMATION: CodeSystem/prat-service-type-cs: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
-INFORMATION: CodeSystem/prat-service-type-cs: CodeSystem.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Condition-BSJ-Diagnosis1.json ==
-INFORMATION: Condition/BSJ-Diagnosis1: Condition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition
-INFORMATION: Condition/BSJ-Diagnosis1: Condition: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition - listed in meta
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Condition-BSJ-Diagnosis2.json ==
-INFORMATION: Condition/BSJ-Diagnosis2: Condition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition
-INFORMATION: Condition/BSJ-Diagnosis2: Condition: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition - listed in meta
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-Encounter-1-SNF-Stay.json ==
-INFORMATION: Encounter/Encounter-1-SNF-Stay: Encounter: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Encounter
-ERROR: Encounter/Encounter-1-SNF-Stay: Encounter.class: Unknown Code http://terminology.hl7.org/CodeSystem/v3-ActCode#SNF in http://terminology.hl7.org/CodeSystem/v3-ActCode for 'http://terminology.hl7.org/CodeSystem/v3-ActCode#SNF'
-INFORMATION: Encounter/Encounter-1-SNF-Stay: Encounter: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter - listed in meta
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-Encounter-2-HHA-Stay.json ==
-INFORMATION: Encounter/Encounter-2-HHA-Stay: Encounter: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Encounter
-INFORMATION: Encounter/Encounter-2-HHA-Stay: Encounter: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter - listed in meta
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-MDS-Re-assessment-Timepoint-1.json ==
-INFORMATION: Encounter/MDS-Re-assessment-Timepoint-1: Encounter: Validate resource against profile http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter
-ERROR: Encounter/MDS-Re-assessment-Timepoint-1: Encounter.identifier[0].system: URL value 'http://hl7.org/fhir/us/pacio-rat' does not resolve
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-MDS-Re-assessment-Timepoint-2.json ==
-INFORMATION: Encounter/MDS-Re-assessment-Timepoint-2: Encounter: Validate resource against profile http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter
-ERROR: Encounter/MDS-Re-assessment-Timepoint-2: Encounter.identifier[0].system: URL value 'http://hl7.org/fhir/us/pacio-rat' does not resolve
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-1.json ==
-INFORMATION: Encounter/OASIS-Re-assessment-Timepoint-1: Encounter: Validate resource against profile http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter
-ERROR: Encounter/OASIS-Re-assessment-Timepoint-1: Encounter.identifier[0].system: URL value 'http://hl7.org/fhir/us/pacio-rat' does not resolve
-ERROR: Encounter/OASIS-Re-assessment-Timepoint-1: Encounter.class: Unknown Code http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH in http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs for 'http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH'
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-2.json ==
-INFORMATION: Encounter/OASIS-Re-assessment-Timepoint-2: Encounter: Validate resource against profile http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter
-ERROR: Encounter/OASIS-Re-assessment-Timepoint-2: Encounter.identifier[0].system: URL value 'http://hl7.org/fhir/us/pacio-rat' does not resolve
-ERROR: Encounter/OASIS-Re-assessment-Timepoint-2: Encounter.class: Unknown Code http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH in http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs for 'http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH'
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-3.json ==
-INFORMATION: Encounter/OASIS-Re-assessment-Timepoint-3: Encounter: Validate resource against profile http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter
-ERROR: Encounter/OASIS-Re-assessment-Timepoint-3: Encounter.identifier[0].system: URL value 'http://hl7.org/fhir/us/pacio-rat' does not resolve
-ERROR: Encounter/OASIS-Re-assessment-Timepoint-3: Encounter.class: Unknown Code http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH in http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs for 'http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs#HH'
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/EpisodeOfCare-Episodecare-1-SNF-Stay.json ==
-INFORMATION: EpisodeOfCare/Episodecare-1-SNF-Stay: EpisodeOfCare: Validate resource against profile http://hl7.org/fhir/StructureDefinition/EpisodeOfCare
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/EpisodeOfCare-Episodecare-2-HHA-Stay.json ==
-INFORMATION: EpisodeOfCare/Episodecare-2-HHA-Stay: EpisodeOfCare: Validate resource against profile http://hl7.org/fhir/StructureDefinition/EpisodeOfCare
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.pacio-rat.json ==
-INFORMATION: ImplementationGuide/hl7.fhir.us.pacio-rat: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
-INFORMATION: ImplementationGuide/hl7.fhir.us.pacio-rat: ImplementationGuide.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Location-Provider-Org-Loc-1.json ==
-INFORMATION: Location/Provider-Org-Loc-1: Location: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Location
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Location-Provider-Org-Loc-2.json ==
-INFORMATION: Location/Provider-Org-Loc-2: Location: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Location
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E.json ==
-INFORMATION: Observation/HHA-MOB-DC-OASIS-2E: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-12.json ==
-INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-12: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-16.json ==
-INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-16: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-20.json ==
-INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-20: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-24.json ==
-INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-24: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-26.json ==
-INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-26: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-30.json ==
-INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-30: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-34.json ==
-INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-34: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-36.json ==
-INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-36: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-4.json ==
-INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-4: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-40.json ==
-INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-40: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-44.json ==
-INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-44: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-48.json ==
-INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-48: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-50.json ==
-INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-50: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-53.json ==
-INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-53: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-57.json ==
-INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-57: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-WARNING: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-57: Observation.value.ofType(CodeableConcept).coding[0].display: value should not start or finish with whitespace
-WARNING: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-57: Observation.value.ofType(CodeableConcept).text: value should not start or finish with whitespace
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-8.json ==
-INFORMATION: Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-8: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B.json ==
-INFORMATION: Observation/HHA-MOB-DG-OASIS-2B: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-58.json ==
-INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-58: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-59.json ==
-INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-59: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-60.json ==
-INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-60: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-61.json ==
-INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-61: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-62.json ==
-INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-62: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-63.json ==
-INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-63: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-64.json ==
-INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-64: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-65.json ==
-INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-65: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-66.json ==
-INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-66: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-67.json ==
-INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-67: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-68.json ==
-INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-68: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-69.json ==
-INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-69: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-70.json ==
-INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-70: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-71.json ==
-INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-71: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-72.json ==
-INFORMATION: Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-72: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D.json ==
-INFORMATION: Observation/HHA-MOB-FU-120-OASIS-2D: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-11.json ==
-INFORMATION: Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-11: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-15.json ==
-INFORMATION: Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-15: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-19.json ==
-INFORMATION: Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-19: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-23.json ==
-INFORMATION: Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-23: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-29.json ==
-INFORMATION: Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-29: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-3.json ==
-INFORMATION: Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-3: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-33.json ==
-INFORMATION: Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-33: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-39.json ==
-INFORMATION: Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-39: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-43.json ==
-INFORMATION: Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-43: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-47.json ==
-INFORMATION: Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-47: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-56.json ==
-INFORMATION: Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-56: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-WARNING: Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-56: Observation.value.ofType(CodeableConcept).coding[0].display: value should not start or finish with whitespace
-WARNING: Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-56: Observation.value.ofType(CodeableConcept).text: value should not start or finish with whitespace
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-7.json ==
-INFORMATION: Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-7: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C.json ==
-INFORMATION: Observation/HHA-MOB-FU-60-OASIS-2C: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-10.json ==
-INFORMATION: Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-10: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-14.json ==
-INFORMATION: Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-14: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-18.json ==
-INFORMATION: Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-18: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-2.json ==
-INFORMATION: Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-2: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-22.json ==
-INFORMATION: Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-22: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-28.json ==
-INFORMATION: Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-28: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-32.json ==
-INFORMATION: Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-32: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-38.json ==
-INFORMATION: Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-38: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-42.json ==
-INFORMATION: Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-42: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-46.json ==
-INFORMATION: Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-46: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-52.json ==
-INFORMATION: Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-52: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-55.json ==
-INFORMATION: Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-55: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-WARNING: Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-55: Observation.value.ofType(CodeableConcept).coding[0].display: value should not start or finish with whitespace
-WARNING: Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-55: Observation.value.ofType(CodeableConcept).text: value should not start or finish with whitespace
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-6.json ==
-INFORMATION: Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-6: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A.json ==
-INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-1.json ==
-INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-1: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-13.json ==
-INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-13: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-17.json ==
-INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-17: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-21.json ==
-INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-21: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-25.json ==
-INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-25: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-27.json ==
-INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-27: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-31.json ==
-INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-31: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-35.json ==
-INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-35: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-37.json ==
-INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-37: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-41.json ==
-INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-41: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-45.json ==
-INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-45: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-49.json ==
-INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-49: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-5.json ==
-INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-5: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-51.json ==
-INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-51: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-54.json ==
-INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-54: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-WARNING: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-54: Observation.value.ofType(CodeableConcept).coding[0].display: value should not start or finish with whitespace
-WARNING: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-54: Observation.value.ofType(CodeableConcept).text: value should not start or finish with whitespace
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-9.json ==
-INFORMATION: Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-9: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-PF-SOC-OASIS-2A.json ==
-INFORMATION: Observation/HHA-PF-SOC-OASIS-2A: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-1.json ==
-INFORMATION: Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-1: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-2.json ==
-INFORMATION: Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-2: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-3.json ==
-INFORMATION: Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-3: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-4.json ==
-INFORMATION: Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-4: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F.json ==
-INFORMATION: Observation/HHA-SC-DC-OASIS-2F: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F-Ob-Question-10.json ==
-INFORMATION: Observation/HHA-SC-DC-OASIS-2F-Ob-Question-10: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F-Ob-Question-12.json ==
-INFORMATION: Observation/HHA-SC-DC-OASIS-2F-Ob-Question-12: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F-Ob-Question-14.json ==
-INFORMATION: Observation/HHA-SC-DC-OASIS-2F-Ob-Question-14: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F-Ob-Question-16.json ==
-INFORMATION: Observation/HHA-SC-DC-OASIS-2F-Ob-Question-16: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F-Ob-Question-18.json ==
-INFORMATION: Observation/HHA-SC-DC-OASIS-2F-Ob-Question-18: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F-Ob-Question-6.json ==
-INFORMATION: Observation/HHA-SC-DC-OASIS-2F-Ob-Question-6: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F-Ob-Question-8.json ==
-INFORMATION: Observation/HHA-SC-DC-OASIS-2F-Ob-Question-8: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C.json ==
-INFORMATION: Observation/HHA-SC-DG-OASIS-2C: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C-Ob-Question-19.json ==
-INFORMATION: Observation/HHA-SC-DG-OASIS-2C-Ob-Question-19: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C-Ob-Question-20.json ==
-INFORMATION: Observation/HHA-SC-DG-OASIS-2C-Ob-Question-20: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C-Ob-Question-21.json ==
-INFORMATION: Observation/HHA-SC-DG-OASIS-2C-Ob-Question-21: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C-Ob-Question-22.json ==
-INFORMATION: Observation/HHA-SC-DG-OASIS-2C-Ob-Question-22: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C-Ob-Question-23.json ==
-INFORMATION: Observation/HHA-SC-DG-OASIS-2C-Ob-Question-23: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C-Ob-Question-24.json ==
-INFORMATION: Observation/HHA-SC-DG-OASIS-2C-Ob-Question-24: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C-Ob-Question-25.json ==
-INFORMATION: Observation/HHA-SC-DG-OASIS-2C-Ob-Question-25: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-FU-120-OASIS-2E.json ==
-INFORMATION: Observation/HHA-SC-FU-120-OASIS-2E: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-FU-120-OASIS-2E-Ob-Question-27.json ==
-INFORMATION: Observation/HHA-SC-FU-120-OASIS-2E-Ob-Question-27: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-FU-120-OASIS-2E-Ob-Question-29.json ==
-INFORMATION: Observation/HHA-SC-FU-120-OASIS-2E-Ob-Question-29: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-FU-120-OASIS-2E-Ob-Question-31.json ==
-INFORMATION: Observation/HHA-SC-FU-120-OASIS-2E-Ob-Question-31: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-FU-60-OASIS-2D.json ==
-INFORMATION: Observation/HHA-SC-FU-60-OASIS-2D: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-FU-60-OASIS-2D-Ob-Question-26.json ==
-INFORMATION: Observation/HHA-SC-FU-60-OASIS-2D-Ob-Question-26: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-FU-60-OASIS-2D-Ob-Question-28.json ==
-INFORMATION: Observation/HHA-SC-FU-60-OASIS-2D-Ob-Question-28: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-FU-60-OASIS-2D-Ob-Question-30.json ==
-INFORMATION: Observation/HHA-SC-FU-60-OASIS-2D-Ob-Question-30: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B.json ==
-INFORMATION: Observation/HHA-SC-SOC-Perf-OASIS-2B: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-11.json ==
-INFORMATION: Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-11: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-13.json ==
-INFORMATION: Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-13: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-15.json ==
-INFORMATION: Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-15: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-17.json ==
-INFORMATION: Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-17: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-5.json ==
-INFORMATION: Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-5: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-7.json ==
-INFORMATION: Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-7: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-9.json ==
-INFORMATION: Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-9: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A.json ==
-INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-1.json ==
-INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-1: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-10.json ==
-INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-10: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-13.json ==
-INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-13: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-16.json ==
-INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-16: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-19.json ==
-INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-19: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-21.json ==
-INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-21: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-24.json ==
-INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-24: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-27.json ==
-INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-27: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-30.json ==
-INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-30: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-31.json ==
-INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-31: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-32.json ==
-INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-32: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-33.json ==
-INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-33: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-34.json ==
-INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-34: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-35.json ==
-INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-35: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-WARNING: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-35: Observation.value.ofType(CodeableConcept).coding[0].display: value should not start or finish with whitespace
-WARNING: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-35: Observation.value.ofType(CodeableConcept).text: value should not start or finish with whitespace
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-4.json ==
-INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-4: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-7.json ==
-INFORMATION: Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-7: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B.json ==
-INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-36.json ==
-INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-36: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-37.json ==
-INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-37: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-38.json ==
-INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-38: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-39.json ==
-INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-39: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-40.json ==
-INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-40: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-41.json ==
-INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-41: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-42.json ==
-INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-42: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-43.json ==
-INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-43: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-44.json ==
-INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-44: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-45.json ==
-INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-45: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-46.json ==
-INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-46: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-47.json ==
-INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-47: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-48.json ==
-INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-48: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-49.json ==
-INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-49: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-50.json ==
-INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-50: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-51.json ==
-INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-51: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-52.json ==
-INFORMATION: Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-52: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D.json ==
-INFORMATION: Observation/SNF-MOB-DP-MDS-Discharge-ND-1D: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-12.json ==
-INFORMATION: Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-12: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-15.json ==
-INFORMATION: Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-15: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-18.json ==
-INFORMATION: Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-18: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-20.json ==
-INFORMATION: Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-20: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-23.json ==
-INFORMATION: Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-23: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-26.json ==
-INFORMATION: Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-26: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-29.json ==
-INFORMATION: Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-29: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-3.json ==
-INFORMATION: Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-3: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-6.json ==
-INFORMATION: Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-6: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-9.json ==
-INFORMATION: Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-9: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C.json ==
-INFORMATION: Observation/SNF-MOB-IP-MDS-IPA-1C: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-11.json ==
-INFORMATION: Observation/SNF-MOB-IP-MDS-IPA-1C-Ob-Question-11: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-14.json ==
-INFORMATION: Observation/SNF-MOB-IP-MDS-IPA-1C-Ob-Question-14: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-17.json ==
-INFORMATION: Observation/SNF-MOB-IP-MDS-IPA-1C-Ob-Question-17: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-2.json ==
-INFORMATION: Observation/SNF-MOB-IP-MDS-IPA-1C-Ob-Question-2: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-22.json ==
-INFORMATION: Observation/SNF-MOB-IP-MDS-IPA-1C-Ob-Question-22: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-25.json ==
-INFORMATION: Observation/SNF-MOB-IP-MDS-IPA-1C-Ob-Question-25: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-28.json ==
-INFORMATION: Observation/SNF-MOB-IP-MDS-IPA-1C-Ob-Question-28: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-5.json ==
-INFORMATION: Observation/SNF-MOB-IP-MDS-IPA-1C-Ob-Question-5: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-8.json ==
-INFORMATION: Observation/SNF-MOB-IP-MDS-IPA-1C-Ob-Question-8: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-PF-MDS-5-Day-NC-1A.json ==
-INFORMATION: Observation/SNF-PF-MDS-5-Day-NC-1A: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-PF-MDS-5-Day-NC-1A-Ob-Question-1.json ==
-INFORMATION: Observation/SNF-PF-MDS-5-Day-NC-1A-Ob-Question-1: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-PF-MDS-5-Day-NC-1A-Ob-Question-2.json ==
-INFORMATION: Observation/SNF-PF-MDS-5-Day-NC-1A-Ob-Question-2: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-PF-MDS-5-Day-NC-1A-Ob-Question-3.json ==
-INFORMATION: Observation/SNF-PF-MDS-5-Day-NC-1A-Ob-Question-3: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-PF-MDS-5-Day-NC-1A-Ob-Question-4.json ==
-INFORMATION: Observation/SNF-PF-MDS-5-Day-NC-1A-Ob-Question-4: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-AP-MDS-5-Day-NC-1B.json ==
-INFORMATION: Observation/SNF-SC-AP-MDS-5-Day-NC-1B: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-10.json ==
-INFORMATION: Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-10: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-11.json ==
-INFORMATION: Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-11: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-5.json ==
-INFORMATION: Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-5: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-6.json ==
-INFORMATION: Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-6: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-7.json ==
-INFORMATION: Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-7: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-8.json ==
-INFORMATION: Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-8: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-9.json ==
-INFORMATION: Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-9: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-DG-MDS-5-Day-NC-1C.json ==
-INFORMATION: Observation/SNF-SC-DG-MDS-5-Day-NC-1C: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-12.json ==
-INFORMATION: Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-12: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-13.json ==
-INFORMATION: Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-13: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-14.json ==
-INFORMATION: Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-14: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-15.json ==
-INFORMATION: Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-15: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-16.json ==
-INFORMATION: Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-16: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-17.json ==
-INFORMATION: Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-17: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-18.json ==
-INFORMATION: Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-18: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-DP-MDS-Discharge-ND-1E.json ==
-INFORMATION: Observation/SNF-SC-DP-MDS-Discharge-ND-1E: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-19.json ==
-INFORMATION: Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-19: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-20.json ==
-INFORMATION: Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-20: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-21.json ==
-INFORMATION: Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-21: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-22.json ==
-INFORMATION: Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-22: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-23.json ==
-INFORMATION: Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-23: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-24.json ==
-INFORMATION: Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-24: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-25.json ==
-INFORMATION: Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-25: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-IP-MDS-IPA-1D.json ==
-INFORMATION: Observation/SNF-SC-IP-MDS-IPA-1D: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-IP-MDS-IPA-1D-Ob-Question-26.json ==
-INFORMATION: Observation/SNF-SC-IP-MDS-IPA-1D-Ob-Question-26: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-IP-MDS-IPA-1D-Ob-Question-27.json ==
-INFORMATION: Observation/SNF-SC-IP-MDS-IPA-1D-Ob-Question-27: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Observation-SNF-SC-IP-MDS-IPA-1D-Ob-Question-28.json ==
-INFORMATION: Observation/SNF-SC-IP-MDS-IPA-1D-Ob-Question-28: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Organization-Provider-Org-1.json ==
-INFORMATION: Organization/Provider-Org-1: Organization: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Organization-Provider-Org-2.json ==
-INFORMATION: Organization/Provider-Org-2: Organization: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Patient-patientBSJ1.json ==
-INFORMATION: Patient/patientBSJ1: Patient: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient
-ERROR: Patient/patientBSJ1: Patient.identifier[0].system: URL value 'http://hl7.org/fhir/sid/us-medicare' does not resolve
-ERROR: Patient/patientBSJ1: Patient.contact[0].relationship[1].coding[0]: Unknown Code System 'http://hl7.org/fhir/v2/0131'
-ERROR: Patient/patientBSJ1: Patient.contact[0].relationship[1].coding[0].system: URL value 'http://hl7.org/fhir/v2/0131' does not resolve
-INFORMATION: Patient/patientBSJ1: Patient.communication[0].language.coding[0]: Code System URI 'urn:ietf:bcp:47' is unknown so the code cannot be validated
-INFORMATION: Patient/patientBSJ1: Patient: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient - listed in meta
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-DanielGranger.json ==
-INFORMATION: Practitioner/Practitioner-DanielGranger: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-JacobHartwell.json ==
-INFORMATION: Practitioner/Practitioner-JacobHartwell: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-JenCadbury.json ==
-INFORMATION: Practitioner/Practitioner-JenCadbury: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-JohnSmith.json ==
-INFORMATION: Practitioner/Practitioner-JohnSmith: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-LiaNguyen.json ==
-INFORMATION: Practitioner/Practitioner-LiaNguyen: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-LunaBaskins.json ==
-INFORMATION: Practitioner/Practitioner-LunaBaskins: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-NoraOlogist.json ==
-INFORMATION: Practitioner/Practitioner-NoraOlogist: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-ScottDumble.json ==
-INFORMATION: Practitioner/Practitioner-ScottDumble: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-SummerJohnson.json ==
-INFORMATION: Practitioner/Practitioner-SummerJohnson: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/Practitioner-Practitioner-TamaraRodriguez.json ==
-INFORMATION: Practitioner/Practitioner-TamaraRodriguez: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-neurologist-Practitioner-NoraOlogist.json ==
-INFORMATION: PractitionerRole/provider-role-neurologist-Practitioner-NoraOlogist: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
-INFORMATION: PractitionerRole/provider-role-neurologist-Practitioner-NoraOlogist: PractitionerRole.code[0].coding[0]: Code System URI 'http://nucc.org/provider-taxonomy' is unknown so the code cannot be validated
-INFORMATION: PractitionerRole/provider-role-neurologist-Practitioner-NoraOlogist: PractitionerRole.specialty[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#2084N0400X)
-INFORMATION: PractitionerRole/provider-role-neurologist-Practitioner-NoraOlogist: PractitionerRole.specialty[0].coding[0]: Code System URI 'http://nucc.org/provider-taxonomy' is unknown so the code cannot be validated
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-nurse-Practitioner-JacobHartwell.json ==
-INFORMATION: PractitionerRole/provider-role-nurse-Practitioner-JacobHartwell: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
-INFORMATION: PractitionerRole/provider-role-nurse-Practitioner-JacobHartwell: PractitionerRole.code[0].coding[0]: Code System URI 'http://nucc.org/provider-taxonomy' is unknown so the code cannot be validated
-INFORMATION: PractitionerRole/provider-role-nurse-Practitioner-JacobHartwell: PractitionerRole.specialty[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://snomed.info/sct#224535009)
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-nurse-Practitioner-LiaNguyen.json ==
-INFORMATION: PractitionerRole/provider-role-nurse-Practitioner-LiaNguyen: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
-INFORMATION: PractitionerRole/provider-role-nurse-Practitioner-LiaNguyen: PractitionerRole.code[0].coding[0]: Code System URI 'http://nucc.org/provider-taxonomy' is unknown so the code cannot be validated
-INFORMATION: PractitionerRole/provider-role-nurse-Practitioner-LiaNguyen: PractitionerRole.specialty[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://snomed.info/sct#224535009)
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-nurse-Practitioner-SummerJohnson.json ==
-INFORMATION: PractitionerRole/provider-role-nurse-Practitioner-SummerJohnson: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
-INFORMATION: PractitionerRole/provider-role-nurse-Practitioner-SummerJohnson: PractitionerRole.code[0].coding[0]: Code System URI 'http://nucc.org/provider-taxonomy' is unknown so the code cannot be validated
-INFORMATION: PractitionerRole/provider-role-nurse-Practitioner-SummerJohnson: PractitionerRole.specialty[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://snomed.info/sct#224535009)
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-nurse-Practitioner-TamaraRodriguez.json ==
-INFORMATION: PractitionerRole/provider-role-nurse-Practitioner-TamaraRodriguez: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
-INFORMATION: PractitionerRole/provider-role-nurse-Practitioner-TamaraRodriguez: PractitionerRole.code[0].coding[0]: Code System URI 'http://nucc.org/provider-taxonomy' is unknown so the code cannot be validated
-INFORMATION: PractitionerRole/provider-role-nurse-Practitioner-TamaraRodriguez: PractitionerRole.specialty[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://snomed.info/sct#224535009)
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-pcp-Practitioner-JohnSmith.json ==
-INFORMATION: PractitionerRole/provider-role-pcp-Practitioner-JohnSmith: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
-INFORMATION: PractitionerRole/provider-role-pcp-Practitioner-JohnSmith: PractitionerRole.code[0].coding[0]: Code System URI 'http://nucc.org/provider-taxonomy' is unknown so the code cannot be validated
-INFORMATION: PractitionerRole/provider-role-pcp-Practitioner-JohnSmith: PractitionerRole.specialty[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://snomed.info/sct#39677007)
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-physical-therapist-Practitioner-DanielGranger.json ==
-INFORMATION: PractitionerRole/provider-role-physical-therapist-Practitioner-DanielGranger: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
-INFORMATION: PractitionerRole/provider-role-physical-therapist-Practitioner-DanielGranger: PractitionerRole.code[0].coding[0]: Code System URI 'http://nucc.org/provider-taxonomy' is unknown so the code cannot be validated
-INFORMATION: PractitionerRole/provider-role-physical-therapist-Practitioner-DanielGranger: PractitionerRole.specialty[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://snomed.info/sct#24430003)
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-physical-therapist-Practitioner-JenCadbury.json ==
-INFORMATION: PractitionerRole/provider-role-physical-therapist-Practitioner-JenCadbury: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
-INFORMATION: PractitionerRole/provider-role-physical-therapist-Practitioner-JenCadbury: PractitionerRole.code[0].coding[0]: Code System URI 'http://nucc.org/provider-taxonomy' is unknown so the code cannot be validated
-INFORMATION: PractitionerRole/provider-role-physical-therapist-Practitioner-JenCadbury: PractitionerRole.specialty[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://snomed.info/sct#24430003)
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-physical-therapist-Practitioner-LunaBaskins.json ==
-INFORMATION: PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
-INFORMATION: PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins: PractitionerRole.code[0].coding[0]: Code System URI 'http://nucc.org/provider-taxonomy' is unknown so the code cannot be validated
-INFORMATION: PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins: PractitionerRole.specialty[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://snomed.info/sct#24430003)
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/PractitionerRole-provider-role-physical-therapist-Practitioner-ScottDumble.json ==
-INFORMATION: PractitionerRole/provider-role-physical-therapist-Practitioner-ScottDumble: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
-INFORMATION: PractitionerRole/provider-role-physical-therapist-Practitioner-ScottDumble: PractitionerRole.code[0].coding[0]: Code System URI 'http://nucc.org/provider-taxonomy' is unknown so the code cannot be validated
-INFORMATION: PractitionerRole/provider-role-physical-therapist-Practitioner-ScottDumble: PractitionerRole.specialty[0]: None of the codings provided are in the value set http://hl7.org/fhir/ValueSet/c80-practice-codes (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://snomed.info/sct#24430003)
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/StructureDefinition-clinicalImpression.json ==
-INFORMATION: StructureDefinition/clinicalImpression: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-WARNING: StructureDefinition/clinicalImpression: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-INFORMATION: StructureDefinition/clinicalImpression: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-rat/StructureDefinition/clinicalImpression'): The Implementation Guide contains no examples for this extension
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/StructureDefinition-prat-encounter.json ==
-INFORMATION: StructureDefinition/prat-encounter: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-INFORMATION: StructureDefinition/prat-encounter: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-class-vs.json ==
-INFORMATION: ValueSet/prat-class-vs: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-INFORMATION: ValueSet/prat-class-vs: ValueSet.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-entity-type-vs.json ==
-INFORMATION: ValueSet/prat-entity-type-vs: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-INFORMATION: ValueSet/prat-entity-type-vs: ValueSet.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-service-type-vs.json ==
-INFORMATION: ValueSet/prat-service-type-vs: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-INFORMATION: ValueSet/prat-service-type-vs: ValueSet.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/fsh-generated/resources/ValueSet-prat-status-vs.json ==
-INFORMATION: ValueSet/prat-status-vs: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-INFORMATION: ValueSet/prat-status-vs: ValueSet.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/input/resources/capabilitystatement-prat.json ==
-INFORMATION: CapabilityStatement/prat: CapabilityStatement: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CapabilityStatement
-INFORMATION: CapabilityStatement/prat: CapabilityStatement.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
-== /mnt/c/Users/calebwan/workspace/PACIO-dev/github.com-repos/re-assessment-timepoints-fsh/input/resources/searchparameter-encounter-basedon.json ==
-INFORMATION: SearchParameter/encounter-based-on: SearchParameter: Validate resource against profile http://hl7.org/fhir/StructureDefinition/SearchParameter
-INFORMATION: SearchParameter/encounter-based-on: SearchParameter.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
+ERROR: There is no jira specification file defined with the expected name of FHIR-us-pacio-rt in the xml folder of the  https://github.com/HL7/Jira-Spec-Artifacts project.  This must exist before ballot or publication.
+== fsh-generated/resources/ClinicalImpression-ClinicalImpression-1.json ==
+== fsh-generated/resources/ClinicalImpression-ClinicalImpression-2.json ==
+== fsh-generated/resources/CodeSystem-timepoint-class-cs.json ==
+== fsh-generated/resources/CodeSystem-timepoint-entity-cs.json ==
+== fsh-generated/resources/CodeSystem-timepoint-service-type-cs.json ==
+== fsh-generated/resources/Condition-BSJ-Diagnosis1.json ==
+== fsh-generated/resources/Condition-BSJ-Diagnosis2.json ==
+== fsh-generated/resources/Encounter-Encounter-1-SNF-Stay.json ==
+== fsh-generated/resources/Encounter-Encounter-2-HHA-Stay.json ==
+== fsh-generated/resources/Encounter-MDS-Re-assessment-Timepoint-1.json ==
+== fsh-generated/resources/Encounter-MDS-Re-assessment-Timepoint-2.json ==
+== fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-1.json ==
+== fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-2.json ==
+== fsh-generated/resources/Encounter-OASIS-Re-assessment-Timepoint-3.json ==
+== fsh-generated/resources/EpisodeOfCare-Episodecare-1-SNF-Stay.json ==
+== fsh-generated/resources/EpisodeOfCare-Episodecare-2-HHA-Stay.json ==
+== fsh-generated/resources/ImplementationGuide-hl7.fhir.us.pacio-rt.json ==
+== fsh-generated/resources/Location-Provider-Org-Loc-1.json ==
+== fsh-generated/resources/Location-Provider-Org-Loc-2.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-12.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-16.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-20.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-24.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-26.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-30.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-34.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-36.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-4.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-40.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-44.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-48.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-50.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-53.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-57.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DC-OASIS-2E-Ob-Question-8.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-58.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-59.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-60.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-61.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-62.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-63.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-64.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-65.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-66.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-67.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-68.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-69.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-70.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-71.json ==
+== fsh-generated/resources/Observation-HHA-MOB-DG-OASIS-2B-Ob-Question-72.json ==
+== fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D.json ==
+== fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-11.json ==
+== fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-15.json ==
+== fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-19.json ==
+== fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-23.json ==
+== fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-29.json ==
+== fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-3.json ==
+== fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-33.json ==
+== fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-39.json ==
+== fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-43.json ==
+== fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-47.json ==
+== fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-56.json ==
+== fsh-generated/resources/Observation-HHA-MOB-FU-120-OASIS-2D-Ob-Question-7.json ==
+== fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C.json ==
+== fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-10.json ==
+== fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-14.json ==
+== fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-18.json ==
+== fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-2.json ==
+== fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-22.json ==
+== fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-28.json ==
+== fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-32.json ==
+== fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-38.json ==
+== fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-42.json ==
+== fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-46.json ==
+== fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-52.json ==
+== fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-55.json ==
+== fsh-generated/resources/Observation-HHA-MOB-FU-60-OASIS-2C-Ob-Question-6.json ==
+== fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A.json ==
+== fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-1.json ==
+== fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-13.json ==
+== fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-17.json ==
+== fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-21.json ==
+== fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-25.json ==
+== fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-27.json ==
+== fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-31.json ==
+== fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-35.json ==
+== fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-37.json ==
+== fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-41.json ==
+== fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-45.json ==
+== fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-49.json ==
+== fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-5.json ==
+== fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-51.json ==
+== fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-54.json ==
+== fsh-generated/resources/Observation-HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-9.json ==
+== fsh-generated/resources/Observation-HHA-PF-SOC-OASIS-2A.json ==
+== fsh-generated/resources/Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-1.json ==
+== fsh-generated/resources/Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-2.json ==
+== fsh-generated/resources/Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-3.json ==
+== fsh-generated/resources/Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-4.json ==
+== fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F.json ==
+== fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F-Ob-Question-10.json ==
+== fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F-Ob-Question-12.json ==
+== fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F-Ob-Question-14.json ==
+== fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F-Ob-Question-16.json ==
+== fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F-Ob-Question-18.json ==
+== fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F-Ob-Question-6.json ==
+== fsh-generated/resources/Observation-HHA-SC-DC-OASIS-2F-Ob-Question-8.json ==
+== fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C.json ==
+== fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C-Ob-Question-19.json ==
+== fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C-Ob-Question-20.json ==
+== fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C-Ob-Question-21.json ==
+== fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C-Ob-Question-22.json ==
+== fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C-Ob-Question-23.json ==
+== fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C-Ob-Question-24.json ==
+== fsh-generated/resources/Observation-HHA-SC-DG-OASIS-2C-Ob-Question-25.json ==
+== fsh-generated/resources/Observation-HHA-SC-FU-120-OASIS-2E.json ==
+== fsh-generated/resources/Observation-HHA-SC-FU-120-OASIS-2E-Ob-Question-27.json ==
+== fsh-generated/resources/Observation-HHA-SC-FU-120-OASIS-2E-Ob-Question-29.json ==
+== fsh-generated/resources/Observation-HHA-SC-FU-120-OASIS-2E-Ob-Question-31.json ==
+== fsh-generated/resources/Observation-HHA-SC-FU-60-OASIS-2D.json ==
+== fsh-generated/resources/Observation-HHA-SC-FU-60-OASIS-2D-Ob-Question-26.json ==
+== fsh-generated/resources/Observation-HHA-SC-FU-60-OASIS-2D-Ob-Question-28.json ==
+== fsh-generated/resources/Observation-HHA-SC-FU-60-OASIS-2D-Ob-Question-30.json ==
+== fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B.json ==
+== fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-11.json ==
+== fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-13.json ==
+== fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-15.json ==
+== fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-17.json ==
+== fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-5.json ==
+== fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-7.json ==
+== fsh-generated/resources/Observation-HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-9.json ==
+== fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A.json ==
+== fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-1.json ==
+== fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-10.json ==
+== fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-13.json ==
+== fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-16.json ==
+== fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-19.json ==
+== fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-21.json ==
+== fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-24.json ==
+== fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-27.json ==
+== fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-30.json ==
+== fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-31.json ==
+== fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-32.json ==
+== fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-33.json ==
+== fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-34.json ==
+== fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-35.json ==
+== fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-4.json ==
+== fsh-generated/resources/Observation-SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-7.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-36.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-37.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-38.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-39.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-40.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-41.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-42.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-43.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-44.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-45.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-46.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-47.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-48.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-49.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-50.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-51.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-52.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-12.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-15.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-18.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-20.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-23.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-26.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-29.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-3.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-6.json ==
+== fsh-generated/resources/Observation-SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-9.json ==
+== fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C.json ==
+== fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-11.json ==
+== fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-14.json ==
+== fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-17.json ==
+== fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-2.json ==
+== fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-22.json ==
+== fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-25.json ==
+== fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-28.json ==
+== fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-5.json ==
+== fsh-generated/resources/Observation-SNF-MOB-IP-MDS-IPA-1C-Ob-Question-8.json ==
+== fsh-generated/resources/Observation-SNF-PF-MDS-5-Day-NC-1A.json ==
+== fsh-generated/resources/Observation-SNF-PF-MDS-5-Day-NC-1A-Ob-Question-1.json ==
+== fsh-generated/resources/Observation-SNF-PF-MDS-5-Day-NC-1A-Ob-Question-2.json ==
+== fsh-generated/resources/Observation-SNF-PF-MDS-5-Day-NC-1A-Ob-Question-3.json ==
+== fsh-generated/resources/Observation-SNF-PF-MDS-5-Day-NC-1A-Ob-Question-4.json ==
+== fsh-generated/resources/Observation-SNF-SC-AP-MDS-5-Day-NC-1B.json ==
+== fsh-generated/resources/Observation-SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-10.json ==
+== fsh-generated/resources/Observation-SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-11.json ==
+== fsh-generated/resources/Observation-SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-5.json ==
+== fsh-generated/resources/Observation-SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-6.json ==
+== fsh-generated/resources/Observation-SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-7.json ==
+== fsh-generated/resources/Observation-SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-8.json ==
+== fsh-generated/resources/Observation-SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-9.json ==
+== fsh-generated/resources/Observation-SNF-SC-DG-MDS-5-Day-NC-1C.json ==
+== fsh-generated/resources/Observation-SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-12.json ==
+== fsh-generated/resources/Observation-SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-13.json ==
+== fsh-generated/resources/Observation-SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-14.json ==
+== fsh-generated/resources/Observation-SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-15.json ==
+== fsh-generated/resources/Observation-SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-16.json ==
+== fsh-generated/resources/Observation-SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-17.json ==
+== fsh-generated/resources/Observation-SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-18.json ==
+== fsh-generated/resources/Observation-SNF-SC-DP-MDS-Discharge-ND-1E.json ==
+== fsh-generated/resources/Observation-SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-19.json ==
+== fsh-generated/resources/Observation-SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-20.json ==
+== fsh-generated/resources/Observation-SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-21.json ==
+== fsh-generated/resources/Observation-SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-22.json ==
+== fsh-generated/resources/Observation-SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-23.json ==
+== fsh-generated/resources/Observation-SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-24.json ==
+== fsh-generated/resources/Observation-SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-25.json ==
+== fsh-generated/resources/Observation-SNF-SC-IP-MDS-IPA-1D.json ==
+== fsh-generated/resources/Observation-SNF-SC-IP-MDS-IPA-1D-Ob-Question-26.json ==
+== fsh-generated/resources/Observation-SNF-SC-IP-MDS-IPA-1D-Ob-Question-27.json ==
+== fsh-generated/resources/Observation-SNF-SC-IP-MDS-IPA-1D-Ob-Question-28.json ==
+== fsh-generated/resources/Organization-Provider-Org-1.json ==
+== fsh-generated/resources/Organization-Provider-Org-2.json ==
+== fsh-generated/resources/Patient-patientBSJ1.json ==
+== fsh-generated/resources/Practitioner-Practitioner-DanielGranger.json ==
+== fsh-generated/resources/Practitioner-Practitioner-JacobHartwell.json ==
+== fsh-generated/resources/Practitioner-Practitioner-JenCadbury.json ==
+== fsh-generated/resources/Practitioner-Practitioner-JohnSmith.json ==
+== fsh-generated/resources/Practitioner-Practitioner-LiaNguyen.json ==
+== fsh-generated/resources/Practitioner-Practitioner-LunaBaskins.json ==
+== fsh-generated/resources/Practitioner-Practitioner-NoraOlogist.json ==
+== fsh-generated/resources/Practitioner-Practitioner-ScottDumble.json ==
+== fsh-generated/resources/Practitioner-Practitioner-SummerJohnson.json ==
+== fsh-generated/resources/Practitioner-Practitioner-TamaraRodriguez.json ==
+== fsh-generated/resources/PractitionerRole-provider-role-neurologist-Practitioner-NoraOlogist.json ==
+== fsh-generated/resources/PractitionerRole-provider-role-nurse-Practitioner-JacobHartwell.json ==
+== fsh-generated/resources/PractitionerRole-provider-role-nurse-Practitioner-LiaNguyen.json ==
+== fsh-generated/resources/PractitionerRole-provider-role-nurse-Practitioner-SummerJohnson.json ==
+== fsh-generated/resources/PractitionerRole-provider-role-nurse-Practitioner-TamaraRodriguez.json ==
+== fsh-generated/resources/PractitionerRole-provider-role-pcp-Practitioner-JohnSmith.json ==
+== fsh-generated/resources/PractitionerRole-provider-role-physical-therapist-Practitioner-DanielGranger.json ==
+== fsh-generated/resources/PractitionerRole-provider-role-physical-therapist-Practitioner-JenCadbury.json ==
+== fsh-generated/resources/PractitionerRole-provider-role-physical-therapist-Practitioner-LunaBaskins.json ==
+== fsh-generated/resources/PractitionerRole-provider-role-physical-therapist-Practitioner-ScottDumble.json ==
+== fsh-generated/resources/StructureDefinition-clinicalImpression.json ==
+== fsh-generated/resources/StructureDefinition-reassessment-timepoints-encounter.json ==
+== fsh-generated/resources/ValueSet-timepoint-class-vs.json ==
+== fsh-generated/resources/ValueSet-timepoint-entity-type-vs.json ==
+== fsh-generated/resources/ValueSet-timepoint-service-type-vs.json ==
+== fsh-generated/resources/ValueSet-timepoint-status-vs.json ==
+== input/resources/capabilitystatement-rt-cs.json ==
+== input/resources/searchparameter-encounter-basedon.json ==

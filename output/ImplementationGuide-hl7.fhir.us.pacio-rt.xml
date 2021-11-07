@@ -1,0 +1,3078 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="hl7.fhir.us.pacio-rt"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>PACIOReAssessmentTimepoints</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/us/pacio-rt/ImplementationGuide/hl7.fhir.us.pacio-rt</pre><div><p>PACIO Re-Assessment Timepoints Implementation Guide</p>
+</div></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/pacio-rt/ImplementationGuide/hl7.fhir.us.pacio-rt"/>
+  <version value="0.1.0"/>
+  <name value="PACIOReAssessmentTimepoints"/>
+  <title value="PACIO Re-Assessment Timepoints Implementation Guide"/>
+  <status value="draft"/>
+  <date value="2021-11-06T19:36:09-07:00"/>
+  <publisher value="HL7 Community-Based Care and Privacy Working Group"/>
+  <contact>
+    <name value="HL7 Community-Based Care and Privacy Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientempowerment"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="patients@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="PACIO project"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientempowerment"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@pacioproject.org"/>
+    </telecom>
+  </contact>
+  <description value="PACIO Re-Assessment Timepoints Implementation Guide"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <packageId value="hl7.fhir.us.pacio-rt"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="4.0.1"/>
+  <dependsOn id="hl7_fhir_us_core">
+    <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"/>
+    <packageId value="hl7.fhir.us.core"/>
+    <version value="3.1.1"/>
+  </dependsOn>
+  <definition>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="copyrightyear"/>
+      </extension>
+      <extension url="value">
+        <valueString value="2021+"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="releaselabel"/>
+      </extension>
+      <extension url="value">
+        <valueString value="STU 1"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-expansion-params"/>
+      </extension>
+      <extension url="value">
+        <valueString value="../../input/_resources/terminology-settings.json"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="show-inherited-invariants"/>
+      </extension>
+      <extension url="value">
+        <valueString value="false"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-jurisdiction"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-publisher"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-history"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/fhir/us/pacio-rt/history.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="autoload-resources"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-qa"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/qa"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-temp"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/pages"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-output"/>
+      </extension>
+      <extension url="value">
+        <valueString value="output"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-suppressed-warnings"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/ignoreWarnings.txt"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="template-html"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="template-md"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page-md.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-contact"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-context"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-copyright"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-license"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="active-tables"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/reassessment-timepoints-encounter"/>
+      </reference>
+      <name value="PACIO Re-assessment Timepoints Encounter Profile"/>
+      <description value="Re-assessment Timepoints Encounter is a profile of the Encounter resource that allows longer term post acute admissions to be structured into smaller more consumable components, in line with the longer term clinical care and progression of a patient."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/clinicalImpression"/>
+      </reference>
+      <name value="BasedOnClinicalImpression"/>
+      <description value="An extension for referencing a clinical impression resource reflecting any and all clinical related data tied to the assessment/instrument driving the timepoint, or within the timepoint itself."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/timepoint-class-vs"/>
+      </reference>
+      <name value="Timepoint Class Value Set"/>
+      <description value="Codes for the classification of patient timepoint. This is an extension of the ActEncounterCode value set"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/timepoint-entity-type-vs"/>
+      </reference>
+      <name value="Timepoint Entity Type Value Set"/>
+      <description value="Codes describing various entity types for structuring timepoints."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/timepoint-service-type-vs"/>
+      </reference>
+      <name value="Timepoint Service Type Value Set"/>
+      <description value="Various service types of clinical assessment or instrument that a timepoint is centered on."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/timepoint-status-vs"/>
+      </reference>
+      <name value="Timepoint Status Value Set"/>
+      <description value="Codes for the current state of the re-assessment timepoint."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/timepoint-class-cs"/>
+      </reference>
+      <name value="Timepoint Class Code System"/>
+      <description value="Defining codes for the classification of patient timepoint such as skilled nursing facility, home health, etc."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/timepoint-entity-cs"/>
+      </reference>
+      <name value="Timepoint Entity Code System"/>
+      <description value="Defining codes for describing various entity types for structuring timepoints."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/timepoint-service-type-cs"/>
+      </reference>
+      <name value="Timepoint Service Type Code System"/>
+      <description value="Defining codes for describing various service types of clinical assessment or instrument that a timepoint is centered on."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/BSJ-Diagnosis1"/>
+      </reference>
+      <name value="BSJ-Diagnosis1"/>
+      <description value="An instance of USCoreCondition"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/BSJ-Diagnosis2"/>
+      </reference>
+      <name value="BSJ-Diagnosis2"/>
+      <description value="An instance of USCoreCondition"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ClinicalImpression"/>
+      </extension>
+      <reference>
+        <reference value="ClinicalImpression/ClinicalImpression-1"/>
+      </reference>
+      <name value="ClinicalImpression-1"/>
+      <description value="Clinical impression for Betsy Smith-Johnson, effective 2020-01-01"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ClinicalImpression"/>
+      </extension>
+      <reference>
+        <reference value="ClinicalImpression/ClinicalImpression-2"/>
+      </reference>
+      <name value="ClinicalImpression-2"/>
+      <description value="Clinical impression for Betsy Smith-Johnson, effective 2020-02-10"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/Encounter-1-SNF-Stay"/>
+      </reference>
+      <name value="Encounter-1-SNF-Stay"/>
+      <description value="SNF-Stay Encounter for Betsy Smith-Johnson, period 2020-01-01 to 2020-02-10"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/Encounter-2-HHA-Stay"/>
+      </reference>
+      <name value="Encounter-2-HHA-Stay"/>
+      <description value="HHA-Stay Encounter for Betsy Smith-Johnson, period 2020-02-10 to 2020-06-29"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="EpisodeOfCare"/>
+      </extension>
+      <reference>
+        <reference value="EpisodeOfCare/Episodecare-1-SNF-Stay"/>
+      </reference>
+      <name value="Episodecare-1-SNF-Stay"/>
+      <description value="SNF-Stay Episode of Care for Betsy Smith-Johnson, period 2020-01-01 to 2020-02-10"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="EpisodeOfCare"/>
+      </extension>
+      <reference>
+        <reference value="EpisodeOfCare/Episodecare-2-HHA-Stay"/>
+      </reference>
+      <name value="Episodecare-2-HHA-Stay"/>
+      <description value="HHA-Stay Episode of Care for Betsy Smith-Johnson, period 2020-02-10 to 2020-06-29"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DC-OASIS-2E"/>
+      </reference>
+      <name value="HHA-MOB-DC-OASIS-2E"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-12"/>
+      </reference>
+      <name value="HHA-MOB-DC-OASIS-2E-Ob-Question-12"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-16"/>
+      </reference>
+      <name value="HHA-MOB-DC-OASIS-2E-Ob-Question-16"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-20"/>
+      </reference>
+      <name value="HHA-MOB-DC-OASIS-2E-Ob-Question-20"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-24"/>
+      </reference>
+      <name value="HHA-MOB-DC-OASIS-2E-Ob-Question-24"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-26"/>
+      </reference>
+      <name value="HHA-MOB-DC-OASIS-2E-Ob-Question-26"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-30"/>
+      </reference>
+      <name value="HHA-MOB-DC-OASIS-2E-Ob-Question-30"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-34"/>
+      </reference>
+      <name value="HHA-MOB-DC-OASIS-2E-Ob-Question-34"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-36"/>
+      </reference>
+      <name value="HHA-MOB-DC-OASIS-2E-Ob-Question-36"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-4"/>
+      </reference>
+      <name value="HHA-MOB-DC-OASIS-2E-Ob-Question-4"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-40"/>
+      </reference>
+      <name value="HHA-MOB-DC-OASIS-2E-Ob-Question-40"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-44"/>
+      </reference>
+      <name value="HHA-MOB-DC-OASIS-2E-Ob-Question-44"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-48"/>
+      </reference>
+      <name value="HHA-MOB-DC-OASIS-2E-Ob-Question-48"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-50"/>
+      </reference>
+      <name value="HHA-MOB-DC-OASIS-2E-Ob-Question-50"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-53"/>
+      </reference>
+      <name value="HHA-MOB-DC-OASIS-2E-Ob-Question-53"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-57"/>
+      </reference>
+      <name value="HHA-MOB-DC-OASIS-2E-Ob-Question-57"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DC-OASIS-2E-Ob-Question-8"/>
+      </reference>
+      <name value="HHA-MOB-DC-OASIS-2E-Ob-Question-8"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DG-OASIS-2B"/>
+      </reference>
+      <name value="HHA-MOB-DG-OASIS-2B"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-58"/>
+      </reference>
+      <name value="HHA-MOB-DG-OASIS-2B-Ob-Question-58"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-59"/>
+      </reference>
+      <name value="HHA-MOB-DG-OASIS-2B-Ob-Question-59"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-60"/>
+      </reference>
+      <name value="HHA-MOB-DG-OASIS-2B-Ob-Question-60"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-61"/>
+      </reference>
+      <name value="HHA-MOB-DG-OASIS-2B-Ob-Question-61"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-62"/>
+      </reference>
+      <name value="HHA-MOB-DG-OASIS-2B-Ob-Question-62"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-63"/>
+      </reference>
+      <name value="HHA-MOB-DG-OASIS-2B-Ob-Question-63"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-64"/>
+      </reference>
+      <name value="HHA-MOB-DG-OASIS-2B-Ob-Question-64"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-65"/>
+      </reference>
+      <name value="HHA-MOB-DG-OASIS-2B-Ob-Question-65"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-66"/>
+      </reference>
+      <name value="HHA-MOB-DG-OASIS-2B-Ob-Question-66"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-67"/>
+      </reference>
+      <name value="HHA-MOB-DG-OASIS-2B-Ob-Question-67"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-68"/>
+      </reference>
+      <name value="HHA-MOB-DG-OASIS-2B-Ob-Question-68"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-69"/>
+      </reference>
+      <name value="HHA-MOB-DG-OASIS-2B-Ob-Question-69"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-70"/>
+      </reference>
+      <name value="HHA-MOB-DG-OASIS-2B-Ob-Question-70"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-71"/>
+      </reference>
+      <name value="HHA-MOB-DG-OASIS-2B-Ob-Question-71"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-DG-OASIS-2B-Ob-Question-72"/>
+      </reference>
+      <name value="HHA-MOB-DG-OASIS-2B-Ob-Question-72"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-FU-120-OASIS-2D"/>
+      </reference>
+      <name value="HHA-MOB-FU-120-OASIS-2D"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-11"/>
+      </reference>
+      <name value="HHA-MOB-FU-120-OASIS-2D-Ob-Question-11"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-15"/>
+      </reference>
+      <name value="HHA-MOB-FU-120-OASIS-2D-Ob-Question-15"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-19"/>
+      </reference>
+      <name value="HHA-MOB-FU-120-OASIS-2D-Ob-Question-19"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-23"/>
+      </reference>
+      <name value="HHA-MOB-FU-120-OASIS-2D-Ob-Question-23"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-29"/>
+      </reference>
+      <name value="HHA-MOB-FU-120-OASIS-2D-Ob-Question-29"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-3"/>
+      </reference>
+      <name value="HHA-MOB-FU-120-OASIS-2D-Ob-Question-3"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-33"/>
+      </reference>
+      <name value="HHA-MOB-FU-120-OASIS-2D-Ob-Question-33"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-39"/>
+      </reference>
+      <name value="HHA-MOB-FU-120-OASIS-2D-Ob-Question-39"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-43"/>
+      </reference>
+      <name value="HHA-MOB-FU-120-OASIS-2D-Ob-Question-43"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-47"/>
+      </reference>
+      <name value="HHA-MOB-FU-120-OASIS-2D-Ob-Question-47"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-56"/>
+      </reference>
+      <name value="HHA-MOB-FU-120-OASIS-2D-Ob-Question-56"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-FU-120-OASIS-2D-Ob-Question-7"/>
+      </reference>
+      <name value="HHA-MOB-FU-120-OASIS-2D-Ob-Question-7"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-FU-60-OASIS-2C"/>
+      </reference>
+      <name value="HHA-MOB-FU-60-OASIS-2C"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-10"/>
+      </reference>
+      <name value="HHA-MOB-FU-60-OASIS-2C-Ob-Question-10"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-14"/>
+      </reference>
+      <name value="HHA-MOB-FU-60-OASIS-2C-Ob-Question-14"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-18"/>
+      </reference>
+      <name value="HHA-MOB-FU-60-OASIS-2C-Ob-Question-18"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-2"/>
+      </reference>
+      <name value="HHA-MOB-FU-60-OASIS-2C-Ob-Question-2"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-22"/>
+      </reference>
+      <name value="HHA-MOB-FU-60-OASIS-2C-Ob-Question-22"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-28"/>
+      </reference>
+      <name value="HHA-MOB-FU-60-OASIS-2C-Ob-Question-28"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-32"/>
+      </reference>
+      <name value="HHA-MOB-FU-60-OASIS-2C-Ob-Question-32"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-38"/>
+      </reference>
+      <name value="HHA-MOB-FU-60-OASIS-2C-Ob-Question-38"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-42"/>
+      </reference>
+      <name value="HHA-MOB-FU-60-OASIS-2C-Ob-Question-42"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-46"/>
+      </reference>
+      <name value="HHA-MOB-FU-60-OASIS-2C-Ob-Question-46"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-52"/>
+      </reference>
+      <name value="HHA-MOB-FU-60-OASIS-2C-Ob-Question-52"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-55"/>
+      </reference>
+      <name value="HHA-MOB-FU-60-OASIS-2C-Ob-Question-55"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-FU-60-OASIS-2C-Ob-Question-6"/>
+      </reference>
+      <name value="HHA-MOB-FU-60-OASIS-2C-Ob-Question-6"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-SOC-Perf-OASIS-2A"/>
+      </reference>
+      <name value="HHA-MOB-SOC-Perf-OASIS-2A"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-1"/>
+      </reference>
+      <name value="HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-1"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-13"/>
+      </reference>
+      <name value="HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-13"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-17"/>
+      </reference>
+      <name value="HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-17"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-21"/>
+      </reference>
+      <name value="HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-21"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-25"/>
+      </reference>
+      <name value="HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-25"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-27"/>
+      </reference>
+      <name value="HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-27"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-31"/>
+      </reference>
+      <name value="HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-31"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-35"/>
+      </reference>
+      <name value="HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-35"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-37"/>
+      </reference>
+      <name value="HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-37"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-41"/>
+      </reference>
+      <name value="HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-41"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-45"/>
+      </reference>
+      <name value="HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-45"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-49"/>
+      </reference>
+      <name value="HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-49"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-5"/>
+      </reference>
+      <name value="HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-5"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-51"/>
+      </reference>
+      <name value="HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-51"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-54"/>
+      </reference>
+      <name value="HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-54"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-9"/>
+      </reference>
+      <name value="HHA-MOB-SOC-Perf-OASIS-2A-Ob-Question-9"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-PF-SOC-OASIS-2A"/>
+      </reference>
+      <name value="HHA-PF-SOC-OASIS-2A"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-1"/>
+      </reference>
+      <name value="HHA-PF-SOC-OASIS-2A-Ob-Question-1"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-2"/>
+      </reference>
+      <name value="HHA-PF-SOC-OASIS-2A-Ob-Question-2"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-3"/>
+      </reference>
+      <name value="HHA-PF-SOC-OASIS-2A-Ob-Question-3"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-4"/>
+      </reference>
+      <name value="HHA-PF-SOC-OASIS-2A-Ob-Question-4"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-DC-OASIS-2F"/>
+      </reference>
+      <name value="HHA-SC-DC-OASIS-2F"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-DC-OASIS-2F-Ob-Question-10"/>
+      </reference>
+      <name value="HHA-SC-DC-OASIS-2F-Ob-Question-10"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-DC-OASIS-2F-Ob-Question-12"/>
+      </reference>
+      <name value="HHA-SC-DC-OASIS-2F-Ob-Question-12"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-DC-OASIS-2F-Ob-Question-14"/>
+      </reference>
+      <name value="HHA-SC-DC-OASIS-2F-Ob-Question-14"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-DC-OASIS-2F-Ob-Question-16"/>
+      </reference>
+      <name value="HHA-SC-DC-OASIS-2F-Ob-Question-16"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-DC-OASIS-2F-Ob-Question-18"/>
+      </reference>
+      <name value="HHA-SC-DC-OASIS-2F-Ob-Question-18"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-DC-OASIS-2F-Ob-Question-6"/>
+      </reference>
+      <name value="HHA-SC-DC-OASIS-2F-Ob-Question-6"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-DC-OASIS-2F-Ob-Question-8"/>
+      </reference>
+      <name value="HHA-SC-DC-OASIS-2F-Ob-Question-8"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-DG-OASIS-2C"/>
+      </reference>
+      <name value="HHA-SC-DG-OASIS-2C"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-DG-OASIS-2C-Ob-Question-19"/>
+      </reference>
+      <name value="HHA-SC-DG-OASIS-2C-Ob-Question-19"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-DG-OASIS-2C-Ob-Question-20"/>
+      </reference>
+      <name value="HHA-SC-DG-OASIS-2C-Ob-Question-20"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-DG-OASIS-2C-Ob-Question-21"/>
+      </reference>
+      <name value="HHA-SC-DG-OASIS-2C-Ob-Question-21"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-DG-OASIS-2C-Ob-Question-22"/>
+      </reference>
+      <name value="HHA-SC-DG-OASIS-2C-Ob-Question-22"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-DG-OASIS-2C-Ob-Question-23"/>
+      </reference>
+      <name value="HHA-SC-DG-OASIS-2C-Ob-Question-23"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-DG-OASIS-2C-Ob-Question-24"/>
+      </reference>
+      <name value="HHA-SC-DG-OASIS-2C-Ob-Question-24"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-DG-OASIS-2C-Ob-Question-25"/>
+      </reference>
+      <name value="HHA-SC-DG-OASIS-2C-Ob-Question-25"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-FU-120-OASIS-2E"/>
+      </reference>
+      <name value="HHA-SC-FU-120-OASIS-2E"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-FU-120-OASIS-2E-Ob-Question-27"/>
+      </reference>
+      <name value="HHA-SC-FU-120-OASIS-2E-Ob-Question-27"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-FU-120-OASIS-2E-Ob-Question-29"/>
+      </reference>
+      <name value="HHA-SC-FU-120-OASIS-2E-Ob-Question-29"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-FU-120-OASIS-2E-Ob-Question-31"/>
+      </reference>
+      <name value="HHA-SC-FU-120-OASIS-2E-Ob-Question-31"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-FU-60-OASIS-2D"/>
+      </reference>
+      <name value="HHA-SC-FU-60-OASIS-2D"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-FU-60-OASIS-2D-Ob-Question-26"/>
+      </reference>
+      <name value="HHA-SC-FU-60-OASIS-2D-Ob-Question-26"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-FU-60-OASIS-2D-Ob-Question-28"/>
+      </reference>
+      <name value="HHA-SC-FU-60-OASIS-2D-Ob-Question-28"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-FU-60-OASIS-2D-Ob-Question-30"/>
+      </reference>
+      <name value="HHA-SC-FU-60-OASIS-2D-Ob-Question-30"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-SOC-Perf-OASIS-2B"/>
+      </reference>
+      <name value="HHA-SC-SOC-Perf-OASIS-2B"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-11"/>
+      </reference>
+      <name value="HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-11"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-13"/>
+      </reference>
+      <name value="HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-13"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-15"/>
+      </reference>
+      <name value="HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-15"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-17"/>
+      </reference>
+      <name value="HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-17"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-5"/>
+      </reference>
+      <name value="HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-5"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-7"/>
+      </reference>
+      <name value="HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-7"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-9"/>
+      </reference>
+      <name value="HHA-SC-SOC-Perf-OASIS-2B-Ob-Question-9"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/MDS-Re-assessment-Timepoint-1"/>
+      </reference>
+      <name value="MDS-Re-assessment-Timepoint-1"/>
+      <description value="SNF-Stay MDS Re-assessment Timepoint with Type Payer, period 2020-01-01 to 2020-01-13"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-rt/StructureDefinition/reassessment-timepoints-encounter"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/MDS-Re-assessment-Timepoint-2"/>
+      </reference>
+      <name value="MDS-Re-assessment-Timepoint-2"/>
+      <description value="SNF-Stay MDS Re-assessment Timepoint with Type Payer, period 2020-01-14 to 2020-02-10"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-rt/StructureDefinition/reassessment-timepoints-encounter"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/OASIS-Re-assessment-Timepoint-1"/>
+      </reference>
+      <name value="OASIS-Re-assessment-Timepoint-1"/>
+      <description value="HHA-Stay OASIS Re-assessment Timepoint with Type Payer, period 2020-02-10 to 2020-04-09"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-rt/StructureDefinition/reassessment-timepoints-encounter"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/OASIS-Re-assessment-Timepoint-2"/>
+      </reference>
+      <name value="OASIS-Re-assessment-Timepoint-2"/>
+      <description value="HHA-Stay OASIS Re-assessment Timepoint with Type Payer, period 2020-04-10 to 2020-06-09"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-rt/StructureDefinition/reassessment-timepoints-encounter"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/OASIS-Re-assessment-Timepoint-3"/>
+      </reference>
+      <name value="OASIS-Re-assessment-Timepoint-3"/>
+      <description value="HHA-Stay OASIS Re-assessment Timepoint with Type Payer, period 2020-06-10 to 2020-06-29"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/pacio-rt/StructureDefinition/reassessment-timepoints-encounter"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-DanielGranger"/>
+      </reference>
+      <name value="Practitioner-DanielGranger"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-JacobHartwell"/>
+      </reference>
+      <name value="Practitioner-JacobHartwell"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-JenCadbury"/>
+      </reference>
+      <name value="Practitioner-JenCadbury"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-JohnSmith"/>
+      </reference>
+      <name value="Practitioner-JohnSmith"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-LiaNguyen"/>
+      </reference>
+      <name value="Practitioner-LiaNguyen"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-LunaBaskins"/>
+      </reference>
+      <name value="Practitioner-LunaBaskins"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-NoraOlogist"/>
+      </reference>
+      <name value="Practitioner-NoraOlogist"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-ScottDumble"/>
+      </reference>
+      <name value="Practitioner-ScottDumble"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-SummerJohnson"/>
+      </reference>
+      <name value="Practitioner-SummerJohnson"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/Practitioner-TamaraRodriguez"/>
+      </reference>
+      <name value="Practitioner-TamaraRodriguez"/>
+      <description value="An instance of Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/Provider-Org-1"/>
+      </reference>
+      <name value="Provider-Org-1"/>
+      <description value="An instance of Organization"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/Provider-Org-2"/>
+      </reference>
+      <name value="Provider-Org-2"/>
+      <description value="An instance of Organization"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/Provider-Org-Loc-1"/>
+      </reference>
+      <name value="Provider-Org-Loc-1"/>
+      <description value="An instance of Location"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/Provider-Org-Loc-2"/>
+      </reference>
+      <name value="Provider-Org-Loc-2"/>
+      <description value="An instance of Location"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-AP-MDS-5-Day-NC-1A"/>
+      </reference>
+      <name value="SNF-MOB-AP-MDS-5-Day-NC-1A"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-1"/>
+      </reference>
+      <name value="SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-1"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-10"/>
+      </reference>
+      <name value="SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-10"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-13"/>
+      </reference>
+      <name value="SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-13"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-16"/>
+      </reference>
+      <name value="SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-16"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-19"/>
+      </reference>
+      <name value="SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-19"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-21"/>
+      </reference>
+      <name value="SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-21"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-24"/>
+      </reference>
+      <name value="SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-24"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-27"/>
+      </reference>
+      <name value="SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-27"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-30"/>
+      </reference>
+      <name value="SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-30"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-31"/>
+      </reference>
+      <name value="SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-31"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-32"/>
+      </reference>
+      <name value="SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-32"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-33"/>
+      </reference>
+      <name value="SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-33"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-34"/>
+      </reference>
+      <name value="SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-34"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-35"/>
+      </reference>
+      <name value="SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-35"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-4"/>
+      </reference>
+      <name value="SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-4"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-7"/>
+      </reference>
+      <name value="SNF-MOB-AP-MDS-5-Day-NC-1A-Ob-Question-7"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DG-MDS-5-Day-NC-1B"/>
+      </reference>
+      <name value="SNF-MOB-DG-MDS-5-Day-NC-1B"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-36"/>
+      </reference>
+      <name value="SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-36"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-37"/>
+      </reference>
+      <name value="SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-37"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-38"/>
+      </reference>
+      <name value="SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-38"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-39"/>
+      </reference>
+      <name value="SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-39"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-40"/>
+      </reference>
+      <name value="SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-40"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-41"/>
+      </reference>
+      <name value="SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-41"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-42"/>
+      </reference>
+      <name value="SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-42"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-43"/>
+      </reference>
+      <name value="SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-43"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-44"/>
+      </reference>
+      <name value="SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-44"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-45"/>
+      </reference>
+      <name value="SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-45"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-46"/>
+      </reference>
+      <name value="SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-46"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-47"/>
+      </reference>
+      <name value="SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-47"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-48"/>
+      </reference>
+      <name value="SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-48"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-49"/>
+      </reference>
+      <name value="SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-49"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-50"/>
+      </reference>
+      <name value="SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-50"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-51"/>
+      </reference>
+      <name value="SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-51"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-52"/>
+      </reference>
+      <name value="SNF-MOB-DG-MDS-5-Day-NC-1B-Ob-Question-52"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DP-MDS-Discharge-ND-1D"/>
+      </reference>
+      <name value="SNF-MOB-DP-MDS-Discharge-ND-1D"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-12"/>
+      </reference>
+      <name value="SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-12"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-15"/>
+      </reference>
+      <name value="SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-15"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-18"/>
+      </reference>
+      <name value="SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-18"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-20"/>
+      </reference>
+      <name value="SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-20"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-23"/>
+      </reference>
+      <name value="SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-23"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-26"/>
+      </reference>
+      <name value="SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-26"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-29"/>
+      </reference>
+      <name value="SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-29"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-3"/>
+      </reference>
+      <name value="SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-3"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-6"/>
+      </reference>
+      <name value="SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-6"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-9"/>
+      </reference>
+      <name value="SNF-MOB-DP-MDS-Discharge-ND-1D-Ob-Question-9"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-IP-MDS-IPA-1C"/>
+      </reference>
+      <name value="SNF-MOB-IP-MDS-IPA-1C"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-IP-MDS-IPA-1C-Ob-Question-11"/>
+      </reference>
+      <name value="SNF-MOB-IP-MDS-IPA-1C-Ob-Question-11"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-IP-MDS-IPA-1C-Ob-Question-14"/>
+      </reference>
+      <name value="SNF-MOB-IP-MDS-IPA-1C-Ob-Question-14"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-IP-MDS-IPA-1C-Ob-Question-17"/>
+      </reference>
+      <name value="SNF-MOB-IP-MDS-IPA-1C-Ob-Question-17"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-IP-MDS-IPA-1C-Ob-Question-2"/>
+      </reference>
+      <name value="SNF-MOB-IP-MDS-IPA-1C-Ob-Question-2"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-IP-MDS-IPA-1C-Ob-Question-22"/>
+      </reference>
+      <name value="SNF-MOB-IP-MDS-IPA-1C-Ob-Question-22"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-IP-MDS-IPA-1C-Ob-Question-25"/>
+      </reference>
+      <name value="SNF-MOB-IP-MDS-IPA-1C-Ob-Question-25"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-IP-MDS-IPA-1C-Ob-Question-28"/>
+      </reference>
+      <name value="SNF-MOB-IP-MDS-IPA-1C-Ob-Question-28"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-IP-MDS-IPA-1C-Ob-Question-5"/>
+      </reference>
+      <name value="SNF-MOB-IP-MDS-IPA-1C-Ob-Question-5"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-MOB-IP-MDS-IPA-1C-Ob-Question-8"/>
+      </reference>
+      <name value="SNF-MOB-IP-MDS-IPA-1C-Ob-Question-8"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-PF-MDS-5-Day-NC-1A"/>
+      </reference>
+      <name value="SNF-PF-MDS-5-Day-NC-1A"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-PF-MDS-5-Day-NC-1A-Ob-Question-1"/>
+      </reference>
+      <name value="SNF-PF-MDS-5-Day-NC-1A-Ob-Question-1"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-PF-MDS-5-Day-NC-1A-Ob-Question-2"/>
+      </reference>
+      <name value="SNF-PF-MDS-5-Day-NC-1A-Ob-Question-2"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-PF-MDS-5-Day-NC-1A-Ob-Question-3"/>
+      </reference>
+      <name value="SNF-PF-MDS-5-Day-NC-1A-Ob-Question-3"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-PF-MDS-5-Day-NC-1A-Ob-Question-4"/>
+      </reference>
+      <name value="SNF-PF-MDS-5-Day-NC-1A-Ob-Question-4"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-SC-AP-MDS-5-Day-NC-1B"/>
+      </reference>
+      <name value="SNF-SC-AP-MDS-5-Day-NC-1B"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-10"/>
+      </reference>
+      <name value="SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-10"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-11"/>
+      </reference>
+      <name value="SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-11"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-5"/>
+      </reference>
+      <name value="SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-5"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-6"/>
+      </reference>
+      <name value="SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-6"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-7"/>
+      </reference>
+      <name value="SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-7"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-8"/>
+      </reference>
+      <name value="SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-8"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-9"/>
+      </reference>
+      <name value="SNF-SC-AP-MDS-5-Day-NC-1B-Ob-Question-9"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-SC-DG-MDS-5-Day-NC-1C"/>
+      </reference>
+      <name value="SNF-SC-DG-MDS-5-Day-NC-1C"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-12"/>
+      </reference>
+      <name value="SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-12"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-13"/>
+      </reference>
+      <name value="SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-13"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-14"/>
+      </reference>
+      <name value="SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-14"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-15"/>
+      </reference>
+      <name value="SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-15"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-16"/>
+      </reference>
+      <name value="SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-16"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-17"/>
+      </reference>
+      <name value="SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-17"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-18"/>
+      </reference>
+      <name value="SNF-SC-DG-MDS-5-Day-NC-1C-Ob-Question-18"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-SC-DP-MDS-Discharge-ND-1E"/>
+      </reference>
+      <name value="SNF-SC-DP-MDS-Discharge-ND-1E"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-19"/>
+      </reference>
+      <name value="SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-19"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-20"/>
+      </reference>
+      <name value="SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-20"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-21"/>
+      </reference>
+      <name value="SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-21"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-22"/>
+      </reference>
+      <name value="SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-22"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-23"/>
+      </reference>
+      <name value="SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-23"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-24"/>
+      </reference>
+      <name value="SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-24"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-25"/>
+      </reference>
+      <name value="SNF-SC-DP-MDS-Discharge-ND-1E-Ob-Question-25"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-SC-IP-MDS-IPA-1D"/>
+      </reference>
+      <name value="SNF-SC-IP-MDS-IPA-1D"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-SC-IP-MDS-IPA-1D-Ob-Question-26"/>
+      </reference>
+      <name value="SNF-SC-IP-MDS-IPA-1D-Ob-Question-26"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-SC-IP-MDS-IPA-1D-Ob-Question-27"/>
+      </reference>
+      <name value="SNF-SC-IP-MDS-IPA-1D-Ob-Question-27"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/SNF-SC-IP-MDS-IPA-1D-Ob-Question-28"/>
+      </reference>
+      <name value="SNF-SC-IP-MDS-IPA-1D-Ob-Question-28"/>
+      <description value="An instance of Observation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/patientBSJ1"/>
+      </reference>
+      <name value="patientBSJ1"/>
+      <description value="An instance of USCorePatientProfile"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/provider-role-neurologist-Practitioner-NoraOlogist"/>
+      </reference>
+      <name value="provider-role-neurologist-Practitioner-NoraOlogist"/>
+      <description value="An instance of PractitionerRole"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/provider-role-nurse-Practitioner-JacobHartwell"/>
+      </reference>
+      <name value="provider-role-nurse-Practitioner-JacobHartwell"/>
+      <description value="An instance of PractitionerRole"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/provider-role-nurse-Practitioner-LiaNguyen"/>
+      </reference>
+      <name value="provider-role-nurse-Practitioner-LiaNguyen"/>
+      <description value="An instance of PractitionerRole"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/provider-role-nurse-Practitioner-SummerJohnson"/>
+      </reference>
+      <name value="provider-role-nurse-Practitioner-SummerJohnson"/>
+      <description value="An instance of PractitionerRole"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/provider-role-nurse-Practitioner-TamaraRodriguez"/>
+      </reference>
+      <name value="provider-role-nurse-Practitioner-TamaraRodriguez"/>
+      <description value="An instance of PractitionerRole"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/provider-role-pcp-Practitioner-JohnSmith"/>
+      </reference>
+      <name value="provider-role-pcp-Practitioner-JohnSmith"/>
+      <description value="An instance of PractitionerRole"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/provider-role-physical-therapist-Practitioner-DanielGranger"/>
+      </reference>
+      <name value="provider-role-physical-therapist-Practitioner-DanielGranger"/>
+      <description value="An instance of PractitionerRole"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/provider-role-physical-therapist-Practitioner-JenCadbury"/>
+      </reference>
+      <name value="provider-role-physical-therapist-Practitioner-JenCadbury"/>
+      <description value="An instance of PractitionerRole"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins"/>
+      </reference>
+      <name value="provider-role-physical-therapist-Practitioner-LunaBaskins"/>
+      <description value="An instance of PractitionerRole"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/provider-role-physical-therapist-Practitioner-ScottDumble"/>
+      </reference>
+      <name value="provider-role-physical-therapist-Practitioner-ScottDumble"/>
+      <description value="An instance of PractitionerRole"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CapabilityStatement"/>
+      </extension>
+      <reference>
+        <reference value="CapabilityStatement/rt-cs"/>
+      </reference>
+      <name value="Re-assessment Timepoints Capability Statement"/>
+      <description value="This PACIO Re-Assessment Timepoints implementation guide describes a means to break up extended Post-Acute admissions into consumable blocks that can reflect the evolution of care over time of the encounter or episode of care.&#xA;&#xA;Post-Acute Admissions extend over much longer periods of time than the encounters in the Acute and Ambulatory Care Settings, often going for several months or even years. Over the course of these time periods the patient condition and therefore the care being provided is changing - for example in Home Health the goal is rehabilitation so Care Plans, Medications, and Orders are all likely changing throughout an admission that could last several months. Already in existence within post-acute care settings are periods of time structured by a variety of stakeholders, some more rigid than others - regulatory and conditions of participation, payer and revenue cycle requirements, and provider specific processes and protocols. In settings like Home Health and SNF, there are defined Medicare assessment instruments that must be completed every X number of days (varies by care setting); the results of said assessment drive the Care Plan for the next X number of days; if a patient has a pain management Care Plan, and their pain scores are down then they may have their Opioid drug dosages reduced or eliminated. If the patient&#39;s ambulation is improving, then we may see interventions focused on more complex exercises. These periods of time, defined by many different drivers, have direct impact on how data is made available outside of an EMR; without a structure in place to hold this information a connecting application or patient would have no choice but to sift through months worth of information rather than focusing on a given period or periods most relevant to the need of the application, patient, or other entity."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/encounter-based-on"/>
+      </reference>
+      <name value="Timepoint_BasedOn"/>
+      <description value="The ClinicalImpression or ServiceRequest that initiated this timepoint"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <page>
+      <nameUrl value="toc.html"/>
+      <title value="Table of Contents"/>
+      <generation value="html"/>
+      <page>
+        <nameUrl value="index.html"/>
+        <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="downloads.html"/>
+        <title value="Downloads"/>
+        <generation value="markdown"/>
+      </page>
+    </page>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/capabilities"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/examples"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/extensions"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/models"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/operations"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/profiles"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/vocabulary"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/maps"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/testing"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/history"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="fsh-generated/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="template/config"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="input/images"/>
+    </parameter>
+    <parameter>
+      <code value="path-tx-cache"/>
+      <value value="input-cache/txcache"/>
+    </parameter>
+  </definition>
+</ImplementationGuide>

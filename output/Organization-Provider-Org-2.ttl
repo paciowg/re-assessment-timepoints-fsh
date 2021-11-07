@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/us/pacio-rat/Organization/Provider-Org-2> a fhir:Organization;
+<http://hl7.org/fhir/us/pacio-rt/Organization/Provider-Org-2> a fhir:Organization;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "Provider-Org-2"];
   fhir:DomainResource.text [
@@ -16,9 +16,9 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/us/pacio-rat/Organization/Provider-Org-2.ttl> a owl:Ontology;
+<http://hl7.org/fhir/us/pacio-rt/Organization/Provider-Org-2.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/us/pacio-rat/Organization/Provider-Org-2.ttl> .
+  owl:versionIRI <http://build.fhir.org/us/pacio-rt/Organization/Provider-Org-2.ttl> .
 
 # -------------------------------------------------------------------------------------
 

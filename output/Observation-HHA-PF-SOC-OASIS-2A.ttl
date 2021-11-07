@@ -6,18 +6,18 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-PF-SOC-OASIS-2A> a fhir:Observation;
+<http://hl7.org/fhir/us/pacio-rt/Observation/HHA-PF-SOC-OASIS-2A> a fhir:Observation;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "HHA-PF-SOC-OASIS-2A"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Event Location</b>: <a href=\"Location-Provider-Org-Loc-2.html\">Generated Summary: status: active; name: Sky Harbor Home Health Services</a></p><p></p><p><b>category</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 83239-4}\">IRF-PAI v3.0, MDS v1.17.1, 1.17.2, OASIS D, D1 - Prior functioning: everyday activities [CMS Assessment]</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: 10A3D58WH1600; active; Betsy Smith-Johnson; Phone: 210-222-1111; gender: female; birthDate: 1950-11-01; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}\">unmarried</span></a></p><p><b>effective</b>: Feb 10, 2020, 1:31:00 PM</p><p><b>performer</b>: <a href=\"PractitionerRole-provider-role-physical-therapist-Practitioner-LunaBaskins.html\">Generated Summary: active; <span title=\"Codes: {http://nucc.org/provider-taxonomy 225100000X}\">Physical Therapist</span>; <span title=\"Codes: {http://snomed.info/sct 24430003}\">Physical Medicine Specialist</span></a></p><p><b>hasMember</b>: </p><ul><li><a href=\"Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-1.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 85070-1}\">Prior functioning.self care [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA11539-6}\">Independent - Patient completed the activities by him/herself, with or without an assistive device, with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-2.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 85071-9}\">Indoor mobility (Ambulation) [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA11539-6}\">Independent - Patient completed the activities by him/herself, with or without an assistive device, with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-3.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 85072-7}\">Stairs [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA11539-6}\">Independent - Patient completed the activities by him/herself, with or without an assistive device, with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-4.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 85073-5}\">Functional cognition [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA11539-6}\">Independent - Patient completed the activities by him/herself, with or without an assistive device, with no assistance from a helper.</span></a></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>Event Location</b>: <a href=\"Location-Provider-Org-Loc-2.html\">Generated Summary: status: active; name: Sky Harbor Home Health Services</a></p><p></p><p><b>category</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes: {http://loinc.org 83239-4}\">IRF-PAI v3.0, MDS v1.17.1, 1.17.2, OASIS D, D1 - Prior functioning: everyday activities [CMS Assessment]</span></p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: 10A3D58WH1600; active: true; Betsy Smith-Johnson; Phone: 210-222-1111; gender: female; birthDate: 1950-11-01; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}\">unmarried</span></a></p><p><b>effective</b>: Feb 10, 2020, 1:31:00 PM</p><p><b>performer</b>: <a href=\"PractitionerRole-provider-role-physical-therapist-Practitioner-LunaBaskins.html\">Generated Summary: active: true; <span title=\"Codes: {http://nucc.org/provider-taxonomy 225100000X}\">Physical Therapist</span>; <span title=\"Codes: {http://snomed.info/sct 394601005}\">Clinical physiology</span></a></p><p><b>hasMember</b>: </p><ul><li><a href=\"Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-1.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 85070-1}\">Prior functioning.self care [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA11539-6}\">Independent - Patient completed the activities by him/herself, with or without an assistive device, with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-2.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 85071-9}\">Indoor mobility (Ambulation) [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA11539-6}\">Independent - Patient completed the activities by him/herself, with or without an assistive device, with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-3.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 85072-7}\">Stairs [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA11539-6}\">Independent - Patient completed the activities by him/herself, with or without an assistive device, with no assistance from a helper.</span></a></li><li><a href=\"Observation-HHA-PF-SOC-OASIS-2A-Ob-Question-4.html\">Generated Summary: <span title=\"Codes: {http://loinc.org 85073-5}\">Functional cognition [CMS Assessment]</span>; effective: Feb 10, 2020, 1:31:00 PM; <span title=\"Codes: {http://loinc.org LA11539-6}\">Independent - Patient completed the activities by him/herself, with or without an assistive device, with no assistance from a helper.</span></a></li></ul></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/event-location" ];
      fhir:Extension.valueReference [
-       fhir:link <http://hl7.org/fhir/us/pacio-rat/Location/Provider-Org-Loc-2>;
+       fhir:link <http://hl7.org/fhir/us/pacio-rt/Location/Provider-Org-Loc-2>;
        fhir:Reference.reference [ fhir:value "Location/Provider-Org-Loc-2" ]
      ]
   ];
@@ -40,52 +40,52 @@
      ]
   ];
   fhir:Observation.subject [
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Patient/patientBSJ1>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Patient/patientBSJ1>;
      fhir:Reference.reference [ fhir:value "Patient/patientBSJ1" ]
   ];
   fhir:Observation.effectiveDateTime [ fhir:value "2020-02-10T16:31:00-05:00"^^xsd:dateTime];
   fhir:Observation.performer [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins>;
      fhir:Reference.reference [ fhir:value "PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins" ]
   ];
   fhir:Observation.hasMember [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-1>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-1>;
      fhir:Reference.reference [ fhir:value "Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-1" ]
   ], [
      fhir:index 1;
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-2>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-2>;
      fhir:Reference.reference [ fhir:value "Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-2" ]
   ], [
      fhir:index 2;
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-3>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-3>;
      fhir:Reference.reference [ fhir:value "Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-3" ]
   ], [
      fhir:index 3;
-     fhir:link <http://hl7.org/fhir/us/pacio-rat/Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-4>;
+     fhir:link <http://hl7.org/fhir/us/pacio-rt/Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-4>;
      fhir:Reference.reference [ fhir:value "Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-4" ]
   ] .
 
-<http://hl7.org/fhir/us/pacio-rat/Location/Provider-Org-Loc-2> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Location/Provider-Org-Loc-2> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Patient/patientBSJ1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Patient/patientBSJ1> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/PractitionerRole/provider-role-physical-therapist-Practitioner-LunaBaskins> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-1> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-1> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-2> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-2> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-3> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-3> a fhir:us .
 
-<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-4> a fhir:us .
+<http://hl7.org/fhir/us/pacio-rt/Observation/HHA-PF-SOC-OASIS-2A-Ob-Question-4> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/us/pacio-rat/Observation/HHA-PF-SOC-OASIS-2A.ttl> a owl:Ontology;
+<http://hl7.org/fhir/us/pacio-rt/Observation/HHA-PF-SOC-OASIS-2A.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/us/pacio-rat/Observation/HHA-PF-SOC-OASIS-2A.ttl> .
+  owl:versionIRI <http://build.fhir.org/us/pacio-rt/Observation/HHA-PF-SOC-OASIS-2A.ttl> .
 
 # -------------------------------------------------------------------------------------
 

@@ -3,7 +3,7 @@
 <PractitionerRole xmlns="http://hl7.org/fhir">
   <id value="provider-role-pcp-Practitioner-JohnSmith"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>practitioner</b>: <a href="Practitioner-Practitioner-JohnSmith.html">Generated Summary: id: 2345678901; active; John Smith; Phone: (210) 564 1389; gender: male</a></p><p><b>code</b>: <span title="Codes: {http://nucc.org/provider-taxonomy 261QP2300X}">Primary Care</span></p><p><b>specialty</b>: <span title="Codes: {http://snomed.info/sct 39677007}">Internal medicine specialist (occupation)</span></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>practitioner</b>: <a href="Practitioner-Practitioner-JohnSmith.html">Generated Summary: id: 2345678901; active: true; John Smith; Phone: (210) 564 1389; gender: male</a></p><p><b>code</b>: <span title="Codes: {http://nucc.org/provider-taxonomy 261QP2300X}">Primary Care Clinic/Center</span></p><p><b>specialty</b>: <span title="Codes: {http://snomed.info/sct 419192003}">Internal medicine</span></p></div>
   </text>
   <active value="true"/>
   <practitioner>
@@ -13,14 +13,14 @@
     <coding>
       <system value="http://nucc.org/provider-taxonomy"/>
       <code value="261QP2300X"/>
-      <display value="Primary Care"/>
+      <display value="Primary Care Clinic/Center"/>
     </coding>
   </code>
   <specialty>
     <coding>
       <system value="http://snomed.info/sct"/>
-      <code value="39677007"/>
-      <display value="Internal medicine specialist (occupation)"/>
+      <code value="419192003"/>
+      <display value="Internal medicine"/>
     </coding>
   </specialty>
 </PractitionerRole>

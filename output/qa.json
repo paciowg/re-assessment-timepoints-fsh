@@ -1,12 +1,12 @@
 {
-  "url": "http://hl7.org/fhir/us/pacio-rat/ImplementationGuide/hl7.fhir.us.pacio-rat",
+  "url": "http://hl7.org/fhir/us/pacio-rt/ImplementationGuide/hl7.fhir.us.pacio-rt",
   "name": "PACIOReAssessmentTimepoints",
-  "package-id": "hl7.fhir.us.pacio-rat",
+  "package-id": "hl7.fhir.us.pacio-rt",
   "ig-ver": "0.1.0",
-  "date": "Tue, 20 Jul, 2021 22:04:19 -0700",
-  "errs": 13,
-  "warnings": 12,
-  "hints": 34,
+  "date": "Sat, 06 Nov, 2021 19:36:09 -0700",
+  "errs": 1,
+  "warnings": 0,
+  "hints": 0,
   "version": "4.0.1",
   "tool": "4.6.0 (3)"
 }

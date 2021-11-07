@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="timepoint-entity-type-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-timepoint-entity-cs.html"><code>http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-entity-cs</code></a></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/pacio-rt/ValueSet/timepoint-entity-type-vs"/>
+  <version value="0.1.0"/>
+  <name value="TimepointEntityTypeValueSet"/>
+  <title value="Timepoint Entity Type Value Set"/>
+  <status value="active"/>
+  <date value="2021-11-06T19:36:09-07:00"/>
+  <publisher value="HL7 Community-Based Care and Privacy Working Group"/>
+  <contact>
+    <name value="HL7 Community-Based Care and Privacy Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientempowerment"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="patients@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="PACIO project"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientempowerment"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@pacioproject.org"/>
+    </telecom>
+  </contact>
+  <description value="Codes describing various entity types for structuring timepoints."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-entity-cs"/>
+    </include>
+  </compose>
+</ValueSet>

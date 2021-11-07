@@ -3,30 +3,33 @@
 <Encounter xmlns="http://hl7.org/fhir">
   <id value="OASIS-Re-assessment-Timepoint-3"/>
   <meta>
-    <profile value="http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter"/>
+    <profile value="http://hl7.org/fhir/us/pacio-rt/StructureDefinition/reassessment-timepoints-encounter"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: OASIS-Re-assessment-Timepoint-3001</p><p><b>status</b>: finished</p><p><b>class</b>: <span title="{http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs HH}">HH</span></p><p><b>type</b>: <span title="Codes: {http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs payer}">Payer</span></p><p><b>serviceType</b>: <span title="Codes: {http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs oasis}">OASIS</span></p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: id: 10A3D58WH1600; active; Betsy Smith-Johnson; Phone: 210-222-1111; gender: female; birthDate: 1950-11-01; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}">unmarried</span></a></p><p><b>episodeOfCare</b>: <a href="EpisodeOfCare-Episodecare-2-HHA-Stay.html">Generated Summary: status: finished; <span title="Codes: {http://terminology.hl7.org/CodeSystem/episodeofcare-type hacc}">Home and Community Care</span>; period: 2020-02-10 --&gt; 2020-06-29</a></p><blockquote><p><b>participant</b></p><p><b>individual</b>: <a href="Practitioner-Practitioner-LunaBaskins.html">Generated Summary: active; Luna Baskins Jones; Phone: (210) 555 1871; gender: female</a></p></blockquote><blockquote><p><b>participant</b></p><p><b>individual</b>: <a href="Practitioner-Practitioner-JacobHartwell.html">Generated Summary: id: 4567123789; active; Jacob Hartwell; Phone: (210) 555 1889; gender: male</a></p></blockquote><blockquote><p><b>participant</b></p><p><b>individual</b>: <a href="Practitioner-Practitioner-ScottDumble.html">Generated Summary: active; Scott Dumble; Phone: (210) 555 1399; gender: male</a></p></blockquote><p><b>period</b>: 2020-06-10 --&gt; 2020-06-29</p><p><b>reasonCode</b>: <span title="Codes: {http://hl7.org/fhir/sid/icd-10-cm I69.30}">Unspecified sequelae of cerebral infarction</span></p><p><b>reasonReference</b>: </p><ul><li><a href="Observation-HHA-SC-DC-OASIS-2F.html">Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}">Survey</span>; <span title="Codes: {http://loinc.org 89475-8}">OASIS D - Self-care - discharge performance during assessment period [CMS Assessment]</span>; effective: Jun 29, 2020, 12:00:00 PM</a></li><li><a href="Observation-HHA-MOB-DC-OASIS-2E.html">Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}">Survey</span>; <span title="Codes: {http://loinc.org 89474-1}">OASIS D - Mobility - discharge performance during assessment period [CMS Assessment]</span>; effective: Jun 29, 2020, 12:00:00 PM</a></li></ul><h3>Locations</h3><table class="grid"><tr><td>-</td><td><b>Location</b></td></tr><tr><td>*</td><td><a href="Location-Provider-Org-Loc-2.html">Generated Summary: status: active; name: Sky Harbor Home Health Services</a></td></tr></table><p><b>serviceProvider</b>: <a href="Organization-Provider-Org-2.html">Generated Summary: name: Sky Harbor Home Health Services</a></p><p><b>partOf</b>: <a href="Encounter-Encounter-2-HHA-Stay.html">Generated Summary: status: finished; <span title="{http://terminology.hl7.org/CodeSystem/v3-ActCode HH}">home health</span>; <span title="Codes: {http://snomed.info/sct 50357006}">Evaluation and management of patient at home (procedure)</span>; period: Feb 10, 2020, 12:00:00 PM --&gt; Jun 29, 2020, 8:30:00 AM</a></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>identifier</b>: id: OASIS-Re-assessment-Timepoint-3001</p><p><b>status</b>: finished</p><p><b>class</b>: <span title="{http://terminology.hl7.org/CodeSystem/v3-ActCode HH}">home health</span></p><p><b>type</b>: <span title="Codes: {http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-entity-cs payer}">Payer</span></p><p><b>serviceType</b>: <span title="Codes: {http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-service-type-cs oasis}">Outcome and Assessment Information Set</span></p><p><b>subject</b>: <a href="Patient-patientBSJ1.html">Generated Summary: id: 10A3D58WH1600; active: true; Betsy Smith-Johnson; Phone: 210-222-1111; gender: female; birthDate: 1950-11-01; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}">unmarried</span></a></p><p><b>episodeOfCare</b>: <a href="EpisodeOfCare-Episodecare-2-HHA-Stay.html">Generated Summary: status: finished; <span title="Codes: {http://terminology.hl7.org/CodeSystem/episodeofcare-type hacc}">Home and Community Care</span>; period: 2020-02-10 --&gt; 2020-06-29</a></p><p><b>basedOn</b>: <span>Clinical Impression</span></p><blockquote><p><b>participant</b></p><p><b>individual</b>: <a href="Practitioner-Practitioner-LunaBaskins.html">Generated Summary: active: true; Luna Baskins Jones; Phone: (210) 555 1871; gender: female</a></p></blockquote><blockquote><p><b>participant</b></p><p><b>individual</b>: <a href="Practitioner-Practitioner-JacobHartwell.html">Generated Summary: id: 4567123789; active: true; Jacob Hartwell; Phone: (210) 555 1889; gender: male</a></p></blockquote><blockquote><p><b>participant</b></p><p><b>individual</b>: <a href="Practitioner-Practitioner-ScottDumble.html">Generated Summary: active: true; Scott Dumble; Phone: (210) 555 1399; gender: male</a></p></blockquote><p><b>period</b>: 2020-06-10 --&gt; 2020-06-29</p><p><b>reasonCode</b>: <span title="Codes: {http://hl7.org/fhir/sid/icd-10-cm I69.30}">Unspecified sequelae of cerebral infarction</span></p><p><b>reasonReference</b>: </p><ul><li><a href="Observation-HHA-SC-DC-OASIS-2F.html">Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}">Survey</span>; <span title="Codes: {http://loinc.org 89475-8}">OASIS D - Self-care - discharge performance during assessment period [CMS Assessment]</span>; effective: Jun 29, 2020, 12:00:00 PM</a></li><li><a href="Observation-HHA-MOB-DC-OASIS-2E.html">Generated Summary: <span title="Codes: {http://terminology.hl7.org/CodeSystem/observation-category survey}">Survey</span>; <span title="Codes: {http://loinc.org 89474-1}">OASIS D - Mobility - discharge performance during assessment period [CMS Assessment]</span>; effective: Jun 29, 2020, 12:00:00 PM</a></li></ul><h3>Locations</h3><table class="grid"><tr><td>-</td><td><b>Location</b></td></tr><tr><td>*</td><td><a href="Location-Provider-Org-Loc-2.html">Generated Summary: status: active; name: Sky Harbor Home Health Services</a></td></tr></table><p><b>serviceProvider</b>: <a href="Organization-Provider-Org-2.html">Generated Summary: name: Sky Harbor Home Health Services</a></p><p><b>partOf</b>: <a href="Encounter-Encounter-2-HHA-Stay.html">Generated Summary: status: finished; <span title="{http://terminology.hl7.org/CodeSystem/v3-ActCode HH}">home health</span>; <span title="Codes: {http://snomed.info/sct 50357006}">Evaluation and management of patient at home (procedure)</span>; period: Feb 10, 2020, 12:00:00 PM --&gt; Jun 29, 2020, 8:30:00 AM</a></p></div>
   </text>
   <identifier>
-    <system value="http://hl7.org/fhir/us/pacio-rat"/>
+    <system value="http://example.org/identifiers/patient"/>
     <value value="OASIS-Re-assessment-Timepoint-3001"/>
   </identifier>
   <status value="finished"/>
   <class>
-    <system value="http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs"/>
+    <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
     <code value="HH"/>
+    <display value="home health"/>
   </class>
   <type>
     <coding>
-      <system value="http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs"/>
+      <system value="http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-entity-cs"/>
       <code value="payer"/>
+      <display value="Payer"/>
     </coding>
   </type>
   <serviceType>
     <coding>
-      <system value="http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs"/>
+      <system value="http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-service-type-cs"/>
       <code value="oasis"/>
+      <display value="Outcome and Assessment Information Set"/>
     </coding>
   </serviceType>
   <subject>
@@ -35,6 +38,14 @@
   <episodeOfCare>
     <reference value="EpisodeOfCare/Episodecare-2-HHA-Stay"/>
   </episodeOfCare>
+  <basedOn>
+    <extension url="http://hl7.org/fhir/us/pacio-rt/StructureDefinition/clinicalImpression">
+      <valueReference>
+        <reference value="ClinicalImpression/ClinicalImpression-2"/>
+      </valueReference>
+    </extension>
+    <display value="Clinical Impression"/>
+  </basedOn>
   <participant>
     <individual>
       <reference value="Practitioner/Practitioner-LunaBaskins"/>

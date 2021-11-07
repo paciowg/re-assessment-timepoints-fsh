@@ -522,8 +522,8 @@ Description: "An instance of Observation"
 * code.text = "Does the patient use a wheelchair/scooter during assessment period [CMS Assessment]"
 * code.coding.display = "Does the patient use a wheelchair/scooter during assessment period [CMS Assessment]"
 * valueCodeableConcept = LNC#LA32-8
-* valueCodeableConcept.text = "No			"
-* valueCodeableConcept.coding.display = "No			"
+* valueCodeableConcept.text = "No"
+* valueCodeableConcept.coding.display = "No"
 * performer = Reference(provider-role-nurse-Practitioner-SummerJohnson)
 * extension[event-location].valueReference = Reference(Provider-Org-Loc-1)
 

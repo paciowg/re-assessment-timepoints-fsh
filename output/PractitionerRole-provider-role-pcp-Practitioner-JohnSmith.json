@@ -3,7 +3,7 @@
   "id": "provider-role-pcp-Practitioner-JohnSmith",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Practitioner-JohnSmith.html\">Generated Summary: id: 2345678901; active; John Smith; Phone: (210) 564 1389; gender: male</a></p><p><b>code</b>: <span title=\"Codes: {http://nucc.org/provider-taxonomy 261QP2300X}\">Primary Care</span></p><p><b>specialty</b>: <span title=\"Codes: {http://snomed.info/sct 39677007}\">Internal medicine specialist (occupation)</span></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Practitioner-JohnSmith.html\">Generated Summary: id: 2345678901; active: true; John Smith; Phone: (210) 564 1389; gender: male</a></p><p><b>code</b>: <span title=\"Codes: {http://nucc.org/provider-taxonomy 261QP2300X}\">Primary Care Clinic/Center</span></p><p><b>specialty</b>: <span title=\"Codes: {http://snomed.info/sct 419192003}\">Internal medicine</span></p></div>"
   },
   "active": true,
   "practitioner": {
@@ -15,7 +15,7 @@
         {
           "system": "http://nucc.org/provider-taxonomy",
           "code": "261QP2300X",
-          "display": "Primary Care"
+          "display": "Primary Care Clinic/Center"
         }
       ]
     }
@@ -25,8 +25,8 @@
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "39677007",
-          "display": "Internal medicine specialist (occupation)"
+          "code": "419192003",
+          "display": "Internal medicine"
         }
       ]
     }

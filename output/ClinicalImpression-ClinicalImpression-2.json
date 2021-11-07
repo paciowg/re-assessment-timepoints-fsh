@@ -1,0 +1,13 @@
+{
+  "resourceType": "ClinicalImpression",
+  "id": "ClinicalImpression-2",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: completed</p><p><b>subject</b>: <a href=\"Patient-patientBSJ1.html\">Generated Summary: id: 10A3D58WH1600; active: true; Betsy Smith-Johnson; Phone: 210-222-1111; gender: female; birthDate: 1950-11-01; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus U}\">unmarried</span></a></p><p><b>effective</b>: 2020-02-10</p></div>"
+  },
+  "status": "completed",
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "effectiveDateTime": "2020-02-10"
+}

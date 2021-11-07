@@ -1,85 +1,85 @@
 [
   {
-    "id": "prat-class-cs",
+    "id": "timepoint-class-cs",
     "type": "CodeSystem",
-    "url": "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs",
+    "url": "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-class-cs",
     "version": "0.1.0",
     "name": "TimepointClassCodeSystem"
   },
   {
-    "id": "prat-entity-cs",
+    "id": "timepoint-entity-cs",
     "type": "CodeSystem",
-    "url": "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs",
+    "url": "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-entity-cs",
     "version": "0.1.0",
     "name": "TimepointEntityCodeSystem"
   },
   {
-    "id": "prat-service-type-cs",
+    "id": "timepoint-service-type-cs",
     "type": "CodeSystem",
-    "url": "http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs",
+    "url": "http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-service-type-cs",
     "version": "0.1.0",
     "name": "TimepointServiceTypeCodeSystem"
   },
   {
-    "id": "hl7.fhir.us.pacio-rat",
+    "id": "hl7.fhir.us.pacio-rt",
     "type": "ImplementationGuide",
-    "url": "http://hl7.org/fhir/us/pacio-rat/ImplementationGuide/hl7.fhir.us.pacio-rat",
+    "url": "http://hl7.org/fhir/us/pacio-rt/ImplementationGuide/hl7.fhir.us.pacio-rt",
     "version": "0.1.0",
     "name": "PACIOReAssessmentTimepoints"
   },
   {
     "id": "encounter-based-on",
     "type": "SearchParameter",
-    "url": "http://hl7.org/fhir/us/pacio-rat/SearchParameter/encounter-based-on",
+    "url": "http://hl7.org/fhir/us/pacio-rt/SearchParameter/encounter-based-on",
     "version": "0.1.0",
     "name": "Timepoint_BasedOn"
   },
   {
     "id": "clinicalImpression",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/clinicalImpression",
+    "url": "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/clinicalImpression",
     "version": "0.1.0",
-    "name": "clinicalImpression"
+    "name": "BasedOnClinicalImpression"
   },
   {
-    "id": "prat-encounter",
+    "id": "reassessment-timepoints-encounter",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/pacio-rat/StructureDefinition/prat-encounter",
+    "url": "http://hl7.org/fhir/us/pacio-rt/StructureDefinition/reassessment-timepoints-encounter",
     "version": "0.1.0",
     "name": "ReassessmentTimepointsEncounter"
   },
   {
-    "id": "prat-class-vs",
+    "id": "timepoint-class-vs",
     "type": "ValueSet",
-    "url": "http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-class-vs",
+    "url": "http://hl7.org/fhir/us/pacio-rt/ValueSet/timepoint-class-vs",
     "version": "0.1.0",
     "name": "TimepointClassValueSet"
   },
   {
-    "id": "prat-entity-type-vs",
+    "id": "timepoint-entity-type-vs",
     "type": "ValueSet",
-    "url": "http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-entity-type-vs",
+    "url": "http://hl7.org/fhir/us/pacio-rt/ValueSet/timepoint-entity-type-vs",
     "version": "0.1.0",
     "name": "TimepointEntityTypeValueSet"
   },
   {
-    "id": "prat-service-type-vs",
+    "id": "timepoint-service-type-vs",
     "type": "ValueSet",
-    "url": "http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-service-type-vs",
+    "url": "http://hl7.org/fhir/us/pacio-rt/ValueSet/timepoint-service-type-vs",
     "version": "0.1.0",
     "name": "TimepointServiceTypeValueSet"
   },
   {
-    "id": "prat-status-vs",
+    "id": "timepoint-status-vs",
     "type": "ValueSet",
-    "url": "http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-status-vs",
+    "url": "http://hl7.org/fhir/us/pacio-rt/ValueSet/timepoint-status-vs",
     "version": "0.1.0",
     "name": "TimepointStatusValueSet"
   },
   {
-    "id": "prat",
+    "id": "rt-cs",
     "type": "CapabilityStatement",
-    "url": "https://paciowg.github.io/re-assessment-timepoints-ig/CapabilityStatement/prat",
+    "url": "https://paciowg.github.io/re-assessment-timepoints-ig/CapabilityStatement/rt-cs",
     "version": "0.1.0",
     "name": "PacioRatCapabilityStatement"
   }

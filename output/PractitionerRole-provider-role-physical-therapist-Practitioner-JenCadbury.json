@@ -3,7 +3,7 @@
   "id": "provider-role-physical-therapist-Practitioner-JenCadbury",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Practitioner-JenCadbury.html\">Generated Summary: id: 1928374650; active; Jen Cadbury; Phone: (210) 555 1871; gender: female</a></p><p><b>organization</b>: <a href=\"Organization-Provider-Org-1.html\">Generated Summary: name: Happy Nursing Facility</a></p><p><b>code</b>: <span title=\"Codes: {http://nucc.org/provider-taxonomy 225100000X}\">Physical Therapist</span></p><p><b>specialty</b>: <span title=\"Codes: {http://snomed.info/sct 24430003}\">Physical Medicine Specialist</span></p><p><b>location</b>: <a href=\"Location-Provider-Org-Loc-1.html\">Generated Summary: status: active; name: Happy Nursing Facility</a></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Practitioner-JenCadbury.html\">Generated Summary: id: 1928374650; active: true; Jen Cadbury; Phone: (210) 555 1871; gender: female</a></p><p><b>organization</b>: <a href=\"Organization-Provider-Org-1.html\">Generated Summary: name: Happy Nursing Facility</a></p><p><b>code</b>: <span title=\"Codes: {http://nucc.org/provider-taxonomy 225100000X}\">Physical Therapist</span></p><p><b>specialty</b>: <span title=\"Codes: {http://snomed.info/sct 394601005}\">Clinical physiology</span></p><p><b>location</b>: <a href=\"Location-Provider-Org-Loc-1.html\">Generated Summary: status: active; name: Happy Nursing Facility</a></p></div>"
   },
   "active": true,
   "practitioner": {
@@ -28,8 +28,8 @@
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "24430003",
-          "display": "Physical Medicine Specialist"
+          "code": "394601005",
+          "display": "Clinical physiology"
         }
       ]
     }

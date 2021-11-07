@@ -1,20 +1,22 @@
-Alias: PRATCLASSCS = http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-class-cs
-Alias: PRATENTITYCS = http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs
-Alias: PRATSRVTYPECS = http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-service-type-cs
+// Alias: PRATCLASSCS = http://hl7.org/fhir/us/pacio-reaessessment-timepoints/CodeSystem/timepoint-class-cs
+// Alias: PRATENTITYCS = http://hl7.org/fhir/us/pacio-reaessessment-timepoints/CodeSystem/timepoint-entity-cs
+// Alias: PRATSRVTYPECS = http://hl7.org/fhir/us/pacio-reaessessment-timepoints/CodeSystem/timepoint-service-type-cs
 Alias: ICD10 = http://hl7.org/fhir/sid/icd-10-cm
 
 
 Instance: MDS-Re-assessment-Timepoint-1
 InstanceOf: ReassessmentTimepointsEncounter
 Description: "SNF-Stay MDS Re-assessment Timepoint with Type Payer, period 2020-01-01 to 2020-01-13"
-* identifier.system = "http://hl7.org/fhir/us/pacio-rat"
+* identifier.system = "http://example.org/identifiers/patient"
 * identifier.value = "MDS-Re-assessment-Timepoint-1001"
 * status = #finished
-* class = PRATCLASSCS#SNF
-* type = PRATENTITYCS#payer
-* serviceType = PRATSRVTYPECS#mds
+* class = TimepointClassCodeSystem#SNF "skilled nursing facility"
+* type = TimepointEntityCodeSystem#payer "Payer"
+* serviceType = TimepointServiceTypeCodeSystem#mds "Minimum Data Set"
 * subject = Reference(patientBSJ1)
 * episodeOfCare = Reference(Episodecare-1-SNF-Stay)
+* basedOn.extension[clinicalImpression].valueReference = Reference(ClinicalImpression-1)
+* basedOn.display = "Clinical Impression"
 * reasonReference[0] = Reference(SNF-PF-MDS-5-Day-NC-1A)
 * reasonReference[1] = Reference(SNF-SC-AP-MDS-5-Day-NC-1B)
 * reasonReference[2] = Reference(SNF-SC-DG-MDS-5-Day-NC-1C)
@@ -32,14 +34,16 @@ Description: "SNF-Stay MDS Re-assessment Timepoint with Type Payer, period 2020-
 Instance: MDS-Re-assessment-Timepoint-2
 InstanceOf: ReassessmentTimepointsEncounter
 Description: "SNF-Stay MDS Re-assessment Timepoint with Type Payer, period 2020-01-14 to 2020-02-10"
-* identifier.system = "http://hl7.org/fhir/us/pacio-rat"
+* identifier.system = "http://example.org/identifiers/patient"
 * identifier.value = "MDS-Re-assessment-Timepoint-2001"
 * status = #finished
-* class = PRATCLASSCS#SNF
-* type = PRATENTITYCS#payer
-* serviceType = PRATSRVTYPECS#mds
+* class = TimepointClassCodeSystem#SNF "skilled nursing facility"
+* type = TimepointEntityCodeSystem#payer "Payer"
+* serviceType = TimepointServiceTypeCodeSystem#mds "Minimum Data Set"
 * subject = Reference(patientBSJ1)
 * episodeOfCare = Reference(Episodecare-1-SNF-Stay)
+* basedOn.extension[clinicalImpression].valueReference = Reference(ClinicalImpression-1)
+* basedOn.display = "Clinical Impression"
 * reasonReference[0] = Reference(SNF-SC-IP-MDS-IPA-1D)
 * reasonReference[1] = Reference(SNF-MOB-IP-MDS-IPA-1C)
 * reasonReference[2] = Reference(SNF-SC-DP-MDS-Discharge-ND-1E)
@@ -56,14 +60,16 @@ Description: "SNF-Stay MDS Re-assessment Timepoint with Type Payer, period 2020-
 Instance: OASIS-Re-assessment-Timepoint-2
 InstanceOf: ReassessmentTimepointsEncounter
 Description: "HHA-Stay OASIS Re-assessment Timepoint with Type Payer, period 2020-04-10 to 2020-06-09"
-* identifier.system = "http://hl7.org/fhir/us/pacio-rat"
+* identifier.system = "http://example.org/identifiers/patient"
 * identifier.value = "OASIS-Re-assessment-Timepoint-2001"
 * status = #finished
-* class = PRATCLASSCS#HH
-* type = PRATENTITYCS#payer
-* serviceType = PRATSRVTYPECS#oasis
+* class = $V3ACTCODE#HH "home health"
+* type = TimepointEntityCodeSystem#payer "Payer"
+* serviceType = TimepointServiceTypeCodeSystem#oasis "Outcome and Assessment Information Set"
 * subject = Reference(patientBSJ1)
 * episodeOfCare = Reference(Episodecare-2-HHA-Stay)
+* basedOn.extension[clinicalImpression].valueReference = Reference(ClinicalImpression-2)
+* basedOn.display = "Clinical Impression"
 * reasonReference[0] = Reference(HHA-SC-FU-120-OASIS-2E)
 * reasonReference[1] = Reference(HHA-MOB-FU-120-OASIS-2D)
 * participant[0].individual = Reference(Practitioner-LunaBaskins)
@@ -79,14 +85,16 @@ Description: "HHA-Stay OASIS Re-assessment Timepoint with Type Payer, period 202
 Instance: OASIS-Re-assessment-Timepoint-3
 InstanceOf: ReassessmentTimepointsEncounter
 Description: "HHA-Stay OASIS Re-assessment Timepoint with Type Payer, period 2020-06-10 to 2020-06-29"
-* identifier.system = "http://hl7.org/fhir/us/pacio-rat"
+* identifier.system = "http://example.org/identifiers/patient"
 * identifier.value = "OASIS-Re-assessment-Timepoint-3001"
 * status = #finished
-* class = PRATCLASSCS#HH
-* type = PRATENTITYCS#payer
-* serviceType = PRATSRVTYPECS#oasis
+* class = $V3ACTCODE#HH "home health"
+* type = TimepointEntityCodeSystem#payer "Payer"
+* serviceType = TimepointServiceTypeCodeSystem#oasis "Outcome and Assessment Information Set"
 * subject = Reference(patientBSJ1)
 * episodeOfCare = Reference(Episodecare-2-HHA-Stay)
+* basedOn.extension[clinicalImpression].valueReference = Reference(ClinicalImpression-2)
+* basedOn.display = "Clinical Impression"
 * reasonReference[0] = Reference(HHA-SC-DC-OASIS-2F)
 * reasonReference[1] = Reference(HHA-MOB-DC-OASIS-2E)
 * participant[0].individual = Reference(Practitioner-LunaBaskins)
@@ -102,14 +110,16 @@ Description: "HHA-Stay OASIS Re-assessment Timepoint with Type Payer, period 202
 Instance: OASIS-Re-assessment-Timepoint-1
 InstanceOf: ReassessmentTimepointsEncounter
 Description: "HHA-Stay OASIS Re-assessment Timepoint with Type Payer, period 2020-02-10 to 2020-04-09"
-* identifier.system = "http://hl7.org/fhir/us/pacio-rat"
+* identifier.system = "http://example.org/identifiers/patient"
 * identifier.value = "OASIS-Re-assessment-Timepoint-1001"
 * status = #finished
-* class = PRATCLASSCS#HH
-* type = PRATENTITYCS#payer
-* serviceType = PRATSRVTYPECS#oasis
+* class = $V3ACTCODE#HH "home health"
+* type = TimepointEntityCodeSystem#payer "Payer"
+* serviceType = TimepointServiceTypeCodeSystem#oasis "Outcome and Assessment Information Set"
 * subject = Reference(patientBSJ1)
 * episodeOfCare = Reference(Episodecare-2-HHA-Stay)
+* basedOn.extension[clinicalImpression].valueReference = Reference(ClinicalImpression-2)
+* basedOn.display = "Clinical Impression"
 * reasonReference[0] = Reference(HHA-PF-SOC-OASIS-2A)
 * reasonReference[1] = Reference(HHA-SC-SOC-Perf-OASIS-2B)
 * reasonReference[2] = Reference(HHA-SC-DG-OASIS-2C)

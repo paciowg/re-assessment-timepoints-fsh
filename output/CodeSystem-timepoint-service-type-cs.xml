@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="timepoint-service-type-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-service-type-cs defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">oasis<a name="timepoint-service-type-cs-oasis"> </a></td><td>Outcome and Assessment Information Set</td><td>CMS Home Health Outcome and Assessment Information Set</td></tr><tr><td style="white-space:nowrap">mds<a name="timepoint-service-type-cs-mds"> </a></td><td>Minimum Data Set</td><td>CMS Minimum Data Set - Resident Assessment and Care Screening</td></tr><tr><td style="white-space:nowrap">pt<a name="timepoint-service-type-cs-pt"> </a></td><td>Physical Therapy Assessment</td><td>Physical Therapy Assessment</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/pacio-rt/CodeSystem/timepoint-service-type-cs"/>
+  <version value="0.1.0"/>
+  <name value="TimepointServiceTypeCodeSystem"/>
+  <title value="Timepoint Service Type Code System"/>
+  <status value="active"/>
+  <date value="2021-11-06T19:36:09-07:00"/>
+  <publisher value="HL7 Community-Based Care and Privacy Working Group"/>
+  <contact>
+    <name value="HL7 Community-Based Care and Privacy Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientempowerment"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="patients@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="PACIO project"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientempowerment"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="info@pacioproject.org"/>
+    </telecom>
+  </contact>
+  <description value="Defining codes for describing various service types of clinical assessment or instrument that a timepoint is centered on."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="oasis"/>
+    <display value="Outcome and Assessment Information Set"/>
+    <definition value="CMS Home Health Outcome and Assessment Information Set"/>
+  </concept>
+  <concept>
+    <code value="mds"/>
+    <display value="Minimum Data Set"/>
+    <definition value="CMS Minimum Data Set - Resident Assessment and Care Screening"/>
+  </concept>
+  <concept>
+    <code value="pt"/>
+    <display value="Physical Therapy Assessment"/>
+    <definition value="Physical Therapy Assessment"/>
+  </concept>
+</CodeSystem>

@@ -1,7 +1,7 @@
 Alias: Hl7FhirAdminGender = http://hl7.org/fhir/administrative-gender
 Alias: Hl7V3MS = http://terminology.hl7.org/CodeSystem/v3-MaritalStatus
 Alias: LANGVALSET = urn:ietf:bcp:47
-Alias: Hl7V2TBL0131 = http://hl7.org/fhir/v2/0131
+Alias: Hl7V2TBL0131 = http://terminology.hl7.org/CodeSystem/v2-0131
 Alias: Hl7V3ROLE = http://terminology.hl7.org/CodeSystem/v3-RoleCode
 
 
@@ -14,7 +14,7 @@ Description: "An instance of USCorePatientProfile"
 * name.given = "Betsy"
 * name.family = "Smith-Johnson"
 
-* identifier.system = "http://hl7.org/fhir/sid/us-medicare"
+* identifier.system = "http://example.org/identifiers/patient"
 * identifier.value = "10A3D58WH1600"
 
 * gender = Hl7FhirAdminGender#female

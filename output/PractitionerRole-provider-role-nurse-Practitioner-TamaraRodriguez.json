@@ -3,7 +3,7 @@
   "id": "provider-role-nurse-Practitioner-TamaraRodriguez",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Practitioner-TamaraRodriguez.html\">Generated Summary: active; Tamara Rodriguez; Phone: (210) 555 2089; gender: female</a></p><p><b>organization</b>: <a href=\"Organization-Provider-Org-2.html\">Generated Summary: name: Sky Harbor Home Health Services</a></p><p><b>code</b>: <span title=\"Codes: {http://nucc.org/provider-taxonomy 163WH0200X}\">Home Health Registered Nurse</span></p><p><b>specialty</b>: <span title=\"Codes: {http://snomed.info/sct 224535009}\">Registered Nurse (occupation)</span></p><p><b>location</b>: <a href=\"Location-Provider-Org-Loc-2.html\">Generated Summary: status: active; name: Sky Harbor Home Health Services</a></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Practitioner-TamaraRodriguez.html\">Generated Summary: active: true; Tamara Rodriguez; Phone: (210) 555 2089; gender: female</a></p><p><b>organization</b>: <a href=\"Organization-Provider-Org-2.html\">Generated Summary: name: Sky Harbor Home Health Services</a></p><p><b>code</b>: <span title=\"Codes: {http://nucc.org/provider-taxonomy 163WH0200X}\">Home Health Registered Nurse</span></p><p><b>specialty</b>: <span title=\"Codes: {http://snomed.info/sct 408443003}\">General medical practice</span></p><p><b>location</b>: <a href=\"Location-Provider-Org-Loc-2.html\">Generated Summary: status: active; name: Sky Harbor Home Health Services</a></p></div>"
   },
   "active": true,
   "practitioner": {
@@ -28,8 +28,8 @@
       "coding": [
         {
           "system": "http://snomed.info/sct",
-          "code": "224535009",
-          "display": "Registered Nurse (occupation)"
+          "code": "408443003",
+          "display": "General medical practice"
         }
       ]
     }
